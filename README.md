@@ -44,7 +44,7 @@ You can also pass arbitrary HTML attributes to the components, such as classes:
 <Remixicon.github fill class="w-4 h-4" />
 ```
 
-For a full list of icons see [the docs](https://hexdocs.pm/remixicon/api-reference.html) or [remixicon.com](https://remixicon.com/).
+For a full list of icons see [the docs](https://hexdocs.pm/remixicon/Remixicon.html) or [remixicon.com](https://remixicon.com/).
 
 ## License
 

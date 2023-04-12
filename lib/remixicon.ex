@@ -16,7 +16,7 @@ defmodule Remixicon do
 
   You can also pass arbitrary HTML attributes to the components:
 
-   ```heex
+  ```heex
   <Remixicon.github class="w-2 h-2" />
   <Remixicon.github fill class="w-2 h-2" />
   ```
