@@ -1,23 +1,50 @@
-# RemixiconsElixir
+[![logo](http://cdn.remixicon.com/logo-github.svg)](https://remixicon.com)
 
-**TODO: Add description**
+[![Hex pm](http://img.shields.io/hexpm/v/remixicon.svg?style=flat)](https://hex.pm/packages/remixicon)
+[![Docs](https://img.shields.io/badge/hex.pm-docs-8e7ce6.svg)](https://hexdocs.pm/remixicon)
+[![Actions Status](https://github.com/aleDsz/remixicon_elixir/workflows/Test/badge.svg)](https://github.com/aleDsz/remixicon_elixir/actions)
+
+Remix Icon is a set of open-source neutral-style system symbols for designers and developers. Unlike a patchwork icon library, 2400+ icons are all elaborately crafted so that they are born with the gene of readability, consistency and perfect pixels. Each icon was designed in "Outlined" and "Filled" styles based on a 24x24 grid. Of course, all the icons are free for both personal and commercial use.
+
+This library provides optimized svgs for each Remix Icon packaged as a Phoenix Component.
+
+Current Remix Icon Version: **3.1.1**.
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `remixicons_elixir` to your list of dependencies in `mix.exs`:
+Add Remix Icon to your `mix.exs`:
 
 ```elixir
-def deps do
+defp deps do
   [
-    {:remixicons_elixir, "~> 0.1.0"}
+    {:remixicon, "~> 0.1.0"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/remixicons_elixir>.
+After that, run `mix deps.get`.
+
+## Usage
+
+The components are provided by the `Remixicon` module. Each icon is a Phoenix Component you can use in your HEEx templates.
+
+By default, the lined component is used, but the `fill`
+attribute may be passed to select styling, for example:
+
+```eex
+<Remixicon.github />
+<Remixicon.github line />
+<Remixicon.github fill />
+```
+
+You can also pass arbitrary HTML attributes to the components, such as classes:
+
+```eex
+<Remixicon.github class="w-4 h-4" />
+<Remixicon.github fill class="w-4 h-4" />
+```
+
+For a full list of icons see [the docs](https://hexdocs.pm/remixicon/api-reference.html) or [remixicon.com](https://remixicon.com/).
 
 ## License
 
