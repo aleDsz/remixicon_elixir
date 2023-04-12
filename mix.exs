@@ -2,11 +2,11 @@ defmodule RemixiconElixir.MixProject do
   use Mix.Project
 
   @version "0.1.0"
-  @source_url "https://github.com/aleDsz/remixicons_elixir"
+  @source_url "https://github.com/aleDsz/remixicon_elixir"
 
   def project do
     [
-      app: :remixicons,
+      app: :remixicon,
       version: @version,
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
@@ -14,6 +14,10 @@ defmodule RemixiconElixir.MixProject do
       name: "Remix Icon",
       source_url: @source_url,
       description: "Phoenix components for Remix Icon!",
+      preferred_cli_env: [
+        docs: :docs,
+        "hex.publish": :docs
+      ],
       docs: docs(),
       package: package(),
       xref: [exclude: [:httpc, :public_key]]
@@ -30,19 +34,24 @@ defmodule RemixiconElixir.MixProject do
   defp deps do
     [
       {:phoenix_live_view, "~> 0.18.2"},
-      {:ex_doc, "~> 0.23", only: :dev, runtime: false},
+      {:ex_doc, "~> 0.23", only: :docs, runtime: false},
       {:castore, ">= 0.0.0"}
     ]
   end
 
   defp package do
     [
-      licenses: ["Apache License 2.0"],
+      licenses: ["Apache-2.0"],
       links: %{"GitHub" => @source_url}
     ]
   end
 
   defp docs do
-    []
+    [
+      main: "readme",
+      source_url: @source_url,
+      source_ref: "v#{@version}",
+      extras: ["README.md"]
+    ]
   end
 end

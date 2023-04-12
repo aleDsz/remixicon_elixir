@@ -6,7 +6,8 @@ defmodule Mix.Tasks.Remixicon.Build do
 
   alias Mix.Tasks.Remixicon.Update, as: UpdateTask
 
-  @target_file "lib/remixicons.ex"
+  @template_file "assets/remixicon.exs"
+  @target_file "lib/remixicon.ex"
 
   def run(_args) do
     vsn = UpdateTask.vsn()
@@ -23,10 +24,9 @@ defmodule Mix.Tasks.Remixicon.Build do
             do: path
       end)
 
-    Mix.Generator.copy_template("assets/remixicons.exs", @target_file, %{icons: icons, vsn: vsn},
-      force: true
-    )
+    assigns = %{icons: icons, vsn: vsn}
 
+    Mix.Generator.copy_template(@template_file, @target_file, assigns, force: true)
     Mix.Task.run("format")
   end
 

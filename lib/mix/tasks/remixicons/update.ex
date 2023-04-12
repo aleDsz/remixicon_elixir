@@ -4,7 +4,7 @@ defmodule Mix.Tasks.Remixicon.Update do
   @shortdoc false
 
   @vsn "3.1.1"
-  @tmp_dir_name "remixicons-elixir"
+  @tmp_dir_name "remixicon-elixir"
   @url "https://github.com/Remix-Design/RemixIcon/releases/download/v#{@vsn}/RemixIcon_Svg_v#{@vsn}.zip"
   @styles ["fill", "line"]
 
@@ -75,7 +75,7 @@ defmodule Mix.Tasks.Remixicon.Update do
 
   defp fetch_body!(url) do
     url = String.to_charlist(url)
-    Logger.debug("Downloading remixicons from #{url}")
+    Logger.debug("Downloading Remix Icon from #{url}")
 
     {:ok, _} = Application.ensure_all_started(:inets)
     {:ok, _} = Application.ensure_all_started(:ssl)
