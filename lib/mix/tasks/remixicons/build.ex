@@ -1,10 +1,10 @@
-defmodule Mix.Tasks.Remixicons.Build do
+defmodule Mix.Tasks.Remixicon.Build do
   # Builds a new lib/remixicons.ex with bundled icon set.
   @moduledoc false
   @shortdoc false
   use Mix.Task
 
-  alias Mix.Tasks.Remixicons.Update, as: UpdateTask
+  alias Mix.Tasks.Remixicon.Update, as: UpdateTask
 
   @target_file "lib/remixicons.ex"
 

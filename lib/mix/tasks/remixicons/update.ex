@@ -1,4 +1,4 @@
-defmodule Mix.Tasks.Remixicons.Update do
+defmodule Mix.Tasks.Remixicon.Update do
   # Updates the icon set via download from github.
   @moduledoc false
   @shortdoc false

@@ -1,4 +1,4 @@
-defmodule RemixiconsElixir.MixProject do
+defmodule RemixiconElixir.MixProject do
   use Mix.Project
 
   @version "0.1.0"
@@ -11,9 +11,9 @@ defmodule RemixiconsElixir.MixProject do
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      name: "Remixicons",
+      name: "Remix Icon",
       source_url: @source_url,
-      description: "Phoenix components for Remixicons!",
+      description: "Phoenix components for Remix Icon!",
       docs: docs(),
       package: package(),
       xref: [exclude: [:httpc, :public_key]]

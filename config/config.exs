@@ -1,4 +1,4 @@
 import Config
 
 # silence phoenix warnings
-config :phoenix, :json_library, Remixicons
+config :phoenix, :json_library, Remixicon

@@ -1,6 +1,6 @@
-defmodule Remixicons do
+defmodule Remixicon do
   @moduledoc """
-  Provides precompiled icon compiles from [remixicons.com v<%= @vsn %>](remixicons.com).
+  Provides precompiled icon compiles from [remixicon.com v<%= @vsn %>](remixicon.com).
 
   ## Usage
 
@@ -10,18 +10,18 @@ defmodule Remixicons do
   attribute may be passed to select styling, for example:
 
   ```heex
-  <Remixicons.github />
-  <Remixicons.github fill />
+  <Remixicon.github />
+  <Remixicon.github fill />
   ```
 
   You can also pass arbitrary HTML attributes to the components:
 
    ```heex
-  <Remixicons.github class="w-2 h-2" />
-  <Remixicons.github fill class="w-2 h-2" />
+  <Remixicon.github class="w-2 h-2" />
+  <Remixicon.github fill class="w-2 h-2" />
   ```
 
-  ## Remixicons License Attribution
+  ## Remix Icon License Attribution
 
   Copyright 2018 Remix Design Studio
 
@@ -73,7 +73,7 @@ defmodule Remixicons do
 
   <%= for icon <- @icons,
           {name, [line, fill]} = icon,
-          func = Mix.Tasks.Remixicons.Build.normalize_function_name(name) do %>
+          func = Mix.Tasks.Remixicon.Build.normalize_function_name(name) do %>
   @doc """
   Renders the `<%= name %>` icon.
 
@@ -85,10 +85,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.<%= func %> />
-  <Remixicons.<%= func %> class="w-4 h-4" />
-  <Remixicons.<%= func %> line />
-  <Remixicons.<%= func %> fill />
+  <Remixicon.<%= func %> />
+  <Remixicon.<%= func %> class="w-4 h-4" />
+  <Remixicon.<%= func %> line />
+  <Remixicon.<%= func %> fill />
   ```
   """
   attr :rest, :global, doc: "the arbitrary HTML attributes for the svg container", include: ~w(fill stroke stroke-width)

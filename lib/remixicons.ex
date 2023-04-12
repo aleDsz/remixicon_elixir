@@ -1,6 +1,6 @@
-defmodule Remixicons do
+defmodule Remixicon do
   @moduledoc """
-  Provides precompiled icon compiles from [remixicons.com v3.1.1](remixicons.com).
+  Provides precompiled icon compiles from [remixicon.com v3.1.1](remixicon.com).
 
   ## Usage
 
@@ -10,18 +10,18 @@ defmodule Remixicons do
   attribute may be passed to select styling, for example:
 
   ```heex
-  <Remixicons.github />
-  <Remixicons.github fill />
+  <Remixicon.github />
+  <Remixicon.github fill />
   ```
 
   You can also pass arbitrary HTML attributes to the components:
 
    ```heex
-  <Remixicons.github class="w-2 h-2" />
-  <Remixicons.github fill class="w-2 h-2" />
+  <Remixicon.github class="w-2 h-2" />
+  <Remixicon.github fill class="w-2 h-2" />
   ```
 
-  ## Remixicons License Attribution
+  ## Remix Icon License Attribution
 
   Copyright 2018 Remix Design Studio
 
@@ -98,10 +98,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.t_shirt />
-  <Remixicons.t_shirt class="w-4 h-4" />
-  <Remixicons.t_shirt line />
-  <Remixicons.t_shirt fill />
+  <Remixicon.t_shirt />
+  <Remixicon.t_shirt class="w-4 h-4" />
+  <Remixicon.t_shirt line />
+  <Remixicon.t_shirt fill />
   ```
   """
   attr :rest, :global,
@@ -135,10 +135,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gift_2 />
-  <Remixicons.gift_2 class="w-4 h-4" />
-  <Remixicons.gift_2 line />
-  <Remixicons.gift_2 fill />
+  <Remixicon.gift_2 />
+  <Remixicon.gift_2 class="w-4 h-4" />
+  <Remixicon.gift_2 line />
+  <Remixicon.gift_2 fill />
   ```
   """
   attr :rest, :global,
@@ -172,10 +172,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.video />
-  <Remixicons.video class="w-4 h-4" />
-  <Remixicons.video line />
-  <Remixicons.video fill />
+  <Remixicon.video />
+  <Remixicon.video class="w-4 h-4" />
+  <Remixicon.video line />
+  <Remixicon.video fill />
   ```
   """
   attr :rest, :global,
@@ -209,10 +209,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_reduce />
-  <Remixicons.file_reduce class="w-4 h-4" />
-  <Remixicons.file_reduce line />
-  <Remixicons.file_reduce fill />
+  <Remixicon.file_reduce />
+  <Remixicon.file_reduce class="w-4 h-4" />
+  <Remixicon.file_reduce line />
+  <Remixicon.file_reduce fill />
   ```
   """
   attr :rest, :global,
@@ -246,10 +246,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_back_2 />
-  <Remixicons.delete_back_2 class="w-4 h-4" />
-  <Remixicons.delete_back_2 line />
-  <Remixicons.delete_back_2 fill />
+  <Remixicon.delete_back_2 />
+  <Remixicon.delete_back_2 class="w-4 h-4" />
+  <Remixicon.delete_back_2 line />
+  <Remixicon.delete_back_2 fill />
   ```
   """
   attr :rest, :global,
@@ -283,10 +283,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.typhoon />
-  <Remixicons.typhoon class="w-4 h-4" />
-  <Remixicons.typhoon line />
-  <Remixicons.typhoon fill />
+  <Remixicon.typhoon />
+  <Remixicon.typhoon class="w-4 h-4" />
+  <Remixicon.typhoon line />
+  <Remixicon.typhoon fill />
   ```
   """
   attr :rest, :global,
@@ -320,10 +320,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.barcode />
-  <Remixicons.barcode class="w-4 h-4" />
-  <Remixicons.barcode line />
-  <Remixicons.barcode fill />
+  <Remixicon.barcode />
+  <Remixicon.barcode class="w-4 h-4" />
+  <Remixicon.barcode line />
+  <Remixicon.barcode fill />
   ```
   """
   attr :rest, :global,
@@ -357,10 +357,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_music />
-  <Remixicons.file_music class="w-4 h-4" />
-  <Remixicons.file_music line />
-  <Remixicons.file_music fill />
+  <Remixicon.file_music />
+  <Remixicon.file_music class="w-4 h-4" />
+  <Remixicon.file_music line />
+  <Remixicon.file_music fill />
   ```
   """
   attr :rest, :global,
@@ -394,10 +394,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.profile />
-  <Remixicons.profile class="w-4 h-4" />
-  <Remixicons.profile line />
-  <Remixicons.profile fill />
+  <Remixicon.profile />
+  <Remixicon.profile class="w-4 h-4" />
+  <Remixicon.profile line />
+  <Remixicon.profile fill />
   ```
   """
   attr :rest, :global,
@@ -431,10 +431,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.walk />
-  <Remixicons.walk class="w-4 h-4" />
-  <Remixicons.walk line />
-  <Remixicons.walk fill />
+  <Remixicon.walk />
+  <Remixicon.walk class="w-4 h-4" />
+  <Remixicon.walk line />
+  <Remixicon.walk fill />
   ```
   """
   attr :rest, :global,
@@ -468,10 +468,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.quill_pen />
-  <Remixicons.quill_pen class="w-4 h-4" />
-  <Remixicons.quill_pen line />
-  <Remixicons.quill_pen fill />
+  <Remixicon.quill_pen />
+  <Remixicon.quill_pen class="w-4 h-4" />
+  <Remixicon.quill_pen line />
+  <Remixicon.quill_pen fill />
   ```
   """
   attr :rest, :global,
@@ -505,10 +505,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.zhihu />
-  <Remixicons.zhihu class="w-4 h-4" />
-  <Remixicons.zhihu line />
-  <Remixicons.zhihu fill />
+  <Remixicon.zhihu />
+  <Remixicon.zhihu class="w-4 h-4" />
+  <Remixicon.zhihu line />
+  <Remixicon.zhihu fill />
   ```
   """
   attr :rest, :global,
@@ -542,10 +542,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bank />
-  <Remixicons.bank class="w-4 h-4" />
-  <Remixicons.bank line />
-  <Remixicons.bank fill />
+  <Remixicon.bank />
+  <Remixicon.bank class="w-4 h-4" />
+  <Remixicon.bank line />
+  <Remixicon.bank fill />
   ```
   """
   attr :rest, :global,
@@ -579,10 +579,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cpu />
-  <Remixicons.cpu class="w-4 h-4" />
-  <Remixicons.cpu line />
-  <Remixicons.cpu fill />
+  <Remixicon.cpu />
+  <Remixicon.cpu class="w-4 h-4" />
+  <Remixicon.cpu line />
+  <Remixicon.cpu fill />
   ```
   """
   attr :rest, :global,
@@ -616,10 +616,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.umbrella />
-  <Remixicons.umbrella class="w-4 h-4" />
-  <Remixicons.umbrella line />
-  <Remixicons.umbrella fill />
+  <Remixicon.umbrella />
+  <Remixicon.umbrella class="w-4 h-4" />
+  <Remixicon.umbrella line />
+  <Remixicon.umbrella fill />
   ```
   """
   attr :rest, :global,
@@ -653,10 +653,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vidicon />
-  <Remixicons.vidicon class="w-4 h-4" />
-  <Remixicons.vidicon line />
-  <Remixicons.vidicon fill />
+  <Remixicon.vidicon />
+  <Remixicon.vidicon class="w-4 h-4" />
+  <Remixicon.vidicon line />
+  <Remixicon.vidicon fill />
   ```
   """
   attr :rest, :global,
@@ -690,10 +690,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pixelfed />
-  <Remixicons.pixelfed class="w-4 h-4" />
-  <Remixicons.pixelfed line />
-  <Remixicons.pixelfed fill />
+  <Remixicon.pixelfed />
+  <Remixicon.pixelfed class="w-4 h-4" />
+  <Remixicon.pixelfed line />
+  <Remixicon.pixelfed fill />
   ```
   """
   attr :rest, :global,
@@ -727,10 +727,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_3 />
-  <Remixicons.user_3 class="w-4 h-4" />
-  <Remixicons.user_3 line />
-  <Remixicons.user_3 fill />
+  <Remixicon.user_3 />
+  <Remixicon.user_3 class="w-4 h-4" />
+  <Remixicon.user_3 line />
+  <Remixicon.user_3 fill />
   ```
   """
   attr :rest, :global,
@@ -764,10 +764,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_grid />
-  <Remixicons.layout_grid class="w-4 h-4" />
-  <Remixicons.layout_grid line />
-  <Remixicons.layout_grid fill />
+  <Remixicon.layout_grid />
+  <Remixicon.layout_grid class="w-4 h-4" />
+  <Remixicon.layout_grid line />
+  <Remixicon.layout_grid fill />
   ```
   """
   attr :rest, :global,
@@ -801,10 +801,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.download_cloud_2 />
-  <Remixicons.download_cloud_2 class="w-4 h-4" />
-  <Remixicons.download_cloud_2 line />
-  <Remixicons.download_cloud_2 fill />
+  <Remixicon.download_cloud_2 />
+  <Remixicon.download_cloud_2 class="w-4 h-4" />
+  <Remixicon.download_cloud_2 line />
+  <Remixicon.download_cloud_2 fill />
   ```
   """
   attr :rest, :global,
@@ -838,10 +838,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.fridge />
-  <Remixicons.fridge class="w-4 h-4" />
-  <Remixicons.fridge line />
-  <Remixicons.fridge fill />
+  <Remixicon.fridge />
+  <Remixicon.fridge class="w-4 h-4" />
+  <Remixicon.fridge line />
+  <Remixicon.fridge fill />
   ```
   """
   attr :rest, :global,
@@ -875,10 +875,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_zip />
-  <Remixicons.folder_zip class="w-4 h-4" />
-  <Remixicons.folder_zip line />
-  <Remixicons.folder_zip fill />
+  <Remixicon.folder_zip />
+  <Remixicon.folder_zip class="w-4 h-4" />
+  <Remixicon.folder_zip line />
+  <Remixicon.folder_zip fill />
   ```
   """
   attr :rest, :global,
@@ -912,10 +912,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ink_bottle />
-  <Remixicons.ink_bottle class="w-4 h-4" />
-  <Remixicons.ink_bottle line />
-  <Remixicons.ink_bottle fill />
+  <Remixicon.ink_bottle />
+  <Remixicon.ink_bottle class="w-4 h-4" />
+  <Remixicon.ink_bottle line />
+  <Remixicon.ink_bottle fill />
   ```
   """
   attr :rest, :global,
@@ -949,10 +949,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.plane />
-  <Remixicons.plane class="w-4 h-4" />
-  <Remixicons.plane line />
-  <Remixicons.plane fill />
+  <Remixicon.plane />
+  <Remixicon.plane class="w-4 h-4" />
+  <Remixicon.plane line />
+  <Remixicon.plane fill />
   ```
   """
   attr :rest, :global,
@@ -986,10 +986,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.login_box />
-  <Remixicons.login_box class="w-4 h-4" />
-  <Remixicons.login_box line />
-  <Remixicons.login_box fill />
+  <Remixicon.login_box />
+  <Remixicon.login_box class="w-4 h-4" />
+  <Remixicon.login_box line />
+  <Remixicon.login_box fill />
   ```
   """
   attr :rest, :global,
@@ -1023,10 +1023,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mouse />
-  <Remixicons.mouse class="w-4 h-4" />
-  <Remixicons.mouse line />
-  <Remixicons.mouse fill />
+  <Remixicon.mouse />
+  <Remixicon.mouse class="w-4 h-4" />
+  <Remixicon.mouse line />
+  <Remixicon.mouse fill />
   ```
   """
   attr :rest, :global,
@@ -1060,10 +1060,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_5 />
-  <Remixicons.home_5 class="w-4 h-4" />
-  <Remixicons.home_5 line />
-  <Remixicons.home_5 fill />
+  <Remixicon.home_5 />
+  <Remixicon.home_5 class="w-4 h-4" />
+  <Remixicon.home_5 line />
+  <Remixicon.home_5 fill />
   ```
   """
   attr :rest, :global,
@@ -1097,10 +1097,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bar_chart_2 />
-  <Remixicons.bar_chart_2 class="w-4 h-4" />
-  <Remixicons.bar_chart_2 line />
-  <Remixicons.bar_chart_2 fill />
+  <Remixicon.bar_chart_2 />
+  <Remixicon.bar_chart_2 class="w-4 h-4" />
+  <Remixicon.bar_chart_2 line />
+  <Remixicon.bar_chart_2 fill />
   ```
   """
   attr :rest, :global,
@@ -1133,10 +1133,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.syringe />
-  <Remixicons.syringe class="w-4 h-4" />
-  <Remixicons.syringe line />
-  <Remixicons.syringe fill />
+  <Remixicon.syringe />
+  <Remixicon.syringe class="w-4 h-4" />
+  <Remixicon.syringe line />
+  <Remixicon.syringe fill />
   ```
   """
   attr :rest, :global,
@@ -1170,10 +1170,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_edit />
-  <Remixicons.file_edit class="w-4 h-4" />
-  <Remixicons.file_edit line />
-  <Remixicons.file_edit fill />
+  <Remixicon.file_edit />
+  <Remixicon.file_edit class="w-4 h-4" />
+  <Remixicon.file_edit line />
+  <Remixicon.file_edit fill />
   ```
   """
   attr :rest, :global,
@@ -1207,10 +1207,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rainy />
-  <Remixicons.rainy class="w-4 h-4" />
-  <Remixicons.rainy line />
-  <Remixicons.rainy fill />
+  <Remixicon.rainy />
+  <Remixicon.rainy class="w-4 h-4" />
+  <Remixicon.rainy line />
+  <Remixicon.rainy fill />
   ```
   """
   attr :rest, :global,
@@ -1244,10 +1244,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hq />
-  <Remixicons.hq class="w-4 h-4" />
-  <Remixicons.hq line />
-  <Remixicons.hq fill />
+  <Remixicon.hq />
+  <Remixicon.hq class="w-4 h-4" />
+  <Remixicon.hq line />
+  <Remixicon.hq fill />
   ```
   """
   attr :rest, :global,
@@ -1281,10 +1281,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_turn_back />
-  <Remixicons.arrow_turn_back class="w-4 h-4" />
-  <Remixicons.arrow_turn_back line />
-  <Remixicons.arrow_turn_back fill />
+  <Remixicon.arrow_turn_back />
+  <Remixicon.arrow_turn_back class="w-4 h-4" />
+  <Remixicon.arrow_turn_back line />
+  <Remixicon.arrow_turn_back fill />
   ```
   """
   attr :rest, :global,
@@ -1318,10 +1318,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_shared />
-  <Remixicons.user_shared class="w-4 h-4" />
-  <Remixicons.user_shared line />
-  <Remixicons.user_shared fill />
+  <Remixicon.user_shared />
+  <Remixicon.user_shared class="w-4 h-4" />
+  <Remixicon.user_shared line />
+  <Remixicon.user_shared fill />
   ```
   """
   attr :rest, :global,
@@ -1355,10 +1355,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.slideshow_3 />
-  <Remixicons.slideshow_3 class="w-4 h-4" />
-  <Remixicons.slideshow_3 line />
-  <Remixicons.slideshow_3 fill />
+  <Remixicon.slideshow_3 />
+  <Remixicon.slideshow_3 class="w-4 h-4" />
+  <Remixicon.slideshow_3 line />
+  <Remixicon.slideshow_3 fill />
   ```
   """
   attr :rest, :global,
@@ -1392,10 +1392,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.brush />
-  <Remixicons.brush class="w-4 h-4" />
-  <Remixicons.brush line />
-  <Remixicons.brush fill />
+  <Remixicon.brush />
+  <Remixicon.brush class="w-4 h-4" />
+  <Remixicon.brush line />
+  <Remixicon.brush fill />
   ```
   """
   attr :rest, :global,
@@ -1429,10 +1429,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_left_2 />
-  <Remixicons.layout_left_2 class="w-4 h-4" />
-  <Remixicons.layout_left_2 line />
-  <Remixicons.layout_left_2 fill />
+  <Remixicon.layout_left_2 />
+  <Remixicon.layout_left_2 class="w-4 h-4" />
+  <Remixicon.layout_left_2 line />
+  <Remixicon.layout_left_2 fill />
   ```
   """
   attr :rest, :global,
@@ -1466,10 +1466,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.upload_cloud />
-  <Remixicons.upload_cloud class="w-4 h-4" />
-  <Remixicons.upload_cloud line />
-  <Remixicons.upload_cloud fill />
+  <Remixicon.upload_cloud />
+  <Remixicon.upload_cloud class="w-4 h-4" />
+  <Remixicon.upload_cloud line />
+  <Remixicon.upload_cloud fill />
   ```
   """
   attr :rest, :global,
@@ -1503,10 +1503,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_left_circle />
-  <Remixicons.arrow_left_circle class="w-4 h-4" />
-  <Remixicons.arrow_left_circle line />
-  <Remixicons.arrow_left_circle fill />
+  <Remixicon.arrow_left_circle />
+  <Remixicon.arrow_left_circle class="w-4 h-4" />
+  <Remixicon.arrow_left_circle line />
+  <Remixicon.arrow_left_circle fill />
   ```
   """
   attr :rest, :global,
@@ -1540,10 +1540,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ruler_2 />
-  <Remixicons.ruler_2 class="w-4 h-4" />
-  <Remixicons.ruler_2 line />
-  <Remixicons.ruler_2 fill />
+  <Remixicon.ruler_2 />
+  <Remixicon.ruler_2 class="w-4 h-4" />
+  <Remixicon.ruler_2 line />
+  <Remixicon.ruler_2 fill />
   ```
   """
   attr :rest, :global,
@@ -1577,10 +1577,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.task />
-  <Remixicons.task class="w-4 h-4" />
-  <Remixicons.task line />
-  <Remixicons.task fill />
+  <Remixicon.task />
+  <Remixicon.task class="w-4 h-4" />
+  <Remixicon.task line />
+  <Remixicon.task fill />
   ```
   """
   attr :rest, :global,
@@ -1614,10 +1614,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.fullscreen_exit />
-  <Remixicons.fullscreen_exit class="w-4 h-4" />
-  <Remixicons.fullscreen_exit line />
-  <Remixicons.fullscreen_exit fill />
+  <Remixicon.fullscreen_exit />
+  <Remixicon.fullscreen_exit class="w-4 h-4" />
+  <Remixicon.fullscreen_exit line />
+  <Remixicon.fullscreen_exit fill />
   ```
   """
   attr :rest, :global,
@@ -1651,10 +1651,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hotel />
-  <Remixicons.hotel class="w-4 h-4" />
-  <Remixicons.hotel line />
-  <Remixicons.hotel fill />
+  <Remixicon.hotel />
+  <Remixicon.hotel class="w-4 h-4" />
+  <Remixicon.hotel line />
+  <Remixicon.hotel fill />
   ```
   """
   attr :rest, :global,
@@ -1688,10 +1688,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.brain />
-  <Remixicons.brain class="w-4 h-4" />
-  <Remixicons.brain line />
-  <Remixicons.brain fill />
+  <Remixicon.brain />
+  <Remixicon.brain class="w-4 h-4" />
+  <Remixicon.brain line />
+  <Remixicon.brain fill />
   ```
   """
   attr :rest, :global,
@@ -1725,10 +1725,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mastodon />
-  <Remixicons.mastodon class="w-4 h-4" />
-  <Remixicons.mastodon line />
-  <Remixicons.mastodon fill />
+  <Remixicon.mastodon />
+  <Remixicon.mastodon class="w-4 h-4" />
+  <Remixicon.mastodon line />
+  <Remixicon.mastodon fill />
   ```
   """
   attr :rest, :global,
@@ -1762,10 +1762,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dashboard_3 />
-  <Remixicons.dashboard_3 class="w-4 h-4" />
-  <Remixicons.dashboard_3 line />
-  <Remixicons.dashboard_3 fill />
+  <Remixicon.dashboard_3 />
+  <Remixicon.dashboard_3 class="w-4 h-4" />
+  <Remixicon.dashboard_3 line />
+  <Remixicon.dashboard_3 fill />
   ```
   """
   attr :rest, :global,
@@ -1799,10 +1799,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.base_station />
-  <Remixicons.base_station class="w-4 h-4" />
-  <Remixicons.base_station line />
-  <Remixicons.base_station fill />
+  <Remixicon.base_station />
+  <Remixicon.base_station class="w-4 h-4" />
+  <Remixicon.base_station line />
+  <Remixicon.base_station fill />
   ```
   """
   attr :rest, :global,
@@ -1836,10 +1836,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shopping_basket_2 />
-  <Remixicons.shopping_basket_2 class="w-4 h-4" />
-  <Remixicons.shopping_basket_2 line />
-  <Remixicons.shopping_basket_2 fill />
+  <Remixicon.shopping_basket_2 />
+  <Remixicon.shopping_basket_2 class="w-4 h-4" />
+  <Remixicon.shopping_basket_2 line />
+  <Remixicon.shopping_basket_2 fill />
   ```
   """
   attr :rest, :global,
@@ -1873,10 +1873,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hand_coin />
-  <Remixicons.hand_coin class="w-4 h-4" />
-  <Remixicons.hand_coin line />
-  <Remixicons.hand_coin fill />
+  <Remixicon.hand_coin />
+  <Remixicon.hand_coin class="w-4 h-4" />
+  <Remixicon.hand_coin line />
+  <Remixicon.hand_coin fill />
   ```
   """
   attr :rest, :global,
@@ -1910,10 +1910,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mastercard />
-  <Remixicons.mastercard class="w-4 h-4" />
-  <Remixicons.mastercard line />
-  <Remixicons.mastercard fill />
+  <Remixicon.mastercard />
+  <Remixicon.mastercard class="w-4 h-4" />
+  <Remixicon.mastercard line />
+  <Remixicon.mastercard fill />
   ```
   """
   attr :rest, :global,
@@ -1947,10 +1947,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mist />
-  <Remixicons.mist class="w-4 h-4" />
-  <Remixicons.mist line />
-  <Remixicons.mist fill />
+  <Remixicon.mist />
+  <Remixicon.mist class="w-4 h-4" />
+  <Remixicon.mist line />
+  <Remixicon.mist fill />
   ```
   """
   attr :rest, :global,
@@ -1984,10 +1984,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stop_mini />
-  <Remixicons.stop_mini class="w-4 h-4" />
-  <Remixicons.stop_mini line />
-  <Remixicons.stop_mini fill />
+  <Remixicon.stop_mini />
+  <Remixicon.stop_mini class="w-4 h-4" />
+  <Remixicon.stop_mini line />
+  <Remixicon.stop_mini fill />
   ```
   """
   attr :rest, :global,
@@ -2021,10 +2021,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shopping_basket />
-  <Remixicons.shopping_basket class="w-4 h-4" />
-  <Remixicons.shopping_basket line />
-  <Remixicons.shopping_basket fill />
+  <Remixicon.shopping_basket />
+  <Remixicon.shopping_basket class="w-4 h-4" />
+  <Remixicon.shopping_basket line />
+  <Remixicon.shopping_basket fill />
   ```
   """
   attr :rest, :global,
@@ -2058,10 +2058,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_close />
-  <Remixicons.mail_close class="w-4 h-4" />
-  <Remixicons.mail_close line />
-  <Remixicons.mail_close fill />
+  <Remixicon.mail_close />
+  <Remixicon.mail_close class="w-4 h-4" />
+  <Remixicon.mail_close line />
+  <Remixicon.mail_close fill />
   ```
   """
   attr :rest, :global,
@@ -2095,10 +2095,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.surgical_mask />
-  <Remixicons.surgical_mask class="w-4 h-4" />
-  <Remixicons.surgical_mask line />
-  <Remixicons.surgical_mask fill />
+  <Remixicon.surgical_mask />
+  <Remixicon.surgical_mask class="w-4 h-4" />
+  <Remixicon.surgical_mask line />
+  <Remixicon.surgical_mask fill />
   ```
   """
   attr :rest, :global,
@@ -2132,10 +2132,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_gear />
-  <Remixicons.home_gear class="w-4 h-4" />
-  <Remixicons.home_gear line />
-  <Remixicons.home_gear fill />
+  <Remixicon.home_gear />
+  <Remixicon.home_gear class="w-4 h-4" />
+  <Remixicon.home_gear line />
+  <Remixicon.home_gear fill />
   ```
   """
   attr :rest, :global,
@@ -2169,10 +2169,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contacts_book />
-  <Remixicons.contacts_book class="w-4 h-4" />
-  <Remixicons.contacts_book line />
-  <Remixicons.contacts_book fill />
+  <Remixicon.contacts_book />
+  <Remixicon.contacts_book class="w-4 h-4" />
+  <Remixicon.contacts_book line />
+  <Remixicon.contacts_book fill />
   ```
   """
   attr :rest, :global,
@@ -2206,10 +2206,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.door_closed />
-  <Remixicons.door_closed class="w-4 h-4" />
-  <Remixicons.door_closed line />
-  <Remixicons.door_closed fill />
+  <Remixicon.door_closed />
+  <Remixicon.door_closed class="w-4 h-4" />
+  <Remixicon.door_closed line />
+  <Remixicon.door_closed fill />
   ```
   """
   attr :rest, :global,
@@ -2243,10 +2243,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.indeterminate_circle />
-  <Remixicons.indeterminate_circle class="w-4 h-4" />
-  <Remixicons.indeterminate_circle line />
-  <Remixicons.indeterminate_circle fill />
+  <Remixicon.indeterminate_circle />
+  <Remixicon.indeterminate_circle class="w-4 h-4" />
+  <Remixicon.indeterminate_circle line />
+  <Remixicon.indeterminate_circle fill />
   ```
   """
   attr :rest, :global,
@@ -2280,10 +2280,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.psychotherapy />
-  <Remixicons.psychotherapy class="w-4 h-4" />
-  <Remixicons.psychotherapy line />
-  <Remixicons.psychotherapy fill />
+  <Remixicon.psychotherapy />
+  <Remixicon.psychotherapy class="w-4 h-4" />
+  <Remixicon.psychotherapy line />
+  <Remixicon.psychotherapy fill />
   ```
   """
   attr :rest, :global,
@@ -2317,10 +2317,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.medium />
-  <Remixicons.medium class="w-4 h-4" />
-  <Remixicons.medium line />
-  <Remixicons.medium fill />
+  <Remixicon.medium />
+  <Remixicon.medium class="w-4 h-4" />
+  <Remixicon.medium line />
+  <Remixicon.medium fill />
   ```
   """
   attr :rest, :global,
@@ -2354,10 +2354,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.share />
-  <Remixicons.share class="w-4 h-4" />
-  <Remixicons.share line />
-  <Remixicons.share fill />
+  <Remixicon.share />
+  <Remixicon.share class="w-4 h-4" />
+  <Remixicon.share line />
+  <Remixicon.share fill />
   ```
   """
   attr :rest, :global,
@@ -2391,10 +2391,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.database />
-  <Remixicons.database class="w-4 h-4" />
-  <Remixicons.database line />
-  <Remixicons.database fill />
+  <Remixicon.database />
+  <Remixicon.database class="w-4 h-4" />
+  <Remixicon.database line />
+  <Remixicon.database fill />
   ```
   """
   attr :rest, :global,
@@ -2428,10 +2428,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_cny_circle />
-  <Remixicons.money_cny_circle class="w-4 h-4" />
-  <Remixicons.money_cny_circle line />
-  <Remixicons.money_cny_circle fill />
+  <Remixicon.money_cny_circle />
+  <Remixicon.money_cny_circle class="w-4 h-4" />
+  <Remixicon.money_cny_circle line />
+  <Remixicon.money_cny_circle fill />
   ```
   """
   attr :rest, :global,
@@ -2465,10 +2465,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.linkedin_box />
-  <Remixicons.linkedin_box class="w-4 h-4" />
-  <Remixicons.linkedin_box line />
-  <Remixicons.linkedin_box fill />
+  <Remixicon.linkedin_box />
+  <Remixicon.linkedin_box class="w-4 h-4" />
+  <Remixicon.linkedin_box line />
+  <Remixicon.linkedin_box fill />
   ```
   """
   attr :rest, :global,
@@ -2502,10 +2502,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coreos />
-  <Remixicons.coreos class="w-4 h-4" />
-  <Remixicons.coreos line />
-  <Remixicons.coreos fill />
+  <Remixicon.coreos />
+  <Remixicon.coreos class="w-4 h-4" />
+  <Remixicon.coreos line />
+  <Remixicon.coreos fill />
   ```
   """
   attr :rest, :global,
@@ -2539,10 +2539,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.speed />
-  <Remixicons.speed class="w-4 h-4" />
-  <Remixicons.speed line />
-  <Remixicons.speed fill />
+  <Remixicon.speed />
+  <Remixicon.speed class="w-4 h-4" />
+  <Remixicon.speed line />
+  <Remixicon.speed fill />
   ```
   """
   attr :rest, :global,
@@ -2576,10 +2576,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.briefcase />
-  <Remixicons.briefcase class="w-4 h-4" />
-  <Remixicons.briefcase line />
-  <Remixicons.briefcase fill />
+  <Remixicon.briefcase />
+  <Remixicon.briefcase class="w-4 h-4" />
+  <Remixicon.briefcase line />
+  <Remixicon.briefcase fill />
   ```
   """
   attr :rest, :global,
@@ -2613,10 +2613,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tumblr />
-  <Remixicons.tumblr class="w-4 h-4" />
-  <Remixicons.tumblr line />
-  <Remixicons.tumblr fill />
+  <Remixicon.tumblr />
+  <Remixicon.tumblr class="w-4 h-4" />
+  <Remixicon.tumblr line />
+  <Remixicon.tumblr fill />
   ```
   """
   attr :rest, :global,
@@ -2650,10 +2650,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.airplay />
-  <Remixicons.airplay class="w-4 h-4" />
-  <Remixicons.airplay line />
-  <Remixicons.airplay fill />
+  <Remixicon.airplay />
+  <Remixicon.airplay class="w-4 h-4" />
+  <Remixicon.airplay line />
+  <Remixicon.airplay fill />
   ```
   """
   attr :rest, :global,
@@ -2687,10 +2687,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cake_2 />
-  <Remixicons.cake_2 class="w-4 h-4" />
-  <Remixicons.cake_2 line />
-  <Remixicons.cake_2 fill />
+  <Remixicon.cake_2 />
+  <Remixicon.cake_2 class="w-4 h-4" />
+  <Remixicon.cake_2 line />
+  <Remixicon.cake_2 fill />
   ```
   """
   attr :rest, :global,
@@ -2724,10 +2724,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.share_forward_2 />
-  <Remixicons.share_forward_2 class="w-4 h-4" />
-  <Remixicons.share_forward_2 line />
-  <Remixicons.share_forward_2 fill />
+  <Remixicon.share_forward_2 />
+  <Remixicon.share_forward_2 class="w-4 h-4" />
+  <Remixicon.share_forward_2 line />
+  <Remixicon.share_forward_2 fill />
   ```
   """
   attr :rest, :global,
@@ -2761,10 +2761,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emotion_2 />
-  <Remixicons.emotion_2 class="w-4 h-4" />
-  <Remixicons.emotion_2 line />
-  <Remixicons.emotion_2 fill />
+  <Remixicon.emotion_2 />
+  <Remixicon.emotion_2 class="w-4 h-4" />
+  <Remixicon.emotion_2 line />
+  <Remixicon.emotion_2 fill />
   ```
   """
   attr :rest, :global,
@@ -2798,10 +2798,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.usb />
-  <Remixicons.usb class="w-4 h-4" />
-  <Remixicons.usb line />
-  <Remixicons.usb fill />
+  <Remixicon.usb />
+  <Remixicon.usb class="w-4 h-4" />
+  <Remixicon.usb line />
+  <Remixicon.usb fill />
   ```
   """
   attr :rest, :global,
@@ -2835,10 +2835,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sun_foggy />
-  <Remixicons.sun_foggy class="w-4 h-4" />
-  <Remixicons.sun_foggy line />
-  <Remixicons.sun_foggy fill />
+  <Remixicon.sun_foggy />
+  <Remixicon.sun_foggy class="w-4 h-4" />
+  <Remixicon.sun_foggy line />
+  <Remixicon.sun_foggy fill />
   ```
   """
   attr :rest, :global,
@@ -2872,10 +2872,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.check />
-  <Remixicons.check class="w-4 h-4" />
-  <Remixicons.check line />
-  <Remixicons.check fill />
+  <Remixicon.check />
+  <Remixicon.check class="w-4 h-4" />
+  <Remixicon.check line />
+  <Remixicon.check fill />
   ```
   """
   attr :rest, :global,
@@ -2909,10 +2909,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contract_left />
-  <Remixicons.contract_left class="w-4 h-4" />
-  <Remixicons.contract_left line />
-  <Remixicons.contract_left fill />
+  <Remixicon.contract_left />
+  <Remixicon.contract_left class="w-4 h-4" />
+  <Remixicon.contract_left line />
+  <Remixicon.contract_left fill />
   ```
   """
   attr :rest, :global,
@@ -2946,10 +2946,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.book />
-  <Remixicons.book class="w-4 h-4" />
-  <Remixicons.book line />
-  <Remixicons.book fill />
+  <Remixicon.book />
+  <Remixicon.book class="w-4 h-4" />
+  <Remixicon.book line />
+  <Remixicon.book fill />
   ```
   """
   attr :rest, :global,
@@ -2983,10 +2983,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.plant />
-  <Remixicons.plant class="w-4 h-4" />
-  <Remixicons.plant line />
-  <Remixicons.plant fill />
+  <Remixicon.plant />
+  <Remixicon.plant class="w-4 h-4" />
+  <Remixicon.plant line />
+  <Remixicon.plant fill />
   ```
   """
   attr :rest, :global,
@@ -3020,10 +3020,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.slack />
-  <Remixicons.slack class="w-4 h-4" />
-  <Remixicons.slack line />
-  <Remixicons.slack fill />
+  <Remixicon.slack />
+  <Remixicon.slack class="w-4 h-4" />
+  <Remixicon.slack line />
+  <Remixicon.slack fill />
   ```
   """
   attr :rest, :global,
@@ -3057,10 +3057,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu_fold />
-  <Remixicons.menu_fold class="w-4 h-4" />
-  <Remixicons.menu_fold line />
-  <Remixicons.menu_fold fill />
+  <Remixicon.menu_fold />
+  <Remixicon.menu_fold class="w-4 h-4" />
+  <Remixicon.menu_fold line />
+  <Remixicon.menu_fold fill />
   ```
   """
   attr :rest, :global,
@@ -3094,10 +3094,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.slice />
-  <Remixicons.slice class="w-4 h-4" />
-  <Remixicons.slice line />
-  <Remixicons.slice fill />
+  <Remixicon.slice />
+  <Remixicon.slice class="w-4 h-4" />
+  <Remixicon.slice line />
+  <Remixicon.slice fill />
   ```
   """
   attr :rest, :global,
@@ -3131,10 +3131,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shield_flash />
-  <Remixicons.shield_flash class="w-4 h-4" />
-  <Remixicons.shield_flash line />
-  <Remixicons.shield_flash fill />
+  <Remixicon.shield_flash />
+  <Remixicon.shield_flash class="w-4 h-4" />
+  <Remixicon.shield_flash line />
+  <Remixicon.shield_flash fill />
   ```
   """
   attr :rest, :global,
@@ -3168,10 +3168,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coupon_2 />
-  <Remixicons.coupon_2 class="w-4 h-4" />
-  <Remixicons.coupon_2 line />
-  <Remixicons.coupon_2 fill />
+  <Remixicon.coupon_2 />
+  <Remixicon.coupon_2 class="w-4 h-4" />
+  <Remixicon.coupon_2 line />
+  <Remixicon.coupon_2 fill />
   ```
   """
   attr :rest, :global,
@@ -3205,10 +3205,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_up_circle />
-  <Remixicons.arrow_up_circle class="w-4 h-4" />
-  <Remixicons.arrow_up_circle line />
-  <Remixicons.arrow_up_circle fill />
+  <Remixicon.arrow_up_circle />
+  <Remixicon.arrow_up_circle class="w-4 h-4" />
+  <Remixicon.arrow_up_circle line />
+  <Remixicon.arrow_up_circle fill />
   ```
   """
   attr :rest, :global,
@@ -3242,10 +3242,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin />
-  <Remixicons.map_pin class="w-4 h-4" />
-  <Remixicons.map_pin line />
-  <Remixicons.map_pin fill />
+  <Remixicon.map_pin />
+  <Remixicon.map_pin class="w-4 h-4" />
+  <Remixicon.map_pin line />
+  <Remixicon.map_pin fill />
   ```
   """
   attr :rest, :global,
@@ -3279,10 +3279,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_3 />
-  <Remixicons.folder_3 class="w-4 h-4" />
-  <Remixicons.folder_3 line />
-  <Remixicons.folder_3 fill />
+  <Remixicon.folder_3 />
+  <Remixicon.folder_3 class="w-4 h-4" />
+  <Remixicon.folder_3 line />
+  <Remixicon.folder_3 fill />
   ```
   """
   attr :rest, :global,
@@ -3316,10 +3316,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.settings_3 />
-  <Remixicons.settings_3 class="w-4 h-4" />
-  <Remixicons.settings_3 line />
-  <Remixicons.settings_3 fill />
+  <Remixicon.settings_3 />
+  <Remixicon.settings_3 class="w-4 h-4" />
+  <Remixicon.settings_3 line />
+  <Remixicon.settings_3 fill />
   ```
   """
   attr :rest, :global,
@@ -3353,10 +3353,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.logout_circle_r />
-  <Remixicons.logout_circle_r class="w-4 h-4" />
-  <Remixicons.logout_circle_r line />
-  <Remixicons.logout_circle_r fill />
+  <Remixicon.logout_circle_r />
+  <Remixicon.logout_circle_r class="w-4 h-4" />
+  <Remixicon.logout_circle_r line />
+  <Remixicon.logout_circle_r fill />
   ```
   """
   attr :rest, :global,
@@ -3390,10 +3390,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rss />
-  <Remixicons.rss class="w-4 h-4" />
-  <Remixicons.rss line />
-  <Remixicons.rss fill />
+  <Remixicon.rss />
+  <Remixicon.rss class="w-4 h-4" />
+  <Remixicon.rss line />
+  <Remixicon.rss fill />
   ```
   """
   attr :rest, :global,
@@ -3427,10 +3427,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.function />
-  <Remixicons.function class="w-4 h-4" />
-  <Remixicons.function line />
-  <Remixicons.function fill />
+  <Remixicon.function />
+  <Remixicon.function class="w-4 h-4" />
+  <Remixicon.function line />
+  <Remixicon.function fill />
   ```
   """
   attr :rest, :global,
@@ -3464,10 +3464,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.anchor />
-  <Remixicons.anchor class="w-4 h-4" />
-  <Remixicons.anchor line />
-  <Remixicons.anchor fill />
+  <Remixicon.anchor />
+  <Remixicon.anchor class="w-4 h-4" />
+  <Remixicon.anchor line />
+  <Remixicon.anchor fill />
   ```
   """
   attr :rest, :global,
@@ -3501,10 +3501,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tornado />
-  <Remixicons.tornado class="w-4 h-4" />
-  <Remixicons.tornado line />
-  <Remixicons.tornado fill />
+  <Remixicon.tornado />
+  <Remixicon.tornado class="w-4 h-4" />
+  <Remixicon.tornado line />
+  <Remixicon.tornado fill />
   ```
   """
   attr :rest, :global,
@@ -3538,10 +3538,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vip />
-  <Remixicons.vip class="w-4 h-4" />
-  <Remixicons.vip line />
-  <Remixicons.vip fill />
+  <Remixicon.vip />
+  <Remixicon.vip class="w-4 h-4" />
+  <Remixicon.vip line />
+  <Remixicon.vip fill />
   ```
   """
   attr :rest, :global,
@@ -3575,10 +3575,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_7 />
-  <Remixicons.home_7 class="w-4 h-4" />
-  <Remixicons.home_7 line />
-  <Remixicons.home_7 fill />
+  <Remixicon.home_7 />
+  <Remixicon.home_7 class="w-4 h-4" />
+  <Remixicon.home_7 line />
+  <Remixicon.home_7 fill />
   ```
   """
   attr :rest, :global,
@@ -3612,10 +3612,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.telegram />
-  <Remixicons.telegram class="w-4 h-4" />
-  <Remixicons.telegram line />
-  <Remixicons.telegram fill />
+  <Remixicon.telegram />
+  <Remixicon.telegram class="w-4 h-4" />
+  <Remixicon.telegram line />
+  <Remixicon.telegram fill />
   ```
   """
   attr :rest, :global,
@@ -3649,10 +3649,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.i4k />
-  <Remixicons.i4k class="w-4 h-4" />
-  <Remixicons.i4k line />
-  <Remixicons.i4k fill />
+  <Remixicon.i4k />
+  <Remixicon.i4k class="w-4 h-4" />
+  <Remixicon.i4k line />
+  <Remixicon.i4k fill />
   ```
   """
   attr :rest, :global,
@@ -3686,10 +3686,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.speaker_3 />
-  <Remixicons.speaker_3 class="w-4 h-4" />
-  <Remixicons.speaker_3 line />
-  <Remixicons.speaker_3 fill />
+  <Remixicon.speaker_3 />
+  <Remixicon.speaker_3 class="w-4 h-4" />
+  <Remixicon.speaker_3 line />
+  <Remixicon.speaker_3 fill />
   ```
   """
   attr :rest, :global,
@@ -3723,10 +3723,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.heavy_showers />
-  <Remixicons.heavy_showers class="w-4 h-4" />
-  <Remixicons.heavy_showers line />
-  <Remixicons.heavy_showers fill />
+  <Remixicon.heavy_showers />
+  <Remixicon.heavy_showers class="w-4 h-4" />
+  <Remixicon.heavy_showers line />
+  <Remixicon.heavy_showers fill />
   ```
   """
   attr :rest, :global,
@@ -3760,10 +3760,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sd_card />
-  <Remixicons.sd_card class="w-4 h-4" />
-  <Remixicons.sd_card line />
-  <Remixicons.sd_card fill />
+  <Remixicon.sd_card />
+  <Remixicon.sd_card class="w-4 h-4" />
+  <Remixicon.sd_card line />
+  <Remixicon.sd_card fill />
   ```
   """
   attr :rest, :global,
@@ -3797,10 +3797,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.zoom_out />
-  <Remixicons.zoom_out class="w-4 h-4" />
-  <Remixicons.zoom_out line />
-  <Remixicons.zoom_out fill />
+  <Remixicon.zoom_out />
+  <Remixicon.zoom_out class="w-4 h-4" />
+  <Remixicon.zoom_out line />
+  <Remixicon.zoom_out fill />
   ```
   """
   attr :rest, :global,
@@ -3834,10 +3834,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_wifi />
-  <Remixicons.home_wifi class="w-4 h-4" />
-  <Remixicons.home_wifi line />
-  <Remixicons.home_wifi fill />
+  <Remixicon.home_wifi />
+  <Remixicon.home_wifi class="w-4 h-4" />
+  <Remixicon.home_wifi line />
+  <Remixicon.home_wifi fill />
   ```
   """
   attr :rest, :global,
@@ -3871,10 +3871,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.calendar />
-  <Remixicons.calendar class="w-4 h-4" />
-  <Remixicons.calendar line />
-  <Remixicons.calendar fill />
+  <Remixicon.calendar />
+  <Remixicon.calendar class="w-4 h-4" />
+  <Remixicon.calendar line />
+  <Remixicon.calendar fill />
   ```
   """
   attr :rest, :global,
@@ -3908,10 +3908,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.luggage_deposit />
-  <Remixicons.luggage_deposit class="w-4 h-4" />
-  <Remixicons.luggage_deposit line />
-  <Remixicons.luggage_deposit fill />
+  <Remixicon.luggage_deposit />
+  <Remixicon.luggage_deposit class="w-4 h-4" />
+  <Remixicon.luggage_deposit line />
+  <Remixicon.luggage_deposit fill />
   ```
   """
   attr :rest, :global,
@@ -3945,10 +3945,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_right />
-  <Remixicons.arrow_right class="w-4 h-4" />
-  <Remixicons.arrow_right line />
-  <Remixicons.arrow_right fill />
+  <Remixicon.arrow_right />
+  <Remixicon.arrow_right class="w-4 h-4" />
+  <Remixicon.arrow_right line />
+  <Remixicon.arrow_right fill />
   ```
   """
   attr :rest, :global,
@@ -3981,10 +3981,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_down />
-  <Remixicons.arrow_down class="w-4 h-4" />
-  <Remixicons.arrow_down line />
-  <Remixicons.arrow_down fill />
+  <Remixicon.arrow_down />
+  <Remixicon.arrow_down class="w-4 h-4" />
+  <Remixicon.arrow_down line />
+  <Remixicon.arrow_down fill />
   ```
   """
   attr :rest, :global,
@@ -4017,10 +4017,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.code_box />
-  <Remixicons.code_box class="w-4 h-4" />
-  <Remixicons.code_box line />
-  <Remixicons.code_box fill />
+  <Remixicon.code_box />
+  <Remixicon.code_box class="w-4 h-4" />
+  <Remixicon.code_box line />
+  <Remixicon.code_box fill />
   ```
   """
   attr :rest, :global,
@@ -4054,10 +4054,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.window_2 />
-  <Remixicons.window_2 class="w-4 h-4" />
-  <Remixicons.window_2 line />
-  <Remixicons.window_2 fill />
+  <Remixicon.window_2 />
+  <Remixicon.window_2 class="w-4 h-4" />
+  <Remixicon.window_2 line />
+  <Remixicon.window_2 fill />
   ```
   """
   attr :rest, :global,
@@ -4091,10 +4091,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_settings />
-  <Remixicons.folder_settings class="w-4 h-4" />
-  <Remixicons.folder_settings line />
-  <Remixicons.folder_settings fill />
+  <Remixicon.folder_settings />
+  <Remixicon.folder_settings class="w-4 h-4" />
+  <Remixicon.folder_settings line />
+  <Remixicon.folder_settings fill />
   ```
   """
   attr :rest, :global,
@@ -4128,10 +4128,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.download_cloud />
-  <Remixicons.download_cloud class="w-4 h-4" />
-  <Remixicons.download_cloud line />
-  <Remixicons.download_cloud fill />
+  <Remixicon.download_cloud />
+  <Remixicon.download_cloud class="w-4 h-4" />
+  <Remixicon.download_cloud line />
+  <Remixicon.download_cloud fill />
   ```
   """
   attr :rest, :global,
@@ -4165,10 +4165,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dribbble />
-  <Remixicons.dribbble class="w-4 h-4" />
-  <Remixicons.dribbble line />
-  <Remixicons.dribbble fill />
+  <Remixicon.dribbble />
+  <Remixicon.dribbble class="w-4 h-4" />
+  <Remixicon.dribbble line />
+  <Remixicon.dribbble fill />
   ```
   """
   attr :rest, :global,
@@ -4202,10 +4202,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.closed_captioning />
-  <Remixicons.closed_captioning class="w-4 h-4" />
-  <Remixicons.closed_captioning line />
-  <Remixicons.closed_captioning fill />
+  <Remixicon.closed_captioning />
+  <Remixicon.closed_captioning class="w-4 h-4" />
+  <Remixicon.closed_captioning line />
+  <Remixicon.closed_captioning fill />
   ```
   """
   attr :rest, :global,
@@ -4239,10 +4239,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.checkbox_multiple_blank />
-  <Remixicons.checkbox_multiple_blank class="w-4 h-4" />
-  <Remixicons.checkbox_multiple_blank line />
-  <Remixicons.checkbox_multiple_blank fill />
+  <Remixicon.checkbox_multiple_blank />
+  <Remixicon.checkbox_multiple_blank class="w-4 h-4" />
+  <Remixicon.checkbox_multiple_blank line />
+  <Remixicon.checkbox_multiple_blank fill />
   ```
   """
   attr :rest, :global,
@@ -4276,10 +4276,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_repository_commits />
-  <Remixicons.git_repository_commits class="w-4 h-4" />
-  <Remixicons.git_repository_commits line />
-  <Remixicons.git_repository_commits fill />
+  <Remixicon.git_repository_commits />
+  <Remixicon.git_repository_commits class="w-4 h-4" />
+  <Remixicon.git_repository_commits line />
+  <Remixicon.git_repository_commits fill />
   ```
   """
   attr :rest, :global,
@@ -4313,10 +4313,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.navigation />
-  <Remixicons.navigation class="w-4 h-4" />
-  <Remixicons.navigation line />
-  <Remixicons.navigation fill />
+  <Remixicon.navigation />
+  <Remixicon.navigation class="w-4 h-4" />
+  <Remixicon.navigation line />
+  <Remixicon.navigation fill />
   ```
   """
   attr :rest, :global,
@@ -4350,10 +4350,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.music />
-  <Remixicons.music class="w-4 h-4" />
-  <Remixicons.music line />
-  <Remixicons.music fill />
+  <Remixicon.music />
+  <Remixicon.music class="w-4 h-4" />
+  <Remixicon.music line />
+  <Remixicon.music fill />
   ```
   """
   attr :rest, :global,
@@ -4387,10 +4387,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_4 />
-  <Remixicons.map_pin_4 class="w-4 h-4" />
-  <Remixicons.map_pin_4 line />
-  <Remixicons.map_pin_4 fill />
+  <Remixicon.map_pin_4 />
+  <Remixicon.map_pin_4 class="w-4 h-4" />
+  <Remixicon.map_pin_4 line />
+  <Remixicon.map_pin_4 fill />
   ```
   """
   attr :rest, :global,
@@ -4424,10 +4424,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.paint_brush />
-  <Remixicons.paint_brush class="w-4 h-4" />
-  <Remixicons.paint_brush line />
-  <Remixicons.paint_brush fill />
+  <Remixicon.paint_brush />
+  <Remixicon.paint_brush class="w-4 h-4" />
+  <Remixicon.paint_brush line />
+  <Remixicon.paint_brush fill />
   ```
   """
   attr :rest, :global,
@@ -4461,10 +4461,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.moon />
-  <Remixicons.moon class="w-4 h-4" />
-  <Remixicons.moon line />
-  <Remixicons.moon fill />
+  <Remixicon.moon />
+  <Remixicon.moon class="w-4 h-4" />
+  <Remixicon.moon line />
+  <Remixicon.moon fill />
   ```
   """
   attr :rest, :global,
@@ -4498,10 +4498,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.volume_down />
-  <Remixicons.volume_down class="w-4 h-4" />
-  <Remixicons.volume_down line />
-  <Remixicons.volume_down fill />
+  <Remixicon.volume_down />
+  <Remixicon.volume_down class="w-4 h-4" />
+  <Remixicon.volume_down line />
+  <Remixicon.volume_down fill />
   ```
   """
   attr :rest, :global,
@@ -4535,10 +4535,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.blaze />
-  <Remixicons.blaze class="w-4 h-4" />
-  <Remixicons.blaze line />
-  <Remixicons.blaze fill />
+  <Remixicon.blaze />
+  <Remixicon.blaze class="w-4 h-4" />
+  <Remixicon.blaze line />
+  <Remixicon.blaze fill />
   ```
   """
   attr :rest, :global,
@@ -4572,10 +4572,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pinterest />
-  <Remixicons.pinterest class="w-4 h-4" />
-  <Remixicons.pinterest line />
-  <Remixicons.pinterest fill />
+  <Remixicon.pinterest />
+  <Remixicon.pinterest class="w-4 h-4" />
+  <Remixicon.pinterest line />
+  <Remixicon.pinterest fill />
   ```
   """
   attr :rest, :global,
@@ -4609,10 +4609,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_cny_box />
-  <Remixicons.money_cny_box class="w-4 h-4" />
-  <Remixicons.money_cny_box line />
-  <Remixicons.money_cny_box fill />
+  <Remixicon.money_cny_box />
+  <Remixicon.money_cny_box class="w-4 h-4" />
+  <Remixicon.money_cny_box line />
+  <Remixicon.money_cny_box fill />
   ```
   """
   attr :rest, :global,
@@ -4646,10 +4646,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.polaroid_2 />
-  <Remixicons.polaroid_2 class="w-4 h-4" />
-  <Remixicons.polaroid_2 line />
-  <Remixicons.polaroid_2 fill />
+  <Remixicon.polaroid_2 />
+  <Remixicon.polaroid_2 class="w-4 h-4" />
+  <Remixicon.polaroid_2 line />
+  <Remixicon.polaroid_2 fill />
   ```
   """
   attr :rest, :global,
@@ -4683,10 +4683,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_2 />
-  <Remixicons.user_2 class="w-4 h-4" />
-  <Remixicons.user_2 line />
-  <Remixicons.user_2 fill />
+  <Remixicon.user_2 />
+  <Remixicon.user_2 class="w-4 h-4" />
+  <Remixicon.user_2 line />
+  <Remixicon.user_2 fill />
   ```
   """
   attr :rest, :global,
@@ -4720,10 +4720,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.twitter />
-  <Remixicons.twitter class="w-4 h-4" />
-  <Remixicons.twitter line />
-  <Remixicons.twitter fill />
+  <Remixicon.twitter />
+  <Remixicon.twitter class="w-4 h-4" />
+  <Remixicon.twitter line />
+  <Remixicon.twitter fill />
   ```
   """
   attr :rest, :global,
@@ -4757,10 +4757,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.drizzle />
-  <Remixicons.drizzle class="w-4 h-4" />
-  <Remixicons.drizzle line />
-  <Remixicons.drizzle fill />
+  <Remixicon.drizzle />
+  <Remixicon.drizzle class="w-4 h-4" />
+  <Remixicon.drizzle line />
+  <Remixicon.drizzle fill />
   ```
   """
   attr :rest, :global,
@@ -4794,10 +4794,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_repository />
-  <Remixicons.git_repository class="w-4 h-4" />
-  <Remixicons.git_repository line />
-  <Remixicons.git_repository fill />
+  <Remixicon.git_repository />
+  <Remixicon.git_repository class="w-4 h-4" />
+  <Remixicon.git_repository line />
+  <Remixicon.git_repository fill />
   ```
   """
   attr :rest, :global,
@@ -4831,10 +4831,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emotion_unhappy />
-  <Remixicons.emotion_unhappy class="w-4 h-4" />
-  <Remixicons.emotion_unhappy line />
-  <Remixicons.emotion_unhappy fill />
+  <Remixicon.emotion_unhappy />
+  <Remixicon.emotion_unhappy class="w-4 h-4" />
+  <Remixicon.emotion_unhappy line />
+  <Remixicon.emotion_unhappy fill />
   ```
   """
   attr :rest, :global,
@@ -4868,10 +4868,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shield />
-  <Remixicons.shield class="w-4 h-4" />
-  <Remixicons.shield line />
-  <Remixicons.shield fill />
+  <Remixicon.shield />
+  <Remixicon.shield class="w-4 h-4" />
+  <Remixicon.shield line />
+  <Remixicon.shield fill />
   ```
   """
   attr :rest, :global,
@@ -4905,10 +4905,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bank_card />
-  <Remixicons.bank_card class="w-4 h-4" />
-  <Remixicons.bank_card line />
-  <Remixicons.bank_card fill />
+  <Remixicon.bank_card />
+  <Remixicon.bank_card class="w-4 h-4" />
+  <Remixicon.bank_card line />
+  <Remixicon.bank_card fill />
   ```
   """
   attr :rest, :global,
@@ -4942,10 +4942,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.spectrum />
-  <Remixicons.spectrum class="w-4 h-4" />
-  <Remixicons.spectrum line />
-  <Remixicons.spectrum fill />
+  <Remixicon.spectrum />
+  <Remixicon.spectrum class="w-4 h-4" />
+  <Remixicon.spectrum line />
+  <Remixicon.spectrum fill />
   ```
   """
   attr :rest, :global,
@@ -4979,10 +4979,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.fahrenheit />
-  <Remixicons.fahrenheit class="w-4 h-4" />
-  <Remixicons.fahrenheit line />
-  <Remixicons.fahrenheit fill />
+  <Remixicon.fahrenheit />
+  <Remixicon.fahrenheit class="w-4 h-4" />
+  <Remixicon.fahrenheit line />
+  <Remixicon.fahrenheit fill />
   ```
   """
   attr :rest, :global,
@@ -5016,10 +5016,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.box_3 />
-  <Remixicons.box_3 class="w-4 h-4" />
-  <Remixicons.box_3 line />
-  <Remixicons.box_3 fill />
+  <Remixicon.box_3 />
+  <Remixicon.box_3 class="w-4 h-4" />
+  <Remixicon.box_3 line />
+  <Remixicon.box_3 fill />
   ```
   """
   attr :rest, :global,
@@ -5053,10 +5053,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.calendar_check />
-  <Remixicons.calendar_check class="w-4 h-4" />
-  <Remixicons.calendar_check line />
-  <Remixicons.calendar_check fill />
+  <Remixicon.calendar_check />
+  <Remixicon.calendar_check class="w-4 h-4" />
+  <Remixicon.calendar_check line />
+  <Remixicon.calendar_check fill />
   ```
   """
   attr :rest, :global,
@@ -5090,10 +5090,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_add />
-  <Remixicons.file_add class="w-4 h-4" />
-  <Remixicons.file_add line />
-  <Remixicons.file_add fill />
+  <Remixicon.file_add />
+  <Remixicon.file_add class="w-4 h-4" />
+  <Remixicon.file_add line />
+  <Remixicon.file_add fill />
   ```
   """
   attr :rest, :global,
@@ -5127,10 +5127,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.qr_code />
-  <Remixicons.qr_code class="w-4 h-4" />
-  <Remixicons.qr_code line />
-  <Remixicons.qr_code fill />
+  <Remixicon.qr_code />
+  <Remixicon.qr_code class="w-4 h-4" />
+  <Remixicon.qr_code line />
+  <Remixicon.qr_code fill />
   ```
   """
   attr :rest, :global,
@@ -5164,10 +5164,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.building />
-  <Remixicons.building class="w-4 h-4" />
-  <Remixicons.building line />
-  <Remixicons.building fill />
+  <Remixicon.building />
+  <Remixicon.building class="w-4 h-4" />
+  <Remixicon.building line />
+  <Remixicon.building fill />
   ```
   """
   attr :rest, :global,
@@ -5201,10 +5201,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.numbers />
-  <Remixicons.numbers class="w-4 h-4" />
-  <Remixicons.numbers line />
-  <Remixicons.numbers fill />
+  <Remixicon.numbers />
+  <Remixicon.numbers class="w-4 h-4" />
+  <Remixicon.numbers line />
+  <Remixicon.numbers fill />
   ```
   """
   attr :rest, :global,
@@ -5238,10 +5238,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.award />
-  <Remixicons.award class="w-4 h-4" />
-  <Remixicons.award line />
-  <Remixicons.award fill />
+  <Remixicon.award />
+  <Remixicon.award class="w-4 h-4" />
+  <Remixicon.award line />
+  <Remixicon.award fill />
   ```
   """
   attr :rest, :global,
@@ -5275,10 +5275,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.restart />
-  <Remixicons.restart class="w-4 h-4" />
-  <Remixicons.restart line />
-  <Remixicons.restart fill />
+  <Remixicon.restart />
+  <Remixicon.restart class="w-4 h-4" />
+  <Remixicon.restart line />
+  <Remixicon.restart fill />
   ```
   """
   attr :rest, :global,
@@ -5312,10 +5312,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_up_right_double />
-  <Remixicons.corner_up_right_double class="w-4 h-4" />
-  <Remixicons.corner_up_right_double line />
-  <Remixicons.corner_up_right_double fill />
+  <Remixicon.corner_up_right_double />
+  <Remixicon.corner_up_right_double class="w-4 h-4" />
+  <Remixicon.corner_up_right_double line />
+  <Remixicon.corner_up_right_double fill />
   ```
   """
   attr :rest, :global,
@@ -5349,10 +5349,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_new />
-  <Remixicons.chat_new class="w-4 h-4" />
-  <Remixicons.chat_new line />
-  <Remixicons.chat_new fill />
+  <Remixicon.chat_new />
+  <Remixicon.chat_new class="w-4 h-4" />
+  <Remixicon.chat_new line />
+  <Remixicon.chat_new fill />
   ```
   """
   attr :rest, :global,
@@ -5386,10 +5386,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_bin_4 />
-  <Remixicons.delete_bin_4 class="w-4 h-4" />
-  <Remixicons.delete_bin_4 line />
-  <Remixicons.delete_bin_4 fill />
+  <Remixicon.delete_bin_4 />
+  <Remixicon.delete_bin_4 class="w-4 h-4" />
+  <Remixicon.delete_bin_4 line />
+  <Remixicon.delete_bin_4 fill />
   ```
   """
   attr :rest, :global,
@@ -5423,10 +5423,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.robot />
-  <Remixicons.robot class="w-4 h-4" />
-  <Remixicons.robot line />
-  <Remixicons.robot fill />
+  <Remixicon.robot />
+  <Remixicon.robot class="w-4 h-4" />
+  <Remixicon.robot line />
+  <Remixicon.robot fill />
   ```
   """
   attr :rest, :global,
@@ -5460,10 +5460,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.time />
-  <Remixicons.time class="w-4 h-4" />
-  <Remixicons.time line />
-  <Remixicons.time fill />
+  <Remixicon.time />
+  <Remixicon.time class="w-4 h-4" />
+  <Remixicon.time line />
+  <Remixicon.time fill />
   ```
   """
   attr :rest, :global,
@@ -5497,10 +5497,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.youtube />
-  <Remixicons.youtube class="w-4 h-4" />
-  <Remixicons.youtube line />
-  <Remixicons.youtube fill />
+  <Remixicon.youtube />
+  <Remixicon.youtube class="w-4 h-4" />
+  <Remixicon.youtube line />
+  <Remixicon.youtube fill />
   ```
   """
   attr :rest, :global,
@@ -5534,10 +5534,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_smile_2 />
-  <Remixicons.home_smile_2 class="w-4 h-4" />
-  <Remixicons.home_smile_2 line />
-  <Remixicons.home_smile_2 fill />
+  <Remixicon.home_smile_2 />
+  <Remixicon.home_smile_2 class="w-4 h-4" />
+  <Remixicon.home_smile_2 line />
+  <Remixicon.home_smile_2 fill />
   ```
   """
   attr :rest, :global,
@@ -5571,10 +5571,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.alipay />
-  <Remixicons.alipay class="w-4 h-4" />
-  <Remixicons.alipay line />
-  <Remixicons.alipay fill />
+  <Remixicon.alipay />
+  <Remixicon.alipay class="w-4 h-4" />
+  <Remixicon.alipay line />
+  <Remixicon.alipay fill />
   ```
   """
   attr :rest, :global,
@@ -5608,10 +5608,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hammer />
-  <Remixicons.hammer class="w-4 h-4" />
-  <Remixicons.hammer line />
-  <Remixicons.hammer fill />
+  <Remixicon.hammer />
+  <Remixicon.hammer class="w-4 h-4" />
+  <Remixicon.hammer line />
+  <Remixicon.hammer fill />
   ```
   """
   attr :rest, :global,
@@ -5645,10 +5645,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.trophy />
-  <Remixicons.trophy class="w-4 h-4" />
-  <Remixicons.trophy line />
-  <Remixicons.trophy fill />
+  <Remixicon.trophy />
+  <Remixicon.trophy class="w-4 h-4" />
+  <Remixicon.trophy line />
+  <Remixicon.trophy fill />
   ```
   """
   attr :rest, :global,
@@ -5682,10 +5682,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_pdf />
-  <Remixicons.file_pdf class="w-4 h-4" />
-  <Remixicons.file_pdf line />
-  <Remixicons.file_pdf fill />
+  <Remixicon.file_pdf />
+  <Remixicon.file_pdf class="w-4 h-4" />
+  <Remixicon.file_pdf line />
+  <Remixicon.file_pdf fill />
   ```
   """
   attr :rest, :global,
@@ -5719,10 +5719,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.percent />
-  <Remixicons.percent class="w-4 h-4" />
-  <Remixicons.percent line />
-  <Remixicons.percent fill />
+  <Remixicon.percent />
+  <Remixicon.percent class="w-4 h-4" />
+  <Remixicon.percent line />
+  <Remixicon.percent fill />
   ```
   """
   attr :rest, :global,
@@ -5756,10 +5756,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.subtract />
-  <Remixicons.subtract class="w-4 h-4" />
-  <Remixicons.subtract line />
-  <Remixicons.subtract fill />
+  <Remixicon.subtract />
+  <Remixicon.subtract class="w-4 h-4" />
+  <Remixicon.subtract line />
+  <Remixicon.subtract fill />
   ```
   """
   attr :rest, :global,
@@ -5791,10 +5791,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.npmjs />
-  <Remixicons.npmjs class="w-4 h-4" />
-  <Remixicons.npmjs line />
-  <Remixicons.npmjs fill />
+  <Remixicon.npmjs />
+  <Remixicon.npmjs class="w-4 h-4" />
+  <Remixicon.npmjs line />
+  <Remixicon.npmjs fill />
   ```
   """
   attr :rest, :global,
@@ -5828,10 +5828,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.github />
-  <Remixicons.github class="w-4 h-4" />
-  <Remixicons.github line />
-  <Remixicons.github fill />
+  <Remixicon.github />
+  <Remixicon.github class="w-4 h-4" />
+  <Remixicon.github line />
+  <Remixicon.github fill />
   ```
   """
   attr :rest, :global,
@@ -5865,10 +5865,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.download_2 />
-  <Remixicons.download_2 class="w-4 h-4" />
-  <Remixicons.download_2 line />
-  <Remixicons.download_2 fill />
+  <Remixicon.download_2 />
+  <Remixicon.download_2 class="w-4 h-4" />
+  <Remixicon.download_2 line />
+  <Remixicon.download_2 fill />
   ```
   """
   attr :rest, :global,
@@ -5902,10 +5902,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.thermometer />
-  <Remixicons.thermometer class="w-4 h-4" />
-  <Remixicons.thermometer line />
-  <Remixicons.thermometer fill />
+  <Remixicon.thermometer />
+  <Remixicon.thermometer class="w-4 h-4" />
+  <Remixicon.thermometer line />
+  <Remixicon.thermometer fill />
   ```
   """
   attr :rest, :global,
@@ -5939,10 +5939,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_word />
-  <Remixicons.file_word class="w-4 h-4" />
-  <Remixicons.file_word line />
-  <Remixicons.file_word fill />
+  <Remixicon.file_word />
+  <Remixicon.file_word class="w-4 h-4" />
+  <Remixicon.file_word line />
+  <Remixicon.file_word fill />
   ```
   """
   attr :rest, :global,
@@ -5976,10 +5976,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.first_aid_kit />
-  <Remixicons.first_aid_kit class="w-4 h-4" />
-  <Remixicons.first_aid_kit line />
-  <Remixicons.first_aid_kit fill />
+  <Remixicon.first_aid_kit />
+  <Remixicon.first_aid_kit class="w-4 h-4" />
+  <Remixicon.first_aid_kit line />
+  <Remixicon.first_aid_kit fill />
   ```
   """
   attr :rest, :global,
@@ -6013,10 +6013,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_up_s />
-  <Remixicons.arrow_up_s class="w-4 h-4" />
-  <Remixicons.arrow_up_s line />
-  <Remixicons.arrow_up_s fill />
+  <Remixicon.arrow_up_s />
+  <Remixicon.arrow_up_s class="w-4 h-4" />
+  <Remixicon.arrow_up_s line />
+  <Remixicon.arrow_up_s fill />
   ```
   """
   attr :rest, :global,
@@ -6049,10 +6049,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.filter_2 />
-  <Remixicons.filter_2 class="w-4 h-4" />
-  <Remixicons.filter_2 line />
-  <Remixicons.filter_2 fill />
+  <Remixicon.filter_2 />
+  <Remixicon.filter_2 class="w-4 h-4" />
+  <Remixicon.filter_2 line />
+  <Remixicon.filter_2 fill />
   ```
   """
   attr :rest, :global,
@@ -6085,10 +6085,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.radio />
-  <Remixicons.radio class="w-4 h-4" />
-  <Remixicons.radio line />
-  <Remixicons.radio fill />
+  <Remixicon.radio />
+  <Remixicon.radio class="w-4 h-4" />
+  <Remixicon.radio line />
+  <Remixicon.radio fill />
   ```
   """
   attr :rest, :global,
@@ -6122,10 +6122,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hd />
-  <Remixicons.hd class="w-4 h-4" />
-  <Remixicons.hd line />
-  <Remixicons.hd fill />
+  <Remixicon.hd />
+  <Remixicon.hd class="w-4 h-4" />
+  <Remixicon.hd line />
+  <Remixicon.hd fill />
   ```
   """
   attr :rest, :global,
@@ -6159,10 +6159,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.video_add />
-  <Remixicons.video_add class="w-4 h-4" />
-  <Remixicons.video_add line />
-  <Remixicons.video_add fill />
+  <Remixicon.video_add />
+  <Remixicon.video_add class="w-4 h-4" />
+  <Remixicon.video_add line />
+  <Remixicon.video_add fill />
   ```
   """
   attr :rest, :global,
@@ -6196,10 +6196,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.temp_cold />
-  <Remixicons.temp_cold class="w-4 h-4" />
-  <Remixicons.temp_cold line />
-  <Remixicons.temp_cold fill />
+  <Remixicon.temp_cold />
+  <Remixicon.temp_cold class="w-4 h-4" />
+  <Remixicon.temp_cold line />
+  <Remixicon.temp_cold fill />
   ```
   """
   attr :rest, :global,
@@ -6233,10 +6233,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.genderless />
-  <Remixicons.genderless class="w-4 h-4" />
-  <Remixicons.genderless line />
-  <Remixicons.genderless fill />
+  <Remixicon.genderless />
+  <Remixicon.genderless class="w-4 h-4" />
+  <Remixicon.genderless line />
+  <Remixicon.genderless fill />
   ```
   """
   attr :rest, :global,
@@ -6270,10 +6270,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_left_right />
-  <Remixicons.arrow_left_right class="w-4 h-4" />
-  <Remixicons.arrow_left_right line />
-  <Remixicons.arrow_left_right fill />
+  <Remixicon.arrow_left_right />
+  <Remixicon.arrow_left_right class="w-4 h-4" />
+  <Remixicon.arrow_left_right line />
+  <Remixicon.arrow_left_right fill />
   ```
   """
   attr :rest, :global,
@@ -6306,10 +6306,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_keyhole />
-  <Remixicons.folder_keyhole class="w-4 h-4" />
-  <Remixicons.folder_keyhole line />
-  <Remixicons.folder_keyhole fill />
+  <Remixicon.folder_keyhole />
+  <Remixicon.folder_keyhole class="w-4 h-4" />
+  <Remixicon.folder_keyhole line />
+  <Remixicon.folder_keyhole fill />
   ```
   """
   attr :rest, :global,
@@ -6343,10 +6343,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_mark />
-  <Remixicons.file_mark class="w-4 h-4" />
-  <Remixicons.file_mark line />
-  <Remixicons.file_mark fill />
+  <Remixicon.file_mark />
+  <Remixicon.file_mark class="w-4 h-4" />
+  <Remixicon.file_mark line />
+  <Remixicon.file_mark fill />
   ```
   """
   attr :rest, :global,
@@ -6380,10 +6380,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_2 />
-  <Remixicons.folder_2 class="w-4 h-4" />
-  <Remixicons.folder_2 line />
-  <Remixicons.folder_2 fill />
+  <Remixicon.folder_2 />
+  <Remixicon.folder_2 class="w-4 h-4" />
+  <Remixicon.folder_2 line />
+  <Remixicon.folder_2 fill />
   ```
   """
   attr :rest, :global,
@@ -6417,10 +6417,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pulse />
-  <Remixicons.pulse class="w-4 h-4" />
-  <Remixicons.pulse line />
-  <Remixicons.pulse fill />
+  <Remixicon.pulse />
+  <Remixicon.pulse class="w-4 h-4" />
+  <Remixicon.pulse line />
+  <Remixicon.pulse fill />
   ```
   """
   attr :rest, :global,
@@ -6454,10 +6454,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.secure_payment />
-  <Remixicons.secure_payment class="w-4 h-4" />
-  <Remixicons.secure_payment line />
-  <Remixicons.secure_payment fill />
+  <Remixicon.secure_payment />
+  <Remixicon.secure_payment class="w-4 h-4" />
+  <Remixicon.secure_payment line />
+  <Remixicon.secure_payment fill />
   ```
   """
   attr :rest, :global,
@@ -6491,10 +6491,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cloudy_2 />
-  <Remixicons.cloudy_2 class="w-4 h-4" />
-  <Remixicons.cloudy_2 line />
-  <Remixicons.cloudy_2 fill />
+  <Remixicon.cloudy_2 />
+  <Remixicon.cloudy_2 class="w-4 h-4" />
+  <Remixicon.cloudy_2 line />
+  <Remixicon.cloudy_2 fill />
   ```
   """
   attr :rest, :global,
@@ -6528,10 +6528,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tablet />
-  <Remixicons.tablet class="w-4 h-4" />
-  <Remixicons.tablet line />
-  <Remixicons.tablet fill />
+  <Remixicon.tablet />
+  <Remixicon.tablet class="w-4 h-4" />
+  <Remixicon.tablet line />
+  <Remixicon.tablet fill />
   ```
   """
   attr :rest, :global,
@@ -6565,10 +6565,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.loader_2 />
-  <Remixicons.loader_2 class="w-4 h-4" />
-  <Remixicons.loader_2 line />
-  <Remixicons.loader_2 fill />
+  <Remixicon.loader_2 />
+  <Remixicon.loader_2 class="w-4 h-4" />
+  <Remixicon.loader_2 line />
+  <Remixicon.loader_2 fill />
   ```
   """
   attr :rest, :global,
@@ -6602,10 +6602,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.store />
-  <Remixicons.store class="w-4 h-4" />
-  <Remixicons.store line />
-  <Remixicons.store fill />
+  <Remixicon.store />
+  <Remixicon.store class="w-4 h-4" />
+  <Remixicon.store line />
+  <Remixicon.store fill />
   ```
   """
   attr :rest, :global,
@@ -6639,10 +6639,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.candle />
-  <Remixicons.candle class="w-4 h-4" />
-  <Remixicons.candle line />
-  <Remixicons.candle fill />
+  <Remixicon.candle />
+  <Remixicon.candle class="w-4 h-4" />
+  <Remixicon.candle line />
+  <Remixicon.candle fill />
   ```
   """
   attr :rest, :global,
@@ -6676,10 +6676,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.picture_in_picture_exit />
-  <Remixicons.picture_in_picture_exit class="w-4 h-4" />
-  <Remixicons.picture_in_picture_exit line />
-  <Remixicons.picture_in_picture_exit fill />
+  <Remixicon.picture_in_picture_exit />
+  <Remixicon.picture_in_picture_exit class="w-4 h-4" />
+  <Remixicon.picture_in_picture_exit line />
+  <Remixicon.picture_in_picture_exit fill />
   ```
   """
   attr :rest, :global,
@@ -6713,10 +6713,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.battery_low />
-  <Remixicons.battery_low class="w-4 h-4" />
-  <Remixicons.battery_low line />
-  <Remixicons.battery_low fill />
+  <Remixicon.battery_low />
+  <Remixicon.battery_low class="w-4 h-4" />
+  <Remixicon.battery_low line />
+  <Remixicon.battery_low fill />
   ```
   """
   attr :rest, :global,
@@ -6750,10 +6750,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.javascript />
-  <Remixicons.javascript class="w-4 h-4" />
-  <Remixicons.javascript line />
-  <Remixicons.javascript fill />
+  <Remixicon.javascript />
+  <Remixicon.javascript class="w-4 h-4" />
+  <Remixicon.javascript line />
+  <Remixicon.javascript fill />
   ```
   """
   attr :rest, :global,
@@ -6787,10 +6787,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.motorbike />
-  <Remixicons.motorbike class="w-4 h-4" />
-  <Remixicons.motorbike line />
-  <Remixicons.motorbike fill />
+  <Remixicon.motorbike />
+  <Remixicon.motorbike class="w-4 h-4" />
+  <Remixicon.motorbike line />
+  <Remixicon.motorbike fill />
   ```
   """
   attr :rest, :global,
@@ -6824,10 +6824,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.alarm />
-  <Remixicons.alarm class="w-4 h-4" />
-  <Remixicons.alarm line />
-  <Remixicons.alarm fill />
+  <Remixicon.alarm />
+  <Remixicon.alarm class="w-4 h-4" />
+  <Remixicon.alarm line />
+  <Remixicon.alarm fill />
   ```
   """
   attr :rest, :global,
@@ -6861,10 +6861,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rocket />
-  <Remixicons.rocket class="w-4 h-4" />
-  <Remixicons.rocket line />
-  <Remixicons.rocket fill />
+  <Remixicon.rocket />
+  <Remixicon.rocket class="w-4 h-4" />
+  <Remixicon.rocket line />
+  <Remixicon.rocket fill />
   ```
   """
   attr :rest, :global,
@@ -6898,10 +6898,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map />
-  <Remixicons.map class="w-4 h-4" />
-  <Remixicons.map line />
-  <Remixicons.map fill />
+  <Remixicon.map />
+  <Remixicon.map class="w-4 h-4" />
+  <Remixicon.map line />
+  <Remixicon.map fill />
   ```
   """
   attr :rest, :global,
@@ -6935,10 +6935,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hard_drive_2 />
-  <Remixicons.hard_drive_2 class="w-4 h-4" />
-  <Remixicons.hard_drive_2 line />
-  <Remixicons.hard_drive_2 fill />
+  <Remixicon.hard_drive_2 />
+  <Remixicon.hard_drive_2 class="w-4 h-4" />
+  <Remixicon.hard_drive_2 line />
+  <Remixicon.hard_drive_2 fill />
   ```
   """
   attr :rest, :global,
@@ -6972,10 +6972,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.blender />
-  <Remixicons.blender class="w-4 h-4" />
-  <Remixicons.blender line />
-  <Remixicons.blender fill />
+  <Remixicon.blender />
+  <Remixicon.blender class="w-4 h-4" />
+  <Remixicon.blender line />
+  <Remixicon.blender fill />
   ```
   """
   attr :rest, :global,
@@ -7009,10 +7009,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_5 />
-  <Remixicons.layout_5 class="w-4 h-4" />
-  <Remixicons.layout_5 line />
-  <Remixicons.layout_5 fill />
+  <Remixicon.layout_5 />
+  <Remixicon.layout_5 class="w-4 h-4" />
+  <Remixicon.layout_5 line />
+  <Remixicon.layout_5 fill />
   ```
   """
   attr :rest, :global,
@@ -7046,10 +7046,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.settings_2 />
-  <Remixicons.settings_2 class="w-4 h-4" />
-  <Remixicons.settings_2 line />
-  <Remixicons.settings_2 fill />
+  <Remixicon.settings_2 />
+  <Remixicon.settings_2 class="w-4 h-4" />
+  <Remixicon.settings_2 line />
+  <Remixicon.settings_2 fill />
   ```
   """
   attr :rest, :global,
@@ -7083,10 +7083,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.android />
-  <Remixicons.android class="w-4 h-4" />
-  <Remixicons.android line />
-  <Remixicons.android fill />
+  <Remixicon.android />
+  <Remixicon.android class="w-4 h-4" />
+  <Remixicon.android line />
+  <Remixicon.android fill />
   ```
   """
   attr :rest, :global,
@@ -7120,10 +7120,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gatsby />
-  <Remixicons.gatsby class="w-4 h-4" />
-  <Remixicons.gatsby line />
-  <Remixicons.gatsby fill />
+  <Remixicon.gatsby />
+  <Remixicon.gatsby class="w-4 h-4" />
+  <Remixicon.gatsby line />
+  <Remixicon.gatsby fill />
   ```
   """
   attr :rest, :global,
@@ -7157,10 +7157,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.copyright />
-  <Remixicons.copyright class="w-4 h-4" />
-  <Remixicons.copyright line />
-  <Remixicons.copyright fill />
+  <Remixicon.copyright />
+  <Remixicon.copyright class="w-4 h-4" />
+  <Remixicon.copyright line />
+  <Remixicon.copyright fill />
   ```
   """
   attr :rest, :global,
@@ -7194,10 +7194,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.checkbox_blank_circle />
-  <Remixicons.checkbox_blank_circle class="w-4 h-4" />
-  <Remixicons.checkbox_blank_circle line />
-  <Remixicons.checkbox_blank_circle fill />
+  <Remixicon.checkbox_blank_circle />
+  <Remixicon.checkbox_blank_circle class="w-4 h-4" />
+  <Remixicon.checkbox_blank_circle line />
+  <Remixicon.checkbox_blank_circle fill />
   ```
   """
   attr :rest, :global,
@@ -7231,10 +7231,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.movie />
-  <Remixicons.movie class="w-4 h-4" />
-  <Remixicons.movie line />
-  <Remixicons.movie fill />
+  <Remixicon.movie />
+  <Remixicon.movie class="w-4 h-4" />
+  <Remixicon.movie line />
+  <Remixicon.movie fill />
   ```
   """
   attr :rest, :global,
@@ -7268,10 +7268,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scissors_cut />
-  <Remixicons.scissors_cut class="w-4 h-4" />
-  <Remixicons.scissors_cut line />
-  <Remixicons.scissors_cut fill />
+  <Remixicon.scissors_cut />
+  <Remixicon.scissors_cut class="w-4 h-4" />
+  <Remixicon.scissors_cut line />
+  <Remixicon.scissors_cut fill />
   ```
   """
   attr :rest, :global,
@@ -7305,10 +7305,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_off />
-  <Remixicons.chat_off class="w-4 h-4" />
-  <Remixicons.chat_off line />
-  <Remixicons.chat_off fill />
+  <Remixicon.chat_off />
+  <Remixicon.chat_off class="w-4 h-4" />
+  <Remixicon.chat_off line />
+  <Remixicon.chat_off fill />
   ```
   """
   attr :rest, :global,
@@ -7342,10 +7342,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bubble_chart />
-  <Remixicons.bubble_chart class="w-4 h-4" />
-  <Remixicons.bubble_chart line />
-  <Remixicons.bubble_chart fill />
+  <Remixicon.bubble_chart />
+  <Remixicon.bubble_chart class="w-4 h-4" />
+  <Remixicon.bubble_chart line />
+  <Remixicon.bubble_chart fill />
   ```
   """
   attr :rest, :global,
@@ -7379,10 +7379,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.riding />
-  <Remixicons.riding class="w-4 h-4" />
-  <Remixicons.riding line />
-  <Remixicons.riding fill />
+  <Remixicon.riding />
+  <Remixicon.riding class="w-4 h-4" />
+  <Remixicon.riding line />
+  <Remixicon.riding fill />
   ```
   """
   attr :rest, :global,
@@ -7416,10 +7416,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.computer />
-  <Remixicons.computer class="w-4 h-4" />
-  <Remixicons.computer line />
-  <Remixicons.computer fill />
+  <Remixicon.computer />
+  <Remixicon.computer class="w-4 h-4" />
+  <Remixicon.computer line />
+  <Remixicon.computer fill />
   ```
   """
   attr :rest, :global,
@@ -7453,10 +7453,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.netflix />
-  <Remixicons.netflix class="w-4 h-4" />
-  <Remixicons.netflix line />
-  <Remixicons.netflix fill />
+  <Remixicon.netflix />
+  <Remixicon.netflix class="w-4 h-4" />
+  <Remixicon.netflix line />
+  <Remixicon.netflix fill />
   ```
   """
   attr :rest, :global,
@@ -7490,10 +7490,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_user />
-  <Remixicons.map_pin_user class="w-4 h-4" />
-  <Remixicons.map_pin_user line />
-  <Remixicons.map_pin_user fill />
+  <Remixicon.map_pin_user />
+  <Remixicon.map_pin_user class="w-4 h-4" />
+  <Remixicon.map_pin_user line />
+  <Remixicon.map_pin_user fill />
   ```
   """
   attr :rest, :global,
@@ -7527,10 +7527,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.trello />
-  <Remixicons.trello class="w-4 h-4" />
-  <Remixicons.trello line />
-  <Remixicons.trello fill />
+  <Remixicon.trello />
+  <Remixicon.trello class="w-4 h-4" />
+  <Remixicon.trello line />
+  <Remixicon.trello fill />
   ```
   """
   attr :rest, :global,
@@ -7564,10 +7564,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.keynote />
-  <Remixicons.keynote class="w-4 h-4" />
-  <Remixicons.keynote line />
-  <Remixicons.keynote fill />
+  <Remixicon.keynote />
+  <Remixicon.keynote class="w-4 h-4" />
+  <Remixicon.keynote line />
+  <Remixicon.keynote fill />
   ```
   """
   attr :rest, :global,
@@ -7601,10 +7601,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pushpin />
-  <Remixicons.pushpin class="w-4 h-4" />
-  <Remixicons.pushpin line />
-  <Remixicons.pushpin fill />
+  <Remixicon.pushpin />
+  <Remixicon.pushpin class="w-4 h-4" />
+  <Remixicon.pushpin line />
+  <Remixicon.pushpin fill />
   ```
   """
   attr :rest, :global,
@@ -7638,10 +7638,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.i24_hours />
-  <Remixicons.i24_hours class="w-4 h-4" />
-  <Remixicons.i24_hours line />
-  <Remixicons.i24_hours fill />
+  <Remixicon.i24_hours />
+  <Remixicon.i24_hours class="w-4 h-4" />
+  <Remixicon.i24_hours line />
+  <Remixicon.i24_hours fill />
   ```
   """
   attr :rest, :global,
@@ -7675,10 +7675,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.repeat_2 />
-  <Remixicons.repeat_2 class="w-4 h-4" />
-  <Remixicons.repeat_2 line />
-  <Remixicons.repeat_2 fill />
+  <Remixicon.repeat_2 />
+  <Remixicon.repeat_2 class="w-4 h-4" />
+  <Remixicon.repeat_2 line />
+  <Remixicon.repeat_2 fill />
   ```
   """
   attr :rest, :global,
@@ -7712,10 +7712,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.loader_5 />
-  <Remixicons.loader_5 class="w-4 h-4" />
-  <Remixicons.loader_5 line />
-  <Remixicons.loader_5 fill />
+  <Remixicon.loader_5 />
+  <Remixicon.loader_5 class="w-4 h-4" />
+  <Remixicon.loader_5 line />
+  <Remixicon.loader_5 fill />
   ```
   """
   attr :rest, :global,
@@ -7747,10 +7747,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_bin_3 />
-  <Remixicons.delete_bin_3 class="w-4 h-4" />
-  <Remixicons.delete_bin_3 line />
-  <Remixicons.delete_bin_3 fill />
+  <Remixicon.delete_bin_3 />
+  <Remixicon.delete_bin_3 class="w-4 h-4" />
+  <Remixicon.delete_bin_3 line />
+  <Remixicon.delete_bin_3 fill />
   ```
   """
   attr :rest, :global,
@@ -7784,10 +7784,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.treasure_map />
-  <Remixicons.treasure_map class="w-4 h-4" />
-  <Remixicons.treasure_map line />
-  <Remixicons.treasure_map fill />
+  <Remixicon.treasure_map />
+  <Remixicon.treasure_map class="w-4 h-4" />
+  <Remixicon.treasure_map line />
+  <Remixicon.treasure_map fill />
   ```
   """
   attr :rest, :global,
@@ -7821,10 +7821,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mac />
-  <Remixicons.mac class="w-4 h-4" />
-  <Remixicons.mac line />
-  <Remixicons.mac fill />
+  <Remixicon.mac />
+  <Remixicon.mac class="w-4 h-4" />
+  <Remixicon.mac line />
+  <Remixicon.mac fill />
   ```
   """
   attr :rest, :global,
@@ -7858,10 +7858,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wallet_3 />
-  <Remixicons.wallet_3 class="w-4 h-4" />
-  <Remixicons.wallet_3 line />
-  <Remixicons.wallet_3 fill />
+  <Remixicon.wallet_3 />
+  <Remixicon.wallet_3 class="w-4 h-4" />
+  <Remixicon.wallet_3 line />
+  <Remixicon.wallet_3 fill />
   ```
   """
   attr :rest, :global,
@@ -7895,10 +7895,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.global />
-  <Remixicons.global class="w-4 h-4" />
-  <Remixicons.global line />
-  <Remixicons.global fill />
+  <Remixicon.global />
+  <Remixicon.global class="w-4 h-4" />
+  <Remixicon.global line />
+  <Remixicon.global fill />
   ```
   """
   attr :rest, :global,
@@ -7932,10 +7932,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.exchange_cny />
-  <Remixicons.exchange_cny class="w-4 h-4" />
-  <Remixicons.exchange_cny line />
-  <Remixicons.exchange_cny fill />
+  <Remixicon.exchange_cny />
+  <Remixicon.exchange_cny class="w-4 h-4" />
+  <Remixicon.exchange_cny line />
+  <Remixicon.exchange_cny fill />
   ```
   """
   attr :rest, :global,
@@ -7969,10 +7969,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contacts_book_2 />
-  <Remixicons.contacts_book_2 class="w-4 h-4" />
-  <Remixicons.contacts_book_2 line />
-  <Remixicons.contacts_book_2 fill />
+  <Remixicon.contacts_book_2 />
+  <Remixicon.contacts_book_2 class="w-4 h-4" />
+  <Remixicon.contacts_book_2 line />
+  <Remixicon.contacts_book_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8006,10 +8006,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.clapperboard />
-  <Remixicons.clapperboard class="w-4 h-4" />
-  <Remixicons.clapperboard line />
-  <Remixicons.clapperboard fill />
+  <Remixicon.clapperboard />
+  <Remixicon.clapperboard class="w-4 h-4" />
+  <Remixicon.clapperboard line />
+  <Remixicon.clapperboard fill />
   ```
   """
   attr :rest, :global,
@@ -8043,10 +8043,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_follow />
-  <Remixicons.user_follow class="w-4 h-4" />
-  <Remixicons.user_follow line />
-  <Remixicons.user_follow fill />
+  <Remixicon.user_follow />
+  <Remixicon.user_follow class="w-4 h-4" />
+  <Remixicon.user_follow line />
+  <Remixicon.user_follow fill />
   ```
   """
   attr :rest, :global,
@@ -8080,10 +8080,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_2 />
-  <Remixicons.chat_2 class="w-4 h-4" />
-  <Remixicons.chat_2 line />
-  <Remixicons.chat_2 fill />
+  <Remixicon.chat_2 />
+  <Remixicon.chat_2 class="w-4 h-4" />
+  <Remixicon.chat_2 line />
+  <Remixicon.chat_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8117,10 +8117,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_star />
-  <Remixicons.mail_star class="w-4 h-4" />
-  <Remixicons.mail_star line />
-  <Remixicons.mail_star fill />
+  <Remixicon.mail_star />
+  <Remixicon.mail_star class="w-4 h-4" />
+  <Remixicon.mail_star line />
+  <Remixicon.mail_star fill />
   ```
   """
   attr :rest, :global,
@@ -8154,10 +8154,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.forward_10 />
-  <Remixicons.forward_10 class="w-4 h-4" />
-  <Remixicons.forward_10 line />
-  <Remixicons.forward_10 fill />
+  <Remixicon.forward_10 />
+  <Remixicon.forward_10 class="w-4 h-4" />
+  <Remixicon.forward_10 line />
+  <Remixicon.forward_10 fill />
   ```
   """
   attr :rest, :global,
@@ -8191,10 +8191,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bug_2 />
-  <Remixicons.bug_2 class="w-4 h-4" />
-  <Remixicons.bug_2 line />
-  <Remixicons.bug_2 fill />
+  <Remixicon.bug_2 />
+  <Remixicon.bug_2 class="w-4 h-4" />
+  <Remixicon.bug_2 line />
+  <Remixicon.bug_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8228,10 +8228,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coupon />
-  <Remixicons.coupon class="w-4 h-4" />
-  <Remixicons.coupon line />
-  <Remixicons.coupon fill />
+  <Remixicon.coupon />
+  <Remixicon.coupon class="w-4 h-4" />
+  <Remixicon.coupon line />
+  <Remixicon.coupon fill />
   ```
   """
   attr :rest, :global,
@@ -8265,10 +8265,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.save_2 />
-  <Remixicons.save_2 class="w-4 h-4" />
-  <Remixicons.save_2 line />
-  <Remixicons.save_2 fill />
+  <Remixicon.save_2 />
+  <Remixicon.save_2 class="w-4 h-4" />
+  <Remixicon.save_2 line />
+  <Remixicon.save_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8302,10 +8302,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_2 />
-  <Remixicons.file_2 class="w-4 h-4" />
-  <Remixicons.file_2 line />
-  <Remixicons.file_2 fill />
+  <Remixicon.file_2 />
+  <Remixicon.file_2 class="w-4 h-4" />
+  <Remixicon.file_2 line />
+  <Remixicon.file_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8339,10 +8339,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.empathize />
-  <Remixicons.empathize class="w-4 h-4" />
-  <Remixicons.empathize line />
-  <Remixicons.empathize fill />
+  <Remixicon.empathize />
+  <Remixicon.empathize class="w-4 h-4" />
+  <Remixicon.empathize line />
+  <Remixicon.empathize fill />
   ```
   """
   attr :rest, :global,
@@ -8376,10 +8376,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_shield />
-  <Remixicons.folder_shield class="w-4 h-4" />
-  <Remixicons.folder_shield line />
-  <Remixicons.folder_shield fill />
+  <Remixicon.folder_shield />
+  <Remixicon.folder_shield class="w-4 h-4" />
+  <Remixicon.folder_shield line />
+  <Remixicon.folder_shield fill />
   ```
   """
   attr :rest, :global,
@@ -8413,10 +8413,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.picture_in_picture />
-  <Remixicons.picture_in_picture class="w-4 h-4" />
-  <Remixicons.picture_in_picture line />
-  <Remixicons.picture_in_picture fill />
+  <Remixicon.picture_in_picture />
+  <Remixicon.picture_in_picture class="w-4 h-4" />
+  <Remixicon.picture_in_picture line />
+  <Remixicon.picture_in_picture fill />
   ```
   """
   attr :rest, :global,
@@ -8450,10 +8450,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.megaphone />
-  <Remixicons.megaphone class="w-4 h-4" />
-  <Remixicons.megaphone line />
-  <Remixicons.megaphone fill />
+  <Remixicon.megaphone />
+  <Remixicon.megaphone class="w-4 h-4" />
+  <Remixicon.megaphone line />
+  <Remixicon.megaphone fill />
   ```
   """
   attr :rest, :global,
@@ -8487,10 +8487,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.crop_2 />
-  <Remixicons.crop_2 class="w-4 h-4" />
-  <Remixicons.crop_2 line />
-  <Remixicons.crop_2 fill />
+  <Remixicon.crop_2 />
+  <Remixicon.crop_2 class="w-4 h-4" />
+  <Remixicon.crop_2 line />
+  <Remixicon.crop_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8524,10 +8524,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contrast_2 />
-  <Remixicons.contrast_2 class="w-4 h-4" />
-  <Remixicons.contrast_2 line />
-  <Remixicons.contrast_2 fill />
+  <Remixicon.contrast_2 />
+  <Remixicon.contrast_2 class="w-4 h-4" />
+  <Remixicon.contrast_2 line />
+  <Remixicon.contrast_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8561,10 +8561,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tv />
-  <Remixicons.tv class="w-4 h-4" />
-  <Remixicons.tv line />
-  <Remixicons.tv fill />
+  <Remixicon.tv />
+  <Remixicon.tv class="w-4 h-4" />
+  <Remixicon.tv line />
+  <Remixicon.tv fill />
   ```
   """
   attr :rest, :global,
@@ -8598,10 +8598,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.remixicon />
-  <Remixicons.remixicon class="w-4 h-4" />
-  <Remixicons.remixicon line />
-  <Remixicons.remixicon fill />
+  <Remixicon.remixicon />
+  <Remixicon.remixicon class="w-4 h-4" />
+  <Remixicon.remixicon line />
+  <Remixicon.remixicon fill />
   ```
   """
   attr :rest, :global,
@@ -8635,10 +8635,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.css3 />
-  <Remixicons.css3 class="w-4 h-4" />
-  <Remixicons.css3 line />
-  <Remixicons.css3 fill />
+  <Remixicon.css3 />
+  <Remixicon.css3 class="w-4 h-4" />
+  <Remixicon.css3 line />
+  <Remixicon.css3 fill />
   ```
   """
   attr :rest, :global,
@@ -8672,10 +8672,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.compass_4 />
-  <Remixicons.compass_4 class="w-4 h-4" />
-  <Remixicons.compass_4 line />
-  <Remixicons.compass_4 fill />
+  <Remixicon.compass_4 />
+  <Remixicon.compass_4 class="w-4 h-4" />
+  <Remixicon.compass_4 line />
+  <Remixicon.compass_4 fill />
   ```
   """
   attr :rest, :global,
@@ -8709,10 +8709,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_up_double />
-  <Remixicons.arrow_up_double class="w-4 h-4" />
-  <Remixicons.arrow_up_double line />
-  <Remixicons.arrow_up_double fill />
+  <Remixicon.arrow_up_double />
+  <Remixicon.arrow_up_double class="w-4 h-4" />
+  <Remixicon.arrow_up_double line />
+  <Remixicon.arrow_up_double fill />
   ```
   """
   attr :rest, :global,
@@ -8746,10 +8746,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.eye_2 />
-  <Remixicons.eye_2 class="w-4 h-4" />
-  <Remixicons.eye_2 line />
-  <Remixicons.eye_2 fill />
+  <Remixicon.eye_2 />
+  <Remixicon.eye_2 class="w-4 h-4" />
+  <Remixicon.eye_2 line />
+  <Remixicon.eye_2 fill />
   ```
   """
   attr :rest, :global,
@@ -8783,10 +8783,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rest_time />
-  <Remixicons.rest_time class="w-4 h-4" />
-  <Remixicons.rest_time line />
-  <Remixicons.rest_time fill />
+  <Remixicon.rest_time />
+  <Remixicon.rest_time class="w-4 h-4" />
+  <Remixicon.rest_time line />
+  <Remixicon.rest_time fill />
   ```
   """
   attr :rest, :global,
@@ -8820,10 +8820,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.drive />
-  <Remixicons.drive class="w-4 h-4" />
-  <Remixicons.drive line />
-  <Remixicons.drive fill />
+  <Remixicon.drive />
+  <Remixicon.drive class="w-4 h-4" />
+  <Remixicon.drive line />
+  <Remixicon.drive fill />
   ```
   """
   attr :rest, :global,
@@ -8857,10 +8857,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.men />
-  <Remixicons.men class="w-4 h-4" />
-  <Remixicons.men line />
-  <Remixicons.men fill />
+  <Remixicon.men />
+  <Remixicon.men class="w-4 h-4" />
+  <Remixicon.men line />
+  <Remixicon.men fill />
   ```
   """
   attr :rest, :global,
@@ -8894,10 +8894,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dvd />
-  <Remixicons.dvd class="w-4 h-4" />
-  <Remixicons.dvd line />
-  <Remixicons.dvd fill />
+  <Remixicon.dvd />
+  <Remixicon.dvd class="w-4 h-4" />
+  <Remixicon.dvd line />
+  <Remixicon.dvd fill />
   ```
   """
   attr :rest, :global,
@@ -8931,10 +8931,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.attachment />
-  <Remixicons.attachment class="w-4 h-4" />
-  <Remixicons.attachment line />
-  <Remixicons.attachment fill />
+  <Remixicon.attachment />
+  <Remixicon.attachment class="w-4 h-4" />
+  <Remixicon.attachment line />
+  <Remixicon.attachment fill />
   ```
   """
   attr :rest, :global,
@@ -8968,10 +8968,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rocket_2 />
-  <Remixicons.rocket_2 class="w-4 h-4" />
-  <Remixicons.rocket_2 line />
-  <Remixicons.rocket_2 fill />
+  <Remixicon.rocket_2 />
+  <Remixicon.rocket_2 class="w-4 h-4" />
+  <Remixicon.rocket_2 line />
+  <Remixicon.rocket_2 fill />
   ```
   """
   attr :rest, :global,
@@ -9005,10 +9005,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.book_3 />
-  <Remixicons.book_3 class="w-4 h-4" />
-  <Remixicons.book_3 line />
-  <Remixicons.book_3 fill />
+  <Remixicon.book_3 />
+  <Remixicon.book_3 class="w-4 h-4" />
+  <Remixicon.book_3 line />
+  <Remixicon.book_3 fill />
   ```
   """
   attr :rest, :global,
@@ -9042,10 +9042,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.health_book />
-  <Remixicons.health_book class="w-4 h-4" />
-  <Remixicons.health_book line />
-  <Remixicons.health_book fill />
+  <Remixicon.health_book />
+  <Remixicon.health_book class="w-4 h-4" />
+  <Remixicon.health_book line />
+  <Remixicon.health_book fill />
   ```
   """
   attr :rest, :global,
@@ -9079,10 +9079,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flag_2 />
-  <Remixicons.flag_2 class="w-4 h-4" />
-  <Remixicons.flag_2 line />
-  <Remixicons.flag_2 fill />
+  <Remixicon.flag_2 />
+  <Remixicon.flag_2 class="w-4 h-4" />
+  <Remixicon.flag_2 line />
+  <Remixicon.flag_2 fill />
   ```
   """
   attr :rest, :global,
@@ -9116,10 +9116,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.clockwise />
-  <Remixicons.clockwise class="w-4 h-4" />
-  <Remixicons.clockwise line />
-  <Remixicons.clockwise fill />
+  <Remixicon.clockwise />
+  <Remixicon.clockwise class="w-4 h-4" />
+  <Remixicon.clockwise line />
+  <Remixicon.clockwise fill />
   ```
   """
   attr :rest, :global,
@@ -9153,10 +9153,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.speaker_2 />
-  <Remixicons.speaker_2 class="w-4 h-4" />
-  <Remixicons.speaker_2 line />
-  <Remixicons.speaker_2 fill />
+  <Remixicon.speaker_2 />
+  <Remixicon.speaker_2 class="w-4 h-4" />
+  <Remixicon.speaker_2 line />
+  <Remixicon.speaker_2 fill />
   ```
   """
   attr :rest, :global,
@@ -9190,10 +9190,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.message_3 />
-  <Remixicons.message_3 class="w-4 h-4" />
-  <Remixicons.message_3 line />
-  <Remixicons.message_3 fill />
+  <Remixicon.message_3 />
+  <Remixicon.message_3 class="w-4 h-4" />
+  <Remixicon.message_3 line />
+  <Remixicon.message_3 fill />
   ```
   """
   attr :rest, :global,
@@ -9227,10 +9227,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.snapchat />
-  <Remixicons.snapchat class="w-4 h-4" />
-  <Remixicons.snapchat line />
-  <Remixicons.snapchat fill />
+  <Remixicon.snapchat />
+  <Remixicon.snapchat class="w-4 h-4" />
+  <Remixicon.snapchat line />
+  <Remixicon.snapchat fill />
   ```
   """
   attr :rest, :global,
@@ -9264,10 +9264,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_2 />
-  <Remixicons.home_2 class="w-4 h-4" />
-  <Remixicons.home_2 line />
-  <Remixicons.home_2 fill />
+  <Remixicon.home_2 />
+  <Remixicon.home_2 class="w-4 h-4" />
+  <Remixicon.home_2 line />
+  <Remixicon.home_2 fill />
   ```
   """
   attr :rest, :global,
@@ -9301,10 +9301,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_up />
-  <Remixicons.skip_up class="w-4 h-4" />
-  <Remixicons.skip_up line />
-  <Remixicons.skip_up fill />
+  <Remixicon.skip_up />
+  <Remixicon.skip_up class="w-4 h-4" />
+  <Remixicon.skip_up line />
+  <Remixicon.skip_up fill />
   ```
   """
   attr :rest, :global,
@@ -9337,10 +9337,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bill />
-  <Remixicons.bill class="w-4 h-4" />
-  <Remixicons.bill line />
-  <Remixicons.bill fill />
+  <Remixicon.bill />
+  <Remixicon.bill class="w-4 h-4" />
+  <Remixicon.bill line />
+  <Remixicon.bill fill />
   ```
   """
   attr :rest, :global,
@@ -9374,10 +9374,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.play />
-  <Remixicons.play class="w-4 h-4" />
-  <Remixicons.play line />
-  <Remixicons.play fill />
+  <Remixicon.play />
+  <Remixicon.play class="w-4 h-4" />
+  <Remixicon.play line />
+  <Remixicon.play fill />
   ```
   """
   attr :rest, :global,
@@ -9411,10 +9411,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coupon_5 />
-  <Remixicons.coupon_5 class="w-4 h-4" />
-  <Remixicons.coupon_5 line />
-  <Remixicons.coupon_5 fill />
+  <Remixicon.coupon_5 />
+  <Remixicon.coupon_5 class="w-4 h-4" />
+  <Remixicon.coupon_5 line />
+  <Remixicon.coupon_5 fill />
   ```
   """
   attr :rest, :global,
@@ -9448,10 +9448,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cloud_windy />
-  <Remixicons.cloud_windy class="w-4 h-4" />
-  <Remixicons.cloud_windy line />
-  <Remixicons.cloud_windy fill />
+  <Remixicon.cloud_windy />
+  <Remixicon.cloud_windy class="w-4 h-4" />
+  <Remixicon.cloud_windy line />
+  <Remixicon.cloud_windy fill />
   ```
   """
   attr :rest, :global,
@@ -9485,10 +9485,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.battery_share />
-  <Remixicons.battery_share class="w-4 h-4" />
-  <Remixicons.battery_share line />
-  <Remixicons.battery_share fill />
+  <Remixicon.battery_share />
+  <Remixicon.battery_share class="w-4 h-4" />
+  <Remixicon.battery_share line />
+  <Remixicon.battery_share fill />
   ```
   """
   attr :rest, :global,
@@ -9522,10 +9522,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.anticlockwise_2 />
-  <Remixicons.anticlockwise_2 class="w-4 h-4" />
-  <Remixicons.anticlockwise_2 line />
-  <Remixicons.anticlockwise_2 fill />
+  <Remixicon.anticlockwise_2 />
+  <Remixicon.anticlockwise_2 class="w-4 h-4" />
+  <Remixicon.anticlockwise_2 line />
+  <Remixicon.anticlockwise_2 fill />
   ```
   """
   attr :rest, :global,
@@ -9559,10 +9559,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_lock />
-  <Remixicons.file_lock class="w-4 h-4" />
-  <Remixicons.file_lock line />
-  <Remixicons.file_lock fill />
+  <Remixicon.file_lock />
+  <Remixicon.file_lock class="w-4 h-4" />
+  <Remixicon.file_lock line />
+  <Remixicon.file_lock fill />
   ```
   """
   attr :rest, :global,
@@ -9596,10 +9596,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.timer />
-  <Remixicons.timer class="w-4 h-4" />
-  <Remixicons.timer line />
-  <Remixicons.timer fill />
+  <Remixicon.timer />
+  <Remixicon.timer class="w-4 h-4" />
+  <Remixicon.timer line />
+  <Remixicon.timer fill />
   ```
   """
   attr :rest, :global,
@@ -9633,10 +9633,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.speaker />
-  <Remixicons.speaker class="w-4 h-4" />
-  <Remixicons.speaker line />
-  <Remixicons.speaker fill />
+  <Remixicon.speaker />
+  <Remixicon.speaker class="w-4 h-4" />
+  <Remixicon.speaker line />
+  <Remixicon.speaker fill />
   ```
   """
   attr :rest, :global,
@@ -9670,10 +9670,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_back />
-  <Remixicons.skip_back class="w-4 h-4" />
-  <Remixicons.skip_back line />
-  <Remixicons.skip_back fill />
+  <Remixicon.skip_back />
+  <Remixicon.skip_back class="w-4 h-4" />
+  <Remixicon.skip_back line />
+  <Remixicon.skip_back fill />
   ```
   """
   attr :rest, :global,
@@ -9707,10 +9707,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hotspot />
-  <Remixicons.hotspot class="w-4 h-4" />
-  <Remixicons.hotspot line />
-  <Remixicons.hotspot fill />
+  <Remixicon.hotspot />
+  <Remixicon.hotspot class="w-4 h-4" />
+  <Remixicon.hotspot line />
+  <Remixicon.hotspot fill />
   ```
   """
   attr :rest, :global,
@@ -9744,10 +9744,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_volume />
-  <Remixicons.mail_volume class="w-4 h-4" />
-  <Remixicons.mail_volume line />
-  <Remixicons.mail_volume fill />
+  <Remixicon.mail_volume />
+  <Remixicon.mail_volume class="w-4 h-4" />
+  <Remixicon.mail_volume line />
+  <Remixicon.mail_volume fill />
   ```
   """
   attr :rest, :global,
@@ -9781,10 +9781,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flight_land />
-  <Remixicons.flight_land class="w-4 h-4" />
-  <Remixicons.flight_land line />
-  <Remixicons.flight_land fill />
+  <Remixicon.flight_land />
+  <Remixicon.flight_land class="w-4 h-4" />
+  <Remixicon.flight_land line />
+  <Remixicon.flight_land fill />
   ```
   """
   attr :rest, :global,
@@ -9818,10 +9818,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emotion_happy />
-  <Remixicons.emotion_happy class="w-4 h-4" />
-  <Remixicons.emotion_happy line />
-  <Remixicons.emotion_happy fill />
+  <Remixicon.emotion_happy />
+  <Remixicon.emotion_happy class="w-4 h-4" />
+  <Remixicon.emotion_happy line />
+  <Remixicon.emotion_happy fill />
   ```
   """
   attr :rest, :global,
@@ -9855,10 +9855,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.car_washing />
-  <Remixicons.car_washing class="w-4 h-4" />
-  <Remixicons.car_washing line />
-  <Remixicons.car_washing fill />
+  <Remixicon.car_washing />
+  <Remixicon.car_washing class="w-4 h-4" />
+  <Remixicon.car_washing line />
+  <Remixicon.car_washing fill />
   ```
   """
   attr :rest, :global,
@@ -9892,10 +9892,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.criminal />
-  <Remixicons.criminal class="w-4 h-4" />
-  <Remixicons.criminal line />
-  <Remixicons.criminal fill />
+  <Remixicon.criminal />
+  <Remixicon.criminal class="w-4 h-4" />
+  <Remixicon.criminal line />
+  <Remixicon.criminal fill />
   ```
   """
   attr :rest, :global,
@@ -9929,10 +9929,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.drop />
-  <Remixicons.drop class="w-4 h-4" />
-  <Remixicons.drop line />
-  <Remixicons.drop fill />
+  <Remixicon.drop />
+  <Remixicon.drop class="w-4 h-4" />
+  <Remixicon.drop line />
+  <Remixicon.drop fill />
   ```
   """
   attr :rest, :global,
@@ -9966,10 +9966,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hospital />
-  <Remixicons.hospital class="w-4 h-4" />
-  <Remixicons.hospital line />
-  <Remixicons.hospital fill />
+  <Remixicon.hospital />
+  <Remixicon.hospital class="w-4 h-4" />
+  <Remixicon.hospital line />
+  <Remixicon.hospital fill />
   ```
   """
   attr :rest, :global,
@@ -10003,10 +10003,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_column />
-  <Remixicons.layout_column class="w-4 h-4" />
-  <Remixicons.layout_column line />
-  <Remixicons.layout_column fill />
+  <Remixicon.layout_column />
+  <Remixicon.layout_column class="w-4 h-4" />
+  <Remixicon.layout_column line />
+  <Remixicon.layout_column fill />
   ```
   """
   attr :rest, :global,
@@ -10040,10 +10040,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.inbox />
-  <Remixicons.inbox class="w-4 h-4" />
-  <Remixicons.inbox line />
-  <Remixicons.inbox fill />
+  <Remixicon.inbox />
+  <Remixicon.inbox class="w-4 h-4" />
+  <Remixicon.inbox line />
+  <Remixicon.inbox fill />
   ```
   """
   attr :rest, :global,
@@ -10077,10 +10077,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_open />
-  <Remixicons.folder_open class="w-4 h-4" />
-  <Remixicons.folder_open line />
-  <Remixicons.folder_open fill />
+  <Remixicon.folder_open />
+  <Remixicon.folder_open class="w-4 h-4" />
+  <Remixicon.folder_open line />
+  <Remixicon.folder_open fill />
   ```
   """
   attr :rest, :global,
@@ -10114,10 +10114,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout />
-  <Remixicons.layout class="w-4 h-4" />
-  <Remixicons.layout line />
-  <Remixicons.layout fill />
+  <Remixicon.layout />
+  <Remixicon.layout class="w-4 h-4" />
+  <Remixicon.layout line />
+  <Remixicon.layout fill />
   ```
   """
   attr :rest, :global,
@@ -10151,10 +10151,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.collage />
-  <Remixicons.collage class="w-4 h-4" />
-  <Remixicons.collage line />
-  <Remixicons.collage fill />
+  <Remixicon.collage />
+  <Remixicon.collage class="w-4 h-4" />
+  <Remixicon.collage line />
+  <Remixicon.collage fill />
   ```
   """
   attr :rest, :global,
@@ -10188,10 +10188,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pie_chart_box />
-  <Remixicons.pie_chart_box class="w-4 h-4" />
-  <Remixicons.pie_chart_box line />
-  <Remixicons.pie_chart_box fill />
+  <Remixicon.pie_chart_box />
+  <Remixicon.pie_chart_box class="w-4 h-4" />
+  <Remixicon.pie_chart_box line />
+  <Remixicon.pie_chart_box fill />
   ```
   """
   attr :rest, :global,
@@ -10225,10 +10225,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.service />
-  <Remixicons.service class="w-4 h-4" />
-  <Remixicons.service line />
-  <Remixicons.service fill />
+  <Remixicon.service />
+  <Remixicon.service class="w-4 h-4" />
+  <Remixicon.service line />
+  <Remixicon.service fill />
   ```
   """
   attr :rest, :global,
@@ -10262,10 +10262,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.eraser />
-  <Remixicons.eraser class="w-4 h-4" />
-  <Remixicons.eraser line />
-  <Remixicons.eraser fill />
+  <Remixicon.eraser />
+  <Remixicon.eraser class="w-4 h-4" />
+  <Remixicon.eraser line />
+  <Remixicon.eraser fill />
   ```
   """
   attr :rest, :global,
@@ -10299,10 +10299,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_upload />
-  <Remixicons.chat_upload class="w-4 h-4" />
-  <Remixicons.chat_upload line />
-  <Remixicons.chat_upload fill />
+  <Remixicon.chat_upload />
+  <Remixicon.chat_upload class="w-4 h-4" />
+  <Remixicon.chat_upload line />
+  <Remixicon.chat_upload fill />
   ```
   """
   attr :rest, :global,
@@ -10336,10 +10336,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.snowy />
-  <Remixicons.snowy class="w-4 h-4" />
-  <Remixicons.snowy line />
-  <Remixicons.snowy fill />
+  <Remixicon.snowy />
+  <Remixicon.snowy class="w-4 h-4" />
+  <Remixicon.snowy line />
+  <Remixicon.snowy fill />
   ```
   """
   attr :rest, :global,
@@ -10373,10 +10373,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.webcam />
-  <Remixicons.webcam class="w-4 h-4" />
-  <Remixicons.webcam line />
-  <Remixicons.webcam fill />
+  <Remixicon.webcam />
+  <Remixicon.webcam class="w-4 h-4" />
+  <Remixicon.webcam line />
+  <Remixicon.webcam fill />
   ```
   """
   attr :rest, :global,
@@ -10410,10 +10410,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hand_sanitizer />
-  <Remixicons.hand_sanitizer class="w-4 h-4" />
-  <Remixicons.hand_sanitizer line />
-  <Remixicons.hand_sanitizer fill />
+  <Remixicon.hand_sanitizer />
+  <Remixicon.hand_sanitizer class="w-4 h-4" />
+  <Remixicon.hand_sanitizer line />
+  <Remixicon.hand_sanitizer fill />
   ```
   """
   attr :rest, :global,
@@ -10447,10 +10447,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.upload_2 />
-  <Remixicons.upload_2 class="w-4 h-4" />
-  <Remixicons.upload_2 line />
-  <Remixicons.upload_2 fill />
+  <Remixicon.upload_2 />
+  <Remixicon.upload_2 class="w-4 h-4" />
+  <Remixicon.upload_2 line />
+  <Remixicon.upload_2 fill />
   ```
   """
   attr :rest, :global,
@@ -10484,10 +10484,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.equal />
-  <Remixicons.equal class="w-4 h-4" />
-  <Remixicons.equal line />
-  <Remixicons.equal fill />
+  <Remixicon.equal />
+  <Remixicon.equal class="w-4 h-4" />
+  <Remixicon.equal line />
+  <Remixicon.equal fill />
   ```
   """
   attr :rest, :global,
@@ -10519,10 +10519,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file />
-  <Remixicons.file class="w-4 h-4" />
-  <Remixicons.file line />
-  <Remixicons.file fill />
+  <Remixicon.file />
+  <Remixicon.file class="w-4 h-4" />
+  <Remixicon.file line />
+  <Remixicon.file fill />
   ```
   """
   attr :rest, :global,
@@ -10556,10 +10556,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_8 />
-  <Remixicons.home_8 class="w-4 h-4" />
-  <Remixicons.home_8 line />
-  <Remixicons.home_8 fill />
+  <Remixicon.home_8 />
+  <Remixicon.home_8 class="w-4 h-4" />
+  <Remixicon.home_8 line />
+  <Remixicon.home_8 fill />
   ```
   """
   attr :rest, :global,
@@ -10593,10 +10593,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.html5 />
-  <Remixicons.html5 class="w-4 h-4" />
-  <Remixicons.html5 line />
-  <Remixicons.html5 fill />
+  <Remixicon.html5 />
+  <Remixicon.html5 class="w-4 h-4" />
+  <Remixicon.html5 line />
+  <Remixicon.html5 fill />
   ```
   """
   attr :rest, :global,
@@ -10630,10 +10630,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stackshare />
-  <Remixicons.stackshare class="w-4 h-4" />
-  <Remixicons.stackshare line />
-  <Remixicons.stackshare fill />
+  <Remixicon.stackshare />
+  <Remixicon.stackshare class="w-4 h-4" />
+  <Remixicon.stackshare line />
+  <Remixicon.stackshare fill />
   ```
   """
   attr :rest, :global,
@@ -10667,10 +10667,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.speed_mini />
-  <Remixicons.speed_mini class="w-4 h-4" />
-  <Remixicons.speed_mini line />
-  <Remixicons.speed_mini fill />
+  <Remixicon.speed_mini />
+  <Remixicon.speed_mini class="w-4 h-4" />
+  <Remixicon.speed_mini line />
+  <Remixicon.speed_mini fill />
   ```
   """
   attr :rest, :global,
@@ -10704,10 +10704,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.calendar_2 />
-  <Remixicons.calendar_2 class="w-4 h-4" />
-  <Remixicons.calendar_2 line />
-  <Remixicons.calendar_2 fill />
+  <Remixicon.calendar_2 />
+  <Remixicon.calendar_2 class="w-4 h-4" />
+  <Remixicon.calendar_2 line />
+  <Remixicon.calendar_2 fill />
   ```
   """
   attr :rest, :global,
@@ -10741,10 +10741,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bell />
-  <Remixicons.bell class="w-4 h-4" />
-  <Remixicons.bell line />
-  <Remixicons.bell fill />
+  <Remixicon.bell />
+  <Remixicon.bell class="w-4 h-4" />
+  <Remixicon.bell line />
+  <Remixicon.bell fill />
   ```
   """
   attr :rest, :global,
@@ -10778,10 +10778,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.calendar_todo />
-  <Remixicons.calendar_todo class="w-4 h-4" />
-  <Remixicons.calendar_todo line />
-  <Remixicons.calendar_todo fill />
+  <Remixicon.calendar_todo />
+  <Remixicon.calendar_todo class="w-4 h-4" />
+  <Remixicon.calendar_todo line />
+  <Remixicon.calendar_todo fill />
   ```
   """
   attr :rest, :global,
@@ -10815,10 +10815,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.medal />
-  <Remixicons.medal class="w-4 h-4" />
-  <Remixicons.medal line />
-  <Remixicons.medal fill />
+  <Remixicon.medal />
+  <Remixicon.medal class="w-4 h-4" />
+  <Remixicon.medal line />
+  <Remixicon.medal fill />
   ```
   """
   attr :rest, :global,
@@ -10852,10 +10852,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.speed_up />
-  <Remixicons.speed_up class="w-4 h-4" />
-  <Remixicons.speed_up line />
-  <Remixicons.speed_up fill />
+  <Remixicon.speed_up />
+  <Remixicon.speed_up class="w-4 h-4" />
+  <Remixicon.speed_up line />
+  <Remixicon.speed_up fill />
   ```
   """
   attr :rest, :global,
@@ -10889,10 +10889,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_4 />
-  <Remixicons.user_4 class="w-4 h-4" />
-  <Remixicons.user_4 line />
-  <Remixicons.user_4 fill />
+  <Remixicon.user_4 />
+  <Remixicon.user_4 class="w-4 h-4" />
+  <Remixicon.user_4 line />
+  <Remixicon.user_4 fill />
   ```
   """
   attr :rest, :global,
@@ -10926,10 +10926,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mic_off />
-  <Remixicons.mic_off class="w-4 h-4" />
-  <Remixicons.mic_off line />
-  <Remixicons.mic_off fill />
+  <Remixicon.mic_off />
+  <Remixicon.mic_off class="w-4 h-4" />
+  <Remixicon.mic_off line />
+  <Remixicon.mic_off fill />
   ```
   """
   attr :rest, :global,
@@ -10963,10 +10963,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_transfer />
-  <Remixicons.file_transfer class="w-4 h-4" />
-  <Remixicons.file_transfer line />
-  <Remixicons.file_transfer fill />
+  <Remixicon.file_transfer />
+  <Remixicon.file_transfer class="w-4 h-4" />
+  <Remixicon.file_transfer line />
+  <Remixicon.file_transfer fill />
   ```
   """
   attr :rest, :global,
@@ -11000,10 +11000,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bluetooth />
-  <Remixicons.bluetooth class="w-4 h-4" />
-  <Remixicons.bluetooth line />
-  <Remixicons.bluetooth fill />
+  <Remixicon.bluetooth />
+  <Remixicon.bluetooth class="w-4 h-4" />
+  <Remixicon.bluetooth line />
+  <Remixicon.bluetooth fill />
   ```
   """
   attr :rest, :global,
@@ -11037,10 +11037,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_music />
-  <Remixicons.folder_music class="w-4 h-4" />
-  <Remixicons.folder_music line />
-  <Remixicons.folder_music fill />
+  <Remixicon.folder_music />
+  <Remixicon.folder_music class="w-4 h-4" />
+  <Remixicon.folder_music line />
+  <Remixicon.folder_music fill />
   ```
   """
   attr :rest, :global,
@@ -11074,10 +11074,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_unknow />
-  <Remixicons.file_unknow class="w-4 h-4" />
-  <Remixicons.file_unknow line />
-  <Remixicons.file_unknow fill />
+  <Remixicon.file_unknow />
+  <Remixicon.file_unknow class="w-4 h-4" />
+  <Remixicon.file_unknow line />
+  <Remixicon.file_unknow fill />
   ```
   """
   attr :rest, :global,
@@ -11111,10 +11111,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_back_mini />
-  <Remixicons.skip_back_mini class="w-4 h-4" />
-  <Remixicons.skip_back_mini line />
-  <Remixicons.skip_back_mini fill />
+  <Remixicon.skip_back_mini />
+  <Remixicon.skip_back_mini class="w-4 h-4" />
+  <Remixicon.skip_back_mini line />
+  <Remixicon.skip_back_mini fill />
   ```
   """
   attr :rest, :global,
@@ -11148,10 +11148,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_bin />
-  <Remixicons.delete_bin class="w-4 h-4" />
-  <Remixicons.delete_bin line />
-  <Remixicons.delete_bin fill />
+  <Remixicon.delete_bin />
+  <Remixicon.delete_bin class="w-4 h-4" />
+  <Remixicon.delete_bin line />
+  <Remixicon.delete_bin fill />
   ```
   """
   attr :rest, :global,
@@ -11185,10 +11185,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.car />
-  <Remixicons.car class="w-4 h-4" />
-  <Remixicons.car line />
-  <Remixicons.car fill />
+  <Remixicon.car />
+  <Remixicon.car class="w-4 h-4" />
+  <Remixicon.car line />
+  <Remixicon.car fill />
   ```
   """
   attr :rest, :global,
@@ -11222,10 +11222,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.temp_hot />
-  <Remixicons.temp_hot class="w-4 h-4" />
-  <Remixicons.temp_hot line />
-  <Remixicons.temp_hot fill />
+  <Remixicon.temp_hot />
+  <Remixicon.temp_hot class="w-4 h-4" />
+  <Remixicon.temp_hot line />
+  <Remixicon.temp_hot fill />
   ```
   """
   attr :rest, :global,
@@ -11259,10 +11259,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bug />
-  <Remixicons.bug class="w-4 h-4" />
-  <Remixicons.bug line />
-  <Remixicons.bug fill />
+  <Remixicon.bug />
+  <Remixicon.bug class="w-4 h-4" />
+  <Remixicon.bug line />
+  <Remixicon.bug fill />
   ```
   """
   attr :rest, :global,
@@ -11296,10 +11296,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_turn_forward />
-  <Remixicons.arrow_turn_forward class="w-4 h-4" />
-  <Remixicons.arrow_turn_forward line />
-  <Remixicons.arrow_turn_forward fill />
+  <Remixicon.arrow_turn_forward />
+  <Remixicon.arrow_turn_forward class="w-4 h-4" />
+  <Remixicon.arrow_turn_forward line />
+  <Remixicon.arrow_turn_forward fill />
   ```
   """
   attr :rest, :global,
@@ -11333,10 +11333,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.zcool />
-  <Remixicons.zcool class="w-4 h-4" />
-  <Remixicons.zcool line />
-  <Remixicons.zcool fill />
+  <Remixicon.zcool />
+  <Remixicon.zcool class="w-4 h-4" />
+  <Remixicon.zcool line />
+  <Remixicon.zcool fill />
   ```
   """
   attr :rest, :global,
@@ -11370,10 +11370,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.drag_move />
-  <Remixicons.drag_move class="w-4 h-4" />
-  <Remixicons.drag_move line />
-  <Remixicons.drag_move fill />
+  <Remixicon.drag_move />
+  <Remixicon.drag_move class="w-4 h-4" />
+  <Remixicon.drag_move line />
+  <Remixicon.drag_move fill />
   ```
   """
   attr :rest, :global,
@@ -11407,10 +11407,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_up_left />
-  <Remixicons.corner_up_left class="w-4 h-4" />
-  <Remixicons.corner_up_left line />
-  <Remixicons.corner_up_left fill />
+  <Remixicon.corner_up_left />
+  <Remixicon.corner_up_left class="w-4 h-4" />
+  <Remixicon.corner_up_left line />
+  <Remixicon.corner_up_left fill />
   ```
   """
   attr :rest, :global,
@@ -11444,10 +11444,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.volume_up />
-  <Remixicons.volume_up class="w-4 h-4" />
-  <Remixicons.volume_up line />
-  <Remixicons.volume_up fill />
+  <Remixicon.volume_up />
+  <Remixicon.volume_up class="w-4 h-4" />
+  <Remixicon.volume_up line />
+  <Remixicon.volume_up fill />
   ```
   """
   attr :rest, :global,
@@ -11481,10 +11481,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.steering />
-  <Remixicons.steering class="w-4 h-4" />
-  <Remixicons.steering line />
-  <Remixicons.steering fill />
+  <Remixicon.steering />
+  <Remixicon.steering class="w-4 h-4" />
+  <Remixicon.steering line />
+  <Remixicon.steering fill />
   ```
   """
   attr :rest, :global,
@@ -11518,10 +11518,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.article />
-  <Remixicons.article class="w-4 h-4" />
-  <Remixicons.article line />
-  <Remixicons.article fill />
+  <Remixicon.article />
+  <Remixicon.article class="w-4 h-4" />
+  <Remixicon.article line />
+  <Remixicon.article fill />
   ```
   """
   attr :rest, :global,
@@ -11555,10 +11555,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hail />
-  <Remixicons.hail class="w-4 h-4" />
-  <Remixicons.hail line />
-  <Remixicons.hail fill />
+  <Remixicon.hail />
+  <Remixicon.hail class="w-4 h-4" />
+  <Remixicon.hail line />
+  <Remixicon.hail fill />
   ```
   """
   attr :rest, :global,
@@ -11592,10 +11592,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.image_2 />
-  <Remixicons.image_2 class="w-4 h-4" />
-  <Remixicons.image_2 line />
-  <Remixicons.image_2 fill />
+  <Remixicon.image_2 />
+  <Remixicon.image_2 class="w-4 h-4" />
+  <Remixicon.image_2 line />
+  <Remixicon.image_2 fill />
   ```
   """
   attr :rest, :global,
@@ -11629,10 +11629,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_history />
-  <Remixicons.file_history class="w-4 h-4" />
-  <Remixicons.file_history line />
-  <Remixicons.file_history fill />
+  <Remixicon.file_history />
+  <Remixicon.file_history class="w-4 h-4" />
+  <Remixicon.file_history line />
+  <Remixicon.file_history fill />
   ```
   """
   attr :rest, :global,
@@ -11666,10 +11666,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.creative_commons />
-  <Remixicons.creative_commons class="w-4 h-4" />
-  <Remixicons.creative_commons line />
-  <Remixicons.creative_commons fill />
+  <Remixicon.creative_commons />
+  <Remixicon.creative_commons class="w-4 h-4" />
+  <Remixicon.creative_commons line />
+  <Remixicon.creative_commons fill />
   ```
   """
   attr :rest, :global,
@@ -11703,10 +11703,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ie />
-  <Remixicons.ie class="w-4 h-4" />
-  <Remixicons.ie line />
-  <Remixicons.ie fill />
+  <Remixicon.ie />
+  <Remixicon.ie class="w-4 h-4" />
+  <Remixicon.ie line />
+  <Remixicon.ie fill />
   ```
   """
   attr :rest, :global,
@@ -11740,10 +11740,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_code />
-  <Remixicons.file_code class="w-4 h-4" />
-  <Remixicons.file_code line />
-  <Remixicons.file_code fill />
+  <Remixicon.file_code />
+  <Remixicon.file_code class="w-4 h-4" />
+  <Remixicon.file_code line />
+  <Remixicon.file_code fill />
   ```
   """
   attr :rest, :global,
@@ -11777,10 +11777,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sticky_note_2 />
-  <Remixicons.sticky_note_2 class="w-4 h-4" />
-  <Remixicons.sticky_note_2 line />
-  <Remixicons.sticky_note_2 fill />
+  <Remixicon.sticky_note_2 />
+  <Remixicon.sticky_note_2 class="w-4 h-4" />
+  <Remixicon.sticky_note_2 line />
+  <Remixicon.sticky_note_2 fill />
   ```
   """
   attr :rest, :global,
@@ -11814,10 +11814,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.line />
-  <Remixicons.line class="w-4 h-4" />
-  <Remixicons.line line />
-  <Remixicons.line fill />
+  <Remixicon.line />
+  <Remixicon.line class="w-4 h-4" />
+  <Remixicon.line line />
+  <Remixicon.line fill />
   ```
   """
   attr :rest, :global,
@@ -11851,10 +11851,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sun />
-  <Remixicons.sun class="w-4 h-4" />
-  <Remixicons.sun line />
-  <Remixicons.sun fill />
+  <Remixicon.sun />
+  <Remixicon.sun class="w-4 h-4" />
+  <Remixicon.sun line />
+  <Remixicon.sun fill />
   ```
   """
   attr :rest, :global,
@@ -11888,10 +11888,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_3 />
-  <Remixicons.map_pin_3 class="w-4 h-4" />
-  <Remixicons.map_pin_3 line />
-  <Remixicons.map_pin_3 fill />
+  <Remixicon.map_pin_3 />
+  <Remixicon.map_pin_3 class="w-4 h-4" />
+  <Remixicon.map_pin_3 line />
+  <Remixicon.map_pin_3 fill />
   ```
   """
   attr :rest, :global,
@@ -11925,10 +11925,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.increase_decrease />
-  <Remixicons.increase_decrease class="w-4 h-4" />
-  <Remixicons.increase_decrease line />
-  <Remixicons.increase_decrease fill />
+  <Remixicon.increase_decrease />
+  <Remixicon.increase_decrease class="w-4 h-4" />
+  <Remixicon.increase_decrease line />
+  <Remixicon.increase_decrease fill />
   ```
   """
   attr :rest, :global,
@@ -11962,10 +11962,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pass_expired />
-  <Remixicons.pass_expired class="w-4 h-4" />
-  <Remixicons.pass_expired line />
-  <Remixicons.pass_expired fill />
+  <Remixicon.pass_expired />
+  <Remixicon.pass_expired class="w-4 h-4" />
+  <Remixicon.pass_expired line />
+  <Remixicon.pass_expired fill />
   ```
   """
   attr :rest, :global,
@@ -11999,10 +11999,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.red_packet />
-  <Remixicons.red_packet class="w-4 h-4" />
-  <Remixicons.red_packet line />
-  <Remixicons.red_packet fill />
+  <Remixicon.red_packet />
+  <Remixicon.red_packet class="w-4 h-4" />
+  <Remixicon.red_packet line />
+  <Remixicon.red_packet fill />
   ```
   """
   attr :rest, :global,
@@ -12036,10 +12036,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_5 />
-  <Remixicons.map_pin_5 class="w-4 h-4" />
-  <Remixicons.map_pin_5 line />
-  <Remixicons.map_pin_5 fill />
+  <Remixicon.map_pin_5 />
+  <Remixicon.map_pin_5 class="w-4 h-4" />
+  <Remixicon.map_pin_5 line />
+  <Remixicon.map_pin_5 fill />
   ```
   """
   attr :rest, :global,
@@ -12073,10 +12073,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_down />
-  <Remixicons.skip_down class="w-4 h-4" />
-  <Remixicons.skip_down line />
-  <Remixicons.skip_down fill />
+  <Remixicon.skip_down />
+  <Remixicon.skip_down class="w-4 h-4" />
+  <Remixicon.skip_down line />
+  <Remixicon.skip_down fill />
   ```
   """
   attr :rest, :global,
@@ -12109,10 +12109,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.share_forward_box />
-  <Remixicons.share_forward_box class="w-4 h-4" />
-  <Remixicons.share_forward_box line />
-  <Remixicons.share_forward_box fill />
+  <Remixicon.share_forward_box />
+  <Remixicon.share_forward_box class="w-4 h-4" />
+  <Remixicon.share_forward_box line />
+  <Remixicon.share_forward_box fill />
   ```
   """
   attr :rest, :global,
@@ -12146,10 +12146,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.thumb_down />
-  <Remixicons.thumb_down class="w-4 h-4" />
-  <Remixicons.thumb_down line />
-  <Remixicons.thumb_down fill />
+  <Remixicon.thumb_down />
+  <Remixicon.thumb_down class="w-4 h-4" />
+  <Remixicon.thumb_down line />
+  <Remixicon.thumb_down fill />
   ```
   """
   attr :rest, :global,
@@ -12183,10 +12183,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.edit_circle />
-  <Remixicons.edit_circle class="w-4 h-4" />
-  <Remixicons.edit_circle line />
-  <Remixicons.edit_circle fill />
+  <Remixicon.edit_circle />
+  <Remixicon.edit_circle class="w-4 h-4" />
+  <Remixicon.edit_circle line />
+  <Remixicon.edit_circle fill />
   ```
   """
   attr :rest, :global,
@@ -12220,10 +12220,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_lock />
-  <Remixicons.mail_lock class="w-4 h-4" />
-  <Remixicons.mail_lock line />
-  <Remixicons.mail_lock fill />
+  <Remixicon.mail_lock />
+  <Remixicon.mail_lock class="w-4 h-4" />
+  <Remixicon.mail_lock line />
+  <Remixicon.mail_lock fill />
   ```
   """
   attr :rest, :global,
@@ -12257,10 +12257,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_drop_right />
-  <Remixicons.arrow_drop_right class="w-4 h-4" />
-  <Remixicons.arrow_drop_right line />
-  <Remixicons.arrow_drop_right fill />
+  <Remixicon.arrow_drop_right />
+  <Remixicon.arrow_drop_right class="w-4 h-4" />
+  <Remixicon.arrow_drop_right line />
+  <Remixicon.arrow_drop_right fill />
   ```
   """
   attr :rest, :global,
@@ -12293,10 +12293,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.caravan />
-  <Remixicons.caravan class="w-4 h-4" />
-  <Remixicons.caravan line />
-  <Remixicons.caravan fill />
+  <Remixicon.caravan />
+  <Remixicon.caravan class="w-4 h-4" />
+  <Remixicon.caravan line />
+  <Remixicon.caravan fill />
   ```
   """
   attr :rest, :global,
@@ -12330,10 +12330,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.barcode_box />
-  <Remixicons.barcode_box class="w-4 h-4" />
-  <Remixicons.barcode_box line />
-  <Remixicons.barcode_box fill />
+  <Remixicon.barcode_box />
+  <Remixicon.barcode_box class="w-4 h-4" />
+  <Remixicon.barcode_box line />
+  <Remixicon.barcode_box fill />
   ```
   """
   attr :rest, :global,
@@ -12367,10 +12367,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_check />
-  <Remixicons.mail_check class="w-4 h-4" />
-  <Remixicons.mail_check line />
-  <Remixicons.mail_check fill />
+  <Remixicon.mail_check />
+  <Remixicon.mail_check class="w-4 h-4" />
+  <Remixicon.mail_check line />
+  <Remixicon.mail_check fill />
   ```
   """
   attr :rest, :global,
@@ -12404,10 +12404,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cake />
-  <Remixicons.cake class="w-4 h-4" />
-  <Remixicons.cake line />
-  <Remixicons.cake fill />
+  <Remixicon.cake />
+  <Remixicon.cake class="w-4 h-4" />
+  <Remixicon.cake line />
+  <Remixicon.cake fill />
   ```
   """
   attr :rest, :global,
@@ -12441,10 +12441,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cash />
-  <Remixicons.cash class="w-4 h-4" />
-  <Remixicons.cash line />
-  <Remixicons.cash fill />
+  <Remixicon.cash />
+  <Remixicon.cash class="w-4 h-4" />
+  <Remixicon.cash line />
+  <Remixicon.cash fill />
   ```
   """
   attr :rest, :global,
@@ -12478,10 +12478,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.inbox_unarchive />
-  <Remixicons.inbox_unarchive class="w-4 h-4" />
-  <Remixicons.inbox_unarchive line />
-  <Remixicons.inbox_unarchive fill />
+  <Remixicon.inbox_unarchive />
+  <Remixicon.inbox_unarchive class="w-4 h-4" />
+  <Remixicon.inbox_unarchive line />
+  <Remixicon.inbox_unarchive fill />
   ```
   """
   attr :rest, :global,
@@ -12515,10 +12515,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.share_forward />
-  <Remixicons.share_forward class="w-4 h-4" />
-  <Remixicons.share_forward line />
-  <Remixicons.share_forward fill />
+  <Remixicon.share_forward />
+  <Remixicon.share_forward class="w-4 h-4" />
+  <Remixicon.share_forward line />
+  <Remixicon.share_forward fill />
   ```
   """
   attr :rest, :global,
@@ -12552,10 +12552,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wireless_charging />
-  <Remixicons.wireless_charging class="w-4 h-4" />
-  <Remixicons.wireless_charging line />
-  <Remixicons.wireless_charging fill />
+  <Remixicon.wireless_charging />
+  <Remixicon.wireless_charging class="w-4 h-4" />
+  <Remixicon.wireless_charging line />
+  <Remixicon.wireless_charging fill />
   ```
   """
   attr :rest, :global,
@@ -12589,10 +12589,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.upload />
-  <Remixicons.upload class="w-4 h-4" />
-  <Remixicons.upload line />
-  <Remixicons.upload fill />
+  <Remixicon.upload />
+  <Remixicon.upload class="w-4 h-4" />
+  <Remixicon.upload line />
+  <Remixicon.upload fill />
   ```
   """
   attr :rest, :global,
@@ -12625,10 +12625,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stop />
-  <Remixicons.stop class="w-4 h-4" />
-  <Remixicons.stop line />
-  <Remixicons.stop fill />
+  <Remixicon.stop />
+  <Remixicon.stop class="w-4 h-4" />
+  <Remixicon.stop line />
+  <Remixicon.stop fill />
   ```
   """
   attr :rest, :global,
@@ -12662,10 +12662,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scissors_2 />
-  <Remixicons.scissors_2 class="w-4 h-4" />
-  <Remixicons.scissors_2 line />
-  <Remixicons.scissors_2 fill />
+  <Remixicon.scissors_2 />
+  <Remixicon.scissors_2 class="w-4 h-4" />
+  <Remixicon.scissors_2 line />
+  <Remixicon.scissors_2 fill />
   ```
   """
   attr :rest, :global,
@@ -12699,10 +12699,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.subway_wifi />
-  <Remixicons.subway_wifi class="w-4 h-4" />
-  <Remixicons.subway_wifi line />
-  <Remixicons.subway_wifi fill />
+  <Remixicon.subway_wifi />
+  <Remixicon.subway_wifi class="w-4 h-4" />
+  <Remixicon.subway_wifi line />
+  <Remixicon.subway_wifi fill />
   ```
   """
   attr :rest, :global,
@@ -12736,10 +12736,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.whatsapp />
-  <Remixicons.whatsapp class="w-4 h-4" />
-  <Remixicons.whatsapp line />
-  <Remixicons.whatsapp fill />
+  <Remixicon.whatsapp />
+  <Remixicon.whatsapp class="w-4 h-4" />
+  <Remixicon.whatsapp line />
+  <Remixicon.whatsapp fill />
   ```
   """
   attr :rest, :global,
@@ -12773,10 +12773,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_right_up />
-  <Remixicons.arrow_right_up class="w-4 h-4" />
-  <Remixicons.arrow_right_up line />
-  <Remixicons.arrow_right_up fill />
+  <Remixicon.arrow_right_up />
+  <Remixicon.arrow_right_up class="w-4 h-4" />
+  <Remixicon.arrow_right_up line />
+  <Remixicon.arrow_right_up fill />
   ```
   """
   attr :rest, :global,
@@ -12810,10 +12810,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skull />
-  <Remixicons.skull class="w-4 h-4" />
-  <Remixicons.skull line />
-  <Remixicons.skull fill />
+  <Remixicon.skull />
+  <Remixicon.skull class="w-4 h-4" />
+  <Remixicon.skull line />
+  <Remixicon.skull fill />
   ```
   """
   attr :rest, :global,
@@ -12847,10 +12847,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.code_s_slash />
-  <Remixicons.code_s_slash class="w-4 h-4" />
-  <Remixicons.code_s_slash line />
-  <Remixicons.code_s_slash fill />
+  <Remixicon.code_s_slash />
+  <Remixicon.code_s_slash class="w-4 h-4" />
+  <Remixicon.code_s_slash line />
+  <Remixicon.code_s_slash fill />
   ```
   """
   attr :rest, :global,
@@ -12884,10 +12884,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.list_settings />
-  <Remixicons.list_settings class="w-4 h-4" />
-  <Remixicons.list_settings line />
-  <Remixicons.list_settings fill />
+  <Remixicon.list_settings />
+  <Remixicon.list_settings class="w-4 h-4" />
+  <Remixicon.list_settings line />
+  <Remixicon.list_settings fill />
   ```
   """
   attr :rest, :global,
@@ -12921,10 +12921,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.archive_drawer />
-  <Remixicons.archive_drawer class="w-4 h-4" />
-  <Remixicons.archive_drawer line />
-  <Remixicons.archive_drawer fill />
+  <Remixicon.archive_drawer />
+  <Remixicon.archive_drawer class="w-4 h-4" />
+  <Remixicon.archive_drawer line />
+  <Remixicon.archive_drawer fill />
   ```
   """
   attr :rest, :global,
@@ -12958,10 +12958,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scan_2 />
-  <Remixicons.scan_2 class="w-4 h-4" />
-  <Remixicons.scan_2 line />
-  <Remixicons.scan_2 fill />
+  <Remixicon.scan_2 />
+  <Remixicon.scan_2 class="w-4 h-4" />
+  <Remixicon.scan_2 line />
+  <Remixicon.scan_2 fill />
   ```
   """
   attr :rest, :global,
@@ -12995,10 +12995,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.road_map />
-  <Remixicons.road_map class="w-4 h-4" />
-  <Remixicons.road_map line />
-  <Remixicons.road_map fill />
+  <Remixicon.road_map />
+  <Remixicon.road_map class="w-4 h-4" />
+  <Remixicon.road_map line />
+  <Remixicon.road_map fill />
   ```
   """
   attr :rest, :global,
@@ -13032,10 +13032,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sun_cloudy />
-  <Remixicons.sun_cloudy class="w-4 h-4" />
-  <Remixicons.sun_cloudy line />
-  <Remixicons.sun_cloudy fill />
+  <Remixicon.sun_cloudy />
+  <Remixicon.sun_cloudy class="w-4 h-4" />
+  <Remixicon.sun_cloudy line />
+  <Remixicon.sun_cloudy fill />
   ```
   """
   attr :rest, :global,
@@ -13069,10 +13069,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.check_double />
-  <Remixicons.check_double class="w-4 h-4" />
-  <Remixicons.check_double line />
-  <Remixicons.check_double fill />
+  <Remixicon.check_double />
+  <Remixicon.check_double class="w-4 h-4" />
+  <Remixicon.check_double line />
+  <Remixicon.check_double fill />
   ```
   """
   attr :rest, :global,
@@ -13106,10 +13106,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.facebook />
-  <Remixicons.facebook class="w-4 h-4" />
-  <Remixicons.facebook line />
-  <Remixicons.facebook fill />
+  <Remixicon.facebook />
+  <Remixicon.facebook class="w-4 h-4" />
+  <Remixicon.facebook line />
+  <Remixicon.facebook fill />
   ```
   """
   attr :rest, :global,
@@ -13143,10 +13143,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.loader />
-  <Remixicons.loader class="w-4 h-4" />
-  <Remixicons.loader line />
-  <Remixicons.loader fill />
+  <Remixicon.loader />
+  <Remixicon.loader class="w-4 h-4" />
+  <Remixicon.loader line />
+  <Remixicon.loader fill />
   ```
   """
   attr :rest, :global,
@@ -13180,10 +13180,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.creative_commons_by />
-  <Remixicons.creative_commons_by class="w-4 h-4" />
-  <Remixicons.creative_commons_by line />
-  <Remixicons.creative_commons_by fill />
+  <Remixicon.creative_commons_by />
+  <Remixicon.creative_commons_by class="w-4 h-4" />
+  <Remixicon.creative_commons_by line />
+  <Remixicon.creative_commons_by fill />
   ```
   """
   attr :rest, :global,
@@ -13217,10 +13217,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.aspect_ratio />
-  <Remixicons.aspect_ratio class="w-4 h-4" />
-  <Remixicons.aspect_ratio line />
-  <Remixicons.aspect_ratio fill />
+  <Remixicon.aspect_ratio />
+  <Remixicon.aspect_ratio class="w-4 h-4" />
+  <Remixicon.aspect_ratio line />
+  <Remixicon.aspect_ratio fill />
   ```
   """
   attr :rest, :global,
@@ -13254,10 +13254,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.heart_2 />
-  <Remixicons.heart_2 class="w-4 h-4" />
-  <Remixicons.heart_2 line />
-  <Remixicons.heart_2 fill />
+  <Remixicon.heart_2 />
+  <Remixicon.heart_2 class="w-4 h-4" />
+  <Remixicon.heart_2 line />
+  <Remixicon.heart_2 fill />
   ```
   """
   attr :rest, :global,
@@ -13291,10 +13291,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.instagram />
-  <Remixicons.instagram class="w-4 h-4" />
-  <Remixicons.instagram line />
-  <Remixicons.instagram fill />
+  <Remixicon.instagram />
+  <Remixicon.instagram class="w-4 h-4" />
+  <Remixicon.instagram line />
+  <Remixicon.instagram fill />
   ```
   """
   attr :rest, :global,
@@ -13328,10 +13328,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.download />
-  <Remixicons.download class="w-4 h-4" />
-  <Remixicons.download line />
-  <Remixicons.download fill />
+  <Remixicon.download />
+  <Remixicon.download class="w-4 h-4" />
+  <Remixicon.download line />
+  <Remixicon.download fill />
   ```
   """
   attr :rest, :global,
@@ -13364,10 +13364,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dropbox />
-  <Remixicons.dropbox class="w-4 h-4" />
-  <Remixicons.dropbox line />
-  <Remixicons.dropbox fill />
+  <Remixicon.dropbox />
+  <Remixicon.dropbox class="w-4 h-4" />
+  <Remixicon.dropbox line />
+  <Remixicon.dropbox fill />
   ```
   """
   attr :rest, :global,
@@ -13401,10 +13401,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ship />
-  <Remixicons.ship class="w-4 h-4" />
-  <Remixicons.ship line />
-  <Remixicons.ship fill />
+  <Remixicon.ship />
+  <Remixicon.ship class="w-4 h-4" />
+  <Remixicon.ship line />
+  <Remixicon.ship fill />
   ```
   """
   attr :rest, :global,
@@ -13438,10 +13438,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.logout_circle />
-  <Remixicons.logout_circle class="w-4 h-4" />
-  <Remixicons.logout_circle line />
-  <Remixicons.logout_circle fill />
+  <Remixicon.logout_circle />
+  <Remixicon.logout_circle class="w-4 h-4" />
+  <Remixicon.logout_circle line />
+  <Remixicon.logout_circle fill />
   ```
   """
   attr :rest, :global,
@@ -13475,10 +13475,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dv />
-  <Remixicons.dv class="w-4 h-4" />
-  <Remixicons.dv line />
-  <Remixicons.dv fill />
+  <Remixicon.dv />
+  <Remixicon.dv class="w-4 h-4" />
+  <Remixicon.dv line />
+  <Remixicon.dv fill />
   ```
   """
   attr :rest, :global,
@@ -13512,10 +13512,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.logout_box />
-  <Remixicons.logout_box class="w-4 h-4" />
-  <Remixicons.logout_box line />
-  <Remixicons.logout_box fill />
+  <Remixicon.logout_box />
+  <Remixicon.logout_box class="w-4 h-4" />
+  <Remixicon.logout_box line />
+  <Remixicon.logout_box fill />
   ```
   """
   attr :rest, :global,
@@ -13549,10 +13549,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_shared />
-  <Remixicons.folder_shared class="w-4 h-4" />
-  <Remixicons.folder_shared line />
-  <Remixicons.folder_shared fill />
+  <Remixicon.folder_shared />
+  <Remixicon.folder_shared class="w-4 h-4" />
+  <Remixicon.folder_shared line />
+  <Remixicon.folder_shared fill />
   ```
   """
   attr :rest, :global,
@@ -13586,10 +13586,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.boxing />
-  <Remixicons.boxing class="w-4 h-4" />
-  <Remixicons.boxing line />
-  <Remixicons.boxing fill />
+  <Remixicon.boxing />
+  <Remixicon.boxing class="w-4 h-4" />
+  <Remixicon.boxing line />
+  <Remixicon.boxing fill />
   ```
   """
   attr :rest, :global,
@@ -13623,10 +13623,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.book_2 />
-  <Remixicons.book_2 class="w-4 h-4" />
-  <Remixicons.book_2 line />
-  <Remixicons.book_2 fill />
+  <Remixicon.book_2 />
+  <Remixicon.book_2 class="w-4 h-4" />
+  <Remixicon.book_2 line />
+  <Remixicon.book_2 fill />
   ```
   """
   attr :rest, :global,
@@ -13660,10 +13660,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.swap />
-  <Remixicons.swap class="w-4 h-4" />
-  <Remixicons.swap line />
-  <Remixicons.swap fill />
+  <Remixicon.swap />
+  <Remixicon.swap class="w-4 h-4" />
+  <Remixicon.swap line />
+  <Remixicon.swap fill />
   ```
   """
   attr :rest, :global,
@@ -13697,10 +13697,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_commit />
-  <Remixicons.git_commit class="w-4 h-4" />
-  <Remixicons.git_commit line />
-  <Remixicons.git_commit fill />
+  <Remixicon.git_commit />
+  <Remixicon.git_commit class="w-4 h-4" />
+  <Remixicon.git_commit line />
+  <Remixicon.git_commit fill />
   ```
   """
   attr :rest, :global,
@@ -13734,10 +13734,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.openai />
-  <Remixicons.openai class="w-4 h-4" />
-  <Remixicons.openai line />
-  <Remixicons.openai fill />
+  <Remixicon.openai />
+  <Remixicon.openai class="w-4 h-4" />
+  <Remixicon.openai line />
+  <Remixicon.openai fill />
   ```
   """
   attr :rest, :global,
@@ -13771,10 +13771,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_user />
-  <Remixicons.file_user class="w-4 h-4" />
-  <Remixicons.file_user line />
-  <Remixicons.file_user fill />
+  <Remixicon.file_user />
+  <Remixicon.file_user class="w-4 h-4" />
+  <Remixicon.file_user line />
+  <Remixicon.file_user fill />
   ```
   """
   attr :rest, :global,
@@ -13808,10 +13808,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.calculator />
-  <Remixicons.calculator class="w-4 h-4" />
-  <Remixicons.calculator line />
-  <Remixicons.calculator fill />
+  <Remixicon.calculator />
+  <Remixicon.calculator class="w-4 h-4" />
+  <Remixicon.calculator line />
+  <Remixicon.calculator fill />
   ```
   """
   attr :rest, :global,
@@ -13845,10 +13845,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.macbook />
-  <Remixicons.macbook class="w-4 h-4" />
-  <Remixicons.macbook line />
-  <Remixicons.macbook fill />
+  <Remixicon.macbook />
+  <Remixicon.macbook class="w-4 h-4" />
+  <Remixicon.macbook line />
+  <Remixicon.macbook fill />
   ```
   """
   attr :rest, :global,
@@ -13882,10 +13882,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_list_3 />
-  <Remixicons.file_list_3 class="w-4 h-4" />
-  <Remixicons.file_list_3 line />
-  <Remixicons.file_list_3 fill />
+  <Remixicon.file_list_3 />
+  <Remixicon.file_list_3 class="w-4 h-4" />
+  <Remixicon.file_list_3 line />
+  <Remixicon.file_list_3 fill />
   ```
   """
   attr :rest, :global,
@@ -13919,10 +13919,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.door_lock />
-  <Remixicons.door_lock class="w-4 h-4" />
-  <Remixicons.door_lock line />
-  <Remixicons.door_lock fill />
+  <Remixicon.door_lock />
+  <Remixicon.door_lock class="w-4 h-4" />
+  <Remixicon.door_lock line />
+  <Remixicon.door_lock fill />
   ```
   """
   attr :rest, :global,
@@ -13956,10 +13956,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.focus_2 />
-  <Remixicons.focus_2 class="w-4 h-4" />
-  <Remixicons.focus_2 line />
-  <Remixicons.focus_2 fill />
+  <Remixicon.focus_2 />
+  <Remixicon.focus_2 class="w-4 h-4" />
+  <Remixicon.focus_2 line />
+  <Remixicon.focus_2 fill />
   ```
   """
   attr :rest, :global,
@@ -13993,10 +13993,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tv_2 />
-  <Remixicons.tv_2 class="w-4 h-4" />
-  <Remixicons.tv_2 line />
-  <Remixicons.tv_2 fill />
+  <Remixicon.tv_2 />
+  <Remixicon.tv_2 class="w-4 h-4" />
+  <Remixicon.tv_2 line />
+  <Remixicon.tv_2 fill />
   ```
   """
   attr :rest, :global,
@@ -14030,10 +14030,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wechat_channels />
-  <Remixicons.wechat_channels class="w-4 h-4" />
-  <Remixicons.wechat_channels line />
-  <Remixicons.wechat_channels fill />
+  <Remixicon.wechat_channels />
+  <Remixicon.wechat_channels class="w-4 h-4" />
+  <Remixicon.wechat_channels line />
+  <Remixicon.wechat_channels fill />
   ```
   """
   attr :rest, :global,
@@ -14067,10 +14067,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.creative_commons_nd />
-  <Remixicons.creative_commons_nd class="w-4 h-4" />
-  <Remixicons.creative_commons_nd line />
-  <Remixicons.creative_commons_nd fill />
+  <Remixicon.creative_commons_nd />
+  <Remixicon.creative_commons_nd class="w-4 h-4" />
+  <Remixicon.creative_commons_nd line />
+  <Remixicon.creative_commons_nd fill />
   ```
   """
   attr :rest, :global,
@@ -14104,10 +14104,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vimeo />
-  <Remixicons.vimeo class="w-4 h-4" />
-  <Remixicons.vimeo line />
-  <Remixicons.vimeo fill />
+  <Remixicon.vimeo />
+  <Remixicon.vimeo class="w-4 h-4" />
+  <Remixicon.vimeo line />
+  <Remixicon.vimeo fill />
   ```
   """
   attr :rest, :global,
@@ -14141,10 +14141,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.store_2 />
-  <Remixicons.store_2 class="w-4 h-4" />
-  <Remixicons.store_2 line />
-  <Remixicons.store_2 fill />
+  <Remixicon.store_2 />
+  <Remixicon.store_2 class="w-4 h-4" />
+  <Remixicon.store_2 line />
+  <Remixicon.store_2 fill />
   ```
   """
   attr :rest, :global,
@@ -14178,10 +14178,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.focus />
-  <Remixicons.focus class="w-4 h-4" />
-  <Remixicons.focus line />
-  <Remixicons.focus fill />
+  <Remixicon.focus />
+  <Remixicon.focus class="w-4 h-4" />
+  <Remixicon.focus line />
+  <Remixicon.focus fill />
   ```
   """
   attr :rest, :global,
@@ -14215,10 +14215,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coin />
-  <Remixicons.coin class="w-4 h-4" />
-  <Remixicons.coin line />
-  <Remixicons.coin fill />
+  <Remixicon.coin />
+  <Remixicon.coin class="w-4 h-4" />
+  <Remixicon.coin line />
+  <Remixicon.coin fill />
   ```
   """
   attr :rest, :global,
@@ -14252,10 +14252,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ticket />
-  <Remixicons.ticket class="w-4 h-4" />
-  <Remixicons.ticket line />
-  <Remixicons.ticket fill />
+  <Remixicon.ticket />
+  <Remixicon.ticket class="w-4 h-4" />
+  <Remixicon.ticket line />
+  <Remixicon.ticket fill />
   ```
   """
   attr :rest, :global,
@@ -14289,10 +14289,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.safe_2 />
-  <Remixicons.safe_2 class="w-4 h-4" />
-  <Remixicons.safe_2 line />
-  <Remixicons.safe_2 fill />
+  <Remixicon.safe_2 />
+  <Remixicon.safe_2 class="w-4 h-4" />
+  <Remixicon.safe_2 line />
+  <Remixicon.safe_2 fill />
   ```
   """
   attr :rest, :global,
@@ -14326,10 +14326,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.router />
-  <Remixicons.router class="w-4 h-4" />
-  <Remixicons.router line />
-  <Remixicons.router fill />
+  <Remixicon.router />
+  <Remixicon.router class="w-4 h-4" />
+  <Remixicon.router line />
+  <Remixicon.router fill />
   ```
   """
   attr :rest, :global,
@@ -14363,10 +14363,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emotion />
-  <Remixicons.emotion class="w-4 h-4" />
-  <Remixicons.emotion line />
-  <Remixicons.emotion fill />
+  <Remixicon.emotion />
+  <Remixicon.emotion class="w-4 h-4" />
+  <Remixicon.emotion line />
+  <Remixicon.emotion fill />
   ```
   """
   attr :rest, :global,
@@ -14400,10 +14400,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_office />
-  <Remixicons.home_office class="w-4 h-4" />
-  <Remixicons.home_office line />
-  <Remixicons.home_office fill />
+  <Remixicon.home_office />
+  <Remixicon.home_office class="w-4 h-4" />
+  <Remixicon.home_office line />
+  <Remixicon.home_office fill />
   ```
   """
   attr :rest, :global,
@@ -14437,10 +14437,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flask />
-  <Remixicons.flask class="w-4 h-4" />
-  <Remixicons.flask line />
-  <Remixicons.flask fill />
+  <Remixicon.flask />
+  <Remixicon.flask class="w-4 h-4" />
+  <Remixicon.flask line />
+  <Remixicon.flask fill />
   ```
   """
   attr :rest, :global,
@@ -14474,10 +14474,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.volume_mute />
-  <Remixicons.volume_mute class="w-4 h-4" />
-  <Remixicons.volume_mute line />
-  <Remixicons.volume_mute fill />
+  <Remixicon.volume_mute />
+  <Remixicon.volume_mute class="w-4 h-4" />
+  <Remixicon.volume_mute line />
+  <Remixicon.volume_mute fill />
   ```
   """
   attr :rest, :global,
@@ -14511,10 +14511,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_right />
-  <Remixicons.layout_right class="w-4 h-4" />
-  <Remixicons.layout_right line />
-  <Remixicons.layout_right fill />
+  <Remixicon.layout_right />
+  <Remixicon.layout_right class="w-4 h-4" />
+  <Remixicon.layout_right line />
+  <Remixicon.layout_right fill />
   ```
   """
   attr :rest, :global,
@@ -14548,10 +14548,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.suitcase_2 />
-  <Remixicons.suitcase_2 class="w-4 h-4" />
-  <Remixicons.suitcase_2 line />
-  <Remixicons.suitcase_2 fill />
+  <Remixicon.suitcase_2 />
+  <Remixicon.suitcase_2 class="w-4 h-4" />
+  <Remixicon.suitcase_2 line />
+  <Remixicon.suitcase_2 fill />
   ```
   """
   attr :rest, :global,
@@ -14585,10 +14585,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.search />
-  <Remixicons.search class="w-4 h-4" />
-  <Remixicons.search line />
-  <Remixicons.search fill />
+  <Remixicon.search />
+  <Remixicon.search class="w-4 h-4" />
+  <Remixicon.search line />
+  <Remixicon.search fill />
   ```
   """
   attr :rest, :global,
@@ -14622,10 +14622,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.edit />
-  <Remixicons.edit class="w-4 h-4" />
-  <Remixicons.edit line />
-  <Remixicons.edit fill />
+  <Remixicon.edit />
+  <Remixicon.edit class="w-4 h-4" />
+  <Remixicon.edit line />
+  <Remixicon.edit fill />
   ```
   """
   attr :rest, :global,
@@ -14659,10 +14659,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_4 />
-  <Remixicons.layout_4 class="w-4 h-4" />
-  <Remixicons.layout_4 line />
-  <Remixicons.layout_4 fill />
+  <Remixicon.layout_4 />
+  <Remixicon.layout_4 class="w-4 h-4" />
+  <Remixicon.layout_4 line />
+  <Remixicon.layout_4 fill />
   ```
   """
   attr :rest, :global,
@@ -14696,10 +14696,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flutter />
-  <Remixicons.flutter class="w-4 h-4" />
-  <Remixicons.flutter line />
-  <Remixicons.flutter fill />
+  <Remixicon.flutter />
+  <Remixicon.flutter class="w-4 h-4" />
+  <Remixicon.flutter line />
+  <Remixicon.flutter fill />
   ```
   """
   attr :rest, :global,
@@ -14733,10 +14733,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.printer />
-  <Remixicons.printer class="w-4 h-4" />
-  <Remixicons.printer line />
-  <Remixicons.printer fill />
+  <Remixicon.printer />
+  <Remixicon.printer class="w-4 h-4" />
+  <Remixicon.printer line />
+  <Remixicon.printer fill />
   ```
   """
   attr :rest, :global,
@@ -14770,10 +14770,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.outlet />
-  <Remixicons.outlet class="w-4 h-4" />
-  <Remixicons.outlet line />
-  <Remixicons.outlet fill />
+  <Remixicon.outlet />
+  <Remixicon.outlet class="w-4 h-4" />
+  <Remixicon.outlet line />
+  <Remixicon.outlet fill />
   ```
   """
   attr :rest, :global,
@@ -14807,10 +14807,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.twitch />
-  <Remixicons.twitch class="w-4 h-4" />
-  <Remixicons.twitch line />
-  <Remixicons.twitch fill />
+  <Remixicon.twitch />
+  <Remixicon.twitch class="w-4 h-4" />
+  <Remixicon.twitch line />
+  <Remixicon.twitch fill />
   ```
   """
   attr :rest, :global,
@@ -14844,10 +14844,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home />
-  <Remixicons.home class="w-4 h-4" />
-  <Remixicons.home line />
-  <Remixicons.home fill />
+  <Remixicon.home />
+  <Remixicon.home class="w-4 h-4" />
+  <Remixicon.home line />
+  <Remixicon.home fill />
   ```
   """
   attr :rest, :global,
@@ -14881,10 +14881,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coins />
-  <Remixicons.coins class="w-4 h-4" />
-  <Remixicons.coins line />
-  <Remixicons.coins fill />
+  <Remixicon.coins />
+  <Remixicon.coins class="w-4 h-4" />
+  <Remixicon.coins line />
+  <Remixicon.coins fill />
   ```
   """
   attr :rest, :global,
@@ -14918,10 +14918,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.todo />
-  <Remixicons.todo class="w-4 h-4" />
-  <Remixicons.todo line />
-  <Remixicons.todo fill />
+  <Remixicon.todo />
+  <Remixicon.todo class="w-4 h-4" />
+  <Remixicon.todo line />
+  <Remixicon.todo fill />
   ```
   """
   attr :rest, :global,
@@ -14955,10 +14955,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.linkedin />
-  <Remixicons.linkedin class="w-4 h-4" />
-  <Remixicons.linkedin line />
-  <Remixicons.linkedin fill />
+  <Remixicon.linkedin />
+  <Remixicon.linkedin class="w-4 h-4" />
+  <Remixicon.linkedin line />
+  <Remixicon.linkedin fill />
   ```
   """
   attr :rest, :global,
@@ -14992,10 +14992,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_hwp />
-  <Remixicons.file_hwp class="w-4 h-4" />
-  <Remixicons.file_hwp line />
-  <Remixicons.file_hwp fill />
+  <Remixicon.file_hwp />
+  <Remixicon.file_hwp class="w-4 h-4" />
+  <Remixicon.file_hwp line />
+  <Remixicon.file_hwp fill />
   ```
   """
   attr :rest, :global,
@@ -15029,10 +15029,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_left_s />
-  <Remixicons.arrow_left_s class="w-4 h-4" />
-  <Remixicons.arrow_left_s line />
-  <Remixicons.arrow_left_s fill />
+  <Remixicon.arrow_left_s />
+  <Remixicon.arrow_left_s class="w-4 h-4" />
+  <Remixicon.arrow_left_s line />
+  <Remixicon.arrow_left_s fill />
   ```
   """
   attr :rest, :global,
@@ -15065,10 +15065,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_left />
-  <Remixicons.layout_left class="w-4 h-4" />
-  <Remixicons.layout_left line />
-  <Remixicons.layout_left fill />
+  <Remixicon.layout_left />
+  <Remixicon.layout_left class="w-4 h-4" />
+  <Remixicon.layout_left line />
+  <Remixicon.layout_left fill />
   ```
   """
   attr :rest, :global,
@@ -15102,10 +15102,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_up_left_double />
-  <Remixicons.corner_up_left_double class="w-4 h-4" />
-  <Remixicons.corner_up_left_double line />
-  <Remixicons.corner_up_left_double fill />
+  <Remixicon.corner_up_left_double />
+  <Remixicon.corner_up_left_double class="w-4 h-4" />
+  <Remixicon.corner_up_left_double line />
+  <Remixicon.corner_up_left_double fill />
   ```
   """
   attr :rest, :global,
@@ -15139,10 +15139,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rewind />
-  <Remixicons.rewind class="w-4 h-4" />
-  <Remixicons.rewind line />
-  <Remixicons.rewind fill />
+  <Remixicon.rewind />
+  <Remixicon.rewind class="w-4 h-4" />
+  <Remixicon.rewind line />
+  <Remixicon.rewind fill />
   ```
   """
   attr :rest, :global,
@@ -15176,10 +15176,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.keyboard />
-  <Remixicons.keyboard class="w-4 h-4" />
-  <Remixicons.keyboard line />
-  <Remixicons.keyboard fill />
+  <Remixicon.keyboard />
+  <Remixicon.keyboard class="w-4 h-4" />
+  <Remixicon.keyboard line />
+  <Remixicon.keyboard fill />
   ```
   """
   attr :rest, :global,
@@ -15213,10 +15213,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.terminal_box />
-  <Remixicons.terminal_box class="w-4 h-4" />
-  <Remixicons.terminal_box line />
-  <Remixicons.terminal_box fill />
+  <Remixicon.terminal_box />
+  <Remixicon.terminal_box class="w-4 h-4" />
+  <Remixicon.terminal_box line />
+  <Remixicon.terminal_box fill />
   ```
   """
   attr :rest, :global,
@@ -15250,10 +15250,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stack />
-  <Remixicons.stack class="w-4 h-4" />
-  <Remixicons.stack line />
-  <Remixicons.stack fill />
+  <Remixicon.stack />
+  <Remixicon.stack class="w-4 h-4" />
+  <Remixicon.stack line />
+  <Remixicon.stack fill />
   ```
   """
   attr :rest, :global,
@@ -15287,10 +15287,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_delete />
-  <Remixicons.chat_delete class="w-4 h-4" />
-  <Remixicons.chat_delete line />
-  <Remixicons.chat_delete fill />
+  <Remixicon.chat_delete />
+  <Remixicon.chat_delete class="w-4 h-4" />
+  <Remixicon.chat_delete line />
+  <Remixicon.chat_delete fill />
   ```
   """
   attr :rest, :global,
@@ -15324,10 +15324,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.copper_diamond />
-  <Remixicons.copper_diamond class="w-4 h-4" />
-  <Remixicons.copper_diamond line />
-  <Remixicons.copper_diamond fill />
+  <Remixicon.copper_diamond />
+  <Remixicon.copper_diamond class="w-4 h-4" />
+  <Remixicon.copper_diamond line />
+  <Remixicon.copper_diamond fill />
   ```
   """
   attr :rest, :global,
@@ -15361,10 +15361,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tiktok />
-  <Remixicons.tiktok class="w-4 h-4" />
-  <Remixicons.tiktok line />
-  <Remixicons.tiktok fill />
+  <Remixicon.tiktok />
+  <Remixicon.tiktok class="w-4 h-4" />
+  <Remixicon.tiktok line />
+  <Remixicon.tiktok fill />
   ```
   """
   attr :rest, :global,
@@ -15398,10 +15398,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mv />
-  <Remixicons.mv class="w-4 h-4" />
-  <Remixicons.mv line />
-  <Remixicons.mv fill />
+  <Remixicon.mv />
+  <Remixicon.mv class="w-4 h-4" />
+  <Remixicon.mv line />
+  <Remixicon.mv fill />
   ```
   """
   attr :rest, :global,
@@ -15435,10 +15435,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.clockwise_2 />
-  <Remixicons.clockwise_2 class="w-4 h-4" />
-  <Remixicons.clockwise_2 line />
-  <Remixicons.clockwise_2 fill />
+  <Remixicon.clockwise_2 />
+  <Remixicon.clockwise_2 class="w-4 h-4" />
+  <Remixicon.clockwise_2 line />
+  <Remixicon.clockwise_2 fill />
   ```
   """
   attr :rest, :global,
@@ -15472,10 +15472,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.message_2 />
-  <Remixicons.message_2 class="w-4 h-4" />
-  <Remixicons.message_2 line />
-  <Remixicons.message_2 fill />
+  <Remixicon.message_2 />
+  <Remixicon.message_2 class="w-4 h-4" />
+  <Remixicon.message_2 line />
+  <Remixicon.message_2 fill />
   ```
   """
   attr :rest, :global,
@@ -15509,10 +15509,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.play_list_2 />
-  <Remixicons.play_list_2 class="w-4 h-4" />
-  <Remixicons.play_list_2 line />
-  <Remixicons.play_list_2 fill />
+  <Remixicon.play_list_2 />
+  <Remixicon.play_list_2 class="w-4 h-4" />
+  <Remixicon.play_list_2 line />
+  <Remixicon.play_list_2 fill />
   ```
   """
   attr :rest, :global,
@@ -15546,10 +15546,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.notification_2 />
-  <Remixicons.notification_2 class="w-4 h-4" />
-  <Remixicons.notification_2 line />
-  <Remixicons.notification_2 fill />
+  <Remixicon.notification_2 />
+  <Remixicon.notification_2 class="w-4 h-4" />
+  <Remixicon.notification_2 line />
+  <Remixicon.notification_2 fill />
   ```
   """
   attr :rest, :global,
@@ -15583,10 +15583,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_euro_circle />
-  <Remixicons.money_euro_circle class="w-4 h-4" />
-  <Remixicons.money_euro_circle line />
-  <Remixicons.money_euro_circle fill />
+  <Remixicon.money_euro_circle />
+  <Remixicon.money_euro_circle class="w-4 h-4" />
+  <Remixicon.money_euro_circle line />
+  <Remixicon.money_euro_circle fill />
   ```
   """
   attr :rest, :global,
@@ -15620,10 +15620,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.line_chart />
-  <Remixicons.line_chart class="w-4 h-4" />
-  <Remixicons.line_chart line />
-  <Remixicons.line_chart fill />
+  <Remixicon.line_chart />
+  <Remixicon.line_chart class="w-4 h-4" />
+  <Remixicon.line_chart line />
+  <Remixicon.line_chart fill />
   ```
   """
   attr :rest, :global,
@@ -15657,10 +15657,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_info />
-  <Remixicons.folder_info class="w-4 h-4" />
-  <Remixicons.folder_info line />
-  <Remixicons.folder_info fill />
+  <Remixicon.folder_info />
+  <Remixicon.folder_info class="w-4 h-4" />
+  <Remixicon.folder_info line />
+  <Remixicon.folder_info fill />
   ```
   """
   attr :rest, :global,
@@ -15694,10 +15694,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pause_circle />
-  <Remixicons.pause_circle class="w-4 h-4" />
-  <Remixicons.pause_circle line />
-  <Remixicons.pause_circle fill />
+  <Remixicon.pause_circle />
+  <Remixicon.pause_circle class="w-4 h-4" />
+  <Remixicon.pause_circle line />
+  <Remixicon.pause_circle fill />
   ```
   """
   attr :rest, :global,
@@ -15731,10 +15731,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.brush_3 />
-  <Remixicons.brush_3 class="w-4 h-4" />
-  <Remixicons.brush_3 line />
-  <Remixicons.brush_3 fill />
+  <Remixicon.brush_3 />
+  <Remixicon.brush_3 class="w-4 h-4" />
+  <Remixicon.brush_3 line />
+  <Remixicon.brush_3 fill />
   ```
   """
   attr :rest, :global,
@@ -15768,10 +15768,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.presentation />
-  <Remixicons.presentation class="w-4 h-4" />
-  <Remixicons.presentation line />
-  <Remixicons.presentation fill />
+  <Remixicon.presentation />
+  <Remixicon.presentation class="w-4 h-4" />
+  <Remixicon.presentation line />
+  <Remixicon.presentation fill />
   ```
   """
   attr :rest, :global,
@@ -15805,10 +15805,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.briefcase_5 />
-  <Remixicons.briefcase_5 class="w-4 h-4" />
-  <Remixicons.briefcase_5 line />
-  <Remixicons.briefcase_5 fill />
+  <Remixicon.briefcase_5 />
+  <Remixicon.briefcase_5 class="w-4 h-4" />
+  <Remixicon.briefcase_5 line />
+  <Remixicon.briefcase_5 fill />
   ```
   """
   attr :rest, :global,
@@ -15842,10 +15842,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flood />
-  <Remixicons.flood class="w-4 h-4" />
-  <Remixicons.flood line />
-  <Remixicons.flood fill />
+  <Remixicon.flood />
+  <Remixicon.flood class="w-4 h-4" />
+  <Remixicon.flood line />
+  <Remixicon.flood fill />
   ```
   """
   attr :rest, :global,
@@ -15879,10 +15879,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.team />
-  <Remixicons.team class="w-4 h-4" />
-  <Remixicons.team line />
-  <Remixicons.team fill />
+  <Remixicon.team />
+  <Remixicon.team class="w-4 h-4" />
+  <Remixicon.team line />
+  <Remixicon.team fill />
   ```
   """
   attr :rest, :global,
@@ -15916,10 +15916,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_download />
-  <Remixicons.file_download class="w-4 h-4" />
-  <Remixicons.file_download line />
-  <Remixicons.file_download fill />
+  <Remixicon.file_download />
+  <Remixicon.file_download class="w-4 h-4" />
+  <Remixicon.file_download line />
+  <Remixicon.file_download fill />
   ```
   """
   attr :rest, :global,
@@ -15953,10 +15953,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_download />
-  <Remixicons.mail_download class="w-4 h-4" />
-  <Remixicons.mail_download line />
-  <Remixicons.mail_download fill />
+  <Remixicon.mail_download />
+  <Remixicon.mail_download class="w-4 h-4" />
+  <Remixicon.mail_download line />
+  <Remixicon.mail_download fill />
   ```
   """
   attr :rest, :global,
@@ -15990,10 +15990,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.toggle />
-  <Remixicons.toggle class="w-4 h-4" />
-  <Remixicons.toggle line />
-  <Remixicons.toggle fill />
+  <Remixicon.toggle />
+  <Remixicon.toggle class="w-4 h-4" />
+  <Remixicon.toggle line />
+  <Remixicon.toggle fill />
   ```
   """
   attr :rest, :global,
@@ -16027,10 +16027,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.xbox />
-  <Remixicons.xbox class="w-4 h-4" />
-  <Remixicons.xbox line />
-  <Remixicons.xbox fill />
+  <Remixicon.xbox />
+  <Remixicon.xbox class="w-4 h-4" />
+  <Remixicon.xbox line />
+  <Remixicon.xbox fill />
   ```
   """
   attr :rest, :global,
@@ -16064,10 +16064,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.unpin />
-  <Remixicons.unpin class="w-4 h-4" />
-  <Remixicons.unpin line />
-  <Remixicons.unpin fill />
+  <Remixicon.unpin />
+  <Remixicon.unpin class="w-4 h-4" />
+  <Remixicon.unpin line />
+  <Remixicon.unpin fill />
   ```
   """
   attr :rest, :global,
@@ -16101,10 +16101,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.space_ship />
-  <Remixicons.space_ship class="w-4 h-4" />
-  <Remixicons.space_ship line />
-  <Remixicons.space_ship fill />
+  <Remixicon.space_ship />
+  <Remixicon.space_ship class="w-4 h-4" />
+  <Remixicon.space_ship line />
+  <Remixicon.space_ship fill />
   ```
   """
   attr :rest, :global,
@@ -16138,10 +16138,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.replay_10 />
-  <Remixicons.replay_10 class="w-4 h-4" />
-  <Remixicons.replay_10 line />
-  <Remixicons.replay_10 fill />
+  <Remixicon.replay_10 />
+  <Remixicon.replay_10 class="w-4 h-4" />
+  <Remixicon.replay_10 line />
+  <Remixicon.replay_10 fill />
   ```
   """
   attr :rest, :global,
@@ -16175,10 +16175,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.close />
-  <Remixicons.close class="w-4 h-4" />
-  <Remixicons.close line />
-  <Remixicons.close fill />
+  <Remixicon.close />
+  <Remixicon.close class="w-4 h-4" />
+  <Remixicon.close line />
+  <Remixicon.close fill />
   ```
   """
   attr :rest, :global,
@@ -16212,10 +16212,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mini_program />
-  <Remixicons.mini_program class="w-4 h-4" />
-  <Remixicons.mini_program line />
-  <Remixicons.mini_program fill />
+  <Remixicon.mini_program />
+  <Remixicon.mini_program class="w-4 h-4" />
+  <Remixicon.mini_program line />
+  <Remixicon.mini_program fill />
   ```
   """
   attr :rest, :global,
@@ -16249,10 +16249,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shopping_bag_3 />
-  <Remixicons.shopping_bag_3 class="w-4 h-4" />
-  <Remixicons.shopping_bag_3 line />
-  <Remixicons.shopping_bag_3 fill />
+  <Remixicon.shopping_bag_3 />
+  <Remixicon.shopping_bag_3 class="w-4 h-4" />
+  <Remixicon.shopping_bag_3 line />
+  <Remixicon.shopping_bag_3 fill />
   ```
   """
   attr :rest, :global,
@@ -16286,10 +16286,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.timer_flash />
-  <Remixicons.timer_flash class="w-4 h-4" />
-  <Remixicons.timer_flash line />
-  <Remixicons.timer_flash fill />
+  <Remixicon.timer_flash />
+  <Remixicon.timer_flash class="w-4 h-4" />
+  <Remixicon.timer_flash line />
+  <Remixicon.timer_flash fill />
   ```
   """
   attr :rest, :global,
@@ -16323,10 +16323,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.broadcast />
-  <Remixicons.broadcast class="w-4 h-4" />
-  <Remixicons.broadcast line />
-  <Remixicons.broadcast fill />
+  <Remixicon.broadcast />
+  <Remixicon.broadcast class="w-4 h-4" />
+  <Remixicon.broadcast line />
+  <Remixicon.broadcast fill />
   ```
   """
   attr :rest, :global,
@@ -16360,10 +16360,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pencil_ruler />
-  <Remixicons.pencil_ruler class="w-4 h-4" />
-  <Remixicons.pencil_ruler line />
-  <Remixicons.pencil_ruler fill />
+  <Remixicon.pencil_ruler />
+  <Remixicon.pencil_ruler class="w-4 h-4" />
+  <Remixicon.pencil_ruler line />
+  <Remixicon.pencil_ruler fill />
   ```
   """
   attr :rest, :global,
@@ -16397,10 +16397,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_chart_2 />
-  <Remixicons.file_chart_2 class="w-4 h-4" />
-  <Remixicons.file_chart_2 line />
-  <Remixicons.file_chart_2 fill />
+  <Remixicon.file_chart_2 />
+  <Remixicon.file_chart_2 class="w-4 h-4" />
+  <Remixicon.file_chart_2 line />
+  <Remixicon.file_chart_2 fill />
   ```
   """
   attr :rest, :global,
@@ -16434,10 +16434,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.save_3 />
-  <Remixicons.save_3 class="w-4 h-4" />
-  <Remixicons.save_3 line />
-  <Remixicons.save_3 fill />
+  <Remixicon.save_3 />
+  <Remixicon.save_3 class="w-4 h-4" />
+  <Remixicon.save_3 line />
+  <Remixicon.save_3 fill />
   ```
   """
   attr :rest, :global,
@@ -16471,10 +16471,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_forward_mini />
-  <Remixicons.skip_forward_mini class="w-4 h-4" />
-  <Remixicons.skip_forward_mini line />
-  <Remixicons.skip_forward_mini fill />
+  <Remixicon.skip_forward_mini />
+  <Remixicon.skip_forward_mini class="w-4 h-4" />
+  <Remixicon.skip_forward_mini line />
+  <Remixicon.skip_forward_mini fill />
   ```
   """
   attr :rest, :global,
@@ -16508,10 +16508,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.knife_blood />
-  <Remixicons.knife_blood class="w-4 h-4" />
-  <Remixicons.knife_blood line />
-  <Remixicons.knife_blood fill />
+  <Remixicon.knife_blood />
+  <Remixicon.knife_blood class="w-4 h-4" />
+  <Remixicon.knife_blood line />
+  <Remixicon.knife_blood fill />
   ```
   """
   attr :rest, :global,
@@ -16545,10 +16545,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.parking_box />
-  <Remixicons.parking_box class="w-4 h-4" />
-  <Remixicons.parking_box line />
-  <Remixicons.parking_box fill />
+  <Remixicon.parking_box />
+  <Remixicon.parking_box class="w-4 h-4" />
+  <Remixicon.parking_box line />
+  <Remixicon.parking_box fill />
   ```
   """
   attr :rest, :global,
@@ -16582,10 +16582,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.advertisement />
-  <Remixicons.advertisement class="w-4 h-4" />
-  <Remixicons.advertisement line />
-  <Remixicons.advertisement fill />
+  <Remixicon.advertisement />
+  <Remixicon.advertisement class="w-4 h-4" />
+  <Remixicon.advertisement line />
+  <Remixicon.advertisement fill />
   ```
   """
   attr :rest, :global,
@@ -16619,10 +16619,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cast />
-  <Remixicons.cast class="w-4 h-4" />
-  <Remixicons.cast line />
-  <Remixicons.cast fill />
+  <Remixicon.cast />
+  <Remixicon.cast class="w-4 h-4" />
+  <Remixicon.cast line />
+  <Remixicon.cast fill />
   ```
   """
   attr :rest, :global,
@@ -16656,10 +16656,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_poll />
-  <Remixicons.chat_poll class="w-4 h-4" />
-  <Remixicons.chat_poll line />
-  <Remixicons.chat_poll fill />
+  <Remixicon.chat_poll />
+  <Remixicon.chat_poll class="w-4 h-4" />
+  <Remixicon.chat_poll line />
+  <Remixicon.chat_poll fill />
   ```
   """
   attr :rest, :global,
@@ -16693,10 +16693,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.order_play />
-  <Remixicons.order_play class="w-4 h-4" />
-  <Remixicons.order_play line />
-  <Remixicons.order_play fill />
+  <Remixicon.order_play />
+  <Remixicon.order_play class="w-4 h-4" />
+  <Remixicon.order_play line />
+  <Remixicon.order_play fill />
   ```
   """
   attr :rest, :global,
@@ -16730,10 +16730,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mickey />
-  <Remixicons.mickey class="w-4 h-4" />
-  <Remixicons.mickey line />
-  <Remixicons.mickey fill />
+  <Remixicon.mickey />
+  <Remixicon.mickey class="w-4 h-4" />
+  <Remixicon.mickey line />
+  <Remixicon.mickey fill />
   ```
   """
   attr :rest, :global,
@@ -16767,10 +16767,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.drag_drop />
-  <Remixicons.drag_drop class="w-4 h-4" />
-  <Remixicons.drag_drop line />
-  <Remixicons.drag_drop fill />
+  <Remixicon.drag_drop />
+  <Remixicon.drag_drop class="w-4 h-4" />
+  <Remixicon.drag_drop line />
+  <Remixicon.drag_drop fill />
   ```
   """
   attr :rest, :global,
@@ -16804,10 +16804,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.volume_off_vibrate />
-  <Remixicons.volume_off_vibrate class="w-4 h-4" />
-  <Remixicons.volume_off_vibrate line />
-  <Remixicons.volume_off_vibrate fill />
+  <Remixicon.volume_off_vibrate />
+  <Remixicon.volume_off_vibrate class="w-4 h-4" />
+  <Remixicon.volume_off_vibrate line />
+  <Remixicon.volume_off_vibrate fill />
   ```
   """
   attr :rest, :global,
@@ -16841,10 +16841,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.remote_control />
-  <Remixicons.remote_control class="w-4 h-4" />
-  <Remixicons.remote_control line />
-  <Remixicons.remote_control fill />
+  <Remixicon.remote_control />
+  <Remixicon.remote_control class="w-4 h-4" />
+  <Remixicon.remote_control line />
+  <Remixicon.remote_control fill />
   ```
   """
   attr :rest, :global,
@@ -16878,10 +16878,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_smile />
-  <Remixicons.user_smile class="w-4 h-4" />
-  <Remixicons.user_smile line />
-  <Remixicons.user_smile fill />
+  <Remixicon.user_smile />
+  <Remixicon.user_smile class="w-4 h-4" />
+  <Remixicon.user_smile line />
+  <Remixicon.user_smile fill />
   ```
   """
   attr :rest, :global,
@@ -16915,10 +16915,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.discuss />
-  <Remixicons.discuss class="w-4 h-4" />
-  <Remixicons.discuss line />
-  <Remixicons.discuss fill />
+  <Remixicon.discuss />
+  <Remixicon.discuss class="w-4 h-4" />
+  <Remixicon.discuss line />
+  <Remixicon.discuss fill />
   ```
   """
   attr :rest, :global,
@@ -16952,10 +16952,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bilibili />
-  <Remixicons.bilibili class="w-4 h-4" />
-  <Remixicons.bilibili line />
-  <Remixicons.bilibili fill />
+  <Remixicon.bilibili />
+  <Remixicon.bilibili class="w-4 h-4" />
+  <Remixicon.bilibili line />
+  <Remixicon.bilibili fill />
   ```
   """
   attr :rest, :global,
@@ -16989,10 +16989,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_drop_down />
-  <Remixicons.arrow_drop_down class="w-4 h-4" />
-  <Remixicons.arrow_drop_down line />
-  <Remixicons.arrow_drop_down fill />
+  <Remixicon.arrow_drop_down />
+  <Remixicon.arrow_drop_down class="w-4 h-4" />
+  <Remixicon.arrow_drop_down line />
+  <Remixicon.arrow_drop_down fill />
   ```
   """
   attr :rest, :global,
@@ -17025,10 +17025,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.equalizer />
-  <Remixicons.equalizer class="w-4 h-4" />
-  <Remixicons.equalizer line />
-  <Remixicons.equalizer fill />
+  <Remixicon.equalizer />
+  <Remixicon.equalizer class="w-4 h-4" />
+  <Remixicon.equalizer line />
+  <Remixicon.equalizer fill />
   ```
   """
   attr :rest, :global,
@@ -17062,10 +17062,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.reactjs />
-  <Remixicons.reactjs class="w-4 h-4" />
-  <Remixicons.reactjs line />
-  <Remixicons.reactjs fill />
+  <Remixicon.reactjs />
+  <Remixicon.reactjs class="w-4 h-4" />
+  <Remixicon.reactjs line />
+  <Remixicon.reactjs fill />
   ```
   """
   attr :rest, :global,
@@ -17099,10 +17099,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.star_smile />
-  <Remixicons.star_smile class="w-4 h-4" />
-  <Remixicons.star_smile line />
-  <Remixicons.star_smile fill />
+  <Remixicon.star_smile />
+  <Remixicon.star_smile class="w-4 h-4" />
+  <Remixicon.star_smile line />
+  <Remixicon.star_smile fill />
   ```
   """
   attr :rest, :global,
@@ -17136,10 +17136,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.truck />
-  <Remixicons.truck class="w-4 h-4" />
-  <Remixicons.truck line />
-  <Remixicons.truck fill />
+  <Remixicon.truck />
+  <Remixicon.truck class="w-4 h-4" />
+  <Remixicon.truck line />
+  <Remixicon.truck fill />
   ```
   """
   attr :rest, :global,
@@ -17173,10 +17173,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vip_diamond />
-  <Remixicons.vip_diamond class="w-4 h-4" />
-  <Remixicons.vip_diamond line />
-  <Remixicons.vip_diamond fill />
+  <Remixicon.vip_diamond />
+  <Remixicon.vip_diamond class="w-4 h-4" />
+  <Remixicon.vip_diamond line />
+  <Remixicon.vip_diamond fill />
   ```
   """
   attr :rest, :global,
@@ -17210,10 +17210,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.close_circle />
-  <Remixicons.close_circle class="w-4 h-4" />
-  <Remixicons.close_circle line />
-  <Remixicons.close_circle fill />
+  <Remixicon.close_circle />
+  <Remixicon.close_circle class="w-4 h-4" />
+  <Remixicon.close_circle line />
+  <Remixicon.close_circle fill />
   ```
   """
   attr :rest, :global,
@@ -17247,10 +17247,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_down_right />
-  <Remixicons.corner_down_right class="w-4 h-4" />
-  <Remixicons.corner_down_right line />
-  <Remixicons.corner_down_right fill />
+  <Remixicon.corner_down_right />
+  <Remixicon.corner_down_right class="w-4 h-4" />
+  <Remixicon.corner_down_right line />
+  <Remixicon.corner_down_right fill />
   ```
   """
   attr :rest, :global,
@@ -17284,10 +17284,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_send />
-  <Remixicons.mail_send class="w-4 h-4" />
-  <Remixicons.mail_send line />
-  <Remixicons.mail_send fill />
+  <Remixicon.mail_send />
+  <Remixicon.mail_send class="w-4 h-4" />
+  <Remixicon.mail_send line />
+  <Remixicon.mail_send fill />
   ```
   """
   attr :rest, :global,
@@ -17321,10 +17321,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pushpin_2 />
-  <Remixicons.pushpin_2 class="w-4 h-4" />
-  <Remixicons.pushpin_2 line />
-  <Remixicons.pushpin_2 fill />
+  <Remixicon.pushpin_2 />
+  <Remixicon.pushpin_2 class="w-4 h-4" />
+  <Remixicon.pushpin_2 line />
+  <Remixicon.pushpin_2 fill />
   ```
   """
   attr :rest, :global,
@@ -17357,10 +17357,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.meteor />
-  <Remixicons.meteor class="w-4 h-4" />
-  <Remixicons.meteor line />
-  <Remixicons.meteor fill />
+  <Remixicon.meteor />
+  <Remixicon.meteor class="w-4 h-4" />
+  <Remixicon.meteor line />
+  <Remixicon.meteor fill />
   ```
   """
   attr :rest, :global,
@@ -17394,10 +17394,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.camera />
-  <Remixicons.camera class="w-4 h-4" />
-  <Remixicons.camera line />
-  <Remixicons.camera fill />
+  <Remixicon.camera />
+  <Remixicon.camera class="w-4 h-4" />
+  <Remixicon.camera line />
+  <Remixicon.camera fill />
   ```
   """
   attr :rest, :global,
@@ -17431,10 +17431,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mental_health />
-  <Remixicons.mental_health class="w-4 h-4" />
-  <Remixicons.mental_health line />
-  <Remixicons.mental_health fill />
+  <Remixicon.mental_health />
+  <Remixicon.mental_health class="w-4 h-4" />
+  <Remixicon.mental_health line />
+  <Remixicon.mental_health fill />
   ```
   """
   attr :rest, :global,
@@ -17468,10 +17468,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.loop_right />
-  <Remixicons.loop_right class="w-4 h-4" />
-  <Remixicons.loop_right line />
-  <Remixicons.loop_right fill />
+  <Remixicon.loop_right />
+  <Remixicon.loop_right class="w-4 h-4" />
+  <Remixicon.loop_right line />
+  <Remixicon.loop_right fill />
   ```
   """
   attr :rest, :global,
@@ -17505,10 +17505,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dashboard_2 />
-  <Remixicons.dashboard_2 class="w-4 h-4" />
-  <Remixicons.dashboard_2 line />
-  <Remixicons.dashboard_2 fill />
+  <Remixicon.dashboard_2 />
+  <Remixicon.dashboard_2 class="w-4 h-4" />
+  <Remixicon.dashboard_2 line />
+  <Remixicon.dashboard_2 fill />
   ```
   """
   attr :rest, :global,
@@ -17542,10 +17542,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hourglass />
-  <Remixicons.hourglass class="w-4 h-4" />
-  <Remixicons.hourglass line />
-  <Remixicons.hourglass fill />
+  <Remixicon.hourglass />
+  <Remixicon.hourglass class="w-4 h-4" />
+  <Remixicon.hourglass line />
+  <Remixicon.hourglass fill />
   ```
   """
   attr :rest, :global,
@@ -17579,10 +17579,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.soundcloud />
-  <Remixicons.soundcloud class="w-4 h-4" />
-  <Remixicons.soundcloud line />
-  <Remixicons.soundcloud fill />
+  <Remixicon.soundcloud />
+  <Remixicon.soundcloud class="w-4 h-4" />
+  <Remixicon.soundcloud line />
+  <Remixicon.soundcloud fill />
   ```
   """
   attr :rest, :global,
@@ -17616,10 +17616,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_voice />
-  <Remixicons.user_voice class="w-4 h-4" />
-  <Remixicons.user_voice line />
-  <Remixicons.user_voice fill />
+  <Remixicon.user_voice />
+  <Remixicon.user_voice class="w-4 h-4" />
+  <Remixicon.user_voice line />
+  <Remixicon.user_voice fill />
   ```
   """
   attr :rest, :global,
@@ -17653,10 +17653,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flickr />
-  <Remixicons.flickr class="w-4 h-4" />
-  <Remixicons.flickr line />
-  <Remixicons.flickr fill />
+  <Remixicon.flickr />
+  <Remixicon.flickr class="w-4 h-4" />
+  <Remixicon.flickr line />
+  <Remixicon.flickr fill />
   ```
   """
   attr :rest, :global,
@@ -17690,10 +17690,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.exchange_dollar />
-  <Remixicons.exchange_dollar class="w-4 h-4" />
-  <Remixicons.exchange_dollar line />
-  <Remixicons.exchange_dollar fill />
+  <Remixicon.exchange_dollar />
+  <Remixicon.exchange_dollar class="w-4 h-4" />
+  <Remixicon.exchange_dollar line />
+  <Remixicon.exchange_dollar fill />
   ```
   """
   attr :rest, :global,
@@ -17727,10 +17727,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.switch />
-  <Remixicons.switch class="w-4 h-4" />
-  <Remixicons.switch line />
-  <Remixicons.switch fill />
+  <Remixicon.switch />
+  <Remixicon.switch class="w-4 h-4" />
+  <Remixicon.switch line />
+  <Remixicon.switch fill />
   ```
   """
   attr :rest, :global,
@@ -17764,10 +17764,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.live />
-  <Remixicons.live class="w-4 h-4" />
-  <Remixicons.live line />
-  <Remixicons.live fill />
+  <Remixicon.live />
+  <Remixicon.live class="w-4 h-4" />
+  <Remixicon.live line />
+  <Remixicon.live fill />
   ```
   """
   attr :rest, :global,
@@ -17801,10 +17801,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.signal_wifi />
-  <Remixicons.signal_wifi class="w-4 h-4" />
-  <Remixicons.signal_wifi line />
-  <Remixicons.signal_wifi fill />
+  <Remixicon.signal_wifi />
+  <Remixicon.signal_wifi class="w-4 h-4" />
+  <Remixicon.signal_wifi line />
+  <Remixicon.signal_wifi fill />
   ```
   """
   attr :rest, :global,
@@ -17838,10 +17838,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.parentheses />
-  <Remixicons.parentheses class="w-4 h-4" />
-  <Remixicons.parentheses line />
-  <Remixicons.parentheses fill />
+  <Remixicon.parentheses />
+  <Remixicon.parentheses class="w-4 h-4" />
+  <Remixicon.parentheses line />
+  <Remixicon.parentheses fill />
   ```
   """
   attr :rest, :global,
@@ -17875,10 +17875,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lungs />
-  <Remixicons.lungs class="w-4 h-4" />
-  <Remixicons.lungs line />
-  <Remixicons.lungs fill />
+  <Remixicon.lungs />
+  <Remixicon.lungs class="w-4 h-4" />
+  <Remixicon.lungs line />
+  <Remixicon.lungs fill />
   ```
   """
   attr :rest, :global,
@@ -17912,10 +17912,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ball_pen />
-  <Remixicons.ball_pen class="w-4 h-4" />
-  <Remixicons.ball_pen line />
-  <Remixicons.ball_pen fill />
+  <Remixicon.ball_pen />
+  <Remixicon.ball_pen class="w-4 h-4" />
+  <Remixicon.ball_pen line />
+  <Remixicon.ball_pen fill />
   ```
   """
   attr :rest, :global,
@@ -17949,10 +17949,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.door />
-  <Remixicons.door class="w-4 h-4" />
-  <Remixicons.door line />
-  <Remixicons.door fill />
+  <Remixicon.door />
+  <Remixicon.door class="w-4 h-4" />
+  <Remixicon.door line />
+  <Remixicon.door fill />
   ```
   """
   attr :rest, :global,
@@ -17986,10 +17986,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_lock />
-  <Remixicons.folder_lock class="w-4 h-4" />
-  <Remixicons.folder_lock line />
-  <Remixicons.folder_lock fill />
+  <Remixicon.folder_lock />
+  <Remixicon.folder_lock class="w-4 h-4" />
+  <Remixicon.folder_lock line />
+  <Remixicon.folder_lock fill />
   ```
   """
   attr :rest, :global,
@@ -18023,10 +18023,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_voice />
-  <Remixicons.chat_voice class="w-4 h-4" />
-  <Remixicons.chat_voice line />
-  <Remixicons.chat_voice fill />
+  <Remixicon.chat_voice />
+  <Remixicon.chat_voice class="w-4 h-4" />
+  <Remixicon.chat_voice line />
+  <Remixicon.chat_voice fill />
   ```
   """
   attr :rest, :global,
@@ -18060,10 +18060,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skull_2 />
-  <Remixicons.skull_2 class="w-4 h-4" />
-  <Remixicons.skull_2 line />
-  <Remixicons.skull_2 fill />
+  <Remixicon.skull_2 />
+  <Remixicon.skull_2 class="w-4 h-4" />
+  <Remixicon.skull_2 line />
+  <Remixicon.skull_2 fill />
   ```
   """
   attr :rest, :global,
@@ -18097,10 +18097,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_left_double />
-  <Remixicons.arrow_left_double class="w-4 h-4" />
-  <Remixicons.arrow_left_double line />
-  <Remixicons.arrow_left_double fill />
+  <Remixicon.arrow_left_double />
+  <Remixicon.arrow_left_double class="w-4 h-4" />
+  <Remixicon.arrow_left_double line />
+  <Remixicon.arrow_left_double fill />
   ```
   """
   attr :rest, :global,
@@ -18134,10 +18134,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.landscape />
-  <Remixicons.landscape class="w-4 h-4" />
-  <Remixicons.landscape line />
-  <Remixicons.landscape fill />
+  <Remixicon.landscape />
+  <Remixicon.landscape class="w-4 h-4" />
+  <Remixicon.landscape line />
+  <Remixicon.landscape fill />
   ```
   """
   attr :rest, :global,
@@ -18171,10 +18171,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.feedback />
-  <Remixicons.feedback class="w-4 h-4" />
-  <Remixicons.feedback line />
-  <Remixicons.feedback fill />
+  <Remixicon.feedback />
+  <Remixicon.feedback class="w-4 h-4" />
+  <Remixicon.feedback line />
+  <Remixicon.feedback fill />
   ```
   """
   attr :rest, :global,
@@ -18208,10 +18208,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.forward_30 />
-  <Remixicons.forward_30 class="w-4 h-4" />
-  <Remixicons.forward_30 line />
-  <Remixicons.forward_30 fill />
+  <Remixicon.forward_30 />
+  <Remixicon.forward_30 class="w-4 h-4" />
+  <Remixicon.forward_30 line />
+  <Remixicon.forward_30 fill />
   ```
   """
   attr :rest, :global,
@@ -18245,10 +18245,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_zip />
-  <Remixicons.file_zip class="w-4 h-4" />
-  <Remixicons.file_zip line />
-  <Remixicons.file_zip fill />
+  <Remixicon.file_zip />
+  <Remixicon.file_zip class="w-4 h-4" />
+  <Remixicon.file_zip line />
+  <Remixicon.file_zip fill />
   ```
   """
   attr :rest, :global,
@@ -18282,10 +18282,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.signal_wifi_3 />
-  <Remixicons.signal_wifi_3 class="w-4 h-4" />
-  <Remixicons.signal_wifi_3 line />
-  <Remixicons.signal_wifi_3 fill />
+  <Remixicon.signal_wifi_3 />
+  <Remixicon.signal_wifi_3 class="w-4 h-4" />
+  <Remixicon.signal_wifi_3 line />
+  <Remixicon.signal_wifi_3 fill />
   ```
   """
   attr :rest, :global,
@@ -18319,10 +18319,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.police_car />
-  <Remixicons.police_car class="w-4 h-4" />
-  <Remixicons.police_car line />
-  <Remixicons.police_car fill />
+  <Remixicon.police_car />
+  <Remixicon.police_car class="w-4 h-4" />
+  <Remixicon.police_car line />
+  <Remixicon.police_car fill />
   ```
   """
   attr :rest, :global,
@@ -18356,10 +18356,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_6 />
-  <Remixicons.user_6 class="w-4 h-4" />
-  <Remixicons.user_6 line />
-  <Remixicons.user_6 fill />
+  <Remixicon.user_6 />
+  <Remixicon.user_6 class="w-4 h-4" />
+  <Remixicon.user_6 line />
+  <Remixicon.user_6 fill />
   ```
   """
   attr :rest, :global,
@@ -18393,10 +18393,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.reserved />
-  <Remixicons.reserved class="w-4 h-4" />
-  <Remixicons.reserved line />
-  <Remixicons.reserved fill />
+  <Remixicon.reserved />
+  <Remixicon.reserved class="w-4 h-4" />
+  <Remixicon.reserved line />
+  <Remixicon.reserved fill />
   ```
   """
   attr :rest, :global,
@@ -18430,10 +18430,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bookmark_3 />
-  <Remixicons.bookmark_3 class="w-4 h-4" />
-  <Remixicons.bookmark_3 line />
-  <Remixicons.bookmark_3 fill />
+  <Remixicon.bookmark_3 />
+  <Remixicon.bookmark_3 class="w-4 h-4" />
+  <Remixicon.bookmark_3 line />
+  <Remixicon.bookmark_3 fill />
   ```
   """
   attr :rest, :global,
@@ -18467,10 +18467,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.p2p />
-  <Remixicons.p2p class="w-4 h-4" />
-  <Remixicons.p2p line />
-  <Remixicons.p2p fill />
+  <Remixicon.p2p />
+  <Remixicon.p2p class="w-4 h-4" />
+  <Remixicon.p2p line />
+  <Remixicon.p2p fill />
   ```
   """
   attr :rest, :global,
@@ -18504,10 +18504,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.angularjs />
-  <Remixicons.angularjs class="w-4 h-4" />
-  <Remixicons.angularjs line />
-  <Remixicons.angularjs fill />
+  <Remixicon.angularjs />
+  <Remixicon.angularjs class="w-4 h-4" />
+  <Remixicon.angularjs line />
+  <Remixicon.angularjs fill />
   ```
   """
   attr :rest, :global,
@@ -18541,10 +18541,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.screenshot_2 />
-  <Remixicons.screenshot_2 class="w-4 h-4" />
-  <Remixicons.screenshot_2 line />
-  <Remixicons.screenshot_2 fill />
+  <Remixicon.screenshot_2 />
+  <Remixicon.screenshot_2 class="w-4 h-4" />
+  <Remixicon.screenshot_2 line />
+  <Remixicon.screenshot_2 fill />
   ```
   """
   attr :rest, :global,
@@ -18578,10 +18578,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.luggage_cart />
-  <Remixicons.luggage_cart class="w-4 h-4" />
-  <Remixicons.luggage_cart line />
-  <Remixicons.luggage_cart fill />
+  <Remixicon.luggage_cart />
+  <Remixicon.luggage_cart class="w-4 h-4" />
+  <Remixicon.luggage_cart line />
+  <Remixicon.luggage_cart fill />
   ```
   """
   attr :rest, :global,
@@ -18615,10 +18615,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.spotify />
-  <Remixicons.spotify class="w-4 h-4" />
-  <Remixicons.spotify line />
-  <Remixicons.spotify fill />
+  <Remixicon.spotify />
+  <Remixicon.spotify class="w-4 h-4" />
+  <Remixicon.spotify line />
+  <Remixicon.spotify fill />
   ```
   """
   attr :rest, :global,
@@ -18652,10 +18652,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_left_down />
-  <Remixicons.arrow_left_down class="w-4 h-4" />
-  <Remixicons.arrow_left_down line />
-  <Remixicons.arrow_left_down fill />
+  <Remixicon.arrow_left_down />
+  <Remixicon.arrow_left_down class="w-4 h-4" />
+  <Remixicon.arrow_left_down line />
+  <Remixicon.arrow_left_down fill />
   ```
   """
   attr :rest, :global,
@@ -18689,10 +18689,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_smile_2 />
-  <Remixicons.chat_smile_2 class="w-4 h-4" />
-  <Remixicons.chat_smile_2 line />
-  <Remixicons.chat_smile_2 fill />
+  <Remixicon.chat_smile_2 />
+  <Remixicon.chat_smile_2 class="w-4 h-4" />
+  <Remixicon.chat_smile_2 line />
+  <Remixicon.chat_smile_2 fill />
   ```
   """
   attr :rest, :global,
@@ -18726,10 +18726,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.charging_pile />
-  <Remixicons.charging_pile class="w-4 h-4" />
-  <Remixicons.charging_pile line />
-  <Remixicons.charging_pile fill />
+  <Remixicon.charging_pile />
+  <Remixicon.charging_pile class="w-4 h-4" />
+  <Remixicon.charging_pile line />
+  <Remixicon.charging_pile fill />
   ```
   """
   attr :rest, :global,
@@ -18763,10 +18763,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ruler />
-  <Remixicons.ruler class="w-4 h-4" />
-  <Remixicons.ruler line />
-  <Remixicons.ruler fill />
+  <Remixicon.ruler />
+  <Remixicon.ruler class="w-4 h-4" />
+  <Remixicon.ruler line />
+  <Remixicon.ruler fill />
   ```
   """
   attr :rest, :global,
@@ -18800,10 +18800,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.battery_2_charge />
-  <Remixicons.battery_2_charge class="w-4 h-4" />
-  <Remixicons.battery_2_charge line />
-  <Remixicons.battery_2_charge fill />
+  <Remixicon.battery_2_charge />
+  <Remixicon.battery_2_charge class="w-4 h-4" />
+  <Remixicon.battery_2_charge line />
+  <Remixicon.battery_2_charge fill />
   ```
   """
   attr :rest, :global,
@@ -18837,10 +18837,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.kakao_talk />
-  <Remixicons.kakao_talk class="w-4 h-4" />
-  <Remixicons.kakao_talk line />
-  <Remixicons.kakao_talk fill />
+  <Remixicon.kakao_talk />
+  <Remixicon.kakao_talk class="w-4 h-4" />
+  <Remixicon.kakao_talk line />
+  <Remixicon.kakao_talk fill />
   ```
   """
   attr :rest, :global,
@@ -18874,10 +18874,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.forward_15 />
-  <Remixicons.forward_15 class="w-4 h-4" />
-  <Remixicons.forward_15 line />
-  <Remixicons.forward_15 fill />
+  <Remixicon.forward_15 />
+  <Remixicon.forward_15 class="w-4 h-4" />
+  <Remixicon.forward_15 line />
+  <Remixicon.forward_15 fill />
   ```
   """
   attr :rest, :global,
@@ -18911,10 +18911,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.e_bike />
-  <Remixicons.e_bike class="w-4 h-4" />
-  <Remixicons.e_bike line />
-  <Remixicons.e_bike fill />
+  <Remixicon.e_bike />
+  <Remixicon.e_bike class="w-4 h-4" />
+  <Remixicon.e_bike line />
+  <Remixicon.e_bike fill />
   ```
   """
   attr :rest, :global,
@@ -18948,10 +18948,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.divide />
-  <Remixicons.divide class="w-4 h-4" />
-  <Remixicons.divide line />
-  <Remixicons.divide fill />
+  <Remixicon.divide />
+  <Remixicon.divide class="w-4 h-4" />
+  <Remixicon.divide line />
+  <Remixicon.divide fill />
   ```
   """
   attr :rest, :global,
@@ -18985,10 +18985,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bard />
-  <Remixicons.bard class="w-4 h-4" />
-  <Remixicons.bard line />
-  <Remixicons.bard fill />
+  <Remixicon.bard />
+  <Remixicon.bard class="w-4 h-4" />
+  <Remixicon.bard line />
+  <Remixicon.bard fill />
   ```
   """
   attr :rest, :global,
@@ -19022,10 +19022,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shirt />
-  <Remixicons.shirt class="w-4 h-4" />
-  <Remixicons.shirt line />
-  <Remixicons.shirt fill />
+  <Remixicon.shirt />
+  <Remixicon.shirt class="w-4 h-4" />
+  <Remixicon.shirt line />
+  <Remixicon.shirt fill />
   ```
   """
   attr :rest, :global,
@@ -19059,10 +19059,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_reduce />
-  <Remixicons.folder_reduce class="w-4 h-4" />
-  <Remixicons.folder_reduce line />
-  <Remixicons.folder_reduce fill />
+  <Remixicon.folder_reduce />
+  <Remixicon.folder_reduce class="w-4 h-4" />
+  <Remixicon.folder_reduce line />
+  <Remixicon.folder_reduce fill />
   ```
   """
   attr :rest, :global,
@@ -19096,10 +19096,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.facebook_box />
-  <Remixicons.facebook_box class="w-4 h-4" />
-  <Remixicons.facebook_box line />
-  <Remixicons.facebook_box fill />
+  <Remixicon.facebook_box />
+  <Remixicon.facebook_box class="w-4 h-4" />
+  <Remixicon.facebook_box line />
+  <Remixicon.facebook_box fill />
   ```
   """
   attr :rest, :global,
@@ -19133,10 +19133,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dashboard />
-  <Remixicons.dashboard class="w-4 h-4" />
-  <Remixicons.dashboard line />
-  <Remixicons.dashboard fill />
+  <Remixicon.dashboard />
+  <Remixicon.dashboard class="w-4 h-4" />
+  <Remixicon.dashboard line />
+  <Remixicon.dashboard fill />
   ```
   """
   attr :rest, :global,
@@ -19170,10 +19170,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_drop_left />
-  <Remixicons.arrow_drop_left class="w-4 h-4" />
-  <Remixicons.arrow_drop_left line />
-  <Remixicons.arrow_drop_left fill />
+  <Remixicon.arrow_drop_left />
+  <Remixicon.arrow_drop_left class="w-4 h-4" />
+  <Remixicon.arrow_drop_left line />
+  <Remixicon.arrow_drop_left fill />
   ```
   """
   attr :rest, :global,
@@ -19206,10 +19206,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.refund />
-  <Remixicons.refund class="w-4 h-4" />
-  <Remixicons.refund line />
-  <Remixicons.refund fill />
+  <Remixicon.refund />
+  <Remixicon.refund class="w-4 h-4" />
+  <Remixicon.refund line />
+  <Remixicon.refund fill />
   ```
   """
   attr :rest, :global,
@@ -19243,10 +19243,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_left />
-  <Remixicons.skip_left class="w-4 h-4" />
-  <Remixicons.skip_left line />
-  <Remixicons.skip_left fill />
+  <Remixicon.skip_left />
+  <Remixicon.skip_left class="w-4 h-4" />
+  <Remixicon.skip_left line />
+  <Remixicon.skip_left fill />
   ```
   """
   attr :rest, :global,
@@ -19279,10 +19279,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.camera_2 />
-  <Remixicons.camera_2 class="w-4 h-4" />
-  <Remixicons.camera_2 line />
-  <Remixicons.camera_2 fill />
+  <Remixicon.camera_2 />
+  <Remixicon.camera_2 class="w-4 h-4" />
+  <Remixicon.camera_2 line />
+  <Remixicon.camera_2 fill />
   ```
   """
   attr :rest, :global,
@@ -19316,10 +19316,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.aliens />
-  <Remixicons.aliens class="w-4 h-4" />
-  <Remixicons.aliens line />
-  <Remixicons.aliens fill />
+  <Remixicon.aliens />
+  <Remixicon.aliens class="w-4 h-4" />
+  <Remixicon.aliens line />
+  <Remixicon.aliens fill />
   ```
   """
   attr :rest, :global,
@@ -19353,10 +19353,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.water_flash />
-  <Remixicons.water_flash class="w-4 h-4" />
-  <Remixicons.water_flash line />
-  <Remixicons.water_flash fill />
+  <Remixicon.water_flash />
+  <Remixicon.water_flash class="w-4 h-4" />
+  <Remixicon.water_flash line />
+  <Remixicon.water_flash fill />
   ```
   """
   attr :rest, :global,
@@ -19390,10 +19390,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_smile_3 />
-  <Remixicons.chat_smile_3 class="w-4 h-4" />
-  <Remixicons.chat_smile_3 line />
-  <Remixicons.chat_smile_3 fill />
+  <Remixicon.chat_smile_3 />
+  <Remixicon.chat_smile_3 class="w-4 h-4" />
+  <Remixicon.chat_smile_3 line />
+  <Remixicon.chat_smile_3 fill />
   ```
   """
   attr :rest, :global,
@@ -19427,10 +19427,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.messenger />
-  <Remixicons.messenger class="w-4 h-4" />
-  <Remixicons.messenger line />
-  <Remixicons.messenger fill />
+  <Remixicon.messenger />
+  <Remixicon.messenger class="w-4 h-4" />
+  <Remixicon.messenger line />
+  <Remixicon.messenger fill />
   ```
   """
   attr :rest, :global,
@@ -19464,10 +19464,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.play_list_add />
-  <Remixicons.play_list_add class="w-4 h-4" />
-  <Remixicons.play_list_add line />
-  <Remixicons.play_list_add fill />
+  <Remixicon.play_list_add />
+  <Remixicon.play_list_add class="w-4 h-4" />
+  <Remixicon.play_list_add line />
+  <Remixicon.play_list_add fill />
   ```
   """
   attr :rest, :global,
@@ -19501,10 +19501,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.draft />
-  <Remixicons.draft class="w-4 h-4" />
-  <Remixicons.draft line />
-  <Remixicons.draft fill />
+  <Remixicon.draft />
+  <Remixicon.draft class="w-4 h-4" />
+  <Remixicon.draft line />
+  <Remixicon.draft fill />
   ```
   """
   attr :rest, :global,
@@ -19538,10 +19538,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.keyboard_box />
-  <Remixicons.keyboard_box class="w-4 h-4" />
-  <Remixicons.keyboard_box line />
-  <Remixicons.keyboard_box fill />
+  <Remixicon.keyboard_box />
+  <Remixicon.keyboard_box class="w-4 h-4" />
+  <Remixicon.keyboard_box line />
+  <Remixicon.keyboard_box fill />
   ```
   """
   attr :rest, :global,
@@ -19575,10 +19575,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.price_tag_3 />
-  <Remixicons.price_tag_3 class="w-4 h-4" />
-  <Remixicons.price_tag_3 line />
-  <Remixicons.price_tag_3 fill />
+  <Remixicon.price_tag_3 />
+  <Remixicon.price_tag_3 class="w-4 h-4" />
+  <Remixicon.price_tag_3 line />
+  <Remixicon.price_tag_3 fill />
   ```
   """
   attr :rest, :global,
@@ -19612,10 +19612,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.phone />
-  <Remixicons.phone class="w-4 h-4" />
-  <Remixicons.phone line />
-  <Remixicons.phone fill />
+  <Remixicon.phone />
+  <Remixicon.phone class="w-4 h-4" />
+  <Remixicon.phone line />
+  <Remixicon.phone fill />
   ```
   """
   attr :rest, :global,
@@ -19649,10 +19649,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wechat />
-  <Remixicons.wechat class="w-4 h-4" />
-  <Remixicons.wechat line />
-  <Remixicons.wechat fill />
+  <Remixicon.wechat />
+  <Remixicon.wechat class="w-4 h-4" />
+  <Remixicon.wechat line />
+  <Remixicon.wechat fill />
   ```
   """
   attr :rest, :global,
@@ -19686,10 +19686,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_user />
-  <Remixicons.folder_user class="w-4 h-4" />
-  <Remixicons.folder_user line />
-  <Remixicons.folder_user fill />
+  <Remixicon.folder_user />
+  <Remixicon.folder_user class="w-4 h-4" />
+  <Remixicon.folder_user line />
+  <Remixicon.folder_user fill />
   ```
   """
   attr :rest, :global,
@@ -19723,10 +19723,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.battery_charge />
-  <Remixicons.battery_charge class="w-4 h-4" />
-  <Remixicons.battery_charge line />
-  <Remixicons.battery_charge fill />
+  <Remixicon.battery_charge />
+  <Remixicon.battery_charge class="w-4 h-4" />
+  <Remixicon.battery_charge line />
+  <Remixicon.battery_charge fill />
   ```
   """
   attr :rest, :global,
@@ -19760,10 +19760,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scales />
-  <Remixicons.scales class="w-4 h-4" />
-  <Remixicons.scales line />
-  <Remixicons.scales fill />
+  <Remixicon.scales />
+  <Remixicon.scales class="w-4 h-4" />
+  <Remixicon.scales line />
+  <Remixicon.scales fill />
   ```
   """
   attr :rest, :global,
@@ -19797,10 +19797,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.reply_all />
-  <Remixicons.reply_all class="w-4 h-4" />
-  <Remixicons.reply_all line />
-  <Remixicons.reply_all fill />
+  <Remixicon.reply_all />
+  <Remixicon.reply_all class="w-4 h-4" />
+  <Remixicon.reply_all line />
+  <Remixicon.reply_all fill />
   ```
   """
   attr :rest, :global,
@@ -19834,10 +19834,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.t_shirt_air />
-  <Remixicons.t_shirt_air class="w-4 h-4" />
-  <Remixicons.t_shirt_air line />
-  <Remixicons.t_shirt_air fill />
+  <Remixicon.t_shirt_air />
+  <Remixicon.t_shirt_air class="w-4 h-4" />
+  <Remixicon.t_shirt_air line />
+  <Remixicon.t_shirt_air fill />
   ```
   """
   attr :rest, :global,
@@ -19871,10 +19871,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.haze_2 />
-  <Remixicons.haze_2 class="w-4 h-4" />
-  <Remixicons.haze_2 line />
-  <Remixicons.haze_2 fill />
+  <Remixicon.haze_2 />
+  <Remixicon.haze_2 class="w-4 h-4" />
+  <Remixicon.haze_2 line />
+  <Remixicon.haze_2 fill />
   ```
   """
   attr :rest, :global,
@@ -19908,10 +19908,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.movie_2 />
-  <Remixicons.movie_2 class="w-4 h-4" />
-  <Remixicons.movie_2 line />
-  <Remixicons.movie_2 fill />
+  <Remixicon.movie_2 />
+  <Remixicon.movie_2 class="w-4 h-4" />
+  <Remixicon.movie_2 line />
+  <Remixicon.movie_2 fill />
   ```
   """
   attr :rest, :global,
@@ -19945,10 +19945,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_dollar_circle />
-  <Remixicons.money_dollar_circle class="w-4 h-4" />
-  <Remixicons.money_dollar_circle line />
-  <Remixicons.money_dollar_circle fill />
+  <Remixicon.money_dollar_circle />
+  <Remixicon.money_dollar_circle class="w-4 h-4" />
+  <Remixicon.money_dollar_circle line />
+  <Remixicon.money_dollar_circle fill />
   ```
   """
   attr :rest, :global,
@@ -19982,10 +19982,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.forbid_2 />
-  <Remixicons.forbid_2 class="w-4 h-4" />
-  <Remixicons.forbid_2 line />
-  <Remixicons.forbid_2 fill />
+  <Remixicon.forbid_2 />
+  <Remixicon.forbid_2 class="w-4 h-4" />
+  <Remixicon.forbid_2 line />
+  <Remixicon.forbid_2 fill />
   ```
   """
   attr :rest, :global,
@@ -20019,10 +20019,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lightbulb_flash />
-  <Remixicons.lightbulb_flash class="w-4 h-4" />
-  <Remixicons.lightbulb_flash line />
-  <Remixicons.lightbulb_flash fill />
+  <Remixicon.lightbulb_flash />
+  <Remixicon.lightbulb_flash class="w-4 h-4" />
+  <Remixicon.lightbulb_flash line />
+  <Remixicon.lightbulb_flash fill />
   ```
   """
   attr :rest, :global,
@@ -20056,10 +20056,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.netease_cloud_music />
-  <Remixicons.netease_cloud_music class="w-4 h-4" />
-  <Remixicons.netease_cloud_music line />
-  <Remixicons.netease_cloud_music fill />
+  <Remixicon.netease_cloud_music />
+  <Remixicon.netease_cloud_music class="w-4 h-4" />
+  <Remixicon.netease_cloud_music line />
+  <Remixicon.netease_cloud_music fill />
   ```
   """
   attr :rest, :global,
@@ -20093,10 +20093,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu_2 />
-  <Remixicons.menu_2 class="w-4 h-4" />
-  <Remixicons.menu_2 line />
-  <Remixicons.menu_2 fill />
+  <Remixicon.menu_2 />
+  <Remixicon.menu_2 class="w-4 h-4" />
+  <Remixicon.menu_2 line />
+  <Remixicon.menu_2 fill />
   ```
   """
   attr :rest, :global,
@@ -20128,10 +20128,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.patreon />
-  <Remixicons.patreon class="w-4 h-4" />
-  <Remixicons.patreon line />
-  <Remixicons.patreon fill />
+  <Remixicon.patreon />
+  <Remixicon.patreon class="w-4 h-4" />
+  <Remixicon.patreon line />
+  <Remixicon.patreon fill />
   ```
   """
   attr :rest, :global,
@@ -20165,10 +20165,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_6 />
-  <Remixicons.layout_6 class="w-4 h-4" />
-  <Remixicons.layout_6 line />
-  <Remixicons.layout_6 fill />
+  <Remixicon.layout_6 />
+  <Remixicon.layout_6 class="w-4 h-4" />
+  <Remixicon.layout_6 line />
+  <Remixicon.layout_6 fill />
   ```
   """
   attr :rest, :global,
@@ -20202,10 +20202,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bus />
-  <Remixicons.bus class="w-4 h-4" />
-  <Remixicons.bus line />
-  <Remixicons.bus fill />
+  <Remixicon.bus />
+  <Remixicon.bus class="w-4 h-4" />
+  <Remixicon.bus line />
+  <Remixicon.bus fill />
   ```
   """
   attr :rest, :global,
@@ -20239,10 +20239,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.taobao />
-  <Remixicons.taobao class="w-4 h-4" />
-  <Remixicons.taobao line />
-  <Remixicons.taobao fill />
+  <Remixicon.taobao />
+  <Remixicon.taobao class="w-4 h-4" />
+  <Remixicon.taobao line />
+  <Remixicon.taobao fill />
   ```
   """
   attr :rest, :global,
@@ -20276,10 +20276,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_up_right />
-  <Remixicons.corner_up_right class="w-4 h-4" />
-  <Remixicons.corner_up_right line />
-  <Remixicons.corner_up_right fill />
+  <Remixicon.corner_up_right />
+  <Remixicon.corner_up_right class="w-4 h-4" />
+  <Remixicon.corner_up_right line />
+  <Remixicon.corner_up_right fill />
   ```
   """
   attr :rest, :global,
@@ -20313,10 +20313,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.phone_find />
-  <Remixicons.phone_find class="w-4 h-4" />
-  <Remixicons.phone_find line />
-  <Remixicons.phone_find fill />
+  <Remixicon.phone_find />
+  <Remixicon.phone_find class="w-4 h-4" />
+  <Remixicon.phone_find line />
+  <Remixicon.phone_find fill />
   ```
   """
   attr :rest, :global,
@@ -20350,10 +20350,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_forbid />
-  <Remixicons.mail_forbid class="w-4 h-4" />
-  <Remixicons.mail_forbid line />
-  <Remixicons.mail_forbid fill />
+  <Remixicon.mail_forbid />
+  <Remixicon.mail_forbid class="w-4 h-4" />
+  <Remixicon.mail_forbid line />
+  <Remixicon.mail_forbid fill />
   ```
   """
   attr :rest, :global,
@@ -20387,10 +20387,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.compass_3 />
-  <Remixicons.compass_3 class="w-4 h-4" />
-  <Remixicons.compass_3 line />
-  <Remixicons.compass_3 fill />
+  <Remixicon.compass_3 />
+  <Remixicon.compass_3 class="w-4 h-4" />
+  <Remixicon.compass_3 line />
+  <Remixicon.compass_3 fill />
   ```
   """
   attr :rest, :global,
@@ -20424,10 +20424,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.eye />
-  <Remixicons.eye class="w-4 h-4" />
-  <Remixicons.eye line />
-  <Remixicons.eye fill />
+  <Remixicon.eye />
+  <Remixicon.eye class="w-4 h-4" />
+  <Remixicon.eye line />
+  <Remixicon.eye fill />
   ```
   """
   attr :rest, :global,
@@ -20461,10 +20461,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tape />
-  <Remixicons.tape class="w-4 h-4" />
-  <Remixicons.tape line />
-  <Remixicons.tape fill />
+  <Remixicon.tape />
+  <Remixicon.tape class="w-4 h-4" />
+  <Remixicon.tape line />
+  <Remixicon.tape fill />
   ```
   """
   attr :rest, :global,
@@ -20498,10 +20498,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_bottom />
-  <Remixicons.layout_bottom class="w-4 h-4" />
-  <Remixicons.layout_bottom line />
-  <Remixicons.layout_bottom fill />
+  <Remixicon.layout_bottom />
+  <Remixicon.layout_bottom class="w-4 h-4" />
+  <Remixicon.layout_bottom line />
+  <Remixicon.layout_bottom fill />
   ```
   """
   attr :rest, :global,
@@ -20535,10 +20535,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.terminal />
-  <Remixicons.terminal class="w-4 h-4" />
-  <Remixicons.terminal line />
-  <Remixicons.terminal fill />
+  <Remixicon.terminal />
+  <Remixicon.terminal class="w-4 h-4" />
+  <Remixicon.terminal line />
+  <Remixicon.terminal fill />
   ```
   """
   attr :rest, :global,
@@ -20572,10 +20572,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.microsoft_loop />
-  <Remixicons.microsoft_loop class="w-4 h-4" />
-  <Remixicons.microsoft_loop line />
-  <Remixicons.microsoft_loop fill />
+  <Remixicon.microsoft_loop />
+  <Remixicon.microsoft_loop class="w-4 h-4" />
+  <Remixicon.microsoft_loop line />
+  <Remixicon.microsoft_loop fill />
   ```
   """
   attr :rest, :global,
@@ -20609,10 +20609,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.copilot />
-  <Remixicons.copilot class="w-4 h-4" />
-  <Remixicons.copilot line />
-  <Remixicons.copilot fill />
+  <Remixicon.copilot />
+  <Remixicon.copilot class="w-4 h-4" />
+  <Remixicon.copilot line />
+  <Remixicon.copilot fill />
   ```
   """
   attr :rest, :global,
@@ -20646,10 +20646,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_range />
-  <Remixicons.map_pin_range class="w-4 h-4" />
-  <Remixicons.map_pin_range line />
-  <Remixicons.map_pin_range fill />
+  <Remixicon.map_pin_range />
+  <Remixicon.map_pin_range class="w-4 h-4" />
+  <Remixicon.map_pin_range line />
+  <Remixicon.map_pin_range fill />
   ```
   """
   attr :rest, :global,
@@ -20683,10 +20683,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bootstrap />
-  <Remixicons.bootstrap class="w-4 h-4" />
-  <Remixicons.bootstrap line />
-  <Remixicons.bootstrap fill />
+  <Remixicon.bootstrap />
+  <Remixicon.bootstrap class="w-4 h-4" />
+  <Remixicon.bootstrap line />
+  <Remixicon.bootstrap fill />
   ```
   """
   attr :rest, :global,
@@ -20720,10 +20720,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.compasses_2 />
-  <Remixicons.compasses_2 class="w-4 h-4" />
-  <Remixicons.compasses_2 line />
-  <Remixicons.compasses_2 fill />
+  <Remixicon.compasses_2 />
+  <Remixicon.compasses_2 class="w-4 h-4" />
+  <Remixicon.compasses_2 line />
+  <Remixicon.compasses_2 fill />
   ```
   """
   attr :rest, :global,
@@ -20757,10 +20757,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.medicine_bottle />
-  <Remixicons.medicine_bottle class="w-4 h-4" />
-  <Remixicons.medicine_bottle line />
-  <Remixicons.medicine_bottle fill />
+  <Remixicon.medicine_bottle />
+  <Remixicon.medicine_bottle class="w-4 h-4" />
+  <Remixicon.medicine_bottle line />
+  <Remixicon.medicine_bottle fill />
   ```
   """
   attr :rest, :global,
@@ -20794,10 +20794,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.goblet />
-  <Remixicons.goblet class="w-4 h-4" />
-  <Remixicons.goblet line />
-  <Remixicons.goblet fill />
+  <Remixicon.goblet />
+  <Remixicon.goblet class="w-4 h-4" />
+  <Remixicon.goblet line />
+  <Remixicon.goblet fill />
   ```
   """
   attr :rest, :global,
@@ -20831,10 +20831,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.route />
-  <Remixicons.route class="w-4 h-4" />
-  <Remixicons.route line />
-  <Remixicons.route fill />
+  <Remixicon.route />
+  <Remixicon.route class="w-4 h-4" />
+  <Remixicon.route line />
+  <Remixicon.route fill />
   ```
   """
   attr :rest, :global,
@@ -20868,10 +20868,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dual_sim_1 />
-  <Remixicons.dual_sim_1 class="w-4 h-4" />
-  <Remixicons.dual_sim_1 line />
-  <Remixicons.dual_sim_1 fill />
+  <Remixicon.dual_sim_1 />
+  <Remixicon.dual_sim_1 class="w-4 h-4" />
+  <Remixicon.dual_sim_1 line />
+  <Remixicon.dual_sim_1 fill />
   ```
   """
   attr :rest, :global,
@@ -20905,10 +20905,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.parking />
-  <Remixicons.parking class="w-4 h-4" />
-  <Remixicons.parking line />
-  <Remixicons.parking fill />
+  <Remixicon.parking />
+  <Remixicon.parking class="w-4 h-4" />
+  <Remixicon.parking line />
+  <Remixicon.parking fill />
   ```
   """
   attr :rest, :global,
@@ -20942,10 +20942,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.search_2 />
-  <Remixicons.search_2 class="w-4 h-4" />
-  <Remixicons.search_2 line />
-  <Remixicons.search_2 fill />
+  <Remixicon.search_2 />
+  <Remixicon.search_2 class="w-4 h-4" />
+  <Remixicon.search_2 line />
+  <Remixicon.search_2 fill />
   ```
   """
   attr :rest, :global,
@@ -20979,10 +20979,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_bin_6 />
-  <Remixicons.delete_bin_6 class="w-4 h-4" />
-  <Remixicons.delete_bin_6 line />
-  <Remixicons.delete_bin_6 fill />
+  <Remixicon.delete_bin_6 />
+  <Remixicon.delete_bin_6 class="w-4 h-4" />
+  <Remixicon.delete_bin_6 line />
+  <Remixicon.delete_bin_6 fill />
   ```
   """
   attr :rest, :global,
@@ -21016,10 +21016,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pen_nib />
-  <Remixicons.pen_nib class="w-4 h-4" />
-  <Remixicons.pen_nib line />
-  <Remixicons.pen_nib fill />
+  <Remixicon.pen_nib />
+  <Remixicon.pen_nib class="w-4 h-4" />
+  <Remixicon.pen_nib line />
+  <Remixicon.pen_nib fill />
   ```
   """
   attr :rest, :global,
@@ -21053,10 +21053,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.settings />
-  <Remixicons.settings class="w-4 h-4" />
-  <Remixicons.settings line />
-  <Remixicons.settings fill />
+  <Remixicon.settings />
+  <Remixicon.settings class="w-4 h-4" />
+  <Remixicon.settings line />
+  <Remixicon.settings fill />
   ```
   """
   attr :rest, :global,
@@ -21090,10 +21090,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail />
-  <Remixicons.mail class="w-4 h-4" />
-  <Remixicons.mail line />
-  <Remixicons.mail fill />
+  <Remixicon.mail />
+  <Remixicon.mail class="w-4 h-4" />
+  <Remixicon.mail line />
+  <Remixicon.mail fill />
   ```
   """
   attr :rest, :global,
@@ -21127,10 +21127,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contract_right />
-  <Remixicons.contract_right class="w-4 h-4" />
-  <Remixicons.contract_right line />
-  <Remixicons.contract_right fill />
+  <Remixicon.contract_right />
+  <Remixicon.contract_right class="w-4 h-4" />
+  <Remixicon.contract_right line />
+  <Remixicon.contract_right fill />
   ```
   """
   attr :rest, :global,
@@ -21164,10 +21164,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_4 />
-  <Remixicons.file_4 class="w-4 h-4" />
-  <Remixicons.file_4 line />
-  <Remixicons.file_4 fill />
+  <Remixicon.file_4 />
+  <Remixicon.file_4 class="w-4 h-4" />
+  <Remixicon.file_4 line />
+  <Remixicon.file_4 fill />
   ```
   """
   attr :rest, :global,
@@ -21201,10 +21201,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_back />
-  <Remixicons.delete_back class="w-4 h-4" />
-  <Remixicons.delete_back line />
-  <Remixicons.delete_back fill />
+  <Remixicon.delete_back />
+  <Remixicon.delete_back class="w-4 h-4" />
+  <Remixicon.delete_back line />
+  <Remixicon.delete_back fill />
   ```
   """
   attr :rest, :global,
@@ -21238,10 +21238,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gitlab />
-  <Remixicons.gitlab class="w-4 h-4" />
-  <Remixicons.gitlab line />
-  <Remixicons.gitlab fill />
+  <Remixicon.gitlab />
+  <Remixicon.gitlab class="w-4 h-4" />
+  <Remixicon.gitlab line />
+  <Remixicon.gitlab fill />
   ```
   """
   attr :rest, :global,
@@ -21275,10 +21275,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.screenshot />
-  <Remixicons.screenshot class="w-4 h-4" />
-  <Remixicons.screenshot line />
-  <Remixicons.screenshot fill />
+  <Remixicon.screenshot />
+  <Remixicon.screenshot class="w-4 h-4" />
+  <Remixicon.screenshot line />
+  <Remixicon.screenshot fill />
   ```
   """
   attr :rest, :global,
@@ -21312,10 +21312,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.paypal />
-  <Remixicons.paypal class="w-4 h-4" />
-  <Remixicons.paypal line />
-  <Remixicons.paypal fill />
+  <Remixicon.paypal />
+  <Remixicon.paypal class="w-4 h-4" />
+  <Remixicon.paypal line />
+  <Remixicon.paypal fill />
   ```
   """
   attr :rest, :global,
@@ -21349,10 +21349,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.slow_down />
-  <Remixicons.slow_down class="w-4 h-4" />
-  <Remixicons.slow_down line />
-  <Remixicons.slow_down fill />
+  <Remixicon.slow_down />
+  <Remixicon.slow_down class="w-4 h-4" />
+  <Remixicon.slow_down line />
+  <Remixicon.slow_down fill />
   ```
   """
   attr :rest, :global,
@@ -21386,10 +21386,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wallet />
-  <Remixicons.wallet class="w-4 h-4" />
-  <Remixicons.wallet line />
-  <Remixicons.wallet fill />
+  <Remixicon.wallet />
+  <Remixicon.wallet class="w-4 h-4" />
+  <Remixicon.wallet line />
+  <Remixicon.wallet fill />
   ```
   """
   attr :rest, :global,
@@ -21423,10 +21423,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.e_bike_2 />
-  <Remixicons.e_bike_2 class="w-4 h-4" />
-  <Remixicons.e_bike_2 line />
-  <Remixicons.e_bike_2 fill />
+  <Remixicon.e_bike_2 />
+  <Remixicon.e_bike_2 class="w-4 h-4" />
+  <Remixicon.e_bike_2 line />
+  <Remixicon.e_bike_2 fill />
   ```
   """
   attr :rest, :global,
@@ -21460,10 +21460,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.slideshow_2 />
-  <Remixicons.slideshow_2 class="w-4 h-4" />
-  <Remixicons.slideshow_2 line />
-  <Remixicons.slideshow_2 fill />
+  <Remixicon.slideshow_2 />
+  <Remixicon.slideshow_2 class="w-4 h-4" />
+  <Remixicon.slideshow_2 line />
+  <Remixicon.slideshow_2 fill />
   ```
   """
   attr :rest, :global,
@@ -21497,10 +21497,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_row />
-  <Remixicons.layout_row class="w-4 h-4" />
-  <Remixicons.layout_row line />
-  <Remixicons.layout_row fill />
+  <Remixicon.layout_row />
+  <Remixicon.layout_row class="w-4 h-4" />
+  <Remixicon.layout_row line />
+  <Remixicon.layout_row fill />
   ```
   """
   attr :rest, :global,
@@ -21534,10 +21534,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.basketball />
-  <Remixicons.basketball class="w-4 h-4" />
-  <Remixicons.basketball line />
-  <Remixicons.basketball fill />
+  <Remixicon.basketball />
+  <Remixicon.basketball class="w-4 h-4" />
+  <Remixicon.basketball line />
+  <Remixicon.basketball fill />
   ```
   """
   attr :rest, :global,
@@ -21571,10 +21571,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.trademark />
-  <Remixicons.trademark class="w-4 h-4" />
-  <Remixicons.trademark line />
-  <Remixicons.trademark fill />
+  <Remixicon.trademark />
+  <Remixicon.trademark class="w-4 h-4" />
+  <Remixicon.trademark line />
+  <Remixicon.trademark fill />
   ```
   """
   attr :rest, :global,
@@ -21608,10 +21608,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scales_2 />
-  <Remixicons.scales_2 class="w-4 h-4" />
-  <Remixicons.scales_2 line />
-  <Remixicons.scales_2 fill />
+  <Remixicon.scales_2 />
+  <Remixicon.scales_2 class="w-4 h-4" />
+  <Remixicon.scales_2 line />
+  <Remixicon.scales_2 fill />
   ```
   """
   attr :rest, :global,
@@ -21645,10 +21645,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.settings_4 />
-  <Remixicons.settings_4 class="w-4 h-4" />
-  <Remixicons.settings_4 line />
-  <Remixicons.settings_4 fill />
+  <Remixicon.settings_4 />
+  <Remixicon.settings_4 class="w-4 h-4" />
+  <Remixicon.settings_4 line />
+  <Remixicon.settings_4 fill />
   ```
   """
   attr :rest, :global,
@@ -21682,10 +21682,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.recycle />
-  <Remixicons.recycle class="w-4 h-4" />
-  <Remixicons.recycle line />
-  <Remixicons.recycle fill />
+  <Remixicon.recycle />
+  <Remixicon.recycle class="w-4 h-4" />
+  <Remixicon.recycle line />
+  <Remixicon.recycle fill />
   ```
   """
   attr :rest, :global,
@@ -21719,10 +21719,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sword />
-  <Remixicons.sword class="w-4 h-4" />
-  <Remixicons.sword line />
-  <Remixicons.sword fill />
+  <Remixicon.sword />
+  <Remixicon.sword class="w-4 h-4" />
+  <Remixicon.sword line />
+  <Remixicon.sword fill />
   ```
   """
   attr :rest, :global,
@@ -21756,10 +21756,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.roadster />
-  <Remixicons.roadster class="w-4 h-4" />
-  <Remixicons.roadster line />
-  <Remixicons.roadster fill />
+  <Remixicon.roadster />
+  <Remixicon.roadster class="w-4 h-4" />
+  <Remixicon.roadster line />
+  <Remixicon.roadster fill />
   ```
   """
   attr :rest, :global,
@@ -21793,10 +21793,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.playstation />
-  <Remixicons.playstation class="w-4 h-4" />
-  <Remixicons.playstation line />
-  <Remixicons.playstation fill />
+  <Remixicon.playstation />
+  <Remixicon.playstation class="w-4 h-4" />
+  <Remixicon.playstation line />
+  <Remixicon.playstation fill />
   ```
   """
   attr :rest, :global,
@@ -21830,10 +21830,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.printer_cloud />
-  <Remixicons.printer_cloud class="w-4 h-4" />
-  <Remixicons.printer_cloud line />
-  <Remixicons.printer_cloud fill />
+  <Remixicon.printer_cloud />
+  <Remixicon.printer_cloud class="w-4 h-4" />
+  <Remixicon.printer_cloud line />
+  <Remixicon.printer_cloud fill />
   ```
   """
   attr :rest, :global,
@@ -21867,10 +21867,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pie_chart_2 />
-  <Remixicons.pie_chart_2 class="w-4 h-4" />
-  <Remixicons.pie_chart_2 line />
-  <Remixicons.pie_chart_2 fill />
+  <Remixicon.pie_chart_2 />
+  <Remixicon.pie_chart_2 class="w-4 h-4" />
+  <Remixicon.pie_chart_2 line />
+  <Remixicon.pie_chart_2 fill />
   ```
   """
   attr :rest, :global,
@@ -21904,10 +21904,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.price_tag_2 />
-  <Remixicons.price_tag_2 class="w-4 h-4" />
-  <Remixicons.price_tag_2 line />
-  <Remixicons.price_tag_2 fill />
+  <Remixicon.price_tag_2 />
+  <Remixicon.price_tag_2 class="w-4 h-4" />
+  <Remixicon.price_tag_2 line />
+  <Remixicon.price_tag_2 fill />
   ```
   """
   attr :rest, :global,
@@ -21941,10 +21941,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.haze />
-  <Remixicons.haze class="w-4 h-4" />
-  <Remixicons.haze line />
-  <Remixicons.haze fill />
+  <Remixicon.haze />
+  <Remixicon.haze class="w-4 h-4" />
+  <Remixicon.haze line />
+  <Remixicon.haze fill />
   ```
   """
   attr :rest, :global,
@@ -21978,10 +21978,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.links />
-  <Remixicons.links class="w-4 h-4" />
-  <Remixicons.links line />
-  <Remixicons.links fill />
+  <Remixicon.links />
+  <Remixicon.links class="w-4 h-4" />
+  <Remixicon.links line />
+  <Remixicon.links fill />
   ```
   """
   attr :rest, :global,
@@ -22015,10 +22015,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_chart />
-  <Remixicons.folder_chart class="w-4 h-4" />
-  <Remixicons.folder_chart line />
-  <Remixicons.folder_chart fill />
+  <Remixicon.folder_chart />
+  <Remixicon.folder_chart class="w-4 h-4" />
+  <Remixicon.folder_chart line />
+  <Remixicon.folder_chart fill />
   ```
   """
   attr :rest, :global,
@@ -22052,10 +22052,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emotion_sad />
-  <Remixicons.emotion_sad class="w-4 h-4" />
-  <Remixicons.emotion_sad line />
-  <Remixicons.emotion_sad fill />
+  <Remixicon.emotion_sad />
+  <Remixicon.emotion_sad class="w-4 h-4" />
+  <Remixicon.emotion_sad line />
+  <Remixicon.emotion_sad fill />
   ```
   """
   attr :rest, :global,
@@ -22089,10 +22089,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.xing />
-  <Remixicons.xing class="w-4 h-4" />
-  <Remixicons.xing line />
-  <Remixicons.xing fill />
+  <Remixicon.xing />
+  <Remixicon.xing class="w-4 h-4" />
+  <Remixicon.xing line />
+  <Remixicon.xing fill />
   ```
   """
   attr :rest, :global,
@@ -22126,10 +22126,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_damage />
-  <Remixicons.file_damage class="w-4 h-4" />
-  <Remixicons.file_damage line />
-  <Remixicons.file_damage fill />
+  <Remixicon.file_damage />
+  <Remixicon.file_damage class="w-4 h-4" />
+  <Remixicon.file_damage line />
+  <Remixicon.file_damage fill />
   ```
   """
   attr :rest, :global,
@@ -22163,10 +22163,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.copyleft />
-  <Remixicons.copyleft class="w-4 h-4" />
-  <Remixicons.copyleft line />
-  <Remixicons.copyleft fill />
+  <Remixicon.copyleft />
+  <Remixicon.copyleft class="w-4 h-4" />
+  <Remixicon.copyleft line />
+  <Remixicon.copyleft fill />
   ```
   """
   attr :rest, :global,
@@ -22200,10 +22200,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.checkbox_indeterminate />
-  <Remixicons.checkbox_indeterminate class="w-4 h-4" />
-  <Remixicons.checkbox_indeterminate line />
-  <Remixicons.checkbox_indeterminate fill />
+  <Remixicon.checkbox_indeterminate />
+  <Remixicon.checkbox_indeterminate class="w-4 h-4" />
+  <Remixicon.checkbox_indeterminate line />
+  <Remixicon.checkbox_indeterminate fill />
   ```
   """
   attr :rest, :global,
@@ -22237,10 +22237,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shopping_cart />
-  <Remixicons.shopping_cart class="w-4 h-4" />
-  <Remixicons.shopping_cart line />
-  <Remixicons.shopping_cart fill />
+  <Remixicon.shopping_cart />
+  <Remixicon.shopping_cart class="w-4 h-4" />
+  <Remixicon.shopping_cart line />
+  <Remixicon.shopping_cart fill />
   ```
   """
   attr :rest, :global,
@@ -22274,10 +22274,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wifi_off />
-  <Remixicons.wifi_off class="w-4 h-4" />
-  <Remixicons.wifi_off line />
-  <Remixicons.wifi_off fill />
+  <Remixicon.wifi_off />
+  <Remixicon.wifi_off class="w-4 h-4" />
+  <Remixicon.wifi_off line />
+  <Remixicon.wifi_off fill />
   ```
   """
   attr :rest, :global,
@@ -22311,10 +22311,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_left_down />
-  <Remixicons.corner_left_down class="w-4 h-4" />
-  <Remixicons.corner_left_down line />
-  <Remixicons.corner_left_down fill />
+  <Remixicon.corner_left_down />
+  <Remixicon.corner_left_down class="w-4 h-4" />
+  <Remixicon.corner_left_down line />
+  <Remixicon.corner_left_down fill />
   ```
   """
   attr :rest, :global,
@@ -22348,10 +22348,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_heart />
-  <Remixicons.home_heart class="w-4 h-4" />
-  <Remixicons.home_heart line />
-  <Remixicons.home_heart fill />
+  <Remixicon.home_heart />
+  <Remixicon.home_heart class="w-4 h-4" />
+  <Remixicon.home_heart line />
+  <Remixicon.home_heart fill />
   ```
   """
   attr :rest, :global,
@@ -22385,10 +22385,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_pound_circle />
-  <Remixicons.money_pound_circle class="w-4 h-4" />
-  <Remixicons.money_pound_circle line />
-  <Remixicons.money_pound_circle fill />
+  <Remixicon.money_pound_circle />
+  <Remixicon.money_pound_circle class="w-4 h-4" />
+  <Remixicon.money_pound_circle line />
+  <Remixicon.money_pound_circle fill />
   ```
   """
   attr :rest, :global,
@@ -22422,10 +22422,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_smile />
-  <Remixicons.home_smile class="w-4 h-4" />
-  <Remixicons.home_smile line />
-  <Remixicons.home_smile fill />
+  <Remixicon.home_smile />
+  <Remixicon.home_smile class="w-4 h-4" />
+  <Remixicon.home_smile line />
+  <Remixicon.home_smile fill />
   ```
   """
   attr :rest, :global,
@@ -22459,10 +22459,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folders />
-  <Remixicons.folders class="w-4 h-4" />
-  <Remixicons.folders line />
-  <Remixicons.folders fill />
+  <Remixicon.folders />
+  <Remixicon.folders class="w-4 h-4" />
+  <Remixicon.folders line />
+  <Remixicon.folders fill />
   ```
   """
   attr :rest, :global,
@@ -22496,10 +22496,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.briefcase_4 />
-  <Remixicons.briefcase_4 class="w-4 h-4" />
-  <Remixicons.briefcase_4 line />
-  <Remixicons.briefcase_4 fill />
+  <Remixicon.briefcase_4 />
+  <Remixicon.briefcase_4 class="w-4 h-4" />
+  <Remixicon.briefcase_4 line />
+  <Remixicon.briefcase_4 fill />
   ```
   """
   attr :rest, :global,
@@ -22533,10 +22533,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.heart />
-  <Remixicons.heart class="w-4 h-4" />
-  <Remixicons.heart line />
-  <Remixicons.heart fill />
+  <Remixicon.heart />
+  <Remixicon.heart class="w-4 h-4" />
+  <Remixicon.heart line />
+  <Remixicon.heart fill />
   ```
   """
   attr :rest, :global,
@@ -22570,10 +22570,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.nurse />
-  <Remixicons.nurse class="w-4 h-4" />
-  <Remixicons.nurse line />
-  <Remixicons.nurse fill />
+  <Remixicon.nurse />
+  <Remixicon.nurse class="w-4 h-4" />
+  <Remixicon.nurse line />
+  <Remixicon.nurse fill />
   ```
   """
   attr :rest, :global,
@@ -22607,10 +22607,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ubuntu />
-  <Remixicons.ubuntu class="w-4 h-4" />
-  <Remixicons.ubuntu line />
-  <Remixicons.ubuntu fill />
+  <Remixicon.ubuntu />
+  <Remixicon.ubuntu class="w-4 h-4" />
+  <Remixicon.ubuntu line />
+  <Remixicon.ubuntu fill />
   ```
   """
   attr :rest, :global,
@@ -22644,10 +22644,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.funds />
-  <Remixicons.funds class="w-4 h-4" />
-  <Remixicons.funds line />
-  <Remixicons.funds fill />
+  <Remixicon.funds />
+  <Remixicon.funds class="w-4 h-4" />
+  <Remixicon.funds line />
+  <Remixicon.funds fill />
   ```
   """
   attr :rest, :global,
@@ -22681,10 +22681,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_received />
-  <Remixicons.user_received class="w-4 h-4" />
-  <Remixicons.user_received line />
-  <Remixicons.user_received fill />
+  <Remixicon.user_received />
+  <Remixicon.user_received class="w-4 h-4" />
+  <Remixicon.user_received line />
+  <Remixicon.user_received fill />
   ```
   """
   attr :rest, :global,
@@ -22718,10 +22718,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.opera />
-  <Remixicons.opera class="w-4 h-4" />
-  <Remixicons.opera line />
-  <Remixicons.opera fill />
+  <Remixicon.opera />
+  <Remixicon.opera class="w-4 h-4" />
+  <Remixicon.opera line />
+  <Remixicon.opera fill />
   ```
   """
   attr :rest, :global,
@@ -22755,10 +22755,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu_4 />
-  <Remixicons.menu_4 class="w-4 h-4" />
-  <Remixicons.menu_4 line />
-  <Remixicons.menu_4 fill />
+  <Remixicon.menu_4 />
+  <Remixicon.menu_4 class="w-4 h-4" />
+  <Remixicon.menu_4 line />
+  <Remixicon.menu_4 fill />
   ```
   """
   attr :rest, :global,
@@ -22790,10 +22790,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dingding />
-  <Remixicons.dingding class="w-4 h-4" />
-  <Remixicons.dingding line />
-  <Remixicons.dingding fill />
+  <Remixicon.dingding />
+  <Remixicon.dingding class="w-4 h-4" />
+  <Remixicon.dingding line />
+  <Remixicon.dingding fill />
   ```
   """
   attr :rest, :global,
@@ -22827,10 +22827,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.blur_off />
-  <Remixicons.blur_off class="w-4 h-4" />
-  <Remixicons.blur_off line />
-  <Remixicons.blur_off fill />
+  <Remixicon.blur_off />
+  <Remixicon.blur_off class="w-4 h-4" />
+  <Remixicon.blur_off line />
+  <Remixicon.blur_off fill />
   ```
   """
   attr :rest, :global,
@@ -22864,10 +22864,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.battery_saver />
-  <Remixicons.battery_saver class="w-4 h-4" />
-  <Remixicons.battery_saver line />
-  <Remixicons.battery_saver fill />
+  <Remixicon.battery_saver />
+  <Remixicon.battery_saver class="w-4 h-4" />
+  <Remixicon.battery_saver line />
+  <Remixicon.battery_saver fill />
   ```
   """
   attr :rest, :global,
@@ -22901,10 +22901,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.signal_wifi_2 />
-  <Remixicons.signal_wifi_2 class="w-4 h-4" />
-  <Remixicons.signal_wifi_2 line />
-  <Remixicons.signal_wifi_2 fill />
+  <Remixicon.signal_wifi_2 />
+  <Remixicon.signal_wifi_2 class="w-4 h-4" />
+  <Remixicon.signal_wifi_2 line />
+  <Remixicon.signal_wifi_2 fill />
   ```
   """
   attr :rest, :global,
@@ -22938,10 +22938,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.group_2 />
-  <Remixicons.group_2 class="w-4 h-4" />
-  <Remixicons.group_2 line />
-  <Remixicons.group_2 fill />
+  <Remixicon.group_2 />
+  <Remixicon.group_2 class="w-4 h-4" />
+  <Remixicon.group_2 line />
+  <Remixicon.group_2 fill />
   ```
   """
   attr :rest, :global,
@@ -22975,10 +22975,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu />
-  <Remixicons.menu class="w-4 h-4" />
-  <Remixicons.menu line />
-  <Remixicons.menu fill />
+  <Remixicon.menu />
+  <Remixicon.menu class="w-4 h-4" />
+  <Remixicon.menu line />
+  <Remixicon.menu fill />
   ```
   """
   attr :rest, :global,
@@ -23010,10 +23010,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.restaurant />
-  <Remixicons.restaurant class="w-4 h-4" />
-  <Remixicons.restaurant line />
-  <Remixicons.restaurant fill />
+  <Remixicon.restaurant />
+  <Remixicon.restaurant class="w-4 h-4" />
+  <Remixicon.restaurant line />
+  <Remixicon.restaurant fill />
   ```
   """
   attr :rest, :global,
@@ -23047,10 +23047,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_cloud />
-  <Remixicons.file_cloud class="w-4 h-4" />
-  <Remixicons.file_cloud line />
-  <Remixicons.file_cloud fill />
+  <Remixicon.file_cloud />
+  <Remixicon.file_cloud class="w-4 h-4" />
+  <Remixicon.file_cloud line />
+  <Remixicon.file_cloud fill />
   ```
   """
   attr :rest, :global,
@@ -23084,10 +23084,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.eject />
-  <Remixicons.eject class="w-4 h-4" />
-  <Remixicons.eject line />
-  <Remixicons.eject fill />
+  <Remixicon.eject />
+  <Remixicon.eject class="w-4 h-4" />
+  <Remixicon.eject line />
+  <Remixicon.eject fill />
   ```
   """
   attr :rest, :global,
@@ -23121,10 +23121,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.play_circle />
-  <Remixicons.play_circle class="w-4 h-4" />
-  <Remixicons.play_circle line />
-  <Remixicons.play_circle fill />
+  <Remixicon.play_circle />
+  <Remixicon.play_circle class="w-4 h-4" />
+  <Remixicon.play_circle line />
+  <Remixicon.play_circle fill />
   ```
   """
   attr :rest, :global,
@@ -23158,10 +23158,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sim_card_2 />
-  <Remixicons.sim_card_2 class="w-4 h-4" />
-  <Remixicons.sim_card_2 line />
-  <Remixicons.sim_card_2 fill />
+  <Remixicon.sim_card_2 />
+  <Remixicon.sim_card_2 class="w-4 h-4" />
+  <Remixicon.sim_card_2 line />
+  <Remixicon.sim_card_2 fill />
   ```
   """
   attr :rest, :global,
@@ -23195,10 +23195,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_up />
-  <Remixicons.arrow_up class="w-4 h-4" />
-  <Remixicons.arrow_up line />
-  <Remixicons.arrow_up fill />
+  <Remixicon.arrow_up />
+  <Remixicon.arrow_up class="w-4 h-4" />
+  <Remixicon.arrow_up line />
+  <Remixicon.arrow_up fill />
   ```
   """
   attr :rest, :global,
@@ -23231,10 +23231,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_3 />
-  <Remixicons.home_3 class="w-4 h-4" />
-  <Remixicons.home_3 line />
-  <Remixicons.home_3 fill />
+  <Remixicon.home_3 />
+  <Remixicon.home_3 class="w-4 h-4" />
+  <Remixicon.home_3 line />
+  <Remixicon.home_3 fill />
   ```
   """
   attr :rest, :global,
@@ -23268,10 +23268,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.radio_2 />
-  <Remixicons.radio_2 class="w-4 h-4" />
-  <Remixicons.radio_2 line />
-  <Remixicons.radio_2 fill />
+  <Remixicon.radio_2 />
+  <Remixicon.radio_2 class="w-4 h-4" />
+  <Remixicon.radio_2 line />
+  <Remixicon.radio_2 fill />
   ```
   """
   attr :rest, :global,
@@ -23305,10 +23305,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hearts />
-  <Remixicons.hearts class="w-4 h-4" />
-  <Remixicons.hearts line />
-  <Remixicons.hearts fill />
+  <Remixicon.hearts />
+  <Remixicon.hearts class="w-4 h-4" />
+  <Remixicon.hearts line />
+  <Remixicon.hearts fill />
   ```
   """
   attr :rest, :global,
@@ -23342,10 +23342,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.creative_commons_sa />
-  <Remixicons.creative_commons_sa class="w-4 h-4" />
-  <Remixicons.creative_commons_sa line />
-  <Remixicons.creative_commons_sa fill />
+  <Remixicon.creative_commons_sa />
+  <Remixicon.creative_commons_sa class="w-4 h-4" />
+  <Remixicon.creative_commons_sa line />
+  <Remixicon.creative_commons_sa fill />
   ```
   """
   attr :rest, :global,
@@ -23379,10 +23379,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.fullscreen />
-  <Remixicons.fullscreen class="w-4 h-4" />
-  <Remixicons.fullscreen line />
-  <Remixicons.fullscreen fill />
+  <Remixicon.fullscreen />
+  <Remixicon.fullscreen class="w-4 h-4" />
+  <Remixicon.fullscreen line />
+  <Remixicon.fullscreen fill />
   ```
   """
   attr :rest, :global,
@@ -23416,10 +23416,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.taxi />
-  <Remixicons.taxi class="w-4 h-4" />
-  <Remixicons.taxi line />
-  <Remixicons.taxi fill />
+  <Remixicon.taxi />
+  <Remixicon.taxi class="w-4 h-4" />
+  <Remixicon.taxi line />
+  <Remixicon.taxi fill />
   ```
   """
   attr :rest, :global,
@@ -23453,10 +23453,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_down_circle />
-  <Remixicons.arrow_down_circle class="w-4 h-4" />
-  <Remixicons.arrow_down_circle line />
-  <Remixicons.arrow_down_circle fill />
+  <Remixicon.arrow_down_circle />
+  <Remixicon.arrow_down_circle class="w-4 h-4" />
+  <Remixicon.arrow_down_circle line />
+  <Remixicon.arrow_down_circle fill />
   ```
   """
   attr :rest, :global,
@@ -23490,10 +23490,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.leaf />
-  <Remixicons.leaf class="w-4 h-4" />
-  <Remixicons.leaf line />
-  <Remixicons.leaf fill />
+  <Remixicon.leaf />
+  <Remixicon.leaf class="w-4 h-4" />
+  <Remixicon.leaf line />
+  <Remixicon.leaf fill />
   ```
   """
   attr :rest, :global,
@@ -23527,10 +23527,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.uninstall />
-  <Remixicons.uninstall class="w-4 h-4" />
-  <Remixicons.uninstall line />
-  <Remixicons.uninstall fill />
+  <Remixicon.uninstall />
+  <Remixicon.uninstall class="w-4 h-4" />
+  <Remixicon.uninstall line />
+  <Remixicon.uninstall fill />
   ```
   """
   attr :rest, :global,
@@ -23564,10 +23564,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shape_2 />
-  <Remixicons.shape_2 class="w-4 h-4" />
-  <Remixicons.shape_2 line />
-  <Remixicons.shape_2 fill />
+  <Remixicon.shape_2 />
+  <Remixicon.shape_2 class="w-4 h-4" />
+  <Remixicon.shape_2 line />
+  <Remixicon.shape_2 fill />
   ```
   """
   attr :rest, :global,
@@ -23601,10 +23601,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.billiards />
-  <Remixicons.billiards class="w-4 h-4" />
-  <Remixicons.billiards line />
-  <Remixicons.billiards fill />
+  <Remixicon.billiards />
+  <Remixicon.billiards class="w-4 h-4" />
+  <Remixicon.billiards line />
+  <Remixicon.billiards fill />
   ```
   """
   attr :rest, :global,
@@ -23638,10 +23638,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_warning />
-  <Remixicons.folder_warning class="w-4 h-4" />
-  <Remixicons.folder_warning line />
-  <Remixicons.folder_warning fill />
+  <Remixicon.folder_warning />
+  <Remixicon.folder_warning class="w-4 h-4" />
+  <Remixicon.folder_warning line />
+  <Remixicon.folder_warning fill />
   ```
   """
   attr :rest, :global,
@@ -23675,10 +23675,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.showers />
-  <Remixicons.showers class="w-4 h-4" />
-  <Remixicons.showers line />
-  <Remixicons.showers fill />
+  <Remixicon.showers />
+  <Remixicon.showers class="w-4 h-4" />
+  <Remixicon.showers line />
+  <Remixicon.showers fill />
   ```
   """
   attr :rest, :global,
@@ -23712,10 +23712,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.camera_switch />
-  <Remixicons.camera_switch class="w-4 h-4" />
-  <Remixicons.camera_switch line />
-  <Remixicons.camera_switch fill />
+  <Remixicon.camera_switch />
+  <Remixicon.camera_switch class="w-4 h-4" />
+  <Remixicon.camera_switch line />
+  <Remixicon.camera_switch fill />
   ```
   """
   attr :rest, :global,
@@ -23749,10 +23749,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.google_play />
-  <Remixicons.google_play class="w-4 h-4" />
-  <Remixicons.google_play line />
-  <Remixicons.google_play fill />
+  <Remixicon.google_play />
+  <Remixicon.google_play class="w-4 h-4" />
+  <Remixicon.google_play line />
+  <Remixicon.google_play fill />
   ```
   """
   attr :rest, :global,
@@ -23786,10 +23786,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.image_edit />
-  <Remixicons.image_edit class="w-4 h-4" />
-  <Remixicons.image_edit line />
-  <Remixicons.image_edit fill />
+  <Remixicon.image_edit />
+  <Remixicon.image_edit class="w-4 h-4" />
+  <Remixicon.image_edit line />
+  <Remixicon.image_edit fill />
   ```
   """
   attr :rest, :global,
@@ -23823,10 +23823,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.code />
-  <Remixicons.code class="w-4 h-4" />
-  <Remixicons.code line />
-  <Remixicons.code fill />
+  <Remixicon.code />
+  <Remixicon.code class="w-4 h-4" />
+  <Remixicon.code line />
+  <Remixicon.code fill />
   ```
   """
   attr :rest, :global,
@@ -23860,10 +23860,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.heart_pulse />
-  <Remixicons.heart_pulse class="w-4 h-4" />
-  <Remixicons.heart_pulse line />
-  <Remixicons.heart_pulse fill />
+  <Remixicon.heart_pulse />
+  <Remixicon.heart_pulse class="w-4 h-4" />
+  <Remixicon.heart_pulse line />
+  <Remixicon.heart_pulse fill />
   ```
   """
   attr :rest, :global,
@@ -23897,10 +23897,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.install />
-  <Remixicons.install class="w-4 h-4" />
-  <Remixicons.install line />
-  <Remixicons.install fill />
+  <Remixicon.install />
+  <Remixicon.install class="w-4 h-4" />
+  <Remixicon.install line />
+  <Remixicon.install fill />
   ```
   """
   attr :rest, :global,
@@ -23934,10 +23934,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.replay_5 />
-  <Remixicons.replay_5 class="w-4 h-4" />
-  <Remixicons.replay_5 line />
-  <Remixicons.replay_5 fill />
+  <Remixicon.replay_5 />
+  <Remixicon.replay_5 class="w-4 h-4" />
+  <Remixicon.replay_5 line />
+  <Remixicon.replay_5 fill />
   ```
   """
   attr :rest, :global,
@@ -23971,10 +23971,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.direction />
-  <Remixicons.direction class="w-4 h-4" />
-  <Remixicons.direction line />
-  <Remixicons.direction fill />
+  <Remixicon.direction />
+  <Remixicon.direction class="w-4 h-4" />
+  <Remixicon.direction line />
+  <Remixicon.direction fill />
   ```
   """
   attr :rest, :global,
@@ -24008,10 +24008,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_go_back />
-  <Remixicons.arrow_go_back class="w-4 h-4" />
-  <Remixicons.arrow_go_back line />
-  <Remixicons.arrow_go_back fill />
+  <Remixicon.arrow_go_back />
+  <Remixicon.arrow_go_back class="w-4 h-4" />
+  <Remixicon.arrow_go_back line />
+  <Remixicon.arrow_go_back fill />
   ```
   """
   attr :rest, :global,
@@ -24045,10 +24045,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.question />
-  <Remixicons.question class="w-4 h-4" />
-  <Remixicons.question line />
-  <Remixicons.question fill />
+  <Remixicon.question />
+  <Remixicon.question class="w-4 h-4" />
+  <Remixicon.question line />
+  <Remixicon.question fill />
   ```
   """
   attr :rest, :global,
@@ -24082,10 +24082,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_unfollow />
-  <Remixicons.user_unfollow class="w-4 h-4" />
-  <Remixicons.user_unfollow line />
-  <Remixicons.user_unfollow fill />
+  <Remixicon.user_unfollow />
+  <Remixicon.user_unfollow class="w-4 h-4" />
+  <Remixicon.user_unfollow line />
+  <Remixicon.user_unfollow fill />
   ```
   """
   attr :rest, :global,
@@ -24119,10 +24119,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.settings_6 />
-  <Remixicons.settings_6 class="w-4 h-4" />
-  <Remixicons.settings_6 line />
-  <Remixicons.settings_6 fill />
+  <Remixicon.settings_6 />
+  <Remixicon.settings_6 class="w-4 h-4" />
+  <Remixicon.settings_6 line />
+  <Remixicon.settings_6 fill />
   ```
   """
   attr :rest, :global,
@@ -24156,10 +24156,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_warning />
-  <Remixicons.file_warning class="w-4 h-4" />
-  <Remixicons.file_warning line />
-  <Remixicons.file_warning fill />
+  <Remixicon.file_warning />
+  <Remixicon.file_warning class="w-4 h-4" />
+  <Remixicon.file_warning line />
+  <Remixicon.file_warning fill />
   ```
   """
   attr :rest, :global,
@@ -24193,10 +24193,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shut_down />
-  <Remixicons.shut_down class="w-4 h-4" />
-  <Remixicons.shut_down line />
-  <Remixicons.shut_down fill />
+  <Remixicon.shut_down />
+  <Remixicon.shut_down class="w-4 h-4" />
+  <Remixicon.shut_down line />
+  <Remixicon.shut_down fill />
   ```
   """
   attr :rest, :global,
@@ -24230,10 +24230,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.firefox />
-  <Remixicons.firefox class="w-4 h-4" />
-  <Remixicons.firefox line />
-  <Remixicons.firefox fill />
+  <Remixicon.firefox />
+  <Remixicon.firefox class="w-4 h-4" />
+  <Remixicon.firefox line />
+  <Remixicon.firefox fill />
   ```
   """
   attr :rest, :global,
@@ -24267,10 +24267,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_paper_2 />
-  <Remixicons.file_paper_2 class="w-4 h-4" />
-  <Remixicons.file_paper_2 line />
-  <Remixicons.file_paper_2 fill />
+  <Remixicon.file_paper_2 />
+  <Remixicon.file_paper_2 class="w-4 h-4" />
+  <Remixicon.file_paper_2 line />
+  <Remixicon.file_paper_2 fill />
   ```
   """
   attr :rest, :global,
@@ -24304,10 +24304,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.filter />
-  <Remixicons.filter class="w-4 h-4" />
-  <Remixicons.filter line />
-  <Remixicons.filter fill />
+  <Remixicon.filter />
+  <Remixicon.filter class="w-4 h-4" />
+  <Remixicon.filter line />
+  <Remixicon.filter fill />
   ```
   """
   attr :rest, :global,
@@ -24340,10 +24340,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_time />
-  <Remixicons.map_pin_time class="w-4 h-4" />
-  <Remixicons.map_pin_time line />
-  <Remixicons.map_pin_time fill />
+  <Remixicon.map_pin_time />
+  <Remixicon.map_pin_time class="w-4 h-4" />
+  <Remixicon.map_pin_time line />
+  <Remixicon.map_pin_time fill />
   ```
   """
   attr :rest, :global,
@@ -24377,10 +24377,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.disqus />
-  <Remixicons.disqus class="w-4 h-4" />
-  <Remixicons.disqus line />
-  <Remixicons.disqus fill />
+  <Remixicon.disqus />
+  <Remixicon.disqus class="w-4 h-4" />
+  <Remixicon.disqus line />
+  <Remixicon.disqus fill />
   ```
   """
   attr :rest, :global,
@@ -24414,10 +24414,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bike />
-  <Remixicons.bike class="w-4 h-4" />
-  <Remixicons.bike line />
-  <Remixicons.bike fill />
+  <Remixicon.bike />
+  <Remixicon.bike class="w-4 h-4" />
+  <Remixicon.bike line />
+  <Remixicon.bike fill />
   ```
   """
   attr :rest, :global,
@@ -24451,10 +24451,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.star_half_s />
-  <Remixicons.star_half_s class="w-4 h-4" />
-  <Remixicons.star_half_s line />
-  <Remixicons.star_half_s fill />
+  <Remixicon.star_half_s />
+  <Remixicon.star_half_s class="w-4 h-4" />
+  <Remixicon.star_half_s line />
+  <Remixicon.star_half_s fill />
   ```
   """
   attr :rest, :global,
@@ -24488,10 +24488,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wordpress />
-  <Remixicons.wordpress class="w-4 h-4" />
-  <Remixicons.wordpress line />
-  <Remixicons.wordpress fill />
+  <Remixicon.wordpress />
+  <Remixicon.wordpress class="w-4 h-4" />
+  <Remixicon.wordpress line />
+  <Remixicon.wordpress fill />
   ```
   """
   attr :rest, :global,
@@ -24525,10 +24525,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.signal_wifi_off />
-  <Remixicons.signal_wifi_off class="w-4 h-4" />
-  <Remixicons.signal_wifi_off line />
-  <Remixicons.signal_wifi_off fill />
+  <Remixicon.signal_wifi_off />
+  <Remixicon.signal_wifi_off class="w-4 h-4" />
+  <Remixicon.signal_wifi_off line />
+  <Remixicon.signal_wifi_off fill />
   ```
   """
   attr :rest, :global,
@@ -24562,10 +24562,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.forward_5 />
-  <Remixicons.forward_5 class="w-4 h-4" />
-  <Remixicons.forward_5 line />
-  <Remixicons.forward_5 fill />
+  <Remixicon.forward_5 />
+  <Remixicon.forward_5 class="w-4 h-4" />
+  <Remixicon.forward_5 line />
+  <Remixicon.forward_5 fill />
   ```
   """
   attr :rest, :global,
@@ -24599,10 +24599,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_open />
-  <Remixicons.mail_open class="w-4 h-4" />
-  <Remixicons.mail_open line />
-  <Remixicons.mail_open fill />
+  <Remixicon.mail_open />
+  <Remixicon.mail_open class="w-4 h-4" />
+  <Remixicon.mail_open line />
+  <Remixicon.mail_open fill />
   ```
   """
   attr :rest, :global,
@@ -24636,10 +24636,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.more />
-  <Remixicons.more class="w-4 h-4" />
-  <Remixicons.more line />
-  <Remixicons.more fill />
+  <Remixicon.more />
+  <Remixicon.more class="w-4 h-4" />
+  <Remixicon.more line />
+  <Remixicon.more fill />
   ```
   """
   attr :rest, :global,
@@ -24673,10 +24673,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_excel_2 />
-  <Remixicons.file_excel_2 class="w-4 h-4" />
-  <Remixicons.file_excel_2 line />
-  <Remixicons.file_excel_2 fill />
+  <Remixicon.file_excel_2 />
+  <Remixicon.file_excel_2 class="w-4 h-4" />
+  <Remixicon.file_excel_2 line />
+  <Remixicon.file_excel_2 fill />
   ```
   """
   attr :rest, :global,
@@ -24710,10 +24710,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_6 />
-  <Remixicons.home_6 class="w-4 h-4" />
-  <Remixicons.home_6 line />
-  <Remixicons.home_6 fill />
+  <Remixicon.home_6 />
+  <Remixicon.home_6 class="w-4 h-4" />
+  <Remixicon.home_6 line />
+  <Remixicon.home_6 fill />
   ```
   """
   attr :rest, :global,
@@ -24747,10 +24747,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.newspaper />
-  <Remixicons.newspaper class="w-4 h-4" />
-  <Remixicons.newspaper line />
-  <Remixicons.newspaper fill />
+  <Remixicon.newspaper />
+  <Remixicon.newspaper class="w-4 h-4" />
+  <Remixicon.newspaper line />
+  <Remixicon.newspaper fill />
   ```
   """
   attr :rest, :global,
@@ -24784,10 +24784,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_quote />
-  <Remixicons.chat_quote class="w-4 h-4" />
-  <Remixicons.chat_quote line />
-  <Remixicons.chat_quote fill />
+  <Remixicon.chat_quote />
+  <Remixicon.chat_quote class="w-4 h-4" />
+  <Remixicon.chat_quote line />
+  <Remixicon.chat_quote fill />
   ```
   """
   attr :rest, :global,
@@ -24821,10 +24821,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.anticlockwise />
-  <Remixicons.anticlockwise class="w-4 h-4" />
-  <Remixicons.anticlockwise line />
-  <Remixicons.anticlockwise fill />
+  <Remixicon.anticlockwise />
+  <Remixicon.anticlockwise class="w-4 h-4" />
+  <Remixicon.anticlockwise line />
+  <Remixicon.anticlockwise fill />
   ```
   """
   attr :rest, :global,
@@ -24858,10 +24858,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.product_hunt />
-  <Remixicons.product_hunt class="w-4 h-4" />
-  <Remixicons.product_hunt line />
-  <Remixicons.product_hunt fill />
+  <Remixicon.product_hunt />
+  <Remixicon.product_hunt class="w-4 h-4" />
+  <Remixicon.product_hunt line />
+  <Remixicon.product_hunt fill />
   ```
   """
   attr :rest, :global,
@@ -24895,10 +24895,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.error_warning />
-  <Remixicons.error_warning class="w-4 h-4" />
-  <Remixicons.error_warning line />
-  <Remixicons.error_warning fill />
+  <Remixicon.error_warning />
+  <Remixicon.error_warning class="w-4 h-4" />
+  <Remixicon.error_warning line />
+  <Remixicon.error_warning fill />
   ```
   """
   attr :rest, :global,
@@ -24932,10 +24932,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_word_2 />
-  <Remixicons.file_word_2 class="w-4 h-4" />
-  <Remixicons.file_word_2 line />
-  <Remixicons.file_word_2 fill />
+  <Remixicon.file_word_2 />
+  <Remixicon.file_word_2 class="w-4 h-4" />
+  <Remixicon.file_word_2 line />
+  <Remixicon.file_word_2 fill />
   ```
   """
   attr :rest, :global,
@@ -24969,10 +24969,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_2 />
-  <Remixicons.map_2 class="w-4 h-4" />
-  <Remixicons.map_2 line />
-  <Remixicons.map_2 fill />
+  <Remixicon.map_2 />
+  <Remixicon.map_2 class="w-4 h-4" />
+  <Remixicon.map_2 line />
+  <Remixicon.map_2 fill />
   ```
   """
   attr :rest, :global,
@@ -25006,10 +25006,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pin_distance />
-  <Remixicons.pin_distance class="w-4 h-4" />
-  <Remixicons.pin_distance line />
-  <Remixicons.pin_distance fill />
+  <Remixicon.pin_distance />
+  <Remixicon.pin_distance class="w-4 h-4" />
+  <Remixicon.pin_distance line />
+  <Remixicon.pin_distance fill />
   ```
   """
   attr :rest, :global,
@@ -25043,10 +25043,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ping_pong />
-  <Remixicons.ping_pong class="w-4 h-4" />
-  <Remixicons.ping_pong line />
-  <Remixicons.ping_pong fill />
+  <Remixicon.ping_pong />
+  <Remixicon.ping_pong class="w-4 h-4" />
+  <Remixicon.ping_pong line />
+  <Remixicon.ping_pong fill />
   ```
   """
   attr :rest, :global,
@@ -25080,10 +25080,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.tools />
-  <Remixicons.tools class="w-4 h-4" />
-  <Remixicons.tools line />
-  <Remixicons.tools fill />
+  <Remixicon.tools />
+  <Remixicon.tools class="w-4 h-4" />
+  <Remixicon.tools line />
+  <Remixicon.tools fill />
   ```
   """
   attr :rest, :global,
@@ -25117,10 +25117,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.edit_box />
-  <Remixicons.edit_box class="w-4 h-4" />
-  <Remixicons.edit_box line />
-  <Remixicons.edit_box fill />
+  <Remixicon.edit_box />
+  <Remixicon.edit_box class="w-4 h-4" />
+  <Remixicon.edit_box line />
+  <Remixicon.edit_box fill />
   ```
   """
   attr :rest, :global,
@@ -25154,10 +25154,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.save />
-  <Remixicons.save class="w-4 h-4" />
-  <Remixicons.save line />
-  <Remixicons.save fill />
+  <Remixicon.save />
+  <Remixicon.save class="w-4 h-4" />
+  <Remixicon.save line />
+  <Remixicon.save fill />
   ```
   """
   attr :rest, :global,
@@ -25191,10 +25191,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pages />
-  <Remixicons.pages class="w-4 h-4" />
-  <Remixicons.pages line />
-  <Remixicons.pages fill />
+  <Remixicon.pages />
+  <Remixicon.pages class="w-4 h-4" />
+  <Remixicon.pages line />
+  <Remixicon.pages fill />
   ```
   """
   attr :rest, :global,
@@ -25228,10 +25228,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.outlet_2 />
-  <Remixicons.outlet_2 class="w-4 h-4" />
-  <Remixicons.outlet_2 line />
-  <Remixicons.outlet_2 fill />
+  <Remixicon.outlet_2 />
+  <Remixicon.outlet_2 class="w-4 h-4" />
+  <Remixicon.outlet_2 line />
+  <Remixicon.outlet_2 fill />
   ```
   """
   attr :rest, :global,
@@ -25265,10 +25265,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.thunderstorms />
-  <Remixicons.thunderstorms class="w-4 h-4" />
-  <Remixicons.thunderstorms line />
-  <Remixicons.thunderstorms fill />
+  <Remixicon.thunderstorms />
+  <Remixicon.thunderstorms class="w-4 h-4" />
+  <Remixicon.thunderstorms line />
+  <Remixicon.thunderstorms fill />
   ```
   """
   attr :rest, :global,
@@ -25302,10 +25302,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.camera_off />
-  <Remixicons.camera_off class="w-4 h-4" />
-  <Remixicons.camera_off line />
-  <Remixicons.camera_off fill />
+  <Remixicon.camera_off />
+  <Remixicon.camera_off class="w-4 h-4" />
+  <Remixicon.camera_off line />
+  <Remixicon.camera_off fill />
   ```
   """
   attr :rest, :global,
@@ -25339,10 +25339,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.plug_2 />
-  <Remixicons.plug_2 class="w-4 h-4" />
-  <Remixicons.plug_2 line />
-  <Remixicons.plug_2 fill />
+  <Remixicon.plug_2 />
+  <Remixicon.plug_2 class="w-4 h-4" />
+  <Remixicon.plug_2 line />
+  <Remixicon.plug_2 fill />
   ```
   """
   attr :rest, :global,
@@ -25376,10 +25376,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.video_upload />
-  <Remixicons.video_upload class="w-4 h-4" />
-  <Remixicons.video_upload line />
-  <Remixicons.video_upload fill />
+  <Remixicon.video_upload />
+  <Remixicon.video_upload class="w-4 h-4" />
+  <Remixicon.video_upload line />
+  <Remixicon.video_upload fill />
   ```
   """
   attr :rest, :global,
@@ -25413,10 +25413,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stack_overflow />
-  <Remixicons.stack_overflow class="w-4 h-4" />
-  <Remixicons.stack_overflow line />
-  <Remixicons.stack_overflow fill />
+  <Remixicon.stack_overflow />
+  <Remixicon.stack_overflow class="w-4 h-4" />
+  <Remixicon.stack_overflow line />
+  <Remixicon.stack_overflow fill />
   ```
   """
   attr :rest, :global,
@@ -25450,10 +25450,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.virus />
-  <Remixicons.virus class="w-4 h-4" />
-  <Remixicons.virus line />
-  <Remixicons.virus fill />
+  <Remixicon.virus />
+  <Remixicon.virus class="w-4 h-4" />
+  <Remixicon.virus line />
+  <Remixicon.virus fill />
   ```
   """
   attr :rest, :global,
@@ -25487,10 +25487,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.video_chat />
-  <Remixicons.video_chat class="w-4 h-4" />
-  <Remixicons.video_chat line />
-  <Remixicons.video_chat fill />
+  <Remixicon.video_chat />
+  <Remixicon.video_chat class="w-4 h-4" />
+  <Remixicon.video_chat line />
+  <Remixicon.video_chat fill />
   ```
   """
   attr :rest, :global,
@@ -25524,10 +25524,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.notification_badge />
-  <Remixicons.notification_badge class="w-4 h-4" />
-  <Remixicons.notification_badge line />
-  <Remixicons.notification_badge fill />
+  <Remixicon.notification_badge />
+  <Remixicon.notification_badge class="w-4 h-4" />
+  <Remixicon.notification_badge line />
+  <Remixicon.notification_badge fill />
   ```
   """
   attr :rest, :global,
@@ -25561,10 +25561,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.women />
-  <Remixicons.women class="w-4 h-4" />
-  <Remixicons.women line />
-  <Remixicons.women fill />
+  <Remixicon.women />
+  <Remixicon.women class="w-4 h-4" />
+  <Remixicon.women line />
+  <Remixicon.women fill />
   ```
   """
   attr :rest, :global,
@@ -25598,10 +25598,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.replay_30 />
-  <Remixicons.replay_30 class="w-4 h-4" />
-  <Remixicons.replay_30 line />
-  <Remixicons.replay_30 fill />
+  <Remixicon.replay_30 />
+  <Remixicon.replay_30 class="w-4 h-4" />
+  <Remixicon.replay_30 line />
+  <Remixicon.replay_30 fill />
   ```
   """
   attr :rest, :global,
@@ -25635,10 +25635,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_forward />
-  <Remixicons.chat_forward class="w-4 h-4" />
-  <Remixicons.chat_forward line />
-  <Remixicons.chat_forward fill />
+  <Remixicon.chat_forward />
+  <Remixicon.chat_forward class="w-4 h-4" />
+  <Remixicon.chat_forward line />
+  <Remixicon.chat_forward fill />
   ```
   """
   attr :rest, :global,
@@ -25672,10 +25672,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_right_down />
-  <Remixicons.corner_right_down class="w-4 h-4" />
-  <Remixicons.corner_right_down line />
-  <Remixicons.corner_right_down fill />
+  <Remixicon.corner_right_down />
+  <Remixicon.corner_right_down class="w-4 h-4" />
+  <Remixicon.corner_right_down line />
+  <Remixicon.corner_right_down fill />
   ```
   """
   attr :rest, :global,
@@ -25709,10 +25709,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_add />
-  <Remixicons.user_add class="w-4 h-4" />
-  <Remixicons.user_add line />
-  <Remixicons.user_add fill />
+  <Remixicon.user_add />
+  <Remixicon.user_add class="w-4 h-4" />
+  <Remixicon.user_add line />
+  <Remixicon.user_add fill />
   ```
   """
   attr :rest, :global,
@@ -25746,10 +25746,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bar_chart_grouped />
-  <Remixicons.bar_chart_grouped class="w-4 h-4" />
-  <Remixicons.bar_chart_grouped line />
-  <Remixicons.bar_chart_grouped fill />
+  <Remixicon.bar_chart_grouped />
+  <Remixicon.bar_chart_grouped class="w-4 h-4" />
+  <Remixicon.bar_chart_grouped line />
+  <Remixicon.bar_chart_grouped fill />
   ```
   """
   attr :rest, :global,
@@ -25783,10 +25783,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.settings_5 />
-  <Remixicons.settings_5 class="w-4 h-4" />
-  <Remixicons.settings_5 line />
-  <Remixicons.settings_5 fill />
+  <Remixicon.settings_5 />
+  <Remixicon.settings_5 class="w-4 h-4" />
+  <Remixicon.settings_5 line />
+  <Remixicon.settings_5 fill />
   ```
   """
   attr :rest, :global,
@@ -25820,10 +25820,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.celsius />
-  <Remixicons.celsius class="w-4 h-4" />
-  <Remixicons.celsius line />
-  <Remixicons.celsius fill />
+  <Remixicon.celsius />
+  <Remixicon.celsius class="w-4 h-4" />
+  <Remixicon.celsius line />
+  <Remixicon.celsius fill />
   ```
   """
   attr :rest, :global,
@@ -25857,10 +25857,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.device_recover />
-  <Remixicons.device_recover class="w-4 h-4" />
-  <Remixicons.device_recover line />
-  <Remixicons.device_recover fill />
+  <Remixicon.device_recover />
+  <Remixicon.device_recover class="w-4 h-4" />
+  <Remixicon.device_recover line />
+  <Remixicon.device_recover fill />
   ```
   """
   attr :rest, :global,
@@ -25894,10 +25894,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_left_up />
-  <Remixicons.corner_left_up class="w-4 h-4" />
-  <Remixicons.corner_left_up line />
-  <Remixicons.corner_left_up fill />
+  <Remixicon.corner_left_up />
+  <Remixicon.corner_left_up class="w-4 h-4" />
+  <Remixicon.corner_left_up line />
+  <Remixicon.corner_left_up fill />
   ```
   """
   attr :rest, :global,
@@ -25931,10 +25931,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.smartphone />
-  <Remixicons.smartphone class="w-4 h-4" />
-  <Remixicons.smartphone line />
-  <Remixicons.smartphone fill />
+  <Remixicon.smartphone />
+  <Remixicon.smartphone class="w-4 h-4" />
+  <Remixicon.smartphone line />
+  <Remixicon.smartphone fill />
   ```
   """
   attr :rest, :global,
@@ -25968,10 +25968,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cloudy />
-  <Remixicons.cloudy class="w-4 h-4" />
-  <Remixicons.cloudy line />
-  <Remixicons.cloudy fill />
+  <Remixicon.cloudy />
+  <Remixicon.cloudy class="w-4 h-4" />
+  <Remixicon.cloudy line />
+  <Remixicon.cloudy fill />
   ```
   """
   attr :rest, :global,
@@ -26005,10 +26005,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.signal_tower />
-  <Remixicons.signal_tower class="w-4 h-4" />
-  <Remixicons.signal_tower line />
-  <Remixicons.signal_tower fill />
+  <Remixicon.signal_tower />
+  <Remixicon.signal_tower class="w-4 h-4" />
+  <Remixicon.signal_tower line />
+  <Remixicon.signal_tower fill />
   ```
   """
   attr :rest, :global,
@@ -26042,10 +26042,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.fingerprint_2 />
-  <Remixicons.fingerprint_2 class="w-4 h-4" />
-  <Remixicons.fingerprint_2 line />
-  <Remixicons.fingerprint_2 fill />
+  <Remixicon.fingerprint_2 />
+  <Remixicon.fingerprint_2 class="w-4 h-4" />
+  <Remixicon.fingerprint_2 line />
+  <Remixicon.fingerprint_2 fill />
   ```
   """
   attr :rest, :global,
@@ -26079,10 +26079,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_pound_box />
-  <Remixicons.money_pound_box class="w-4 h-4" />
-  <Remixicons.money_pound_box line />
-  <Remixicons.money_pound_box fill />
+  <Remixicon.money_pound_box />
+  <Remixicon.money_pound_box class="w-4 h-4" />
+  <Remixicon.money_pound_box line />
+  <Remixicon.money_pound_box fill />
   ```
   """
   attr :rest, :global,
@@ -26116,10 +26116,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.apple />
-  <Remixicons.apple class="w-4 h-4" />
-  <Remixicons.apple line />
-  <Remixicons.apple fill />
+  <Remixicon.apple />
+  <Remixicon.apple class="w-4 h-4" />
+  <Remixicon.apple line />
+  <Remixicon.apple fill />
   ```
   """
   attr :rest, :global,
@@ -26153,10 +26153,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.projector />
-  <Remixicons.projector class="w-4 h-4" />
-  <Remixicons.projector line />
-  <Remixicons.projector fill />
+  <Remixicon.projector />
+  <Remixicon.projector class="w-4 h-4" />
+  <Remixicon.projector line />
+  <Remixicon.projector fill />
   ```
   """
   attr :rest, :global,
@@ -26190,10 +26190,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_check />
-  <Remixicons.chat_check class="w-4 h-4" />
-  <Remixicons.chat_check line />
-  <Remixicons.chat_check fill />
+  <Remixicon.chat_check />
+  <Remixicon.chat_check class="w-4 h-4" />
+  <Remixicon.chat_check line />
+  <Remixicon.chat_check fill />
   ```
   """
   attr :rest, :global,
@@ -26227,10 +26227,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.box_1 />
-  <Remixicons.box_1 class="w-4 h-4" />
-  <Remixicons.box_1 line />
-  <Remixicons.box_1 fill />
+  <Remixicon.box_1 />
+  <Remixicon.box_1 class="w-4 h-4" />
+  <Remixicon.box_1 line />
+  <Remixicon.box_1 fill />
   ```
   """
   attr :rest, :global,
@@ -26264,10 +26264,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_5 />
-  <Remixicons.user_5 class="w-4 h-4" />
-  <Remixicons.user_5 line />
-  <Remixicons.user_5 fill />
+  <Remixicon.user_5 />
+  <Remixicon.user_5 class="w-4 h-4" />
+  <Remixicon.user_5 line />
+  <Remixicon.user_5 fill />
   ```
   """
   attr :rest, :global,
@@ -26301,10 +26301,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flashlight />
-  <Remixicons.flashlight class="w-4 h-4" />
-  <Remixicons.flashlight line />
-  <Remixicons.flashlight fill />
+  <Remixicon.flashlight />
+  <Remixicon.flashlight class="w-4 h-4" />
+  <Remixicon.flashlight line />
+  <Remixicon.flashlight fill />
   ```
   """
   attr :rest, :global,
@@ -26337,10 +26337,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.refund_2 />
-  <Remixicons.refund_2 class="w-4 h-4" />
-  <Remixicons.refund_2 line />
-  <Remixicons.refund_2 fill />
+  <Remixicon.refund_2 />
+  <Remixicon.refund_2 class="w-4 h-4" />
+  <Remixicon.refund_2 line />
+  <Remixicon.refund_2 fill />
   ```
   """
   attr :rest, :global,
@@ -26374,10 +26374,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.seedling />
-  <Remixicons.seedling class="w-4 h-4" />
-  <Remixicons.seedling line />
-  <Remixicons.seedling fill />
+  <Remixicon.seedling />
+  <Remixicon.seedling class="w-4 h-4" />
+  <Remixicon.seedling line />
+  <Remixicon.seedling fill />
   ```
   """
   attr :rest, :global,
@@ -26411,10 +26411,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_right_up />
-  <Remixicons.corner_right_up class="w-4 h-4" />
-  <Remixicons.corner_right_up line />
-  <Remixicons.corner_right_up fill />
+  <Remixicon.corner_right_up />
+  <Remixicon.corner_right_up class="w-4 h-4" />
+  <Remixicon.corner_right_up line />
+  <Remixicon.corner_right_up fill />
   ```
   """
   attr :rest, :global,
@@ -26448,10 +26448,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pass_pending />
-  <Remixicons.pass_pending class="w-4 h-4" />
-  <Remixicons.pass_pending line />
-  <Remixicons.pass_pending fill />
+  <Remixicon.pass_pending />
+  <Remixicon.pass_pending class="w-4 h-4" />
+  <Remixicon.pass_pending line />
+  <Remixicon.pass_pending fill />
   ```
   """
   attr :rest, :global,
@@ -26485,10 +26485,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.palette />
-  <Remixicons.palette class="w-4 h-4" />
-  <Remixicons.palette line />
-  <Remixicons.palette fill />
+  <Remixicon.palette />
+  <Remixicon.palette class="w-4 h-4" />
+  <Remixicon.palette line />
+  <Remixicon.palette fill />
   ```
   """
   attr :rest, :global,
@@ -26522,10 +26522,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sparkling_2 />
-  <Remixicons.sparkling_2 class="w-4 h-4" />
-  <Remixicons.sparkling_2 line />
-  <Remixicons.sparkling_2 fill />
+  <Remixicon.sparkling_2 />
+  <Remixicon.sparkling_2 class="w-4 h-4" />
+  <Remixicon.sparkling_2 line />
+  <Remixicon.sparkling_2 fill />
   ```
   """
   attr :rest, :global,
@@ -26559,10 +26559,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.repeat_one />
-  <Remixicons.repeat_one class="w-4 h-4" />
-  <Remixicons.repeat_one line />
-  <Remixicons.repeat_one fill />
+  <Remixicon.repeat_one />
+  <Remixicon.repeat_one class="w-4 h-4" />
+  <Remixicon.repeat_one line />
+  <Remixicon.repeat_one fill />
   ```
   """
   attr :rest, :global,
@@ -26596,10 +26596,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.honour />
-  <Remixicons.honour class="w-4 h-4" />
-  <Remixicons.honour line />
-  <Remixicons.honour fill />
+  <Remixicon.honour />
+  <Remixicon.honour class="w-4 h-4" />
+  <Remixicon.honour line />
+  <Remixicon.honour fill />
   ```
   """
   attr :rest, :global,
@@ -26633,10 +26633,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.body_scan />
-  <Remixicons.body_scan class="w-4 h-4" />
-  <Remixicons.body_scan line />
-  <Remixicons.body_scan fill />
+  <Remixicon.body_scan />
+  <Remixicon.body_scan class="w-4 h-4" />
+  <Remixicon.body_scan line />
+  <Remixicon.body_scan fill />
   ```
   """
   attr :rest, :global,
@@ -26670,10 +26670,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.charging_pile_2 />
-  <Remixicons.charging_pile_2 class="w-4 h-4" />
-  <Remixicons.charging_pile_2 line />
-  <Remixicons.charging_pile_2 fill />
+  <Remixicon.charging_pile_2 />
+  <Remixicon.charging_pile_2 class="w-4 h-4" />
+  <Remixicon.charging_pile_2 line />
+  <Remixicon.charging_pile_2 fill />
   ```
   """
   attr :rest, :global,
@@ -26707,10 +26707,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.steering_2 />
-  <Remixicons.steering_2 class="w-4 h-4" />
-  <Remixicons.steering_2 line />
-  <Remixicons.steering_2 fill />
+  <Remixicon.steering_2 />
+  <Remixicon.steering_2 class="w-4 h-4" />
+  <Remixicon.steering_2 line />
+  <Remixicon.steering_2 fill />
   ```
   """
   attr :rest, :global,
@@ -26744,10 +26744,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sim_card />
-  <Remixicons.sim_card class="w-4 h-4" />
-  <Remixicons.sim_card line />
-  <Remixicons.sim_card fill />
+  <Remixicon.sim_card />
+  <Remixicon.sim_card class="w-4 h-4" />
+  <Remixicon.sim_card line />
+  <Remixicon.sim_card fill />
   ```
   """
   attr :rest, :global,
@@ -26781,10 +26781,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.earth />
-  <Remixicons.earth class="w-4 h-4" />
-  <Remixicons.earth line />
-  <Remixicons.earth fill />
+  <Remixicon.earth />
+  <Remixicon.earth class="w-4 h-4" />
+  <Remixicon.earth line />
+  <Remixicon.earth fill />
   ```
   """
   attr :rest, :global,
@@ -26818,10 +26818,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.login_circle />
-  <Remixicons.login_circle class="w-4 h-4" />
-  <Remixicons.login_circle line />
-  <Remixicons.login_circle fill />
+  <Remixicon.login_circle />
+  <Remixicon.login_circle class="w-4 h-4" />
+  <Remixicon.login_circle line />
+  <Remixicon.login_circle fill />
   ```
   """
   attr :rest, :global,
@@ -26855,10 +26855,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.checkbox_multiple />
-  <Remixicons.checkbox_multiple class="w-4 h-4" />
-  <Remixicons.checkbox_multiple line />
-  <Remixicons.checkbox_multiple fill />
+  <Remixicon.checkbox_multiple />
+  <Remixicon.checkbox_multiple class="w-4 h-4" />
+  <Remixicon.checkbox_multiple line />
+  <Remixicon.checkbox_multiple fill />
   ```
   """
   attr :rest, :global,
@@ -26892,10 +26892,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.registered />
-  <Remixicons.registered class="w-4 h-4" />
-  <Remixicons.registered line />
-  <Remixicons.registered fill />
+  <Remixicon.registered />
+  <Remixicon.registered class="w-4 h-4" />
+  <Remixicon.registered line />
+  <Remixicon.registered fill />
   ```
   """
   attr :rest, :global,
@@ -26929,10 +26929,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.travesti />
-  <Remixicons.travesti class="w-4 h-4" />
-  <Remixicons.travesti line />
-  <Remixicons.travesti fill />
+  <Remixicon.travesti />
+  <Remixicon.travesti class="w-4 h-4" />
+  <Remixicon.travesti line />
+  <Remixicon.travesti fill />
   ```
   """
   attr :rest, :global,
@@ -26966,10 +26966,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bus_2 />
-  <Remixicons.bus_2 class="w-4 h-4" />
-  <Remixicons.bus_2 line />
-  <Remixicons.bus_2 fill />
+  <Remixicon.bus_2 />
+  <Remixicon.bus_2 class="w-4 h-4" />
+  <Remixicon.bus_2 line />
+  <Remixicon.bus_2 fill />
   ```
   """
   attr :rest, :global,
@@ -27003,10 +27003,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.input_method />
-  <Remixicons.input_method class="w-4 h-4" />
-  <Remixicons.input_method line />
-  <Remixicons.input_method fill />
+  <Remixicon.input_method />
+  <Remixicon.input_method class="w-4 h-4" />
+  <Remixicon.input_method line />
+  <Remixicon.input_method fill />
   ```
   """
   attr :rest, :global,
@@ -27040,10 +27040,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contrast_drop />
-  <Remixicons.contrast_drop class="w-4 h-4" />
-  <Remixicons.contrast_drop line />
-  <Remixicons.contrast_drop fill />
+  <Remixicon.contrast_drop />
+  <Remixicon.contrast_drop class="w-4 h-4" />
+  <Remixicon.contrast_drop line />
+  <Remixicon.contrast_drop fill />
   ```
   """
   attr :rest, :global,
@@ -27077,10 +27077,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.checkbox_circle />
-  <Remixicons.checkbox_circle class="w-4 h-4" />
-  <Remixicons.checkbox_circle line />
-  <Remixicons.checkbox_circle fill />
+  <Remixicon.checkbox_circle />
+  <Remixicon.checkbox_circle class="w-4 h-4" />
+  <Remixicon.checkbox_circle line />
+  <Remixicon.checkbox_circle fill />
   ```
   """
   attr :rest, :global,
@@ -27114,10 +27114,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pause />
-  <Remixicons.pause class="w-4 h-4" />
-  <Remixicons.pause line />
-  <Remixicons.pause fill />
+  <Remixicon.pause />
+  <Remixicon.pause class="w-4 h-4" />
+  <Remixicon.pause line />
+  <Remixicon.pause fill />
   ```
   """
   attr :rest, :global,
@@ -27149,10 +27149,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.video_download />
-  <Remixicons.video_download class="w-4 h-4" />
-  <Remixicons.video_download line />
-  <Remixicons.video_download fill />
+  <Remixicon.video_download />
+  <Remixicon.video_download class="w-4 h-4" />
+  <Remixicon.video_download line />
+  <Remixicon.video_download fill />
   ```
   """
   attr :rest, :global,
@@ -27186,10 +27186,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cloud_off />
-  <Remixicons.cloud_off class="w-4 h-4" />
-  <Remixicons.cloud_off line />
-  <Remixicons.cloud_off fill />
+  <Remixicon.cloud_off />
+  <Remixicon.cloud_off class="w-4 h-4" />
+  <Remixicon.cloud_off line />
+  <Remixicon.cloud_off fill />
   ```
   """
   attr :rest, :global,
@@ -27223,10 +27223,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wechat_pay />
-  <Remixicons.wechat_pay class="w-4 h-4" />
-  <Remixicons.wechat_pay line />
-  <Remixicons.wechat_pay fill />
+  <Remixicon.wechat_pay />
+  <Remixicon.wechat_pay class="w-4 h-4" />
+  <Remixicon.wechat_pay line />
+  <Remixicon.wechat_pay fill />
   ```
   """
   attr :rest, :global,
@@ -27260,10 +27260,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_up_down />
-  <Remixicons.arrow_up_down class="w-4 h-4" />
-  <Remixicons.arrow_up_down line />
-  <Remixicons.arrow_up_down fill />
+  <Remixicon.arrow_up_down />
+  <Remixicon.arrow_up_down class="w-4 h-4" />
+  <Remixicon.arrow_up_down line />
+  <Remixicon.arrow_up_down fill />
   ```
   """
   attr :rest, :global,
@@ -27296,10 +27296,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.unsplash />
-  <Remixicons.unsplash class="w-4 h-4" />
-  <Remixicons.unsplash line />
-  <Remixicons.unsplash fill />
+  <Remixicon.unsplash />
+  <Remixicon.unsplash class="w-4 h-4" />
+  <Remixicon.unsplash line />
+  <Remixicon.unsplash fill />
   ```
   """
   attr :rest, :global,
@@ -27333,10 +27333,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.amazon />
-  <Remixicons.amazon class="w-4 h-4" />
-  <Remixicons.amazon line />
-  <Remixicons.amazon fill />
+  <Remixicon.amazon />
+  <Remixicon.amazon class="w-4 h-4" />
+  <Remixicon.amazon line />
+  <Remixicon.amazon fill />
   ```
   """
   attr :rest, :global,
@@ -27370,10 +27370,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pass_valid />
-  <Remixicons.pass_valid class="w-4 h-4" />
-  <Remixicons.pass_valid line />
-  <Remixicons.pass_valid fill />
+  <Remixicon.pass_valid />
+  <Remixicon.pass_valid class="w-4 h-4" />
+  <Remixicon.pass_valid line />
+  <Remixicon.pass_valid fill />
   ```
   """
   attr :rest, :global,
@@ -27407,10 +27407,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emotion_normal />
-  <Remixicons.emotion_normal class="w-4 h-4" />
-  <Remixicons.emotion_normal line />
-  <Remixicons.emotion_normal fill />
+  <Remixicon.emotion_normal />
+  <Remixicon.emotion_normal class="w-4 h-4" />
+  <Remixicon.emotion_normal line />
+  <Remixicon.emotion_normal fill />
   ```
   """
   attr :rest, :global,
@@ -27444,10 +27444,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_3 />
-  <Remixicons.layout_3 class="w-4 h-4" />
-  <Remixicons.layout_3 line />
-  <Remixicons.layout_3 fill />
+  <Remixicon.layout_3 />
+  <Remixicon.layout_3 class="w-4 h-4" />
+  <Remixicon.layout_3 line />
+  <Remixicon.layout_3 fill />
   ```
   """
   attr :rest, :global,
@@ -27481,10 +27481,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.remote_control_2 />
-  <Remixicons.remote_control_2 class="w-4 h-4" />
-  <Remixicons.remote_control_2 line />
-  <Remixicons.remote_control_2 fill />
+  <Remixicon.remote_control_2 />
+  <Remixicon.remote_control_2 class="w-4 h-4" />
+  <Remixicon.remote_control_2 line />
+  <Remixicon.remote_control_2 fill />
   ```
   """
   attr :rest, :global,
@@ -27518,10 +27518,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.add_box />
-  <Remixicons.add_box class="w-4 h-4" />
-  <Remixicons.add_box line />
-  <Remixicons.add_box fill />
+  <Remixicon.add_box />
+  <Remixicon.add_box class="w-4 h-4" />
+  <Remixicon.add_box line />
+  <Remixicon.add_box fill />
   ```
   """
   attr :rest, :global,
@@ -27555,10 +27555,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.suitcase />
-  <Remixicons.suitcase class="w-4 h-4" />
-  <Remixicons.suitcase line />
-  <Remixicons.suitcase fill />
+  <Remixicon.suitcase />
+  <Remixicon.suitcase class="w-4 h-4" />
+  <Remixicon.suitcase line />
+  <Remixicon.suitcase fill />
   ```
   """
   attr :rest, :global,
@@ -27592,10 +27592,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.notification_off />
-  <Remixicons.notification_off class="w-4 h-4" />
-  <Remixicons.notification_off line />
-  <Remixicons.notification_off fill />
+  <Remixicon.notification_off />
+  <Remixicon.notification_off class="w-4 h-4" />
+  <Remixicon.notification_off line />
+  <Remixicon.notification_off fill />
   ```
   """
   attr :rest, :global,
@@ -27629,10 +27629,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.key_2 />
-  <Remixicons.key_2 class="w-4 h-4" />
-  <Remixicons.key_2 line />
-  <Remixicons.key_2 fill />
+  <Remixicon.key_2 />
+  <Remixicon.key_2 class="w-4 h-4" />
+  <Remixicon.key_2 line />
+  <Remixicon.key_2 fill />
   ```
   """
   attr :rest, :global,
@@ -27666,10 +27666,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.battery_2 />
-  <Remixicons.battery_2 class="w-4 h-4" />
-  <Remixicons.battery_2 line />
-  <Remixicons.battery_2 fill />
+  <Remixicon.battery_2 />
+  <Remixicon.battery_2 class="w-4 h-4" />
+  <Remixicon.battery_2 line />
+  <Remixicon.battery_2 fill />
   ```
   """
   attr :rest, :global,
@@ -27703,10 +27703,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.slideshow_4 />
-  <Remixicons.slideshow_4 class="w-4 h-4" />
-  <Remixicons.slideshow_4 line />
-  <Remixicons.slideshow_4 fill />
+  <Remixicon.slideshow_4 />
+  <Remixicon.slideshow_4 class="w-4 h-4" />
+  <Remixicon.slideshow_4 line />
+  <Remixicon.slideshow_4 fill />
   ```
   """
   attr :rest, :global,
@@ -27740,10 +27740,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shield_check />
-  <Remixicons.shield_check class="w-4 h-4" />
-  <Remixicons.shield_check line />
-  <Remixicons.shield_check fill />
+  <Remixicon.shield_check />
+  <Remixicon.shield_check class="w-4 h-4" />
+  <Remixicon.shield_check line />
+  <Remixicon.shield_check fill />
   ```
   """
   attr :rest, :global,
@@ -27777,10 +27777,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.book_read />
-  <Remixicons.book_read class="w-4 h-4" />
-  <Remixicons.book_read line />
-  <Remixicons.book_read fill />
+  <Remixicon.book_read />
+  <Remixicon.book_read class="w-4 h-4" />
+  <Remixicon.book_read line />
+  <Remixicon.book_read fill />
   ```
   """
   attr :rest, :global,
@@ -27814,10 +27814,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sticky_note />
-  <Remixicons.sticky_note class="w-4 h-4" />
-  <Remixicons.sticky_note line />
-  <Remixicons.sticky_note fill />
+  <Remixicon.sticky_note />
+  <Remixicon.sticky_note class="w-4 h-4" />
+  <Remixicon.sticky_note line />
+  <Remixicon.sticky_note fill />
   ```
   """
   attr :rest, :global,
@@ -27851,10 +27851,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_dollar_box />
-  <Remixicons.money_dollar_box class="w-4 h-4" />
-  <Remixicons.money_dollar_box line />
-  <Remixicons.money_dollar_box fill />
+  <Remixicon.money_dollar_box />
+  <Remixicon.money_dollar_box class="w-4 h-4" />
+  <Remixicon.money_dollar_box line />
+  <Remixicon.money_dollar_box fill />
   ```
   """
   attr :rest, :global,
@@ -27888,10 +27888,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ghost_smile />
-  <Remixicons.ghost_smile class="w-4 h-4" />
-  <Remixicons.ghost_smile line />
-  <Remixicons.ghost_smile fill />
+  <Remixicon.ghost_smile />
+  <Remixicon.ghost_smile class="w-4 h-4" />
+  <Remixicon.ghost_smile line />
+  <Remixicon.ghost_smile fill />
   ```
   """
   attr :rest, :global,
@@ -27925,10 +27925,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.douban />
-  <Remixicons.douban class="w-4 h-4" />
-  <Remixicons.douban line />
-  <Remixicons.douban fill />
+  <Remixicon.douban />
+  <Remixicon.douban class="w-4 h-4" />
+  <Remixicon.douban line />
+  <Remixicon.douban fill />
   ```
   """
   attr :rest, :global,
@@ -27962,10 +27962,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_2 />
-  <Remixicons.layout_2 class="w-4 h-4" />
-  <Remixicons.layout_2 line />
-  <Remixicons.layout_2 fill />
+  <Remixicon.layout_2 />
+  <Remixicon.layout_2 class="w-4 h-4" />
+  <Remixicon.layout_2 line />
+  <Remixicon.layout_2 fill />
   ```
   """
   attr :rest, :global,
@@ -27999,10 +27999,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dual_sim_2 />
-  <Remixicons.dual_sim_2 class="w-4 h-4" />
-  <Remixicons.dual_sim_2 line />
-  <Remixicons.dual_sim_2 fill />
+  <Remixicon.dual_sim_2 />
+  <Remixicon.dual_sim_2 class="w-4 h-4" />
+  <Remixicon.dual_sim_2 line />
+  <Remixicon.dual_sim_2 fill />
   ```
   """
   attr :rest, :global,
@@ -28036,10 +28036,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shining />
-  <Remixicons.shining class="w-4 h-4" />
-  <Remixicons.shining line />
-  <Remixicons.shining fill />
+  <Remixicon.shining />
+  <Remixicon.shining class="w-4 h-4" />
+  <Remixicon.shining line />
+  <Remixicon.shining fill />
   ```
   """
   attr :rest, :global,
@@ -28073,10 +28073,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.phone_lock />
-  <Remixicons.phone_lock class="w-4 h-4" />
-  <Remixicons.phone_lock line />
-  <Remixicons.phone_lock fill />
+  <Remixicon.phone_lock />
+  <Remixicon.phone_lock class="w-4 h-4" />
+  <Remixicon.phone_lock line />
+  <Remixicon.phone_lock fill />
   ```
   """
   attr :rest, :global,
@@ -28110,10 +28110,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lock_unlock />
-  <Remixicons.lock_unlock class="w-4 h-4" />
-  <Remixicons.lock_unlock line />
-  <Remixicons.lock_unlock fill />
+  <Remixicon.lock_unlock />
+  <Remixicon.lock_unlock class="w-4 h-4" />
+  <Remixicon.lock_unlock line />
+  <Remixicon.lock_unlock fill />
   ```
   """
   attr :rest, :global,
@@ -28147,10 +28147,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_1 />
-  <Remixicons.chat_1 class="w-4 h-4" />
-  <Remixicons.chat_1 line />
-  <Remixicons.chat_1 fill />
+  <Remixicon.chat_1 />
+  <Remixicon.chat_1 class="w-4 h-4" />
+  <Remixicon.chat_1 line />
+  <Remixicon.chat_1 fill />
   ```
   """
   attr :rest, :global,
@@ -28184,10 +28184,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chrome />
-  <Remixicons.chrome class="w-4 h-4" />
-  <Remixicons.chrome line />
-  <Remixicons.chrome fill />
+  <Remixicon.chrome />
+  <Remixicon.chrome class="w-4 h-4" />
+  <Remixicon.chrome line />
+  <Remixicon.chrome fill />
   ```
   """
   attr :rest, :global,
@@ -28221,10 +28221,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_shared_2 />
-  <Remixicons.user_shared_2 class="w-4 h-4" />
-  <Remixicons.user_shared_2 line />
-  <Remixicons.user_shared_2 fill />
+  <Remixicon.user_shared_2 />
+  <Remixicon.user_shared_2 class="w-4 h-4" />
+  <Remixicon.user_shared_2 line />
+  <Remixicon.user_shared_2 fill />
   ```
   """
   attr :rest, :global,
@@ -28258,10 +28258,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.record_circle />
-  <Remixicons.record_circle class="w-4 h-4" />
-  <Remixicons.record_circle line />
-  <Remixicons.record_circle fill />
+  <Remixicon.record_circle />
+  <Remixicon.record_circle class="w-4 h-4" />
+  <Remixicon.record_circle line />
+  <Remixicon.record_circle fill />
   ```
   """
   attr :rest, :global,
@@ -28295,10 +28295,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.barricade />
-  <Remixicons.barricade class="w-4 h-4" />
-  <Remixicons.barricade line />
-  <Remixicons.barricade fill />
+  <Remixicon.barricade />
+  <Remixicon.barricade class="w-4 h-4" />
+  <Remixicon.barricade line />
+  <Remixicon.barricade fill />
   ```
   """
   attr :rest, :global,
@@ -28332,10 +28332,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.brackets />
-  <Remixicons.brackets class="w-4 h-4" />
-  <Remixicons.brackets line />
-  <Remixicons.brackets fill />
+  <Remixicon.brackets />
+  <Remixicon.brackets class="w-4 h-4" />
+  <Remixicon.brackets line />
+  <Remixicon.brackets fill />
   ```
   """
   attr :rest, :global,
@@ -28367,10 +28367,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lock_2 />
-  <Remixicons.lock_2 class="w-4 h-4" />
-  <Remixicons.lock_2 line />
-  <Remixicons.lock_2 fill />
+  <Remixicon.lock_2 />
+  <Remixicon.lock_2 class="w-4 h-4" />
+  <Remixicon.lock_2 line />
+  <Remixicon.lock_2 fill />
   ```
   """
   attr :rest, :global,
@@ -28404,10 +28404,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_3 />
-  <Remixicons.file_3 class="w-4 h-4" />
-  <Remixicons.file_3 line />
-  <Remixicons.file_3 fill />
+  <Remixicon.file_3 />
+  <Remixicon.file_3 class="w-4 h-4" />
+  <Remixicon.file_3 line />
+  <Remixicon.file_3 fill />
   ```
   """
   attr :rest, :global,
@@ -28441,10 +28441,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.expand_left />
-  <Remixicons.expand_left class="w-4 h-4" />
-  <Remixicons.expand_left line />
-  <Remixicons.expand_left fill />
+  <Remixicon.expand_left />
+  <Remixicon.expand_left class="w-4 h-4" />
+  <Remixicon.expand_left line />
+  <Remixicon.expand_left fill />
   ```
   """
   attr :rest, :global,
@@ -28478,10 +28478,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sound_module />
-  <Remixicons.sound_module class="w-4 h-4" />
-  <Remixicons.sound_module line />
-  <Remixicons.sound_module fill />
+  <Remixicon.sound_module />
+  <Remixicon.sound_module class="w-4 h-4" />
+  <Remixicon.sound_module line />
+  <Remixicon.sound_module fill />
   ```
   """
   attr :rest, :global,
@@ -28515,10 +28515,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bar_chart_horizontal />
-  <Remixicons.bar_chart_horizontal class="w-4 h-4" />
-  <Remixicons.bar_chart_horizontal line />
-  <Remixicons.bar_chart_horizontal fill />
+  <Remixicon.bar_chart_horizontal />
+  <Remixicon.bar_chart_horizontal class="w-4 h-4" />
+  <Remixicon.bar_chart_horizontal line />
+  <Remixicon.bar_chart_horizontal fill />
   ```
   """
   attr :rest, :global,
@@ -28550,10 +28550,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_down_double />
-  <Remixicons.arrow_down_double class="w-4 h-4" />
-  <Remixicons.arrow_down_double line />
-  <Remixicons.arrow_down_double fill />
+  <Remixicon.arrow_down_double />
+  <Remixicon.arrow_down_double class="w-4 h-4" />
+  <Remixicon.arrow_down_double line />
+  <Remixicon.arrow_down_double fill />
   ```
   """
   attr :rest, :global,
@@ -28587,10 +28587,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.discord />
-  <Remixicons.discord class="w-4 h-4" />
-  <Remixicons.discord line />
-  <Remixicons.discord fill />
+  <Remixicon.discord />
+  <Remixicon.discord class="w-4 h-4" />
+  <Remixicon.discord line />
+  <Remixicon.discord fill />
   ```
   """
   attr :rest, :global,
@@ -28624,10 +28624,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.reddit />
-  <Remixicons.reddit class="w-4 h-4" />
-  <Remixicons.reddit line />
-  <Remixicons.reddit fill />
+  <Remixicon.reddit />
+  <Remixicon.reddit class="w-4 h-4" />
+  <Remixicon.reddit line />
+  <Remixicon.reddit fill />
   ```
   """
   attr :rest, :global,
@@ -28661,10 +28661,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_info />
-  <Remixicons.file_info class="w-4 h-4" />
-  <Remixicons.file_info line />
-  <Remixicons.file_info fill />
+  <Remixicon.file_info />
+  <Remixicon.file_info class="w-4 h-4" />
+  <Remixicon.file_info line />
+  <Remixicon.file_info fill />
   ```
   """
   attr :rest, :global,
@@ -28698,10 +28698,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rhythm />
-  <Remixicons.rhythm class="w-4 h-4" />
-  <Remixicons.rhythm line />
-  <Remixicons.rhythm fill />
+  <Remixicon.rhythm />
+  <Remixicon.rhythm class="w-4 h-4" />
+  <Remixicon.rhythm line />
+  <Remixicon.rhythm fill />
   ```
   """
   attr :rest, :global,
@@ -28733,10 +28733,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_bin_7 />
-  <Remixicons.delete_bin_7 class="w-4 h-4" />
-  <Remixicons.delete_bin_7 line />
-  <Remixicons.delete_bin_7 fill />
+  <Remixicon.delete_bin_7 />
+  <Remixicon.delete_bin_7 class="w-4 h-4" />
+  <Remixicon.delete_bin_7 line />
+  <Remixicon.delete_bin_7 fill />
   ```
   """
   attr :rest, :global,
@@ -28770,10 +28770,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.restaurant_2 />
-  <Remixicons.restaurant_2 class="w-4 h-4" />
-  <Remixicons.restaurant_2 line />
-  <Remixicons.restaurant_2 fill />
+  <Remixicon.restaurant_2 />
+  <Remixicon.restaurant_2 class="w-4 h-4" />
+  <Remixicon.restaurant_2 line />
+  <Remixicon.restaurant_2 fill />
   ```
   """
   attr :rest, :global,
@@ -28807,10 +28807,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.behance />
-  <Remixicons.behance class="w-4 h-4" />
-  <Remixicons.behance line />
-  <Remixicons.behance fill />
+  <Remixicon.behance />
+  <Remixicon.behance class="w-4 h-4" />
+  <Remixicon.behance line />
+  <Remixicon.behance fill />
   ```
   """
   attr :rest, :global,
@@ -28844,10 +28844,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.terminal_window />
-  <Remixicons.terminal_window class="w-4 h-4" />
-  <Remixicons.terminal_window line />
-  <Remixicons.terminal_window fill />
+  <Remixicon.terminal_window />
+  <Remixicon.terminal_window class="w-4 h-4" />
+  <Remixicon.terminal_window line />
+  <Remixicon.terminal_window fill />
   ```
   """
   attr :rest, :global,
@@ -28881,10 +28881,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.book_open />
-  <Remixicons.book_open class="w-4 h-4" />
-  <Remixicons.book_open line />
-  <Remixicons.book_open fill />
+  <Remixicon.book_open />
+  <Remixicon.book_open class="w-4 h-4" />
+  <Remixicon.book_open line />
+  <Remixicon.book_open fill />
   ```
   """
   attr :rest, :global,
@@ -28918,10 +28918,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.brush_4 />
-  <Remixicons.brush_4 class="w-4 h-4" />
-  <Remixicons.brush_4 line />
-  <Remixicons.brush_4 fill />
+  <Remixicon.brush_4 />
+  <Remixicon.brush_4 class="w-4 h-4" />
+  <Remixicon.brush_4 line />
+  <Remixicon.brush_4 fill />
   ```
   """
   attr :rest, :global,
@@ -28955,10 +28955,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_top_2 />
-  <Remixicons.layout_top_2 class="w-4 h-4" />
-  <Remixicons.layout_top_2 line />
-  <Remixicons.layout_top_2 fill />
+  <Remixicon.layout_top_2 />
+  <Remixicon.layout_top_2 class="w-4 h-4" />
+  <Remixicon.layout_top_2 line />
+  <Remixicon.layout_top_2 fill />
   ```
   """
   attr :rest, :global,
@@ -28992,10 +28992,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_download />
-  <Remixicons.folder_download class="w-4 h-4" />
-  <Remixicons.folder_download line />
-  <Remixicons.folder_download fill />
+  <Remixicon.folder_download />
+  <Remixicon.folder_download class="w-4 h-4" />
+  <Remixicon.folder_download line />
+  <Remixicon.folder_download fill />
   ```
   """
   attr :rest, :global,
@@ -29029,10 +29029,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.play_mini />
-  <Remixicons.play_mini class="w-4 h-4" />
-  <Remixicons.play_mini line />
-  <Remixicons.play_mini fill />
+  <Remixicon.play_mini />
+  <Remixicon.play_mini class="w-4 h-4" />
+  <Remixicon.play_mini line />
+  <Remixicon.play_mini fill />
   ```
   """
   attr :rest, :global,
@@ -29066,10 +29066,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.image />
-  <Remixicons.image class="w-4 h-4" />
-  <Remixicons.image line />
-  <Remixicons.image fill />
+  <Remixicon.image />
+  <Remixicon.image class="w-4 h-4" />
+  <Remixicon.image line />
+  <Remixicon.image fill />
   ```
   """
   attr :rest, :global,
@@ -29103,10 +29103,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wallet_2 />
-  <Remixicons.wallet_2 class="w-4 h-4" />
-  <Remixicons.wallet_2 line />
-  <Remixicons.wallet_2 fill />
+  <Remixicon.wallet_2 />
+  <Remixicon.wallet_2 class="w-4 h-4" />
+  <Remixicon.wallet_2 line />
+  <Remixicon.wallet_2 fill />
   ```
   """
   attr :rest, :global,
@@ -29140,10 +29140,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_list />
-  <Remixicons.file_list class="w-4 h-4" />
-  <Remixicons.file_list line />
-  <Remixicons.file_list fill />
+  <Remixicon.file_list />
+  <Remixicon.file_list class="w-4 h-4" />
+  <Remixicon.file_list line />
+  <Remixicon.file_list fill />
   ```
   """
   attr :rest, :global,
@@ -29177,10 +29177,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sailboat />
-  <Remixicons.sailboat class="w-4 h-4" />
-  <Remixicons.sailboat line />
-  <Remixicons.sailboat fill />
+  <Remixicon.sailboat />
+  <Remixicon.sailboat class="w-4 h-4" />
+  <Remixicon.sailboat line />
+  <Remixicon.sailboat fill />
   ```
   """
   attr :rest, :global,
@@ -29214,10 +29214,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.account_box />
-  <Remixicons.account_box class="w-4 h-4" />
-  <Remixicons.account_box line />
-  <Remixicons.account_box fill />
+  <Remixicon.account_box />
+  <Remixicon.account_box class="w-4 h-4" />
+  <Remixicon.account_box line />
+  <Remixicon.account_box fill />
   ```
   """
   attr :rest, :global,
@@ -29251,10 +29251,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ancient_gate />
-  <Remixicons.ancient_gate class="w-4 h-4" />
-  <Remixicons.ancient_gate line />
-  <Remixicons.ancient_gate fill />
+  <Remixicon.ancient_gate />
+  <Remixicon.ancient_gate class="w-4 h-4" />
+  <Remixicon.ancient_gate line />
+  <Remixicon.ancient_gate fill />
   ```
   """
   attr :rest, :global,
@@ -29288,10 +29288,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ship_2 />
-  <Remixicons.ship_2 class="w-4 h-4" />
-  <Remixicons.ship_2 line />
-  <Remixicons.ship_2 fill />
+  <Remixicon.ship_2 />
+  <Remixicon.ship_2 class="w-4 h-4" />
+  <Remixicon.ship_2 line />
+  <Remixicon.ship_2 fill />
   ```
   """
   attr :rest, :global,
@@ -29325,10 +29325,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gps />
-  <Remixicons.gps class="w-4 h-4" />
-  <Remixicons.gps line />
-  <Remixicons.gps fill />
+  <Remixicon.gps />
+  <Remixicon.gps class="w-4 h-4" />
+  <Remixicon.gps line />
+  <Remixicon.gps fill />
   ```
   """
   attr :rest, :global,
@@ -29362,10 +29362,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.train />
-  <Remixicons.train class="w-4 h-4" />
-  <Remixicons.train line />
-  <Remixicons.train fill />
+  <Remixicon.train />
+  <Remixicon.train class="w-4 h-4" />
+  <Remixicon.train line />
+  <Remixicon.train fill />
   ```
   """
   attr :rest, :global,
@@ -29399,10 +29399,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_left />
-  <Remixicons.arrow_left class="w-4 h-4" />
-  <Remixicons.arrow_left line />
-  <Remixicons.arrow_left fill />
+  <Remixicon.arrow_left />
+  <Remixicon.arrow_left class="w-4 h-4" />
+  <Remixicon.arrow_left line />
+  <Remixicon.arrow_left fill />
   ```
   """
   attr :rest, :global,
@@ -29435,10 +29435,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.briefcase_3 />
-  <Remixicons.briefcase_3 class="w-4 h-4" />
-  <Remixicons.briefcase_3 line />
-  <Remixicons.briefcase_3 fill />
+  <Remixicon.briefcase_3 />
+  <Remixicon.briefcase_3 class="w-4 h-4" />
+  <Remixicon.briefcase_3 line />
+  <Remixicon.briefcase_3 fill />
   ```
   """
   attr :rest, :global,
@@ -29472,10 +29472,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.meta />
-  <Remixicons.meta class="w-4 h-4" />
-  <Remixicons.meta line />
-  <Remixicons.meta fill />
+  <Remixicon.meta />
+  <Remixicon.meta class="w-4 h-4" />
+  <Remixicon.meta line />
+  <Remixicon.meta fill />
   ```
   """
   attr :rest, :global,
@@ -29509,10 +29509,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.table_alt />
-  <Remixicons.table_alt class="w-4 h-4" />
-  <Remixicons.table_alt line />
-  <Remixicons.table_alt fill />
+  <Remixicon.table_alt />
+  <Remixicon.table_alt class="w-4 h-4" />
+  <Remixicon.table_alt line />
+  <Remixicon.table_alt fill />
   ```
   """
   attr :rest, :global,
@@ -29546,10 +29546,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shape />
-  <Remixicons.shape class="w-4 h-4" />
-  <Remixicons.shape line />
-  <Remixicons.shape fill />
+  <Remixicon.shape />
+  <Remixicon.shape class="w-4 h-4" />
+  <Remixicon.shape line />
+  <Remixicon.shape fill />
   ```
   """
   attr :rest, :global,
@@ -29583,10 +29583,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_4 />
-  <Remixicons.folder_4 class="w-4 h-4" />
-  <Remixicons.folder_4 line />
-  <Remixicons.folder_4 fill />
+  <Remixicon.folder_4 />
+  <Remixicon.folder_4 class="w-4 h-4" />
+  <Remixicon.folder_4 line />
+  <Remixicon.folder_4 fill />
   ```
   """
   attr :rest, :global,
@@ -29620,10 +29620,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.instance />
-  <Remixicons.instance class="w-4 h-4" />
-  <Remixicons.instance line />
-  <Remixicons.instance fill />
+  <Remixicon.instance />
+  <Remixicon.instance class="w-4 h-4" />
+  <Remixicon.instance line />
+  <Remixicon.instance fill />
   ```
   """
   attr :rest, :global,
@@ -29657,10 +29657,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skype />
-  <Remixicons.skype class="w-4 h-4" />
-  <Remixicons.skype line />
-  <Remixicons.skype fill />
+  <Remixicon.skype />
+  <Remixicon.skype class="w-4 h-4" />
+  <Remixicon.skype line />
+  <Remixicon.skype fill />
   ```
   """
   attr :rest, :global,
@@ -29694,10 +29694,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gift />
-  <Remixicons.gift class="w-4 h-4" />
-  <Remixicons.gift line />
-  <Remixicons.gift fill />
+  <Remixicon.gift />
+  <Remixicon.gift class="w-4 h-4" />
+  <Remixicon.gift line />
+  <Remixicon.gift fill />
   ```
   """
   attr :rest, :global,
@@ -29731,10 +29731,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_history />
-  <Remixicons.folder_history class="w-4 h-4" />
-  <Remixicons.folder_history line />
-  <Remixicons.folder_history fill />
+  <Remixicon.folder_history />
+  <Remixicon.folder_history class="w-4 h-4" />
+  <Remixicon.folder_history line />
+  <Remixicon.folder_history fill />
   ```
   """
   attr :rest, :global,
@@ -29768,10 +29768,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.star_half />
-  <Remixicons.star_half class="w-4 h-4" />
-  <Remixicons.star_half line />
-  <Remixicons.star_half fill />
+  <Remixicon.star_half />
+  <Remixicon.star_half class="w-4 h-4" />
+  <Remixicon.star_half line />
+  <Remixicon.star_half fill />
   ```
   """
   attr :rest, :global,
@@ -29805,10 +29805,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.creative_commons_zero />
-  <Remixicons.creative_commons_zero class="w-4 h-4" />
-  <Remixicons.creative_commons_zero line />
-  <Remixicons.creative_commons_zero fill />
+  <Remixicon.creative_commons_zero />
+  <Remixicon.creative_commons_zero class="w-4 h-4" />
+  <Remixicon.creative_commons_zero line />
+  <Remixicon.creative_commons_zero fill />
   ```
   """
   attr :rest, :global,
@@ -29842,10 +29842,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.code_s />
-  <Remixicons.code_s class="w-4 h-4" />
-  <Remixicons.code_s line />
-  <Remixicons.code_s fill />
+  <Remixicon.code_s />
+  <Remixicon.code_s class="w-4 h-4" />
+  <Remixicon.code_s line />
+  <Remixicon.code_s fill />
   ```
   """
   attr :rest, :global,
@@ -29879,10 +29879,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.alarm_warning />
-  <Remixicons.alarm_warning class="w-4 h-4" />
-  <Remixicons.alarm_warning line />
-  <Remixicons.alarm_warning fill />
+  <Remixicon.alarm_warning />
+  <Remixicon.alarm_warning class="w-4 h-4" />
+  <Remixicon.alarm_warning line />
+  <Remixicon.alarm_warning fill />
   ```
   """
   attr :rest, :global,
@@ -29916,10 +29916,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.forbid />
-  <Remixicons.forbid class="w-4 h-4" />
-  <Remixicons.forbid line />
-  <Remixicons.forbid fill />
+  <Remixicon.forbid />
+  <Remixicon.forbid class="w-4 h-4" />
+  <Remixicon.forbid line />
+  <Remixicon.forbid fill />
   ```
   """
   attr :rest, :global,
@@ -29953,10 +29953,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pencil_ruler_2 />
-  <Remixicons.pencil_ruler_2 class="w-4 h-4" />
-  <Remixicons.pencil_ruler_2 line />
-  <Remixicons.pencil_ruler_2 fill />
+  <Remixicon.pencil_ruler_2 />
+  <Remixicon.pencil_ruler_2 class="w-4 h-4" />
+  <Remixicon.pencil_ruler_2 line />
+  <Remixicon.pencil_ruler_2 fill />
   ```
   """
   attr :rest, :global,
@@ -29990,10 +29990,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_2 />
-  <Remixicons.map_pin_2 class="w-4 h-4" />
-  <Remixicons.map_pin_2 line />
-  <Remixicons.map_pin_2 fill />
+  <Remixicon.map_pin_2 />
+  <Remixicon.map_pin_2 class="w-4 h-4" />
+  <Remixicon.map_pin_2 line />
+  <Remixicon.map_pin_2 fill />
   ```
   """
   attr :rest, :global,
@@ -30027,10 +30027,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.account_circle />
-  <Remixicons.account_circle class="w-4 h-4" />
-  <Remixicons.account_circle line />
-  <Remixicons.account_circle fill />
+  <Remixicon.account_circle />
+  <Remixicon.account_circle class="w-4 h-4" />
+  <Remixicon.account_circle line />
+  <Remixicon.account_circle fill />
   ```
   """
   attr :rest, :global,
@@ -30064,10 +30064,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.currency />
-  <Remixicons.currency class="w-4 h-4" />
-  <Remixicons.currency line />
-  <Remixicons.currency fill />
+  <Remixicon.currency />
+  <Remixicon.currency class="w-4 h-4" />
+  <Remixicon.currency line />
+  <Remixicon.currency fill />
   ```
   """
   attr :rest, :global,
@@ -30101,10 +30101,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vip_crown />
-  <Remixicons.vip_crown class="w-4 h-4" />
-  <Remixicons.vip_crown line />
-  <Remixicons.vip_crown fill />
+  <Remixicon.vip_crown />
+  <Remixicon.vip_crown class="w-4 h-4" />
+  <Remixicon.vip_crown line />
+  <Remixicon.vip_crown fill />
   ```
   """
   attr :rest, :global,
@@ -30138,10 +30138,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wifi />
-  <Remixicons.wifi class="w-4 h-4" />
-  <Remixicons.wifi line />
-  <Remixicons.wifi fill />
+  <Remixicon.wifi />
+  <Remixicon.wifi class="w-4 h-4" />
+  <Remixicon.wifi line />
+  <Remixicon.wifi fill />
   ```
   """
   attr :rest, :global,
@@ -30175,10 +30175,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.clipboard />
-  <Remixicons.clipboard class="w-4 h-4" />
-  <Remixicons.clipboard line />
-  <Remixicons.clipboard fill />
+  <Remixicon.clipboard />
+  <Remixicon.clipboard class="w-4 h-4" />
+  <Remixicon.clipboard line />
+  <Remixicon.clipboard fill />
   ```
   """
   attr :rest, :global,
@@ -30212,10 +30212,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cup />
-  <Remixicons.cup class="w-4 h-4" />
-  <Remixicons.cup line />
-  <Remixicons.cup fill />
+  <Remixicon.cup />
+  <Remixicon.cup class="w-4 h-4" />
+  <Remixicon.cup line />
+  <Remixicon.cup fill />
   ```
   """
   attr :rest, :global,
@@ -30249,10 +30249,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_drop_up />
-  <Remixicons.arrow_drop_up class="w-4 h-4" />
-  <Remixicons.arrow_drop_up line />
-  <Remixicons.arrow_drop_up fill />
+  <Remixicon.arrow_drop_up />
+  <Remixicon.arrow_drop_up class="w-4 h-4" />
+  <Remixicon.arrow_drop_up line />
+  <Remixicon.arrow_drop_up fill />
   ```
   """
   attr :rest, :global,
@@ -30285,10 +30285,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.weibo />
-  <Remixicons.weibo class="w-4 h-4" />
-  <Remixicons.weibo line />
-  <Remixicons.weibo fill />
+  <Remixicon.weibo />
+  <Remixicon.weibo class="w-4 h-4" />
+  <Remixicon.weibo line />
+  <Remixicon.weibo fill />
   ```
   """
   attr :rest, :global,
@@ -30322,10 +30322,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_smile />
-  <Remixicons.chat_smile class="w-4 h-4" />
-  <Remixicons.chat_smile line />
-  <Remixicons.chat_smile fill />
+  <Remixicon.chat_smile />
+  <Remixicon.chat_smile class="w-4 h-4" />
+  <Remixicon.chat_smile line />
+  <Remixicon.chat_smile fill />
   ```
   """
   attr :rest, :global,
@@ -30359,10 +30359,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_right_down />
-  <Remixicons.arrow_right_down class="w-4 h-4" />
-  <Remixicons.arrow_right_down line />
-  <Remixicons.arrow_right_down fill />
+  <Remixicon.arrow_right_down />
+  <Remixicon.arrow_right_down class="w-4 h-4" />
+  <Remixicon.arrow_right_down line />
+  <Remixicon.arrow_right_down fill />
   ```
   """
   attr :rest, :global,
@@ -30396,10 +30396,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.add_circle />
-  <Remixicons.add_circle class="w-4 h-4" />
-  <Remixicons.add_circle line />
-  <Remixicons.add_circle fill />
+  <Remixicon.add_circle />
+  <Remixicon.add_circle class="w-4 h-4" />
+  <Remixicon.add_circle line />
+  <Remixicon.add_circle fill />
   ```
   """
   attr :rest, :global,
@@ -30433,10 +30433,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.signal_wifi_error />
-  <Remixicons.signal_wifi_error class="w-4 h-4" />
-  <Remixicons.signal_wifi_error line />
-  <Remixicons.signal_wifi_error fill />
+  <Remixicon.signal_wifi_error />
+  <Remixicon.signal_wifi_error class="w-4 h-4" />
+  <Remixicon.signal_wifi_error line />
+  <Remixicon.signal_wifi_error fill />
   ```
   """
   attr :rest, :global,
@@ -30470,10 +30470,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.fire />
-  <Remixicons.fire class="w-4 h-4" />
-  <Remixicons.fire line />
-  <Remixicons.fire fill />
+  <Remixicon.fire />
+  <Remixicon.fire class="w-4 h-4" />
+  <Remixicon.fire line />
+  <Remixicon.fire fill />
   ```
   """
   attr :rest, :global,
@@ -30507,10 +30507,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gallery_upload />
-  <Remixicons.gallery_upload class="w-4 h-4" />
-  <Remixicons.gallery_upload line />
-  <Remixicons.gallery_upload fill />
+  <Remixicon.gallery_upload />
+  <Remixicon.gallery_upload class="w-4 h-4" />
+  <Remixicon.gallery_upload line />
+  <Remixicon.gallery_upload fill />
   ```
   """
   attr :rest, :global,
@@ -30544,10 +30544,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_list_2 />
-  <Remixicons.file_list_2 class="w-4 h-4" />
-  <Remixicons.file_list_2 line />
-  <Remixicons.file_list_2 fill />
+  <Remixicon.file_list_2 />
+  <Remixicon.file_list_2 class="w-4 h-4" />
+  <Remixicon.file_list_2 line />
+  <Remixicon.file_list_2 fill />
   ```
   """
   attr :rest, :global,
@@ -30581,10 +30581,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_forbid />
-  <Remixicons.file_forbid class="w-4 h-4" />
-  <Remixicons.file_forbid line />
-  <Remixicons.file_forbid fill />
+  <Remixicon.file_forbid />
+  <Remixicon.file_forbid class="w-4 h-4" />
+  <Remixicon.file_forbid line />
+  <Remixicon.file_forbid fill />
   ```
   """
   attr :rest, :global,
@@ -30618,10 +30618,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emotion_laugh />
-  <Remixicons.emotion_laugh class="w-4 h-4" />
-  <Remixicons.emotion_laugh line />
-  <Remixicons.emotion_laugh fill />
+  <Remixicon.emotion_laugh />
+  <Remixicon.emotion_laugh class="w-4 h-4" />
+  <Remixicon.emotion_laugh line />
+  <Remixicon.emotion_laugh fill />
   ```
   """
   attr :rest, :global,
@@ -30655,10 +30655,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wheelchair />
-  <Remixicons.wheelchair class="w-4 h-4" />
-  <Remixicons.wheelchair line />
-  <Remixicons.wheelchair fill />
+  <Remixicon.wheelchair />
+  <Remixicon.wheelchair class="w-4 h-4" />
+  <Remixicon.wheelchair line />
+  <Remixicon.wheelchair fill />
   ```
   """
   attr :rest, :global,
@@ -30692,10 +30692,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.box_2 />
-  <Remixicons.box_2 class="w-4 h-4" />
-  <Remixicons.box_2 line />
-  <Remixicons.box_2 fill />
+  <Remixicon.box_2 />
+  <Remixicon.box_2 class="w-4 h-4" />
+  <Remixicon.box_2 line />
+  <Remixicon.box_2 fill />
   ```
   """
   attr :rest, :global,
@@ -30729,10 +30729,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.inbox_archive />
-  <Remixicons.inbox_archive class="w-4 h-4" />
-  <Remixicons.inbox_archive line />
-  <Remixicons.inbox_archive fill />
+  <Remixicon.inbox_archive />
+  <Remixicon.inbox_archive class="w-4 h-4" />
+  <Remixicon.inbox_archive line />
+  <Remixicon.inbox_archive fill />
   ```
   """
   attr :rest, :global,
@@ -30766,10 +30766,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coupon_3 />
-  <Remixicons.coupon_3 class="w-4 h-4" />
-  <Remixicons.coupon_3 line />
-  <Remixicons.coupon_3 fill />
+  <Remixicon.coupon_3 />
+  <Remixicon.coupon_3 class="w-4 h-4" />
+  <Remixicon.coupon_3 line />
+  <Remixicon.coupon_3 fill />
   ```
   """
   attr :rest, :global,
@@ -30803,10 +30803,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.door_open />
-  <Remixicons.door_open class="w-4 h-4" />
-  <Remixicons.door_open line />
-  <Remixicons.door_open fill />
+  <Remixicon.door_open />
+  <Remixicon.door_open class="w-4 h-4" />
+  <Remixicon.door_open line />
+  <Remixicon.door_open fill />
   ```
   """
   attr :rest, :global,
@@ -30840,10 +30840,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.slideshow />
-  <Remixicons.slideshow class="w-4 h-4" />
-  <Remixicons.slideshow line />
-  <Remixicons.slideshow fill />
+  <Remixicon.slideshow />
+  <Remixicon.slideshow class="w-4 h-4" />
+  <Remixicon.slideshow line />
+  <Remixicon.slideshow fill />
   ```
   """
   attr :rest, :global,
@@ -30877,10 +30877,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.picture_in_picture_2 />
-  <Remixicons.picture_in_picture_2 class="w-4 h-4" />
-  <Remixicons.picture_in_picture_2 line />
-  <Remixicons.picture_in_picture_2 fill />
+  <Remixicon.picture_in_picture_2 />
+  <Remixicon.picture_in_picture_2 class="w-4 h-4" />
+  <Remixicon.picture_in_picture_2 line />
+  <Remixicon.picture_in_picture_2 fill />
   ```
   """
   attr :rest, :global,
@@ -30914,10 +30914,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.emoji_sticker />
-  <Remixicons.emoji_sticker class="w-4 h-4" />
-  <Remixicons.emoji_sticker line />
-  <Remixicons.emoji_sticker fill />
+  <Remixicon.emoji_sticker />
+  <Remixicon.emoji_sticker class="w-4 h-4" />
+  <Remixicon.emoji_sticker line />
+  <Remixicon.emoji_sticker fill />
   ```
   """
   attr :rest, :global,
@@ -30951,10 +30951,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vuejs />
-  <Remixicons.vuejs class="w-4 h-4" />
-  <Remixicons.vuejs line />
-  <Remixicons.vuejs fill />
+  <Remixicon.vuejs />
+  <Remixicon.vuejs class="w-4 h-4" />
+  <Remixicon.vuejs line />
+  <Remixicon.vuejs fill />
   ```
   """
   attr :rest, :global,
@@ -30988,10 +30988,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vip_crown_2 />
-  <Remixicons.vip_crown_2 class="w-4 h-4" />
-  <Remixicons.vip_crown_2 line />
-  <Remixicons.vip_crown_2 fill />
+  <Remixicon.vip_crown_2 />
+  <Remixicon.vip_crown_2 class="w-4 h-4" />
+  <Remixicon.vip_crown_2 line />
+  <Remixicon.vip_crown_2 fill />
   ```
   """
   attr :rest, :global,
@@ -31025,10 +31025,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_upload />
-  <Remixicons.folder_upload class="w-4 h-4" />
-  <Remixicons.folder_upload line />
-  <Remixicons.folder_upload fill />
+  <Remixicon.folder_upload />
+  <Remixicon.folder_upload class="w-4 h-4" />
+  <Remixicon.folder_upload line />
+  <Remixicon.folder_upload fill />
   ```
   """
   attr :rest, :global,
@@ -31062,10 +31062,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.building_3 />
-  <Remixicons.building_3 class="w-4 h-4" />
-  <Remixicons.building_3 line />
-  <Remixicons.building_3 fill />
+  <Remixicon.building_3 />
+  <Remixicon.building_3 class="w-4 h-4" />
+  <Remixicon.building_3 line />
+  <Remixicon.building_3 fill />
   ```
   """
   attr :rest, :global,
@@ -31098,10 +31098,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_search />
-  <Remixicons.file_search class="w-4 h-4" />
-  <Remixicons.file_search line />
-  <Remixicons.file_search fill />
+  <Remixicon.file_search />
+  <Remixicon.file_search class="w-4 h-4" />
+  <Remixicon.file_search line />
+  <Remixicon.file_search fill />
   ```
   """
   attr :rest, :global,
@@ -31135,10 +31135,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.passport />
-  <Remixicons.passport class="w-4 h-4" />
-  <Remixicons.passport line />
-  <Remixicons.passport fill />
+  <Remixicon.passport />
+  <Remixicon.passport class="w-4 h-4" />
+  <Remixicon.passport line />
+  <Remixicon.passport fill />
   ```
   """
   attr :rest, :global,
@@ -31172,10 +31172,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scales_3 />
-  <Remixicons.scales_3 class="w-4 h-4" />
-  <Remixicons.scales_3 line />
-  <Remixicons.scales_3 fill />
+  <Remixicon.scales_3 />
+  <Remixicon.scales_3 class="w-4 h-4" />
+  <Remixicon.scales_3 line />
+  <Remixicon.scales_3 fill />
   ```
   """
   attr :rest, :global,
@@ -31209,10 +31209,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.open_arm />
-  <Remixicons.open_arm class="w-4 h-4" />
-  <Remixicons.open_arm line />
-  <Remixicons.open_arm fill />
+  <Remixicon.open_arm />
+  <Remixicon.open_arm class="w-4 h-4" />
+  <Remixicon.open_arm line />
+  <Remixicon.open_arm fill />
   ```
   """
   attr :rest, :global,
@@ -31246,10 +31246,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.baidu />
-  <Remixicons.baidu class="w-4 h-4" />
-  <Remixicons.baidu line />
-  <Remixicons.baidu fill />
+  <Remixicon.baidu />
+  <Remixicon.baidu class="w-4 h-4" />
+  <Remixicon.baidu line />
+  <Remixicon.baidu fill />
   ```
   """
   attr :rest, :global,
@@ -31283,10 +31283,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.logout_box_r />
-  <Remixicons.logout_box_r class="w-4 h-4" />
-  <Remixicons.logout_box_r line />
-  <Remixicons.logout_box_r fill />
+  <Remixicon.logout_box_r />
+  <Remixicon.logout_box_r class="w-4 h-4" />
+  <Remixicon.logout_box_r line />
+  <Remixicon.logout_box_r fill />
   ```
   """
   attr :rest, :global,
@@ -31320,10 +31320,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_heart />
-  <Remixicons.user_heart class="w-4 h-4" />
-  <Remixicons.user_heart line />
-  <Remixicons.user_heart fill />
+  <Remixicon.user_heart />
+  <Remixicon.user_heart class="w-4 h-4" />
+  <Remixicon.user_heart line />
+  <Remixicon.user_heart fill />
   ```
   """
   attr :rest, :global,
@@ -31357,10 +31357,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.checkbox_blank />
-  <Remixicons.checkbox_blank class="w-4 h-4" />
-  <Remixicons.checkbox_blank line />
-  <Remixicons.checkbox_blank fill />
+  <Remixicon.checkbox_blank />
+  <Remixicon.checkbox_blank class="w-4 h-4" />
+  <Remixicon.checkbox_blank line />
+  <Remixicon.checkbox_blank fill />
   ```
   """
   attr :rest, :global,
@@ -31394,10 +31394,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.brush_2 />
-  <Remixicons.brush_2 class="w-4 h-4" />
-  <Remixicons.brush_2 line />
-  <Remixicons.brush_2 fill />
+  <Remixicon.brush_2 />
+  <Remixicon.brush_2 class="w-4 h-4" />
+  <Remixicon.brush_2 line />
+  <Remixicon.brush_2 fill />
   ```
   """
   attr :rest, :global,
@@ -31431,10 +31431,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.server />
-  <Remixicons.server class="w-4 h-4" />
-  <Remixicons.server line />
-  <Remixicons.server fill />
+  <Remixicon.server />
+  <Remixicon.server class="w-4 h-4" />
+  <Remixicon.server line />
+  <Remixicon.server fill />
   ```
   """
   attr :rest, :global,
@@ -31468,10 +31468,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.test_tube />
-  <Remixicons.test_tube class="w-4 h-4" />
-  <Remixicons.test_tube line />
-  <Remixicons.test_tube fill />
+  <Remixicon.test_tube />
+  <Remixicon.test_tube class="w-4 h-4" />
+  <Remixicon.test_tube line />
+  <Remixicon.test_tube fill />
   ```
   """
   attr :rest, :global,
@@ -31505,10 +31505,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.volume_vibrate />
-  <Remixicons.volume_vibrate class="w-4 h-4" />
-  <Remixicons.volume_vibrate line />
-  <Remixicons.volume_vibrate fill />
+  <Remixicon.volume_vibrate />
+  <Remixicon.volume_vibrate class="w-4 h-4" />
+  <Remixicon.volume_vibrate line />
+  <Remixicon.volume_vibrate fill />
   ```
   """
   attr :rest, :global,
@@ -31542,10 +31542,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bear_smile />
-  <Remixicons.bear_smile class="w-4 h-4" />
-  <Remixicons.bear_smile line />
-  <Remixicons.bear_smile fill />
+  <Remixicon.bear_smile />
+  <Remixicon.bear_smile class="w-4 h-4" />
+  <Remixicon.bear_smile line />
+  <Remixicon.bear_smile fill />
   ```
   """
   attr :rest, :global,
@@ -31579,10 +31579,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bus_wifi />
-  <Remixicons.bus_wifi class="w-4 h-4" />
-  <Remixicons.bus_wifi line />
-  <Remixicons.bus_wifi fill />
+  <Remixicon.bus_wifi />
+  <Remixicon.bus_wifi class="w-4 h-4" />
+  <Remixicon.bus_wifi line />
+  <Remixicon.bus_wifi fill />
   ```
   """
   attr :rest, :global,
@@ -31616,10 +31616,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_heart />
-  <Remixicons.chat_heart class="w-4 h-4" />
-  <Remixicons.chat_heart line />
-  <Remixicons.chat_heart fill />
+  <Remixicon.chat_heart />
+  <Remixicon.chat_heart class="w-4 h-4" />
+  <Remixicon.chat_heart line />
+  <Remixicon.chat_heart fill />
   ```
   """
   attr :rest, :global,
@@ -31653,10 +31653,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.infrared_thermometer />
-  <Remixicons.infrared_thermometer class="w-4 h-4" />
-  <Remixicons.infrared_thermometer line />
-  <Remixicons.infrared_thermometer fill />
+  <Remixicon.infrared_thermometer />
+  <Remixicon.infrared_thermometer class="w-4 h-4" />
+  <Remixicon.infrared_thermometer line />
+  <Remixicon.infrared_thermometer fill />
   ```
   """
   attr :rest, :global,
@@ -31690,10 +31690,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.money_euro_box />
-  <Remixicons.money_euro_box class="w-4 h-4" />
-  <Remixicons.money_euro_box line />
-  <Remixicons.money_euro_box fill />
+  <Remixicon.money_euro_box />
+  <Remixicon.money_euro_box class="w-4 h-4" />
+  <Remixicon.money_euro_box line />
+  <Remixicon.money_euro_box fill />
   ```
   """
   attr :rest, :global,
@@ -31727,10 +31727,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.spam_3 />
-  <Remixicons.spam_3 class="w-4 h-4" />
-  <Remixicons.spam_3 line />
-  <Remixicons.spam_3 fill />
+  <Remixicon.spam_3 />
+  <Remixicon.spam_3 class="w-4 h-4" />
+  <Remixicon.spam_3 line />
+  <Remixicon.spam_3 fill />
   ```
   """
   attr :rest, :global,
@@ -31764,10 +31764,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.app_store />
-  <Remixicons.app_store class="w-4 h-4" />
-  <Remixicons.app_store line />
-  <Remixicons.app_store fill />
+  <Remixicon.app_store />
+  <Remixicon.app_store class="w-4 h-4" />
+  <Remixicon.app_store line />
+  <Remixicon.app_store fill />
   ```
   """
   attr :rest, :global,
@@ -31801,10 +31801,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu_5 />
-  <Remixicons.menu_5 class="w-4 h-4" />
-  <Remixicons.menu_5 line />
-  <Remixicons.menu_5 fill />
+  <Remixicon.menu_5 />
+  <Remixicon.menu_5 class="w-4 h-4" />
+  <Remixicon.menu_5 line />
+  <Remixicon.menu_5 fill />
   ```
   """
   attr :rest, :global,
@@ -31836,10 +31836,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.building_4 />
-  <Remixicons.building_4 class="w-4 h-4" />
-  <Remixicons.building_4 line />
-  <Remixicons.building_4 fill />
+  <Remixicon.building_4 />
+  <Remixicon.building_4 class="w-4 h-4" />
+  <Remixicon.building_4 line />
+  <Remixicon.building_4 fill />
   ```
   """
   attr :rest, :global,
@@ -31873,10 +31873,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.window />
-  <Remixicons.window class="w-4 h-4" />
-  <Remixicons.window line />
-  <Remixicons.window fill />
+  <Remixicon.window />
+  <Remixicon.window class="w-4 h-4" />
+  <Remixicon.window line />
+  <Remixicon.window fill />
   ```
   """
   attr :rest, :global,
@@ -31910,10 +31910,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.voiceprint />
-  <Remixicons.voiceprint class="w-4 h-4" />
-  <Remixicons.voiceprint line />
-  <Remixicons.voiceprint fill />
+  <Remixicon.voiceprint />
+  <Remixicon.voiceprint class="w-4 h-4" />
+  <Remixicon.voiceprint line />
+  <Remixicon.voiceprint fill />
   ```
   """
   attr :rest, :global,
@@ -31947,10 +31947,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu_add />
-  <Remixicons.menu_add class="w-4 h-4" />
-  <Remixicons.menu_add line />
-  <Remixicons.menu_add fill />
+  <Remixicon.menu_add />
+  <Remixicon.menu_add class="w-4 h-4" />
+  <Remixicon.menu_add line />
+  <Remixicon.menu_add fill />
   ```
   """
   attr :rest, :global,
@@ -31984,10 +31984,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_bottom_2 />
-  <Remixicons.layout_bottom_2 class="w-4 h-4" />
-  <Remixicons.layout_bottom_2 line />
-  <Remixicons.layout_bottom_2 fill />
+  <Remixicon.layout_bottom_2 />
+  <Remixicon.layout_bottom_2 class="w-4 h-4" />
+  <Remixicon.layout_bottom_2 line />
+  <Remixicon.layout_bottom_2 fill />
   ```
   """
   attr :rest, :global,
@@ -32021,10 +32021,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_repository_private />
-  <Remixicons.git_repository_private class="w-4 h-4" />
-  <Remixicons.git_repository_private line />
-  <Remixicons.git_repository_private fill />
+  <Remixicon.git_repository_private />
+  <Remixicon.git_repository_private class="w-4 h-4" />
+  <Remixicon.git_repository_private line />
+  <Remixicon.git_repository_private fill />
   ```
   """
   attr :rest, :global,
@@ -32058,10 +32058,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.admin />
-  <Remixicons.admin class="w-4 h-4" />
-  <Remixicons.admin line />
-  <Remixicons.admin fill />
+  <Remixicon.admin />
+  <Remixicon.admin class="w-4 h-4" />
+  <Remixicon.admin line />
+  <Remixicon.admin fill />
   ```
   """
   attr :rest, :global,
@@ -32095,10 +32095,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.star_s />
-  <Remixicons.star_s class="w-4 h-4" />
-  <Remixicons.star_s line />
-  <Remixicons.star_s fill />
+  <Remixicon.star_s />
+  <Remixicon.star_s class="w-4 h-4" />
+  <Remixicon.star_s line />
+  <Remixicon.star_s fill />
   ```
   """
   attr :rest, :global,
@@ -32132,10 +32132,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shuffle />
-  <Remixicons.shuffle class="w-4 h-4" />
-  <Remixicons.shuffle line />
-  <Remixicons.shuffle fill />
+  <Remixicon.shuffle />
+  <Remixicon.shuffle class="w-4 h-4" />
+  <Remixicon.shuffle line />
+  <Remixicon.shuffle fill />
   ```
   """
   attr :rest, :global,
@@ -32169,10 +32169,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.medal_2 />
-  <Remixicons.medal_2 class="w-4 h-4" />
-  <Remixicons.medal_2 line />
-  <Remixicons.medal_2 fill />
+  <Remixicon.medal_2 />
+  <Remixicon.medal_2 class="w-4 h-4" />
+  <Remixicon.medal_2 line />
+  <Remixicon.medal_2 fill />
   ```
   """
   attr :rest, :global,
@@ -32206,10 +32206,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.copper_coin />
-  <Remixicons.copper_coin class="w-4 h-4" />
-  <Remixicons.copper_coin line />
-  <Remixicons.copper_coin fill />
+  <Remixicon.copper_coin />
+  <Remixicon.copper_coin class="w-4 h-4" />
+  <Remixicon.copper_coin line />
+  <Remixicon.copper_coin fill />
   ```
   """
   attr :rest, :global,
@@ -32243,10 +32243,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.train_wifi />
-  <Remixicons.train_wifi class="w-4 h-4" />
-  <Remixicons.train_wifi line />
-  <Remixicons.train_wifi fill />
+  <Remixicon.train_wifi />
+  <Remixicon.train_wifi class="w-4 h-4" />
+  <Remixicon.train_wifi line />
+  <Remixicon.train_wifi fill />
   ```
   """
   attr :rest, :global,
@@ -32280,10 +32280,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cactus />
-  <Remixicons.cactus class="w-4 h-4" />
-  <Remixicons.cactus line />
-  <Remixicons.cactus fill />
+  <Remixicon.cactus />
+  <Remixicon.cactus class="w-4 h-4" />
+  <Remixicon.cactus line />
+  <Remixicon.cactus fill />
   ```
   """
   attr :rest, :global,
@@ -32317,10 +32317,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cross />
-  <Remixicons.cross class="w-4 h-4" />
-  <Remixicons.cross line />
-  <Remixicons.cross fill />
+  <Remixicon.cross />
+  <Remixicon.cross class="w-4 h-4" />
+  <Remixicon.cross line />
+  <Remixicon.cross fill />
   ```
   """
   attr :rest, :global,
@@ -32353,10 +32353,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.repeat />
-  <Remixicons.repeat class="w-4 h-4" />
-  <Remixicons.repeat line />
-  <Remixicons.repeat fill />
+  <Remixicon.repeat />
+  <Remixicon.repeat class="w-4 h-4" />
+  <Remixicon.repeat line />
+  <Remixicon.repeat fill />
   ```
   """
   attr :rest, :global,
@@ -32390,10 +32390,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.star />
-  <Remixicons.star class="w-4 h-4" />
-  <Remixicons.star line />
-  <Remixicons.star fill />
+  <Remixicon.star />
+  <Remixicon.star class="w-4 h-4" />
+  <Remixicon.star line />
+  <Remixicon.star fill />
   ```
   """
   attr :rest, :global,
@@ -32427,10 +32427,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.steam />
-  <Remixicons.steam class="w-4 h-4" />
-  <Remixicons.steam line />
-  <Remixicons.steam fill />
+  <Remixicon.steam />
+  <Remixicon.steam class="w-4 h-4" />
+  <Remixicon.steam line />
+  <Remixicon.steam fill />
   ```
   """
   attr :rest, :global,
@@ -32464,10 +32464,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_star />
-  <Remixicons.user_star class="w-4 h-4" />
-  <Remixicons.user_star line />
-  <Remixicons.user_star fill />
+  <Remixicon.user_star />
+  <Remixicon.user_star class="w-4 h-4" />
+  <Remixicon.user_star line />
+  <Remixicon.user_star fill />
   ```
   """
   attr :rest, :global,
@@ -32501,10 +32501,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.projector_2 />
-  <Remixicons.projector_2 class="w-4 h-4" />
-  <Remixicons.projector_2 line />
-  <Remixicons.projector_2 fill />
+  <Remixicon.projector_2 />
+  <Remixicon.projector_2 class="w-4 h-4" />
+  <Remixicon.projector_2 line />
+  <Remixicon.projector_2 fill />
   ```
   """
   attr :rest, :global,
@@ -32538,10 +32538,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.artboard />
-  <Remixicons.artboard class="w-4 h-4" />
-  <Remixicons.artboard line />
-  <Remixicons.artboard fill />
+  <Remixicon.artboard />
+  <Remixicon.artboard class="w-4 h-4" />
+  <Remixicon.artboard line />
+  <Remixicon.artboard fill />
   ```
   """
   attr :rest, :global,
@@ -32575,10 +32575,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.price_tag />
-  <Remixicons.price_tag class="w-4 h-4" />
-  <Remixicons.price_tag line />
-  <Remixicons.price_tag fill />
+  <Remixicon.price_tag />
+  <Remixicon.price_tag class="w-4 h-4" />
+  <Remixicon.price_tag line />
+  <Remixicon.price_tag fill />
   ```
   """
   attr :rest, :global,
@@ -32612,10 +32612,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_history />
-  <Remixicons.chat_history class="w-4 h-4" />
-  <Remixicons.chat_history line />
-  <Remixicons.chat_history fill />
+  <Remixicon.chat_history />
+  <Remixicon.chat_history class="w-4 h-4" />
+  <Remixicon.chat_history line />
+  <Remixicon.chat_history fill />
   ```
   """
   attr :rest, :global,
@@ -32649,10 +32649,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_received_2 />
-  <Remixicons.user_received_2 class="w-4 h-4" />
-  <Remixicons.user_received_2 line />
-  <Remixicons.user_received_2 fill />
+  <Remixicon.user_received_2 />
+  <Remixicon.user_received_2 class="w-4 h-4" />
+  <Remixicon.user_received_2 line />
+  <Remixicon.user_received_2 fill />
   ```
   """
   attr :rest, :global,
@@ -32686,10 +32686,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.phone_camera />
-  <Remixicons.phone_camera class="w-4 h-4" />
-  <Remixicons.phone_camera line />
-  <Remixicons.phone_camera fill />
+  <Remixicon.phone_camera />
+  <Remixicon.phone_camera class="w-4 h-4" />
+  <Remixicon.phone_camera line />
+  <Remixicon.phone_camera fill />
   ```
   """
   attr :rest, :global,
@@ -32723,10 +32723,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.edit_2 />
-  <Remixicons.edit_2 class="w-4 h-4" />
-  <Remixicons.edit_2 line />
-  <Remixicons.edit_2 fill />
+  <Remixicon.edit_2 />
+  <Remixicon.edit_2 class="w-4 h-4" />
+  <Remixicon.edit_2 line />
+  <Remixicon.edit_2 fill />
   ```
   """
   attr :rest, :global,
@@ -32760,10 +32760,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.alert />
-  <Remixicons.alert class="w-4 h-4" />
-  <Remixicons.alert line />
-  <Remixicons.alert fill />
+  <Remixicon.alert />
+  <Remixicon.alert class="w-4 h-4" />
+  <Remixicon.alert line />
+  <Remixicon.alert fill />
   ```
   """
   attr :rest, :global,
@@ -32797,10 +32797,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_location />
-  <Remixicons.user_location class="w-4 h-4" />
-  <Remixicons.user_location line />
-  <Remixicons.user_location fill />
+  <Remixicon.user_location />
+  <Remixicon.user_location class="w-4 h-4" />
+  <Remixicon.user_location line />
+  <Remixicon.user_location fill />
   ```
   """
   attr :rest, :global,
@@ -32834,10 +32834,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_gif />
-  <Remixicons.file_gif class="w-4 h-4" />
-  <Remixicons.file_gif line />
-  <Remixicons.file_gif fill />
+  <Remixicon.file_gif />
+  <Remixicon.file_gif class="w-4 h-4" />
+  <Remixicon.file_gif line />
+  <Remixicon.file_gif fill />
   ```
   """
   attr :rest, :global,
@@ -32871,10 +32871,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.eye_close />
-  <Remixicons.eye_close class="w-4 h-4" />
-  <Remixicons.eye_close line />
-  <Remixicons.eye_close fill />
+  <Remixicon.eye_close />
+  <Remixicon.eye_close class="w-4 h-4" />
+  <Remixicon.eye_close line />
+  <Remixicon.eye_close fill />
   ```
   """
   attr :rest, :global,
@@ -32908,10 +32908,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_branch />
-  <Remixicons.git_branch class="w-4 h-4" />
-  <Remixicons.git_branch line />
-  <Remixicons.git_branch fill />
+  <Remixicon.git_branch />
+  <Remixicon.git_branch class="w-4 h-4" />
+  <Remixicon.git_branch line />
+  <Remixicon.git_branch fill />
   ```
   """
   attr :rest, :global,
@@ -32945,10 +32945,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.globe />
-  <Remixicons.globe class="w-4 h-4" />
-  <Remixicons.globe line />
-  <Remixicons.globe fill />
+  <Remixicon.globe />
+  <Remixicon.globe class="w-4 h-4" />
+  <Remixicon.globe line />
+  <Remixicon.globe fill />
   ```
   """
   attr :rest, :global,
@@ -32982,10 +32982,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.china_railway />
-  <Remixicons.china_railway class="w-4 h-4" />
-  <Remixicons.china_railway line />
-  <Remixicons.china_railway fill />
+  <Remixicon.china_railway />
+  <Remixicon.china_railway class="w-4 h-4" />
+  <Remixicon.china_railway line />
+  <Remixicon.china_railway fill />
   ```
   """
   attr :rest, :global,
@@ -33019,10 +33019,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_add />
-  <Remixicons.mail_add class="w-4 h-4" />
-  <Remixicons.mail_add line />
-  <Remixicons.mail_add fill />
+  <Remixicon.mail_add />
+  <Remixicon.mail_add class="w-4 h-4" />
+  <Remixicon.mail_add line />
+  <Remixicon.mail_add fill />
   ```
   """
   attr :rest, :global,
@@ -33056,10 +33056,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.key />
-  <Remixicons.key class="w-4 h-4" />
-  <Remixicons.key line />
-  <Remixicons.key fill />
+  <Remixicon.key />
+  <Remixicon.key class="w-4 h-4" />
+  <Remixicon.key line />
+  <Remixicon.key fill />
   ```
   """
   attr :rest, :global,
@@ -33093,10 +33093,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.paint />
-  <Remixicons.paint class="w-4 h-4" />
-  <Remixicons.paint line />
-  <Remixicons.paint fill />
+  <Remixicon.paint />
+  <Remixicon.paint class="w-4 h-4" />
+  <Remixicon.paint line />
+  <Remixicon.paint fill />
   ```
   """
   attr :rest, :global,
@@ -33130,10 +33130,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.group />
-  <Remixicons.group class="w-4 h-4" />
-  <Remixicons.group line />
-  <Remixicons.group fill />
+  <Remixicon.group />
+  <Remixicon.group class="w-4 h-4" />
+  <Remixicon.group line />
+  <Remixicon.group fill />
   ```
   """
   attr :rest, :global,
@@ -33167,10 +33167,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.corner_down_left />
-  <Remixicons.corner_down_left class="w-4 h-4" />
-  <Remixicons.corner_down_left line />
-  <Remixicons.corner_down_left fill />
+  <Remixicon.corner_down_left />
+  <Remixicon.corner_down_left class="w-4 h-4" />
+  <Remixicon.corner_down_left line />
+  <Remixicon.corner_down_left fill />
   ```
   """
   attr :rest, :global,
@@ -33204,10 +33204,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.qr_scan />
-  <Remixicons.qr_scan class="w-4 h-4" />
-  <Remixicons.qr_scan line />
-  <Remixicons.qr_scan fill />
+  <Remixicon.qr_scan />
+  <Remixicon.qr_scan class="w-4 h-4" />
+  <Remixicon.qr_scan line />
+  <Remixicon.qr_scan fill />
   ```
   """
   attr :rest, :global,
@@ -33241,10 +33241,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.artboard_2 />
-  <Remixicons.artboard_2 class="w-4 h-4" />
-  <Remixicons.artboard_2 line />
-  <Remixicons.artboard_2 fill />
+  <Remixicon.artboard_2 />
+  <Remixicon.artboard_2 class="w-4 h-4" />
+  <Remixicon.artboard_2 line />
+  <Remixicon.artboard_2 fill />
   ```
   """
   attr :rest, :global,
@@ -33278,10 +33278,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sensor />
-  <Remixicons.sensor class="w-4 h-4" />
-  <Remixicons.sensor line />
-  <Remixicons.sensor fill />
+  <Remixicon.sensor />
+  <Remixicon.sensor class="w-4 h-4" />
+  <Remixicon.sensor line />
+  <Remixicon.sensor fill />
   ```
   """
   attr :rest, :global,
@@ -33315,10 +33315,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user />
-  <Remixicons.user class="w-4 h-4" />
-  <Remixicons.user line />
-  <Remixicons.user fill />
+  <Remixicon.user />
+  <Remixicon.user class="w-4 h-4" />
+  <Remixicon.user line />
+  <Remixicon.user fill />
   ```
   """
   attr :rest, :global,
@@ -33352,10 +33352,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shining_2 />
-  <Remixicons.shining_2 class="w-4 h-4" />
-  <Remixicons.shining_2 line />
-  <Remixicons.shining_2 fill />
+  <Remixicon.shining_2 />
+  <Remixicon.shining_2 class="w-4 h-4" />
+  <Remixicon.shining_2 line />
+  <Remixicon.shining_2 fill />
   ```
   """
   attr :rest, :global,
@@ -33388,10 +33388,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hand_heart />
-  <Remixicons.hand_heart class="w-4 h-4" />
-  <Remixicons.hand_heart line />
-  <Remixicons.hand_heart fill />
+  <Remixicon.hand_heart />
+  <Remixicon.hand_heart class="w-4 h-4" />
+  <Remixicon.hand_heart line />
+  <Remixicon.hand_heart fill />
   ```
   """
   attr :rest, :global,
@@ -33425,10 +33425,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.customer_service />
-  <Remixicons.customer_service class="w-4 h-4" />
-  <Remixicons.customer_service line />
-  <Remixicons.customer_service fill />
+  <Remixicon.customer_service />
+  <Remixicon.customer_service class="w-4 h-4" />
+  <Remixicon.customer_service line />
+  <Remixicon.customer_service fill />
   ```
   """
   attr :rest, :global,
@@ -33462,10 +33462,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sip />
-  <Remixicons.sip class="w-4 h-4" />
-  <Remixicons.sip line />
-  <Remixicons.sip fill />
+  <Remixicon.sip />
+  <Remixicon.sip class="w-4 h-4" />
+  <Remixicon.sip line />
+  <Remixicon.sip fill />
   ```
   """
   attr :rest, :global,
@@ -33499,10 +33499,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.centos />
-  <Remixicons.centos class="w-4 h-4" />
-  <Remixicons.centos line />
-  <Remixicons.centos fill />
+  <Remixicon.centos />
+  <Remixicon.centos class="w-4 h-4" />
+  <Remixicon.centos line />
+  <Remixicon.centos fill />
   ```
   """
   attr :rest, :global,
@@ -33536,10 +33536,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.find_replace />
-  <Remixicons.find_replace class="w-4 h-4" />
-  <Remixicons.find_replace line />
-  <Remixicons.find_replace fill />
+  <Remixicon.find_replace />
+  <Remixicon.find_replace class="w-4 h-4" />
+  <Remixicon.find_replace line />
+  <Remixicon.find_replace fill />
   ```
   """
   attr :rest, :global,
@@ -33573,10 +33573,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder />
-  <Remixicons.folder class="w-4 h-4" />
-  <Remixicons.folder line />
-  <Remixicons.folder fill />
+  <Remixicon.folder />
+  <Remixicon.folder class="w-4 h-4" />
+  <Remixicon.folder line />
+  <Remixicon.folder fill />
   ```
   """
   attr :rest, :global,
@@ -33610,10 +33610,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.record_mail />
-  <Remixicons.record_mail class="w-4 h-4" />
-  <Remixicons.record_mail line />
-  <Remixicons.record_mail fill />
+  <Remixicon.record_mail />
+  <Remixicon.record_mail class="w-4 h-4" />
+  <Remixicon.record_mail line />
+  <Remixicon.record_mail fill />
   ```
   """
   attr :rest, :global,
@@ -33647,10 +33647,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_transfer />
-  <Remixicons.folder_transfer class="w-4 h-4" />
-  <Remixicons.folder_transfer line />
-  <Remixicons.folder_transfer fill />
+  <Remixicon.folder_transfer />
+  <Remixicon.folder_transfer class="w-4 h-4" />
+  <Remixicon.folder_transfer line />
+  <Remixicon.folder_transfer fill />
   ```
   """
   attr :rest, :global,
@@ -33684,10 +33684,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.magic />
-  <Remixicons.magic class="w-4 h-4" />
-  <Remixicons.magic line />
-  <Remixicons.magic fill />
+  <Remixicon.magic />
+  <Remixicon.magic class="w-4 h-4" />
+  <Remixicon.magic line />
+  <Remixicon.magic fill />
   ```
   """
   attr :rest, :global,
@@ -33721,10 +33721,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.thumb_up />
-  <Remixicons.thumb_up class="w-4 h-4" />
-  <Remixicons.thumb_up line />
-  <Remixicons.thumb_up fill />
+  <Remixicon.thumb_up />
+  <Remixicon.thumb_up class="w-4 h-4" />
+  <Remixicon.thumb_up line />
+  <Remixicon.thumb_up fill />
   ```
   """
   attr :rest, :global,
@@ -33758,10 +33758,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pantone />
-  <Remixicons.pantone class="w-4 h-4" />
-  <Remixicons.pantone line />
-  <Remixicons.pantone fill />
+  <Remixicon.pantone />
+  <Remixicon.pantone class="w-4 h-4" />
+  <Remixicon.pantone line />
+  <Remixicon.pantone fill />
   ```
   """
   attr :rest, :global,
@@ -33795,10 +33795,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.more_2 />
-  <Remixicons.more_2 class="w-4 h-4" />
-  <Remixicons.more_2 line />
-  <Remixicons.more_2 fill />
+  <Remixicon.more_2 />
+  <Remixicon.more_2 class="w-4 h-4" />
+  <Remixicon.more_2 line />
+  <Remixicon.more_2 fill />
   ```
   """
   attr :rest, :global,
@@ -33832,10 +33832,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_chart_2 />
-  <Remixicons.folder_chart_2 class="w-4 h-4" />
-  <Remixicons.folder_chart_2 line />
-  <Remixicons.folder_chart_2 fill />
+  <Remixicon.folder_chart_2 />
+  <Remixicon.folder_chart_2 class="w-4 h-4" />
+  <Remixicon.folder_chart_2 line />
+  <Remixicon.folder_chart_2 fill />
   ```
   """
   attr :rest, :global,
@@ -33869,10 +33869,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.creative_commons_nc />
-  <Remixicons.creative_commons_nc class="w-4 h-4" />
-  <Remixicons.creative_commons_nc line />
-  <Remixicons.creative_commons_nc fill />
+  <Remixicon.creative_commons_nc />
+  <Remixicon.creative_commons_nc class="w-4 h-4" />
+  <Remixicon.creative_commons_nc line />
+  <Remixicon.creative_commons_nc fill />
   ```
   """
   attr :rest, :global,
@@ -33906,10 +33906,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.moon_clear />
-  <Remixicons.moon_clear class="w-4 h-4" />
-  <Remixicons.moon_clear line />
-  <Remixicons.moon_clear fill />
+  <Remixicon.moon_clear />
+  <Remixicon.moon_clear class="w-4 h-4" />
+  <Remixicon.moon_clear line />
+  <Remixicon.moon_clear fill />
   ```
   """
   attr :rest, :global,
@@ -33943,10 +33943,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.battery />
-  <Remixicons.battery class="w-4 h-4" />
-  <Remixicons.battery line />
-  <Remixicons.battery fill />
+  <Remixicon.battery />
+  <Remixicon.battery class="w-4 h-4" />
+  <Remixicon.battery line />
+  <Remixicon.battery fill />
   ```
   """
   attr :rest, :global,
@@ -33980,10 +33980,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bookmark />
-  <Remixicons.bookmark class="w-4 h-4" />
-  <Remixicons.bookmark line />
-  <Remixicons.bookmark fill />
+  <Remixicon.bookmark />
+  <Remixicon.bookmark class="w-4 h-4" />
+  <Remixicon.bookmark line />
+  <Remixicon.bookmark fill />
   ```
   """
   attr :rest, :global,
@@ -34017,10 +34017,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.windows />
-  <Remixicons.windows class="w-4 h-4" />
-  <Remixicons.windows line />
-  <Remixicons.windows fill />
+  <Remixicon.windows />
+  <Remixicon.windows class="w-4 h-4" />
+  <Remixicon.windows line />
+  <Remixicon.windows fill />
   ```
   """
   attr :rest, :global,
@@ -34054,10 +34054,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shield_star />
-  <Remixicons.shield_star class="w-4 h-4" />
-  <Remixicons.shield_star line />
-  <Remixicons.shield_star fill />
+  <Remixicon.shield_star />
+  <Remixicon.shield_star class="w-4 h-4" />
+  <Remixicon.shield_star line />
+  <Remixicon.shield_star fill />
   ```
   """
   attr :rest, :global,
@@ -34091,10 +34091,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flight_takeoff />
-  <Remixicons.flight_takeoff class="w-4 h-4" />
-  <Remixicons.flight_takeoff line />
-  <Remixicons.flight_takeoff fill />
+  <Remixicon.flight_takeoff />
+  <Remixicon.flight_takeoff class="w-4 h-4" />
+  <Remixicon.flight_takeoff line />
+  <Remixicon.flight_takeoff fill />
   ```
   """
   attr :rest, :global,
@@ -34128,10 +34128,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.open_source />
-  <Remixicons.open_source class="w-4 h-4" />
-  <Remixicons.open_source line />
-  <Remixicons.open_source fill />
+  <Remixicon.open_source />
+  <Remixicon.open_source class="w-4 h-4" />
+  <Remixicon.open_source line />
+  <Remixicon.open_source fill />
   ```
   """
   attr :rest, :global,
@@ -34165,10 +34165,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.replay_15 />
-  <Remixicons.replay_15 class="w-4 h-4" />
-  <Remixicons.replay_15 line />
-  <Remixicons.replay_15 fill />
+  <Remixicon.replay_15 />
+  <Remixicon.replay_15 class="w-4 h-4" />
+  <Remixicon.replay_15 line />
+  <Remixicon.replay_15 fill />
   ```
   """
   attr :rest, :global,
@@ -34202,10 +34202,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hourglass_2 />
-  <Remixicons.hourglass_2 class="w-4 h-4" />
-  <Remixicons.hourglass_2 line />
-  <Remixicons.hourglass_2 fill />
+  <Remixicon.hourglass_2 />
+  <Remixicon.hourglass_2 class="w-4 h-4" />
+  <Remixicon.hourglass_2 line />
+  <Remixicon.hourglass_2 fill />
   ```
   """
   attr :rest, :global,
@@ -34239,10 +34239,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.filter_off />
-  <Remixicons.filter_off class="w-4 h-4" />
-  <Remixicons.filter_off line />
-  <Remixicons.filter_off fill />
+  <Remixicon.filter_off />
+  <Remixicon.filter_off class="w-4 h-4" />
+  <Remixicon.filter_off line />
+  <Remixicon.filter_off fill />
   ```
   """
   attr :rest, :global,
@@ -34276,10 +34276,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hotel_bed />
-  <Remixicons.hotel_bed class="w-4 h-4" />
-  <Remixicons.hotel_bed line />
-  <Remixicons.hotel_bed fill />
+  <Remixicon.hotel_bed />
+  <Remixicon.hotel_bed class="w-4 h-4" />
+  <Remixicon.hotel_bed line />
+  <Remixicon.hotel_bed fill />
   ```
   """
   attr :rest, :global,
@@ -34313,10 +34313,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.database_2 />
-  <Remixicons.database_2 class="w-4 h-4" />
-  <Remixicons.database_2 line />
-  <Remixicons.database_2 fill />
+  <Remixicon.database_2 />
+  <Remixicon.database_2 class="w-4 h-4" />
+  <Remixicon.database_2 line />
+  <Remixicon.database_2 fill />
   ```
   """
   attr :rest, :global,
@@ -34350,10 +34350,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.token_swap />
-  <Remixicons.token_swap class="w-4 h-4" />
-  <Remixicons.token_swap line />
-  <Remixicons.token_swap fill />
+  <Remixicon.token_swap />
+  <Remixicon.token_swap class="w-4 h-4" />
+  <Remixicon.token_swap line />
+  <Remixicon.token_swap fill />
   ```
   """
   attr :rest, :global,
@@ -34387,10 +34387,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.codepen />
-  <Remixicons.codepen class="w-4 h-4" />
-  <Remixicons.codepen line />
-  <Remixicons.codepen fill />
+  <Remixicon.codepen />
+  <Remixicon.codepen class="w-4 h-4" />
+  <Remixicon.codepen line />
+  <Remixicon.codepen fill />
   ```
   """
   attr :rest, :global,
@@ -34424,10 +34424,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_pull_request />
-  <Remixicons.git_pull_request class="w-4 h-4" />
-  <Remixicons.git_pull_request line />
-  <Remixicons.git_pull_request fill />
+  <Remixicon.git_pull_request />
+  <Remixicon.git_pull_request class="w-4 h-4" />
+  <Remixicon.git_pull_request line />
+  <Remixicon.git_pull_request fill />
   ```
   """
   attr :rest, :global,
@@ -34461,10 +34461,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rotate_lock />
-  <Remixicons.rotate_lock class="w-4 h-4" />
-  <Remixicons.rotate_lock line />
-  <Remixicons.rotate_lock fill />
+  <Remixicon.rotate_lock />
+  <Remixicon.rotate_lock class="w-4 h-4" />
+  <Remixicon.rotate_lock line />
+  <Remixicon.rotate_lock fill />
   ```
   """
   attr :rest, :global,
@@ -34498,10 +34498,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.calendar_event />
-  <Remixicons.calendar_event class="w-4 h-4" />
-  <Remixicons.calendar_event line />
-  <Remixicons.calendar_event fill />
+  <Remixicon.calendar_event />
+  <Remixicon.calendar_event class="w-4 h-4" />
+  <Remixicon.calendar_event line />
+  <Remixicon.calendar_event fill />
   ```
   """
   attr :rest, :global,
@@ -34535,10 +34535,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.loop_left />
-  <Remixicons.loop_left class="w-4 h-4" />
-  <Remixicons.loop_left line />
-  <Remixicons.loop_left fill />
+  <Remixicon.loop_left />
+  <Remixicon.loop_left class="w-4 h-4" />
+  <Remixicon.loop_left line />
+  <Remixicon.loop_left fill />
   ```
   """
   attr :rest, :global,
@@ -34572,10 +34572,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sparkling />
-  <Remixicons.sparkling class="w-4 h-4" />
-  <Remixicons.sparkling line />
-  <Remixicons.sparkling fill />
+  <Remixicon.sparkling />
+  <Remixicon.sparkling class="w-4 h-4" />
+  <Remixicon.sparkling line />
+  <Remixicon.sparkling fill />
   ```
   """
   attr :rest, :global,
@@ -34609,10 +34609,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_5 />
-  <Remixicons.folder_5 class="w-4 h-4" />
-  <Remixicons.folder_5 line />
-  <Remixicons.folder_5 fill />
+  <Remixicon.folder_5 />
+  <Remixicon.folder_5 class="w-4 h-4" />
+  <Remixicon.folder_5 line />
+  <Remixicon.folder_5 fill />
   ```
   """
   attr :rest, :global,
@@ -34646,10 +34646,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.map_pin_add />
-  <Remixicons.map_pin_add class="w-4 h-4" />
-  <Remixicons.map_pin_add line />
-  <Remixicons.map_pin_add fill />
+  <Remixicon.map_pin_add />
+  <Remixicon.map_pin_add class="w-4 h-4" />
+  <Remixicon.map_pin_add line />
+  <Remixicon.map_pin_add fill />
   ```
   """
   attr :rest, :global,
@@ -34683,10 +34683,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.surround_sound />
-  <Remixicons.surround_sound class="w-4 h-4" />
-  <Remixicons.surround_sound line />
-  <Remixicons.surround_sound fill />
+  <Remixicon.surround_sound />
+  <Remixicon.surround_sound class="w-4 h-4" />
+  <Remixicon.surround_sound line />
+  <Remixicon.surround_sound fill />
   ```
   """
   attr :rest, :global,
@@ -34720,10 +34720,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contrast_drop_2 />
-  <Remixicons.contrast_drop_2 class="w-4 h-4" />
-  <Remixicons.contrast_drop_2 line />
-  <Remixicons.contrast_drop_2 fill />
+  <Remixicon.contrast_drop_2 />
+  <Remixicon.contrast_drop_2 class="w-4 h-4" />
+  <Remixicon.contrast_drop_2 line />
+  <Remixicon.contrast_drop_2 fill />
   ```
   """
   attr :rest, :global,
@@ -34757,10 +34757,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.filter_3 />
-  <Remixicons.filter_3 class="w-4 h-4" />
-  <Remixicons.filter_3 line />
-  <Remixicons.filter_3 fill />
+  <Remixicon.filter_3 />
+  <Remixicon.filter_3 class="w-4 h-4" />
+  <Remixicon.filter_3 line />
+  <Remixicon.filter_3 fill />
   ```
   """
   attr :rest, :global,
@@ -34792,10 +34792,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.expand_up_down />
-  <Remixicons.expand_up_down class="w-4 h-4" />
-  <Remixicons.expand_up_down line />
-  <Remixicons.expand_up_down fill />
+  <Remixicon.expand_up_down />
+  <Remixicon.expand_up_down class="w-4 h-4" />
+  <Remixicon.expand_up_down line />
+  <Remixicon.expand_up_down fill />
   ```
   """
   attr :rest, :global,
@@ -34828,10 +34828,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mic_2 />
-  <Remixicons.mic_2 class="w-4 h-4" />
-  <Remixicons.mic_2 line />
-  <Remixicons.mic_2 fill />
+  <Remixicon.mic_2 />
+  <Remixicon.mic_2 class="w-4 h-4" />
+  <Remixicon.mic_2 line />
+  <Remixicon.mic_2 fill />
   ```
   """
   attr :rest, :global,
@@ -34865,10 +34865,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.archive />
-  <Remixicons.archive class="w-4 h-4" />
-  <Remixicons.archive line />
-  <Remixicons.archive fill />
+  <Remixicon.archive />
+  <Remixicon.archive class="w-4 h-4" />
+  <Remixicon.archive line />
+  <Remixicon.archive fill />
   ```
   """
   attr :rest, :global,
@@ -34902,10 +34902,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.school />
-  <Remixicons.school class="w-4 h-4" />
-  <Remixicons.school line />
-  <Remixicons.school fill />
+  <Remixicon.school />
+  <Remixicon.school class="w-4 h-4" />
+  <Remixicon.school line />
+  <Remixicon.school fill />
   ```
   """
   attr :rest, :global,
@@ -34939,10 +34939,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.safe />
-  <Remixicons.safe class="w-4 h-4" />
-  <Remixicons.safe line />
-  <Remixicons.safe fill />
+  <Remixicon.safe />
+  <Remixicon.safe class="w-4 h-4" />
+  <Remixicon.safe line />
+  <Remixicon.safe fill />
   ```
   """
   attr :rest, :global,
@@ -34976,10 +34976,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.external_link />
-  <Remixicons.external_link class="w-4 h-4" />
-  <Remixicons.external_link line />
-  <Remixicons.external_link fill />
+  <Remixicon.external_link />
+  <Remixicon.external_link class="w-4 h-4" />
+  <Remixicon.external_link line />
+  <Remixicon.external_link fill />
   ```
   """
   attr :rest, :global,
@@ -35013,10 +35013,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.loader_4 />
-  <Remixicons.loader_4 class="w-4 h-4" />
-  <Remixicons.loader_4 line />
-  <Remixicons.loader_4 fill />
+  <Remixicon.loader_4 />
+  <Remixicon.loader_4 class="w-4 h-4" />
+  <Remixicon.loader_4 line />
+  <Remixicon.loader_4 fill />
   ```
   """
   attr :rest, :global,
@@ -35050,10 +35050,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rewind_mini />
-  <Remixicons.rewind_mini class="w-4 h-4" />
-  <Remixicons.rewind_mini line />
-  <Remixicons.rewind_mini fill />
+  <Remixicon.rewind_mini />
+  <Remixicon.rewind_mini class="w-4 h-4" />
+  <Remixicon.rewind_mini line />
+  <Remixicon.rewind_mini fill />
   ```
   """
   attr :rest, :global,
@@ -35087,10 +35087,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.zoom_in />
-  <Remixicons.zoom_in class="w-4 h-4" />
-  <Remixicons.zoom_in line />
-  <Remixicons.zoom_in fill />
+  <Remixicon.zoom_in />
+  <Remixicon.zoom_in class="w-4 h-4" />
+  <Remixicon.zoom_in line />
+  <Remixicon.zoom_in fill />
   ```
   """
   attr :rest, :global,
@@ -35124,10 +35124,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bookmark_2 />
-  <Remixicons.bookmark_2 class="w-4 h-4" />
-  <Remixicons.bookmark_2 line />
-  <Remixicons.bookmark_2 fill />
+  <Remixicon.bookmark_2 />
+  <Remixicon.bookmark_2 class="w-4 h-4" />
+  <Remixicon.bookmark_2 line />
+  <Remixicon.bookmark_2 fill />
   ```
   """
   attr :rest, :global,
@@ -35161,10 +35161,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.edge_new />
-  <Remixicons.edge_new class="w-4 h-4" />
-  <Remixicons.edge_new line />
-  <Remixicons.edge_new fill />
+  <Remixicon.edge_new />
+  <Remixicon.edge_new class="w-4 h-4" />
+  <Remixicon.edge_new line />
+  <Remixicon.edge_new fill />
   ```
   """
   attr :rest, :global,
@@ -35198,10 +35198,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.vidicon_2 />
-  <Remixicons.vidicon_2 class="w-4 h-4" />
-  <Remixicons.vidicon_2 line />
-  <Remixicons.vidicon_2 fill />
+  <Remixicon.vidicon_2 />
+  <Remixicon.vidicon_2 class="w-4 h-4" />
+  <Remixicon.vidicon_2 line />
+  <Remixicon.vidicon_2 fill />
   ```
   """
   attr :rest, :global,
@@ -35235,10 +35235,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mic />
-  <Remixicons.mic class="w-4 h-4" />
-  <Remixicons.mic line />
-  <Remixicons.mic fill />
+  <Remixicon.mic />
+  <Remixicon.mic class="w-4 h-4" />
+  <Remixicon.mic line />
+  <Remixicon.mic fill />
   ```
   """
   attr :rest, :global,
@@ -35272,10 +35272,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.exchange_box />
-  <Remixicons.exchange_box class="w-4 h-4" />
-  <Remixicons.exchange_box line />
-  <Remixicons.exchange_box fill />
+  <Remixicon.exchange_box />
+  <Remixicon.exchange_box class="w-4 h-4" />
+  <Remixicon.exchange_box line />
+  <Remixicon.exchange_box fill />
   ```
   """
   attr :rest, :global,
@@ -35309,10 +35309,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.government />
-  <Remixicons.government class="w-4 h-4" />
-  <Remixicons.government line />
-  <Remixicons.government fill />
+  <Remixicon.government />
+  <Remixicon.government class="w-4 h-4" />
+  <Remixicon.government line />
+  <Remixicon.government fill />
   ```
   """
   attr :rest, :global,
@@ -35346,10 +35346,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.information />
-  <Remixicons.information class="w-4 h-4" />
-  <Remixicons.information line />
-  <Remixicons.information fill />
+  <Remixicon.information />
+  <Remixicon.information class="w-4 h-4" />
+  <Remixicon.information line />
+  <Remixicon.information fill />
   ```
   """
   attr :rest, :global,
@@ -35383,10 +35383,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.share_box />
-  <Remixicons.share_box class="w-4 h-4" />
-  <Remixicons.share_box line />
-  <Remixicons.share_box fill />
+  <Remixicon.share_box />
+  <Remixicon.share_box class="w-4 h-4" />
+  <Remixicon.share_box line />
+  <Remixicon.share_box fill />
   ```
   """
   attr :rest, :global,
@@ -35420,10 +35420,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.radio_button />
-  <Remixicons.radio_button class="w-4 h-4" />
-  <Remixicons.radio_button line />
-  <Remixicons.radio_button fill />
+  <Remixicon.radio_button />
+  <Remixicon.radio_button class="w-4 h-4" />
+  <Remixicon.radio_button line />
+  <Remixicon.radio_button fill />
   ```
   """
   attr :rest, :global,
@@ -35457,10 +35457,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dossier />
-  <Remixicons.dossier class="w-4 h-4" />
-  <Remixicons.dossier line />
-  <Remixicons.dossier fill />
+  <Remixicon.dossier />
+  <Remixicon.dossier class="w-4 h-4" />
+  <Remixicon.dossier line />
+  <Remixicon.dossier fill />
   ```
   """
   attr :rest, :global,
@@ -35494,10 +35494,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shield_user />
-  <Remixicons.shield_user class="w-4 h-4" />
-  <Remixicons.shield_user line />
-  <Remixicons.shield_user fill />
+  <Remixicon.shield_user />
+  <Remixicon.shield_user class="w-4 h-4" />
+  <Remixicon.shield_user line />
+  <Remixicon.shield_user fill />
   ```
   """
   attr :rest, :global,
@@ -35531,10 +35531,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.foggy />
-  <Remixicons.foggy class="w-4 h-4" />
-  <Remixicons.foggy line />
-  <Remixicons.foggy fill />
+  <Remixicon.foggy />
+  <Remixicon.foggy class="w-4 h-4" />
+  <Remixicon.foggy line />
+  <Remixicon.foggy fill />
   ```
   """
   attr :rest, :global,
@@ -35568,10 +35568,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.refresh />
-  <Remixicons.refresh class="w-4 h-4" />
-  <Remixicons.refresh line />
-  <Remixicons.refresh fill />
+  <Remixicon.refresh />
+  <Remixicon.refresh class="w-4 h-4" />
+  <Remixicon.refresh line />
+  <Remixicon.refresh fill />
   ```
   """
   attr :rest, :global,
@@ -35605,10 +35605,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_copy />
-  <Remixicons.file_copy class="w-4 h-4" />
-  <Remixicons.file_copy line />
-  <Remixicons.file_copy fill />
+  <Remixicon.file_copy />
+  <Remixicon.file_copy class="w-4 h-4" />
+  <Remixicon.file_copy line />
+  <Remixicon.file_copy fill />
   ```
   """
   attr :rest, :global,
@@ -35642,10 +35642,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_forbid />
-  <Remixicons.folder_forbid class="w-4 h-4" />
-  <Remixicons.folder_forbid line />
-  <Remixicons.folder_forbid fill />
+  <Remixicon.folder_forbid />
+  <Remixicon.folder_forbid class="w-4 h-4" />
+  <Remixicon.folder_forbid line />
+  <Remixicon.folder_forbid fill />
   ```
   """
   attr :rest, :global,
@@ -35679,10 +35679,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.capsule />
-  <Remixicons.capsule class="w-4 h-4" />
-  <Remixicons.capsule line />
-  <Remixicons.capsule fill />
+  <Remixicon.capsule />
+  <Remixicon.capsule class="w-4 h-4" />
+  <Remixicon.capsule line />
+  <Remixicon.capsule fill />
   ```
   """
   attr :rest, :global,
@@ -35716,10 +35716,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.guide />
-  <Remixicons.guide class="w-4 h-4" />
-  <Remixicons.guide line />
-  <Remixicons.guide fill />
+  <Remixicon.guide />
+  <Remixicon.guide class="w-4 h-4" />
+  <Remixicon.guide line />
+  <Remixicon.guide fill />
   ```
   """
   attr :rest, :global,
@@ -35753,10 +35753,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_upload />
-  <Remixicons.file_upload class="w-4 h-4" />
-  <Remixicons.file_upload line />
-  <Remixicons.file_upload fill />
+  <Remixicon.file_upload />
+  <Remixicon.file_upload class="w-4 h-4" />
+  <Remixicon.file_upload line />
+  <Remixicon.file_upload fill />
   ```
   """
   attr :rest, :global,
@@ -35790,10 +35790,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.visa />
-  <Remixicons.visa class="w-4 h-4" />
-  <Remixicons.visa line />
-  <Remixicons.visa fill />
+  <Remixicon.visa />
+  <Remixicon.visa class="w-4 h-4" />
+  <Remixicon.visa line />
+  <Remixicon.visa fill />
   ```
   """
   attr :rest, :global,
@@ -35827,10 +35827,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.spy />
-  <Remixicons.spy class="w-4 h-4" />
-  <Remixicons.spy line />
-  <Remixicons.spy fill />
+  <Remixicon.spy />
+  <Remixicon.spy class="w-4 h-4" />
+  <Remixicon.spy line />
+  <Remixicon.spy fill />
   ```
   """
   attr :rest, :global,
@@ -35864,10 +35864,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_bin_2 />
-  <Remixicons.delete_bin_2 class="w-4 h-4" />
-  <Remixicons.delete_bin_2 line />
-  <Remixicons.delete_bin_2 fill />
+  <Remixicon.delete_bin_2 />
+  <Remixicon.delete_bin_2 class="w-4 h-4" />
+  <Remixicon.delete_bin_2 line />
+  <Remixicon.delete_bin_2 fill />
   ```
   """
   attr :rest, :global,
@@ -35901,10 +35901,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_received />
-  <Remixicons.folder_received class="w-4 h-4" />
-  <Remixicons.folder_received line />
-  <Remixicons.folder_received fill />
+  <Remixicon.folder_received />
+  <Remixicon.folder_received class="w-4 h-4" />
+  <Remixicon.folder_received line />
+  <Remixicon.folder_received fill />
   ```
   """
   attr :rest, :global,
@@ -35938,10 +35938,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.u_disk />
-  <Remixicons.u_disk class="w-4 h-4" />
-  <Remixicons.u_disk line />
-  <Remixicons.u_disk fill />
+  <Remixicon.u_disk />
+  <Remixicon.u_disk class="w-4 h-4" />
+  <Remixicon.u_disk line />
+  <Remixicon.u_disk fill />
   ```
   """
   attr :rest, :global,
@@ -35975,10 +35975,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_download />
-  <Remixicons.chat_download class="w-4 h-4" />
-  <Remixicons.chat_download line />
-  <Remixicons.chat_download fill />
+  <Remixicon.chat_download />
+  <Remixicon.chat_download class="w-4 h-4" />
+  <Remixicon.chat_download line />
+  <Remixicon.chat_download fill />
   ```
   """
   attr :rest, :global,
@@ -36012,10 +36012,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lifebuoy />
-  <Remixicons.lifebuoy class="w-4 h-4" />
-  <Remixicons.lifebuoy line />
-  <Remixicons.lifebuoy fill />
+  <Remixicon.lifebuoy />
+  <Remixicon.lifebuoy class="w-4 h-4" />
+  <Remixicon.lifebuoy line />
+  <Remixicon.lifebuoy fill />
   ```
   """
   attr :rest, :global,
@@ -36049,10 +36049,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.store_3 />
-  <Remixicons.store_3 class="w-4 h-4" />
-  <Remixicons.store_3 line />
-  <Remixicons.store_3 fill />
+  <Remixicon.store_3 />
+  <Remixicon.store_3 class="w-4 h-4" />
+  <Remixicon.store_3 line />
+  <Remixicon.store_3 fill />
   ```
   """
   attr :rest, :global,
@@ -36086,10 +36086,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scan />
-  <Remixicons.scan class="w-4 h-4" />
-  <Remixicons.scan line />
-  <Remixicons.scan fill />
+  <Remixicon.scan />
+  <Remixicon.scan class="w-4 h-4" />
+  <Remixicon.scan line />
+  <Remixicon.scan fill />
   ```
   """
   attr :rest, :global,
@@ -36123,10 +36123,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.send_plane />
-  <Remixicons.send_plane class="w-4 h-4" />
-  <Remixicons.send_plane line />
-  <Remixicons.send_plane fill />
+  <Remixicon.send_plane />
+  <Remixicon.send_plane class="w-4 h-4" />
+  <Remixicon.send_plane line />
+  <Remixicon.send_plane fill />
   ```
   """
   attr :rest, :global,
@@ -36160,10 +36160,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pie_chart />
-  <Remixicons.pie_chart class="w-4 h-4" />
-  <Remixicons.pie_chart line />
-  <Remixicons.pie_chart fill />
+  <Remixicon.pie_chart />
+  <Remixicon.pie_chart class="w-4 h-4" />
+  <Remixicon.pie_chart line />
+  <Remixicon.pie_chart fill />
   ```
   """
   attr :rest, :global,
@@ -36197,10 +36197,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.loader_3 />
-  <Remixicons.loader_3 class="w-4 h-4" />
-  <Remixicons.loader_3 line />
-  <Remixicons.loader_3 fill />
+  <Remixicon.loader_3 />
+  <Remixicon.loader_3 class="w-4 h-4" />
+  <Remixicon.loader_3 line />
+  <Remixicon.loader_3 fill />
   ```
   """
   attr :rest, :global,
@@ -36234,10 +36234,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.notification />
-  <Remixicons.notification class="w-4 h-4" />
-  <Remixicons.notification line />
-  <Remixicons.notification fill />
+  <Remixicon.notification />
+  <Remixicon.notification class="w-4 h-4" />
+  <Remixicon.notification line />
+  <Remixicon.notification fill />
   ```
   """
   attr :rest, :global,
@@ -36271,10 +36271,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_shield_2 />
-  <Remixicons.file_shield_2 class="w-4 h-4" />
-  <Remixicons.file_shield_2 line />
-  <Remixicons.file_shield_2 fill />
+  <Remixicon.file_shield_2 />
+  <Remixicon.file_shield_2 class="w-4 h-4" />
+  <Remixicon.file_shield_2 line />
+  <Remixicon.file_shield_2 fill />
   ```
   """
   attr :rest, :global,
@@ -36308,10 +36308,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.exchange />
-  <Remixicons.exchange class="w-4 h-4" />
-  <Remixicons.exchange line />
-  <Remixicons.exchange fill />
+  <Remixicon.exchange />
+  <Remixicon.exchange class="w-4 h-4" />
+  <Remixicon.exchange line />
+  <Remixicon.exchange fill />
   ```
   """
   attr :rest, :global,
@@ -36345,10 +36345,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.evernote />
-  <Remixicons.evernote class="w-4 h-4" />
-  <Remixicons.evernote line />
-  <Remixicons.evernote fill />
+  <Remixicon.evernote />
+  <Remixicon.evernote class="w-4 h-4" />
+  <Remixicon.evernote line />
+  <Remixicon.evernote fill />
   ```
   """
   attr :rest, :global,
@@ -36382,10 +36382,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.hard_drive />
-  <Remixicons.hard_drive class="w-4 h-4" />
-  <Remixicons.hard_drive line />
-  <Remixicons.hard_drive fill />
+  <Remixicon.hard_drive />
+  <Remixicon.hard_drive class="w-4 h-4" />
+  <Remixicon.hard_drive line />
+  <Remixicon.hard_drive fill />
   ```
   """
   attr :rest, :global,
@@ -36419,10 +36419,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.side_bar />
-  <Remixicons.side_bar class="w-4 h-4" />
-  <Remixicons.side_bar line />
-  <Remixicons.side_bar fill />
+  <Remixicon.side_bar />
+  <Remixicon.side_bar class="w-4 h-4" />
+  <Remixicon.side_bar line />
+  <Remixicon.side_bar fill />
   ```
   """
   attr :rest, :global,
@@ -36456,10 +36456,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.history />
-  <Remixicons.history class="w-4 h-4" />
-  <Remixicons.history line />
-  <Remixicons.history fill />
+  <Remixicon.history />
+  <Remixicon.history class="w-4 h-4" />
+  <Remixicon.history line />
+  <Remixicon.history fill />
   ```
   """
   attr :rest, :global,
@@ -36493,10 +36493,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.compass_discover />
-  <Remixicons.compass_discover class="w-4 h-4" />
-  <Remixicons.compass_discover line />
-  <Remixicons.compass_discover fill />
+  <Remixicon.compass_discover />
+  <Remixicon.compass_discover class="w-4 h-4" />
+  <Remixicon.compass_discover line />
+  <Remixicon.compass_discover fill />
   ```
   """
   attr :rest, :global,
@@ -36530,10 +36530,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.auction />
-  <Remixicons.auction class="w-4 h-4" />
-  <Remixicons.auction line />
-  <Remixicons.auction fill />
+  <Remixicon.auction />
+  <Remixicon.auction class="w-4 h-4" />
+  <Remixicon.auction line />
+  <Remixicon.auction fill />
   ```
   """
   attr :rest, :global,
@@ -36567,10 +36567,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.swap_box />
-  <Remixicons.swap_box class="w-4 h-4" />
-  <Remixicons.swap_box line />
-  <Remixicons.swap_box fill />
+  <Remixicon.swap_box />
+  <Remixicon.swap_box class="w-4 h-4" />
+  <Remixicon.swap_box line />
+  <Remixicon.swap_box fill />
   ```
   """
   attr :rest, :global,
@@ -36604,10 +36604,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.question_answer />
-  <Remixicons.question_answer class="w-4 h-4" />
-  <Remixicons.question_answer line />
-  <Remixicons.question_answer fill />
+  <Remixicon.question_answer />
+  <Remixicon.question_answer class="w-4 h-4" />
+  <Remixicon.question_answer line />
+  <Remixicon.question_answer fill />
   ```
   """
   attr :rest, :global,
@@ -36641,10 +36641,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lock_password />
-  <Remixicons.lock_password class="w-4 h-4" />
-  <Remixicons.lock_password line />
-  <Remixicons.lock_password fill />
+  <Remixicon.lock_password />
+  <Remixicon.lock_password class="w-4 h-4" />
+  <Remixicon.lock_password line />
+  <Remixicon.lock_password fill />
   ```
   """
   attr :rest, :global,
@@ -36678,10 +36678,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bar_chart_box />
-  <Remixicons.bar_chart_box class="w-4 h-4" />
-  <Remixicons.bar_chart_box line />
-  <Remixicons.bar_chart_box fill />
+  <Remixicon.bar_chart_box />
+  <Remixicon.bar_chart_box class="w-4 h-4" />
+  <Remixicon.bar_chart_box line />
+  <Remixicon.bar_chart_box fill />
   ```
   """
   attr :rest, :global,
@@ -36715,10 +36715,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.book_mark />
-  <Remixicons.book_mark class="w-4 h-4" />
-  <Remixicons.book_mark line />
-  <Remixicons.book_mark fill />
+  <Remixicon.book_mark />
+  <Remixicon.book_mark class="w-4 h-4" />
+  <Remixicon.book_mark line />
+  <Remixicon.book_mark fill />
   ```
   """
   attr :rest, :global,
@@ -36752,10 +36752,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.command />
-  <Remixicons.command class="w-4 h-4" />
-  <Remixicons.command line />
-  <Remixicons.command fill />
+  <Remixicon.command />
+  <Remixicon.command class="w-4 h-4" />
+  <Remixicon.command line />
+  <Remixicon.command fill />
   ```
   """
   attr :rest, :global,
@@ -36789,10 +36789,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_settings />
-  <Remixicons.user_settings class="w-4 h-4" />
-  <Remixicons.user_settings line />
-  <Remixicons.user_settings fill />
+  <Remixicon.user_settings />
+  <Remixicon.user_settings class="w-4 h-4" />
+  <Remixicon.user_settings line />
+  <Remixicon.user_settings fill />
   ```
   """
   attr :rest, :global,
@@ -36826,10 +36826,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.account_pin_box />
-  <Remixicons.account_pin_box class="w-4 h-4" />
-  <Remixicons.account_pin_box line />
-  <Remixicons.account_pin_box fill />
+  <Remixicon.account_pin_box />
+  <Remixicon.account_pin_box class="w-4 h-4" />
+  <Remixicon.account_pin_box line />
+  <Remixicon.account_pin_box fill />
   ```
   """
   attr :rest, :global,
@@ -36863,10 +36863,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.google />
-  <Remixicons.google class="w-4 h-4" />
-  <Remixicons.google line />
-  <Remixicons.google fill />
+  <Remixicon.google />
+  <Remixicon.google class="w-4 h-4" />
+  <Remixicon.google line />
+  <Remixicon.google fill />
   ```
   """
   attr :rest, :global,
@@ -36900,10 +36900,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_settings />
-  <Remixicons.mail_settings class="w-4 h-4" />
-  <Remixicons.mail_settings line />
-  <Remixicons.mail_settings fill />
+  <Remixicon.mail_settings />
+  <Remixicon.mail_settings class="w-4 h-4" />
+  <Remixicon.mail_settings line />
+  <Remixicon.mail_settings fill />
   ```
   """
   attr :rest, :global,
@@ -36937,10 +36937,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.character_recognition />
-  <Remixicons.character_recognition class="w-4 h-4" />
-  <Remixicons.character_recognition line />
-  <Remixicons.character_recognition fill />
+  <Remixicon.character_recognition />
+  <Remixicon.character_recognition class="w-4 h-4" />
+  <Remixicon.character_recognition line />
+  <Remixicon.character_recognition fill />
   ```
   """
   attr :rest, :global,
@@ -36974,10 +36974,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.plug />
-  <Remixicons.plug class="w-4 h-4" />
-  <Remixicons.plug line />
-  <Remixicons.plug fill />
+  <Remixicon.plug />
+  <Remixicon.plug class="w-4 h-4" />
+  <Remixicon.plug line />
+  <Remixicon.plug fill />
   ```
   """
   attr :rest, :global,
@@ -37011,10 +37011,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.graduation_cap />
-  <Remixicons.graduation_cap class="w-4 h-4" />
-  <Remixicons.graduation_cap line />
-  <Remixicons.graduation_cap fill />
+  <Remixicon.graduation_cap />
+  <Remixicon.graduation_cap class="w-4 h-4" />
+  <Remixicon.graduation_cap line />
+  <Remixicon.graduation_cap fill />
   ```
   """
   attr :rest, :global,
@@ -37048,10 +37048,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.notification_4 />
-  <Remixicons.notification_4 class="w-4 h-4" />
-  <Remixicons.notification_4 line />
-  <Remixicons.notification_4 fill />
+  <Remixicon.notification_4 />
+  <Remixicon.notification_4 class="w-4 h-4" />
+  <Remixicon.notification_4 line />
+  <Remixicon.notification_4 fill />
   ```
   """
   attr :rest, :global,
@@ -37085,10 +37085,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.safari />
-  <Remixicons.safari class="w-4 h-4" />
-  <Remixicons.safari line />
-  <Remixicons.safari fill />
+  <Remixicon.safari />
+  <Remixicon.safari class="w-4 h-4" />
+  <Remixicon.safari line />
+  <Remixicon.safari fill />
   ```
   """
   attr :rest, :global,
@@ -37122,10 +37122,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_forward />
-  <Remixicons.skip_forward class="w-4 h-4" />
-  <Remixicons.skip_forward line />
-  <Remixicons.skip_forward fill />
+  <Remixicon.skip_forward />
+  <Remixicon.skip_forward class="w-4 h-4" />
+  <Remixicon.skip_forward line />
+  <Remixicon.skip_forward fill />
   ```
   """
   attr :rest, :global,
@@ -37159,10 +37159,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_ppt />
-  <Remixicons.file_ppt class="w-4 h-4" />
-  <Remixicons.file_ppt line />
-  <Remixicons.file_ppt fill />
+  <Remixicon.file_ppt />
+  <Remixicon.file_ppt class="w-4 h-4" />
+  <Remixicon.file_ppt line />
+  <Remixicon.file_ppt fill />
   ```
   """
   attr :rest, :global,
@@ -37196,10 +37196,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.share_circle />
-  <Remixicons.share_circle class="w-4 h-4" />
-  <Remixicons.share_circle line />
-  <Remixicons.share_circle fill />
+  <Remixicon.share_circle />
+  <Remixicon.share_circle class="w-4 h-4" />
+  <Remixicon.share_circle line />
+  <Remixicon.share_circle fill />
   ```
   """
   attr :rest, :global,
@@ -37233,10 +37233,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_copy_2 />
-  <Remixicons.file_copy_2 class="w-4 h-4" />
-  <Remixicons.file_copy_2 line />
-  <Remixicons.file_copy_2 fill />
+  <Remixicon.file_copy_2 />
+  <Remixicon.file_copy_2 class="w-4 h-4" />
+  <Remixicon.file_copy_2 line />
+  <Remixicon.file_copy_2 fill />
   ```
   """
   attr :rest, :global,
@@ -37270,10 +37270,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.funds_box />
-  <Remixicons.funds_box class="w-4 h-4" />
-  <Remixicons.funds_box line />
-  <Remixicons.funds_box fill />
+  <Remixicon.funds_box />
+  <Remixicon.funds_box class="w-4 h-4" />
+  <Remixicon.funds_box line />
+  <Remixicon.funds_box fill />
   ```
   """
   attr :rest, :global,
@@ -37307,10 +37307,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_ppt_2 />
-  <Remixicons.file_ppt_2 class="w-4 h-4" />
-  <Remixicons.file_ppt_2 line />
-  <Remixicons.file_ppt_2 fill />
+  <Remixicon.file_ppt_2 />
+  <Remixicon.file_ppt_2 class="w-4 h-4" />
+  <Remixicon.file_ppt_2 line />
+  <Remixicon.file_ppt_2 fill />
   ```
   """
   attr :rest, :global,
@@ -37344,10 +37344,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bit_coin />
-  <Remixicons.bit_coin class="w-4 h-4" />
-  <Remixicons.bit_coin line />
-  <Remixicons.bit_coin fill />
+  <Remixicon.bit_coin />
+  <Remixicon.bit_coin class="w-4 h-4" />
+  <Remixicon.bit_coin line />
+  <Remixicon.bit_coin fill />
   ```
   """
   attr :rest, :global,
@@ -37381,10 +37381,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.microscope />
-  <Remixicons.microscope class="w-4 h-4" />
-  <Remixicons.microscope line />
-  <Remixicons.microscope fill />
+  <Remixicon.microscope />
+  <Remixicon.microscope class="w-4 h-4" />
+  <Remixicon.microscope line />
+  <Remixicon.microscope fill />
   ```
   """
   attr :rest, :global,
@@ -37418,10 +37418,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_unknow />
-  <Remixicons.folder_unknow class="w-4 h-4" />
-  <Remixicons.folder_unknow line />
-  <Remixicons.folder_unknow fill />
+  <Remixicon.folder_unknow />
+  <Remixicon.folder_unknow class="w-4 h-4" />
+  <Remixicon.folder_unknow line />
+  <Remixicon.folder_unknow fill />
   ```
   """
   attr :rest, :global,
@@ -37455,10 +37455,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shield_cross />
-  <Remixicons.shield_cross class="w-4 h-4" />
-  <Remixicons.shield_cross line />
-  <Remixicons.shield_cross fill />
+  <Remixicon.shield_cross />
+  <Remixicon.shield_cross class="w-4 h-4" />
+  <Remixicon.shield_cross line />
+  <Remixicon.shield_cross fill />
   ```
   """
   attr :rest, :global,
@@ -37492,10 +37492,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.markup />
-  <Remixicons.markup class="w-4 h-4" />
-  <Remixicons.markup line />
-  <Remixicons.markup fill />
+  <Remixicon.markup />
+  <Remixicon.markup class="w-4 h-4" />
+  <Remixicon.markup line />
+  <Remixicon.markup fill />
   ```
   """
   attr :rest, :global,
@@ -37529,10 +37529,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.focus_3 />
-  <Remixicons.focus_3 class="w-4 h-4" />
-  <Remixicons.focus_3 line />
-  <Remixicons.focus_3 fill />
+  <Remixicon.focus_3 />
+  <Remixicon.focus_3 class="w-4 h-4" />
+  <Remixicon.focus_3 line />
+  <Remixicon.focus_3 fill />
   ```
   """
   attr :rest, :global,
@@ -37566,10 +37566,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.knife />
-  <Remixicons.knife class="w-4 h-4" />
-  <Remixicons.knife line />
-  <Remixicons.knife fill />
+  <Remixicon.knife />
+  <Remixicon.knife class="w-4 h-4" />
+  <Remixicon.knife line />
+  <Remixicon.knife fill />
   ```
   """
   attr :rest, :global,
@@ -37603,10 +37603,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.moon_foggy />
-  <Remixicons.moon_foggy class="w-4 h-4" />
-  <Remixicons.moon_foggy line />
-  <Remixicons.moon_foggy fill />
+  <Remixicon.moon_foggy />
+  <Remixicon.moon_foggy class="w-4 h-4" />
+  <Remixicon.moon_foggy line />
+  <Remixicon.moon_foggy fill />
   ```
   """
   attr :rest, :global,
@@ -37640,10 +37640,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_excel />
-  <Remixicons.file_excel class="w-4 h-4" />
-  <Remixicons.file_excel line />
-  <Remixicons.file_excel fill />
+  <Remixicon.file_excel />
+  <Remixicon.file_excel class="w-4 h-4" />
+  <Remixicon.file_excel line />
+  <Remixicon.file_excel fill />
   ```
   """
   attr :rest, :global,
@@ -37677,10 +37677,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_right_2 />
-  <Remixicons.layout_right_2 class="w-4 h-4" />
-  <Remixicons.layout_right_2 line />
-  <Remixicons.layout_right_2 fill />
+  <Remixicon.layout_right_2 />
+  <Remixicon.layout_right_2 class="w-4 h-4" />
+  <Remixicon.layout_right_2 line />
+  <Remixicon.layout_right_2 fill />
   ```
   """
   attr :rest, :global,
@@ -37714,10 +37714,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.account_pin_circle />
-  <Remixicons.account_pin_circle class="w-4 h-4" />
-  <Remixicons.account_pin_circle line />
-  <Remixicons.account_pin_circle fill />
+  <Remixicon.account_pin_circle />
+  <Remixicon.account_pin_circle class="w-4 h-4" />
+  <Remixicon.account_pin_circle line />
+  <Remixicon.account_pin_circle fill />
   ```
   """
   attr :rest, :global,
@@ -37751,10 +37751,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.heart_add />
-  <Remixicons.heart_add class="w-4 h-4" />
-  <Remixicons.heart_add line />
-  <Remixicons.heart_add fill />
+  <Remixicon.heart_add />
+  <Remixicon.heart_add class="w-4 h-4" />
+  <Remixicon.heart_add line />
+  <Remixicon.heart_add fill />
   ```
   """
   attr :rest, :global,
@@ -37788,10 +37788,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.apps />
-  <Remixicons.apps class="w-4 h-4" />
-  <Remixicons.apps line />
-  <Remixicons.apps fill />
+  <Remixicon.apps />
+  <Remixicon.apps class="w-4 h-4" />
+  <Remixicon.apps line />
+  <Remixicon.apps fill />
   ```
   """
   attr :rest, :global,
@@ -37825,10 +37825,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.device />
-  <Remixicons.device class="w-4 h-4" />
-  <Remixicons.device line />
-  <Remixicons.device fill />
+  <Remixicon.device />
+  <Remixicon.device class="w-4 h-4" />
+  <Remixicon.device line />
+  <Remixicon.device fill />
   ```
   """
   attr :rest, :global,
@@ -37862,10 +37862,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.headphone />
-  <Remixicons.headphone class="w-4 h-4" />
-  <Remixicons.headphone line />
-  <Remixicons.headphone fill />
+  <Remixicon.headphone />
+  <Remixicon.headphone class="w-4 h-4" />
+  <Remixicon.headphone line />
+  <Remixicon.headphone fill />
   ```
   """
   attr :rest, :global,
@@ -37899,10 +37899,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_4 />
-  <Remixicons.chat_4 class="w-4 h-4" />
-  <Remixicons.chat_4 line />
-  <Remixicons.chat_4 fill />
+  <Remixicon.chat_4 />
+  <Remixicon.chat_4 class="w-4 h-4" />
+  <Remixicon.chat_4 line />
+  <Remixicon.chat_4 fill />
   ```
   """
   attr :rest, :global,
@@ -37936,10 +37936,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gallery />
-  <Remixicons.gallery class="w-4 h-4" />
-  <Remixicons.gallery line />
-  <Remixicons.gallery fill />
+  <Remixicon.gallery />
+  <Remixicon.gallery class="w-4 h-4" />
+  <Remixicon.gallery line />
+  <Remixicon.gallery fill />
   ```
   """
   attr :rest, :global,
@@ -37973,10 +37973,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.parent />
-  <Remixicons.parent class="w-4 h-4" />
-  <Remixicons.parent line />
-  <Remixicons.parent fill />
+  <Remixicon.parent />
+  <Remixicon.parent class="w-4 h-4" />
+  <Remixicon.parent line />
+  <Remixicon.parent fill />
   ```
   """
   attr :rest, :global,
@@ -38010,10 +38010,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lock />
-  <Remixicons.lock class="w-4 h-4" />
-  <Remixicons.lock line />
-  <Remixicons.lock fill />
+  <Remixicon.lock />
+  <Remixicon.lock class="w-4 h-4" />
+  <Remixicon.lock line />
+  <Remixicon.lock fill />
   ```
   """
   attr :rest, :global,
@@ -38047,10 +38047,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.questionnaire />
-  <Remixicons.questionnaire class="w-4 h-4" />
-  <Remixicons.questionnaire line />
-  <Remixicons.questionnaire fill />
+  <Remixicon.questionnaire />
+  <Remixicon.questionnaire class="w-4 h-4" />
+  <Remixicon.questionnaire line />
+  <Remixicon.questionnaire fill />
   ```
   """
   attr :rest, :global,
@@ -38084,10 +38084,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cursor />
-  <Remixicons.cursor class="w-4 h-4" />
-  <Remixicons.cursor line />
-  <Remixicons.cursor fill />
+  <Remixicon.cursor />
+  <Remixicon.cursor class="w-4 h-4" />
+  <Remixicon.cursor line />
+  <Remixicon.cursor fill />
   ```
   """
   attr :rest, :global,
@@ -38121,10 +38121,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mark_pen />
-  <Remixicons.mark_pen class="w-4 h-4" />
-  <Remixicons.mark_pen line />
-  <Remixicons.mark_pen fill />
+  <Remixicon.mark_pen />
+  <Remixicon.mark_pen class="w-4 h-4" />
+  <Remixicon.mark_pen line />
+  <Remixicon.mark_pen fill />
   ```
   """
   attr :rest, :global,
@@ -38158,10 +38158,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gamepad />
-  <Remixicons.gamepad class="w-4 h-4" />
-  <Remixicons.gamepad line />
-  <Remixicons.gamepad fill />
+  <Remixicon.gamepad />
+  <Remixicon.gamepad class="w-4 h-4" />
+  <Remixicon.gamepad line />
+  <Remixicon.gamepad fill />
   ```
   """
   attr :rest, :global,
@@ -38195,10 +38195,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.windy />
-  <Remixicons.windy class="w-4 h-4" />
-  <Remixicons.windy line />
-  <Remixicons.windy fill />
+  <Remixicon.windy />
+  <Remixicon.windy class="w-4 h-4" />
+  <Remixicon.windy line />
+  <Remixicon.windy fill />
   ```
   """
   attr :rest, :global,
@@ -38232,10 +38232,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.camera_3 />
-  <Remixicons.camera_3 class="w-4 h-4" />
-  <Remixicons.camera_3 line />
-  <Remixicons.camera_3 fill />
+  <Remixicon.camera_3 />
+  <Remixicon.camera_3 class="w-4 h-4" />
+  <Remixicon.camera_3 line />
+  <Remixicon.camera_3 fill />
   ```
   """
   attr :rest, :global,
@@ -38269,10 +38269,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.exchange_funds />
-  <Remixicons.exchange_funds class="w-4 h-4" />
-  <Remixicons.exchange_funds line />
-  <Remixicons.exchange_funds fill />
+  <Remixicon.exchange_funds />
+  <Remixicon.exchange_funds class="w-4 h-4" />
+  <Remixicon.exchange_funds line />
+  <Remixicon.exchange_funds fill />
   ```
   """
   attr :rest, :global,
@@ -38306,10 +38306,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ghost />
-  <Remixicons.ghost class="w-4 h-4" />
-  <Remixicons.ghost line />
-  <Remixicons.ghost fill />
+  <Remixicon.ghost />
+  <Remixicon.ghost class="w-4 h-4" />
+  <Remixicon.ghost line />
+  <Remixicon.ghost fill />
   ```
   """
   attr :rest, :global,
@@ -38343,10 +38343,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.booklet />
-  <Remixicons.booklet class="w-4 h-4" />
-  <Remixicons.booklet line />
-  <Remixicons.booklet fill />
+  <Remixicon.booklet />
+  <Remixicon.booklet class="w-4 h-4" />
+  <Remixicon.booklet line />
+  <Remixicon.booklet fill />
   ```
   """
   attr :rest, :global,
@@ -38380,10 +38380,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.markdown />
-  <Remixicons.markdown class="w-4 h-4" />
-  <Remixicons.markdown line />
-  <Remixicons.markdown fill />
+  <Remixicon.markdown />
+  <Remixicon.markdown class="w-4 h-4" />
+  <Remixicon.markdown line />
+  <Remixicon.markdown fill />
   ```
   """
   attr :rest, :global,
@@ -38417,10 +38417,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.takeaway />
-  <Remixicons.takeaway class="w-4 h-4" />
-  <Remixicons.takeaway line />
-  <Remixicons.takeaway fill />
+  <Remixicon.takeaway />
+  <Remixicon.takeaway class="w-4 h-4" />
+  <Remixicon.takeaway line />
+  <Remixicon.takeaway fill />
   ```
   """
   attr :rest, :global,
@@ -38454,10 +38454,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.oil />
-  <Remixicons.oil class="w-4 h-4" />
-  <Remixicons.oil line />
-  <Remixicons.oil fill />
+  <Remixicon.oil />
+  <Remixicon.oil class="w-4 h-4" />
+  <Remixicon.oil line />
+  <Remixicon.oil fill />
   ```
   """
   attr :rest, :global,
@@ -38491,10 +38491,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.send_plane_2 />
-  <Remixicons.send_plane_2 class="w-4 h-4" />
-  <Remixicons.send_plane_2 line />
-  <Remixicons.send_plane_2 fill />
+  <Remixicon.send_plane_2 />
+  <Remixicon.send_plane_2 class="w-4 h-4" />
+  <Remixicon.send_plane_2 line />
+  <Remixicon.send_plane_2 fill />
   ```
   """
   attr :rest, :global,
@@ -38528,10 +38528,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.upload_cloud_2 />
-  <Remixicons.upload_cloud_2 class="w-4 h-4" />
-  <Remixicons.upload_cloud_2 line />
-  <Remixicons.upload_cloud_2 fill />
+  <Remixicon.upload_cloud_2 />
+  <Remixicon.upload_cloud_2 class="w-4 h-4" />
+  <Remixicon.upload_cloud_2 line />
+  <Remixicon.upload_cloud_2 fill />
   ```
   """
   attr :rest, :global,
@@ -38565,10 +38565,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.album />
-  <Remixicons.album class="w-4 h-4" />
-  <Remixicons.album line />
-  <Remixicons.album fill />
+  <Remixicon.album />
+  <Remixicon.album class="w-4 h-4" />
+  <Remixicon.album line />
+  <Remixicon.album fill />
   ```
   """
   attr :rest, :global,
@@ -38602,10 +38602,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.building_2 />
-  <Remixicons.building_2 class="w-4 h-4" />
-  <Remixicons.building_2 line />
-  <Remixicons.building_2 fill />
+  <Remixicon.building_2 />
+  <Remixicon.building_2 class="w-4 h-4" />
+  <Remixicon.building_2 line />
+  <Remixicon.building_2 fill />
   ```
   """
   attr :rest, :global,
@@ -38639,10 +38639,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_follow_up />
-  <Remixicons.chat_follow_up class="w-4 h-4" />
-  <Remixicons.chat_follow_up line />
-  <Remixicons.chat_follow_up fill />
+  <Remixicon.chat_follow_up />
+  <Remixicon.chat_follow_up class="w-4 h-4" />
+  <Remixicon.chat_follow_up line />
+  <Remixicon.chat_follow_up fill />
   ```
   """
   attr :rest, :global,
@@ -38676,10 +38676,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.speak />
-  <Remixicons.speak class="w-4 h-4" />
-  <Remixicons.speak line />
-  <Remixicons.speak fill />
+  <Remixicon.speak />
+  <Remixicon.speak class="w-4 h-4" />
+  <Remixicon.speak line />
+  <Remixicon.speak fill />
   ```
   """
   attr :rest, :global,
@@ -38713,10 +38713,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.eye_off />
-  <Remixicons.eye_off class="w-4 h-4" />
-  <Remixicons.eye_off line />
-  <Remixicons.eye_off fill />
+  <Remixicon.eye_off />
+  <Remixicon.eye_off class="w-4 h-4" />
+  <Remixicon.eye_off line />
+  <Remixicon.eye_off fill />
   ```
   """
   attr :rest, :global,
@@ -38750,10 +38750,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.flag />
-  <Remixicons.flag class="w-4 h-4" />
-  <Remixicons.flag line />
-  <Remixicons.flag fill />
+  <Remixicon.flag />
+  <Remixicon.flag class="w-4 h-4" />
+  <Remixicon.flag line />
+  <Remixicon.flag fill />
   ```
   """
   attr :rest, :global,
@@ -38787,10 +38787,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.edge />
-  <Remixicons.edge class="w-4 h-4" />
-  <Remixicons.edge line />
-  <Remixicons.edge fill />
+  <Remixicon.edge />
+  <Remixicon.edge class="w-4 h-4" />
+  <Remixicon.edge line />
+  <Remixicon.edge fill />
   ```
   """
   attr :rest, :global,
@@ -38824,10 +38824,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ancient_pavilion />
-  <Remixicons.ancient_pavilion class="w-4 h-4" />
-  <Remixicons.ancient_pavilion line />
-  <Remixicons.ancient_pavilion fill />
+  <Remixicon.ancient_pavilion />
+  <Remixicon.ancient_pavilion class="w-4 h-4" />
+  <Remixicon.ancient_pavilion line />
+  <Remixicon.ancient_pavilion fill />
   ```
   """
   attr :rest, :global,
@@ -38861,10 +38861,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.honor_of_kings />
-  <Remixicons.honor_of_kings class="w-4 h-4" />
-  <Remixicons.honor_of_kings line />
-  <Remixicons.honor_of_kings fill />
+  <Remixicon.honor_of_kings />
+  <Remixicon.honor_of_kings class="w-4 h-4" />
+  <Remixicon.honor_of_kings line />
+  <Remixicon.honor_of_kings fill />
   ```
   """
   attr :rest, :global,
@@ -38898,10 +38898,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.qr_scan_2 />
-  <Remixicons.qr_scan_2 class="w-4 h-4" />
-  <Remixicons.qr_scan_2 line />
-  <Remixicons.qr_scan_2 fill />
+  <Remixicon.qr_scan_2 />
+  <Remixicon.qr_scan_2 class="w-4 h-4" />
+  <Remixicon.qr_scan_2 line />
+  <Remixicon.qr_scan_2 fill />
   ```
   """
   attr :rest, :global,
@@ -38935,10 +38935,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.user_search />
-  <Remixicons.user_search class="w-4 h-4" />
-  <Remixicons.user_search line />
-  <Remixicons.user_search fill />
+  <Remixicon.user_search />
+  <Remixicon.user_search class="w-4 h-4" />
+  <Remixicon.user_search line />
+  <Remixicon.user_search fill />
   ```
   """
   attr :rest, :global,
@@ -38972,10 +38972,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_settings />
-  <Remixicons.chat_settings class="w-4 h-4" />
-  <Remixicons.chat_settings line />
-  <Remixicons.chat_settings fill />
+  <Remixicon.chat_settings />
+  <Remixicon.chat_settings class="w-4 h-4" />
+  <Remixicon.chat_settings line />
+  <Remixicon.chat_settings fill />
   ```
   """
   attr :rest, :global,
@@ -39009,10 +39009,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.expand_right />
-  <Remixicons.expand_right class="w-4 h-4" />
-  <Remixicons.expand_right line />
-  <Remixicons.expand_right fill />
+  <Remixicon.expand_right />
+  <Remixicon.expand_right class="w-4 h-4" />
+  <Remixicon.expand_right line />
+  <Remixicon.expand_right fill />
   ```
   """
   attr :rest, :global,
@@ -39046,10 +39046,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.briefcase_2 />
-  <Remixicons.briefcase_2 class="w-4 h-4" />
-  <Remixicons.briefcase_2 line />
-  <Remixicons.briefcase_2 fill />
+  <Remixicon.briefcase_2 />
+  <Remixicon.briefcase_2 class="w-4 h-4" />
+  <Remixicon.briefcase_2 line />
+  <Remixicon.briefcase_2 fill />
   ```
   """
   attr :rest, :global,
@@ -39083,10 +39083,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.skip_right />
-  <Remixicons.skip_right class="w-4 h-4" />
-  <Remixicons.skip_right line />
-  <Remixicons.skip_right fill />
+  <Remixicon.skip_right />
+  <Remixicon.skip_right class="w-4 h-4" />
+  <Remixicon.skip_right line />
+  <Remixicon.skip_right fill />
   ```
   """
   attr :rest, :global,
@@ -39119,10 +39119,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.lightbulb />
-  <Remixicons.lightbulb class="w-4 h-4" />
-  <Remixicons.lightbulb line />
-  <Remixicons.lightbulb fill />
+  <Remixicon.lightbulb />
+  <Remixicon.lightbulb class="w-4 h-4" />
+  <Remixicon.lightbulb line />
+  <Remixicon.lightbulb fill />
   ```
   """
   attr :rest, :global,
@@ -39156,10 +39156,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ticket_2 />
-  <Remixicons.ticket_2 class="w-4 h-4" />
-  <Remixicons.ticket_2 line />
-  <Remixicons.ticket_2 fill />
+  <Remixicon.ticket_2 />
+  <Remixicon.ticket_2 class="w-4 h-4" />
+  <Remixicon.ticket_2 line />
+  <Remixicon.ticket_2 fill />
   ```
   """
   attr :rest, :global,
@@ -39193,10 +39193,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shopping_bag_2 />
-  <Remixicons.shopping_bag_2 class="w-4 h-4" />
-  <Remixicons.shopping_bag_2 line />
-  <Remixicons.shopping_bag_2 fill />
+  <Remixicon.shopping_bag_2 />
+  <Remixicon.shopping_bag_2 class="w-4 h-4" />
+  <Remixicon.shopping_bag_2 line />
+  <Remixicon.shopping_bag_2 fill />
   ```
   """
   attr :rest, :global,
@@ -39230,10 +39230,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.film />
-  <Remixicons.film class="w-4 h-4" />
-  <Remixicons.film line />
-  <Remixicons.film fill />
+  <Remixicon.film />
+  <Remixicon.film class="w-4 h-4" />
+  <Remixicon.film line />
+  <Remixicon.film fill />
   ```
   """
   attr :rest, :global,
@@ -39267,10 +39267,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contract_up_down />
-  <Remixicons.contract_up_down class="w-4 h-4" />
-  <Remixicons.contract_up_down line />
-  <Remixicons.contract_up_down fill />
+  <Remixicon.contract_up_down />
+  <Remixicon.contract_up_down class="w-4 h-4" />
+  <Remixicon.contract_up_down line />
+  <Remixicon.contract_up_down fill />
   ```
   """
   attr :rest, :global,
@@ -39303,10 +39303,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.radar />
-  <Remixicons.radar class="w-4 h-4" />
-  <Remixicons.radar line />
-  <Remixicons.radar fill />
+  <Remixicon.radar />
+  <Remixicon.radar class="w-4 h-4" />
+  <Remixicon.radar line />
+  <Remixicon.radar fill />
   ```
   """
   attr :rest, :global,
@@ -39340,10 +39340,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.survey />
-  <Remixicons.survey class="w-4 h-4" />
-  <Remixicons.survey line />
-  <Remixicons.survey fill />
+  <Remixicon.survey />
+  <Remixicon.survey class="w-4 h-4" />
+  <Remixicon.survey line />
+  <Remixicon.survey fill />
   ```
   """
   attr :rest, :global,
@@ -39377,10 +39377,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bar_chart />
-  <Remixicons.bar_chart class="w-4 h-4" />
-  <Remixicons.bar_chart line />
-  <Remixicons.bar_chart fill />
+  <Remixicon.bar_chart />
+  <Remixicon.bar_chart class="w-4 h-4" />
+  <Remixicon.bar_chart line />
+  <Remixicon.bar_chart fill />
   ```
   """
   attr :rest, :global,
@@ -39412,10 +39412,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gas_station />
-  <Remixicons.gas_station class="w-4 h-4" />
-  <Remixicons.gas_station line />
-  <Remixicons.gas_station fill />
+  <Remixicon.gas_station />
+  <Remixicon.gas_station class="w-4 h-4" />
+  <Remixicon.gas_station line />
+  <Remixicon.gas_station fill />
   ```
   """
   attr :rest, :global,
@@ -39449,10 +39449,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cellphone />
-  <Remixicons.cellphone class="w-4 h-4" />
-  <Remixicons.cellphone line />
-  <Remixicons.cellphone fill />
+  <Remixicon.cellphone />
+  <Remixicon.cellphone class="w-4 h-4" />
+  <Remixicon.cellphone line />
+  <Remixicon.cellphone fill />
   ```
   """
   attr :rest, :global,
@@ -39486,10 +39486,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.footprint />
-  <Remixicons.footprint class="w-4 h-4" />
-  <Remixicons.footprint line />
-  <Remixicons.footprint fill />
+  <Remixicon.footprint />
+  <Remixicon.footprint class="w-4 h-4" />
+  <Remixicon.footprint line />
+  <Remixicon.footprint fill />
   ```
   """
   attr :rest, :global,
@@ -39523,10 +39523,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.compass />
-  <Remixicons.compass class="w-4 h-4" />
-  <Remixicons.compass line />
-  <Remixicons.compass fill />
+  <Remixicon.compass />
+  <Remixicon.compass class="w-4 h-4" />
+  <Remixicon.compass line />
+  <Remixicon.compass fill />
   ```
   """
   attr :rest, :global,
@@ -39560,10 +39560,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.delete_bin_5 />
-  <Remixicons.delete_bin_5 class="w-4 h-4" />
-  <Remixicons.delete_bin_5 line />
-  <Remixicons.delete_bin_5 fill />
+  <Remixicon.delete_bin_5 />
+  <Remixicon.delete_bin_5 class="w-4 h-4" />
+  <Remixicon.delete_bin_5 line />
+  <Remixicon.delete_bin_5 fill />
   ```
   """
   attr :rest, :global,
@@ -39597,10 +39597,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.wechat_2 />
-  <Remixicons.wechat_2 class="w-4 h-4" />
-  <Remixicons.wechat_2 line />
-  <Remixicons.wechat_2 fill />
+  <Remixicon.wechat_2 />
+  <Remixicon.wechat_2 class="w-4 h-4" />
+  <Remixicon.wechat_2 line />
+  <Remixicon.wechat_2 fill />
   ```
   """
   attr :rest, :global,
@@ -39634,10 +39634,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.zzz />
-  <Remixicons.zzz class="w-4 h-4" />
-  <Remixicons.zzz line />
-  <Remixicons.zzz fill />
+  <Remixicon.zzz />
+  <Remixicon.zzz class="w-4 h-4" />
+  <Remixicon.zzz line />
+  <Remixicon.zzz fill />
   ```
   """
   attr :rest, :global,
@@ -39671,10 +39671,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_chart />
-  <Remixicons.file_chart class="w-4 h-4" />
-  <Remixicons.file_chart line />
-  <Remixicons.file_chart fill />
+  <Remixicon.file_chart />
+  <Remixicon.file_chart class="w-4 h-4" />
+  <Remixicon.file_chart line />
+  <Remixicon.file_chart fill />
   ```
   """
   attr :rest, :global,
@@ -39708,10 +39708,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.reply />
-  <Remixicons.reply class="w-4 h-4" />
-  <Remixicons.reply line />
-  <Remixicons.reply fill />
+  <Remixicon.reply />
+  <Remixicon.reply class="w-4 h-4" />
+  <Remixicon.reply line />
+  <Remixicon.reply fill />
   ```
   """
   attr :rest, :global,
@@ -39745,10 +39745,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_settings />
-  <Remixicons.file_settings class="w-4 h-4" />
-  <Remixicons.file_settings line />
-  <Remixicons.file_settings fill />
+  <Remixicon.file_settings />
+  <Remixicon.file_settings class="w-4 h-4" />
+  <Remixicon.file_settings line />
+  <Remixicon.file_settings fill />
   ```
   """
   attr :rest, :global,
@@ -39782,10 +39782,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.voice_recognition />
-  <Remixicons.voice_recognition class="w-4 h-4" />
-  <Remixicons.voice_recognition line />
-  <Remixicons.voice_recognition fill />
+  <Remixicon.voice_recognition />
+  <Remixicon.voice_recognition class="w-4 h-4" />
+  <Remixicon.voice_recognition line />
+  <Remixicon.voice_recognition fill />
   ```
   """
   attr :rest, :global,
@@ -39819,10 +39819,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stop_circle />
-  <Remixicons.stop_circle class="w-4 h-4" />
-  <Remixicons.stop_circle line />
-  <Remixicons.stop_circle fill />
+  <Remixicon.stop_circle />
+  <Remixicon.stop_circle class="w-4 h-4" />
+  <Remixicon.stop_circle line />
+  <Remixicon.stop_circle fill />
   ```
   """
   attr :rest, :global,
@@ -39856,10 +39856,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.spam_2 />
-  <Remixicons.spam_2 class="w-4 h-4" />
-  <Remixicons.spam_2 line />
-  <Remixicons.spam_2 fill />
+  <Remixicon.spam_2 />
+  <Remixicon.spam_2 class="w-4 h-4" />
+  <Remixicon.spam_2 line />
+  <Remixicon.spam_2 fill />
   ```
   """
   attr :rest, :global,
@@ -39893,10 +39893,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_shield />
-  <Remixicons.file_shield class="w-4 h-4" />
-  <Remixicons.file_shield line />
-  <Remixicons.file_shield fill />
+  <Remixicon.file_shield />
+  <Remixicon.file_shield class="w-4 h-4" />
+  <Remixicon.file_shield line />
+  <Remixicon.file_shield fill />
   ```
   """
   attr :rest, :global,
@@ -39930,10 +39930,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.compass_2 />
-  <Remixicons.compass_2 class="w-4 h-4" />
-  <Remixicons.compass_2 line />
-  <Remixicons.compass_2 fill />
+  <Remixicon.compass_2 />
+  <Remixicon.compass_2 class="w-4 h-4" />
+  <Remixicon.compass_2 line />
+  <Remixicon.compass_2 fill />
   ```
   """
   attr :rest, :global,
@@ -39967,10 +39967,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.memories />
-  <Remixicons.memories class="w-4 h-4" />
-  <Remixicons.memories line />
-  <Remixicons.memories fill />
+  <Remixicon.memories />
+  <Remixicon.memories class="w-4 h-4" />
+  <Remixicon.memories line />
+  <Remixicon.memories fill />
   ```
   """
   attr :rest, :global,
@@ -40004,10 +40004,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.moon_cloudy />
-  <Remixicons.moon_cloudy class="w-4 h-4" />
-  <Remixicons.moon_cloudy line />
-  <Remixicons.moon_cloudy fill />
+  <Remixicon.moon_cloudy />
+  <Remixicon.moon_cloudy class="w-4 h-4" />
+  <Remixicon.moon_cloudy line />
+  <Remixicon.moon_cloudy fill />
   ```
   """
   attr :rest, :global,
@@ -40041,10 +40041,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.table />
-  <Remixicons.table class="w-4 h-4" />
-  <Remixicons.table line />
-  <Remixicons.table fill />
+  <Remixicon.table />
+  <Remixicon.table class="w-4 h-4" />
+  <Remixicon.table line />
+  <Remixicon.table fill />
   ```
   """
   attr :rest, :global,
@@ -40078,10 +40078,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.scissors />
-  <Remixicons.scissors class="w-4 h-4" />
-  <Remixicons.scissors line />
-  <Remixicons.scissors fill />
+  <Remixicon.scissors />
+  <Remixicon.scissors class="w-4 h-4" />
+  <Remixicon.scissors line />
+  <Remixicon.scissors fill />
   ```
   """
   attr :rest, :global,
@@ -40115,10 +40115,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.timer_2 />
-  <Remixicons.timer_2 class="w-4 h-4" />
-  <Remixicons.timer_2 line />
-  <Remixicons.timer_2 fill />
+  <Remixicon.timer_2 />
+  <Remixicon.timer_2 class="w-4 h-4" />
+  <Remixicon.timer_2 line />
+  <Remixicon.timer_2 fill />
   ```
   """
   attr :rest, :global,
@@ -40152,10 +40152,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shopping_cart_2 />
-  <Remixicons.shopping_cart_2 class="w-4 h-4" />
-  <Remixicons.shopping_cart_2 line />
-  <Remixicons.shopping_cart_2 fill />
+  <Remixicon.shopping_cart_2 />
+  <Remixicon.shopping_cart_2 class="w-4 h-4" />
+  <Remixicon.shopping_cart_2 line />
+  <Remixicon.shopping_cart_2 fill />
   ```
   """
   attr :rest, :global,
@@ -40189,10 +40189,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.camera_lens />
-  <Remixicons.camera_lens class="w-4 h-4" />
-  <Remixicons.camera_lens line />
-  <Remixicons.camera_lens fill />
+  <Remixicon.camera_lens />
+  <Remixicon.camera_lens class="w-4 h-4" />
+  <Remixicon.camera_lens line />
+  <Remixicon.camera_lens fill />
   ```
   """
   attr :rest, :global,
@@ -40226,10 +40226,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.compasses />
-  <Remixicons.compasses class="w-4 h-4" />
-  <Remixicons.compasses line />
-  <Remixicons.compasses fill />
+  <Remixicon.compasses />
+  <Remixicon.compasses class="w-4 h-4" />
+  <Remixicon.compasses line />
+  <Remixicon.compasses fill />
   ```
   """
   attr :rest, :global,
@@ -40263,10 +40263,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shield_keyhole />
-  <Remixicons.shield_keyhole class="w-4 h-4" />
-  <Remixicons.shield_keyhole line />
-  <Remixicons.shield_keyhole fill />
+  <Remixicon.shield_keyhole />
+  <Remixicon.shield_keyhole class="w-4 h-4" />
+  <Remixicon.shield_keyhole line />
+  <Remixicon.shield_keyhole fill />
   ```
   """
   attr :rest, :global,
@@ -40300,10 +40300,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.t_box />
-  <Remixicons.t_box class="w-4 h-4" />
-  <Remixicons.t_box line />
-  <Remixicons.t_box fill />
+  <Remixicon.t_box />
+  <Remixicon.t_box class="w-4 h-4" />
+  <Remixicon.t_box line />
+  <Remixicon.t_box fill />
   ```
   """
   attr :rest, :global,
@@ -40337,10 +40337,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.subway />
-  <Remixicons.subway class="w-4 h-4" />
-  <Remixicons.subway line />
-  <Remixicons.subway fill />
+  <Remixicon.subway />
+  <Remixicon.subway class="w-4 h-4" />
+  <Remixicon.subway line />
+  <Remixicon.subway fill />
   ```
   """
   attr :rest, :global,
@@ -40374,10 +40374,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.taxi_wifi />
-  <Remixicons.taxi_wifi class="w-4 h-4" />
-  <Remixicons.taxi_wifi line />
-  <Remixicons.taxi_wifi fill />
+  <Remixicon.taxi_wifi />
+  <Remixicon.taxi_wifi class="w-4 h-4" />
+  <Remixicon.taxi_wifi line />
+  <Remixicon.taxi_wifi fill />
   ```
   """
   attr :rest, :global,
@@ -40411,10 +40411,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.disc />
-  <Remixicons.disc class="w-4 h-4" />
-  <Remixicons.disc line />
-  <Remixicons.disc fill />
+  <Remixicon.disc />
+  <Remixicon.disc class="w-4 h-4" />
+  <Remixicon.disc line />
+  <Remixicon.disc fill />
   ```
   """
   attr :rest, :global,
@@ -40448,10 +40448,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.add />
-  <Remixicons.add class="w-4 h-4" />
-  <Remixicons.add line />
-  <Remixicons.add fill />
+  <Remixicon.add />
+  <Remixicon.add class="w-4 h-4" />
+  <Remixicon.add line />
+  <Remixicon.add fill />
   ```
   """
   attr :rest, :global,
@@ -40483,10 +40483,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.traffic_light />
-  <Remixicons.traffic_light class="w-4 h-4" />
-  <Remixicons.traffic_light line />
-  <Remixicons.traffic_light fill />
+  <Remixicon.traffic_light />
+  <Remixicon.traffic_light class="w-4 h-4" />
+  <Remixicon.traffic_light line />
+  <Remixicon.traffic_light fill />
   ```
   """
   attr :rest, :global,
@@ -40520,10 +40520,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contrast />
-  <Remixicons.contrast class="w-4 h-4" />
-  <Remixicons.contrast line />
-  <Remixicons.contrast fill />
+  <Remixicon.contrast />
+  <Remixicon.contrast class="w-4 h-4" />
+  <Remixicon.contrast line />
+  <Remixicon.contrast fill />
   ```
   """
   attr :rest, :global,
@@ -40557,10 +40557,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.ghost_2 />
-  <Remixicons.ghost_2 class="w-4 h-4" />
-  <Remixicons.ghost_2 line />
-  <Remixicons.ghost_2 fill />
+  <Remixicon.ghost_2 />
+  <Remixicon.ghost_2 class="w-4 h-4" />
+  <Remixicon.ghost_2 line />
+  <Remixicon.ghost_2 fill />
   ```
   """
   attr :rest, :global,
@@ -40594,10 +40594,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.finder />
-  <Remixicons.finder class="w-4 h-4" />
-  <Remixicons.finder line />
-  <Remixicons.finder fill />
+  <Remixicon.finder />
+  <Remixicon.finder class="w-4 h-4" />
+  <Remixicon.finder line />
+  <Remixicon.finder fill />
   ```
   """
   attr :rest, :global,
@@ -40631,10 +40631,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.braces />
-  <Remixicons.braces class="w-4 h-4" />
-  <Remixicons.braces line />
-  <Remixicons.braces fill />
+  <Remixicon.braces />
+  <Remixicon.braces class="w-4 h-4" />
+  <Remixicon.braces line />
+  <Remixicon.braces fill />
   ```
   """
   attr :rest, :global,
@@ -40668,10 +40668,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.donut_chart />
-  <Remixicons.donut_chart class="w-4 h-4" />
-  <Remixicons.donut_chart line />
-  <Remixicons.donut_chart fill />
+  <Remixicon.donut_chart />
+  <Remixicon.donut_chart class="w-4 h-4" />
+  <Remixicon.donut_chart line />
+  <Remixicon.donut_chart fill />
   ```
   """
   attr :rest, :global,
@@ -40705,10 +40705,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.shopping_bag />
-  <Remixicons.shopping_bag class="w-4 h-4" />
-  <Remixicons.shopping_bag line />
-  <Remixicons.shopping_bag fill />
+  <Remixicon.shopping_bag />
+  <Remixicon.shopping_bag class="w-4 h-4" />
+  <Remixicon.shopping_bag line />
+  <Remixicon.shopping_bag fill />
   ```
   """
   attr :rest, :global,
@@ -40742,10 +40742,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.door_lock_box />
-  <Remixicons.door_lock_box class="w-4 h-4" />
-  <Remixicons.door_lock_box line />
-  <Remixicons.door_lock_box fill />
+  <Remixicon.door_lock_box />
+  <Remixicon.door_lock_box class="w-4 h-4" />
+  <Remixicon.door_lock_box line />
+  <Remixicon.door_lock_box fill />
   ```
   """
   attr :rest, :global,
@@ -40779,10 +40779,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.coupon_4 />
-  <Remixicons.coupon_4 class="w-4 h-4" />
-  <Remixicons.coupon_4 line />
-  <Remixicons.coupon_4 fill />
+  <Remixicon.coupon_4 />
+  <Remixicon.coupon_4 class="w-4 h-4" />
+  <Remixicon.coupon_4 line />
+  <Remixicon.coupon_4 fill />
   ```
   """
   attr :rest, :global,
@@ -40816,10 +40816,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_3 />
-  <Remixicons.chat_3 class="w-4 h-4" />
-  <Remixicons.chat_3 line />
-  <Remixicons.chat_3 fill />
+  <Remixicon.chat_3 />
+  <Remixicon.chat_3 class="w-4 h-4" />
+  <Remixicon.chat_3 line />
+  <Remixicon.chat_3 fill />
   ```
   """
   attr :rest, :global,
@@ -40853,10 +40853,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stock />
-  <Remixicons.stock class="w-4 h-4" />
-  <Remixicons.stock line />
-  <Remixicons.stock fill />
+  <Remixicon.stock />
+  <Remixicon.stock class="w-4 h-4" />
+  <Remixicon.stock line />
+  <Remixicon.stock fill />
   ```
   """
   attr :rest, :global,
@@ -40890,10 +40890,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cloud />
-  <Remixicons.cloud class="w-4 h-4" />
-  <Remixicons.cloud line />
-  <Remixicons.cloud fill />
+  <Remixicon.cloud />
+  <Remixicon.cloud class="w-4 h-4" />
+  <Remixicon.cloud line />
+  <Remixicon.cloud fill />
   ```
   """
   attr :rest, :global,
@@ -40927,10 +40927,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.rainbow />
-  <Remixicons.rainbow class="w-4 h-4" />
-  <Remixicons.rainbow line />
-  <Remixicons.rainbow fill />
+  <Remixicon.rainbow />
+  <Remixicon.rainbow class="w-4 h-4" />
+  <Remixicon.rainbow line />
+  <Remixicon.rainbow fill />
   ```
   """
   attr :rest, :global,
@@ -40964,10 +40964,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_masonry />
-  <Remixicons.layout_masonry class="w-4 h-4" />
-  <Remixicons.layout_masonry line />
-  <Remixicons.layout_masonry fill />
+  <Remixicon.layout_masonry />
+  <Remixicon.layout_masonry class="w-4 h-4" />
+  <Remixicon.layout_masonry line />
+  <Remixicon.layout_masonry fill />
   ```
   """
   attr :rest, :global,
@@ -41001,10 +41001,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.handbag />
-  <Remixicons.handbag class="w-4 h-4" />
-  <Remixicons.handbag line />
-  <Remixicons.handbag fill />
+  <Remixicon.handbag />
+  <Remixicon.handbag class="w-4 h-4" />
+  <Remixicon.handbag line />
+  <Remixicon.handbag fill />
   ```
   """
   attr :rest, :global,
@@ -41038,10 +41038,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_shield_2 />
-  <Remixicons.folder_shield_2 class="w-4 h-4" />
-  <Remixicons.folder_shield_2 line />
-  <Remixicons.folder_shield_2 fill />
+  <Remixicon.folder_shield_2 />
+  <Remixicon.folder_shield_2 class="w-4 h-4" />
+  <Remixicon.folder_shield_2 line />
+  <Remixicon.folder_shield_2 fill />
   ```
   """
   attr :rest, :global,
@@ -41075,10 +41075,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.expand_left_right />
-  <Remixicons.expand_left_right class="w-4 h-4" />
-  <Remixicons.expand_left_right line />
-  <Remixicons.expand_left_right fill />
+  <Remixicon.expand_left_right />
+  <Remixicon.expand_left_right class="w-4 h-4" />
+  <Remixicon.expand_left_right line />
+  <Remixicon.expand_left_right fill />
   ```
   """
   attr :rest, :global,
@@ -41111,10 +41111,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.notion />
-  <Remixicons.notion class="w-4 h-4" />
-  <Remixicons.notion line />
-  <Remixicons.notion fill />
+  <Remixicon.notion />
+  <Remixicon.notion class="w-4 h-4" />
+  <Remixicon.notion line />
+  <Remixicon.notion fill />
   ```
   """
   attr :rest, :global,
@@ -41148,10 +41148,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.sd_card_mini />
-  <Remixicons.sd_card_mini class="w-4 h-4" />
-  <Remixicons.sd_card_mini line />
-  <Remixicons.sd_card_mini fill />
+  <Remixicon.sd_card_mini />
+  <Remixicon.sd_card_mini class="w-4 h-4" />
+  <Remixicon.sd_card_mini line />
+  <Remixicon.sd_card_mini fill />
   ```
   """
   attr :rest, :global,
@@ -41185,10 +41185,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bank_card_2 />
-  <Remixicons.bank_card_2 class="w-4 h-4" />
-  <Remixicons.bank_card_2 line />
-  <Remixicons.bank_card_2 fill />
+  <Remixicon.bank_card_2 />
+  <Remixicon.bank_card_2 class="w-4 h-4" />
+  <Remixicon.bank_card_2 line />
+  <Remixicon.bank_card_2 fill />
   ```
   """
   attr :rest, :global,
@@ -41222,10 +41222,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.signal_wifi_1 />
-  <Remixicons.signal_wifi_1 class="w-4 h-4" />
-  <Remixicons.signal_wifi_1 line />
-  <Remixicons.signal_wifi_1 fill />
+  <Remixicon.signal_wifi_1 />
+  <Remixicon.signal_wifi_1 class="w-4 h-4" />
+  <Remixicon.signal_wifi_1 line />
+  <Remixicon.signal_wifi_1 fill />
   ```
   """
   attr :rest, :global,
@@ -41259,10 +41259,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.search_eye />
-  <Remixicons.search_eye class="w-4 h-4" />
-  <Remixicons.search_eye line />
-  <Remixicons.search_eye fill />
+  <Remixicon.search_eye />
+  <Remixicon.search_eye class="w-4 h-4" />
+  <Remixicon.search_eye line />
+  <Remixicon.search_eye fill />
   ```
   """
   attr :rest, :global,
@@ -41296,10 +41296,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.invision />
-  <Remixicons.invision class="w-4 h-4" />
-  <Remixicons.invision line />
-  <Remixicons.invision fill />
+  <Remixicon.invision />
+  <Remixicon.invision class="w-4 h-4" />
+  <Remixicon.invision line />
+  <Remixicon.invision fill />
   ```
   """
   attr :rest, :global,
@@ -41333,10 +41333,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.notification_3 />
-  <Remixicons.notification_3 class="w-4 h-4" />
-  <Remixicons.notification_3 line />
-  <Remixicons.notification_3 fill />
+  <Remixicon.notification_3 />
+  <Remixicon.notification_3 class="w-4 h-4" />
+  <Remixicon.notification_3 line />
+  <Remixicon.notification_3 fill />
   ```
   """
   attr :rest, :global,
@@ -41370,10 +41370,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_close_pull_request />
-  <Remixicons.git_close_pull_request class="w-4 h-4" />
-  <Remixicons.git_close_pull_request line />
-  <Remixicons.git_close_pull_request fill />
+  <Remixicon.git_close_pull_request />
+  <Remixicon.git_close_pull_request class="w-4 h-4" />
+  <Remixicon.git_close_pull_request line />
+  <Remixicon.git_close_pull_request fill />
   ```
   """
   attr :rest, :global,
@@ -41407,10 +41407,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.home_4 />
-  <Remixicons.home_4 class="w-4 h-4" />
-  <Remixicons.home_4 line />
-  <Remixicons.home_4 fill />
+  <Remixicon.home_4 />
+  <Remixicon.home_4 class="w-4 h-4" />
+  <Remixicon.home_4 line />
+  <Remixicon.home_4 fill />
   ```
   """
   attr :rest, :global,
@@ -41444,10 +41444,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_shred />
-  <Remixicons.file_shred class="w-4 h-4" />
-  <Remixicons.file_shred line />
-  <Remixicons.file_shred fill />
+  <Remixicon.file_shred />
+  <Remixicon.file_shred class="w-4 h-4" />
+  <Remixicon.file_shred line />
+  <Remixicon.file_shred fill />
   ```
   """
   attr :rest, :global,
@@ -41481,10 +41481,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_right_double />
-  <Remixicons.arrow_right_double class="w-4 h-4" />
-  <Remixicons.arrow_right_double line />
-  <Remixicons.arrow_right_double fill />
+  <Remixicon.arrow_right_double />
+  <Remixicon.arrow_right_double class="w-4 h-4" />
+  <Remixicon.arrow_right_double line />
+  <Remixicon.arrow_right_double fill />
   ```
   """
   attr :rest, :global,
@@ -41518,10 +41518,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.qq />
-  <Remixicons.qq class="w-4 h-4" />
-  <Remixicons.qq line />
-  <Remixicons.qq fill />
+  <Remixicon.qq />
+  <Remixicon.qq class="w-4 h-4" />
+  <Remixicon.qq line />
+  <Remixicon.qq fill />
   ```
   """
   attr :rest, :global,
@@ -41555,10 +41555,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_paper />
-  <Remixicons.file_paper class="w-4 h-4" />
-  <Remixicons.file_paper line />
-  <Remixicons.file_paper fill />
+  <Remixicon.file_paper />
+  <Remixicon.file_paper class="w-4 h-4" />
+  <Remixicon.file_paper line />
+  <Remixicon.file_paper fill />
   ```
   """
   attr :rest, :global,
@@ -41592,10 +41592,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.heart_3 />
-  <Remixicons.heart_3 class="w-4 h-4" />
-  <Remixicons.heart_3 line />
-  <Remixicons.heart_3 fill />
+  <Remixicon.heart_3 />
+  <Remixicon.heart_3 class="w-4 h-4" />
+  <Remixicon.heart_3 line />
+  <Remixicon.heart_3 fill />
   ```
   """
   attr :rest, :global,
@@ -41629,10 +41629,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pencil />
-  <Remixicons.pencil class="w-4 h-4" />
-  <Remixicons.pencil line />
-  <Remixicons.pencil fill />
+  <Remixicon.pencil />
+  <Remixicon.pencil class="w-4 h-4" />
+  <Remixicon.pencil line />
+  <Remixicon.pencil fill />
   ```
   """
   attr :rest, :global,
@@ -41666,10 +41666,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contacts />
-  <Remixicons.contacts class="w-4 h-4" />
-  <Remixicons.contacts line />
-  <Remixicons.contacts fill />
+  <Remixicon.contacts />
+  <Remixicon.contacts class="w-4 h-4" />
+  <Remixicon.contacts line />
+  <Remixicon.contacts fill />
   ```
   """
   attr :rest, :global,
@@ -41703,10 +41703,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.apps_2 />
-  <Remixicons.apps_2 class="w-4 h-4" />
-  <Remixicons.apps_2 line />
-  <Remixicons.apps_2 fill />
+  <Remixicon.apps_2 />
+  <Remixicon.apps_2 class="w-4 h-4" />
+  <Remixicon.apps_2 line />
+  <Remixicon.apps_2 fill />
   ```
   """
   attr :rest, :global,
@@ -41740,10 +41740,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.file_text />
-  <Remixicons.file_text class="w-4 h-4" />
-  <Remixicons.file_text line />
-  <Remixicons.file_text fill />
+  <Remixicon.file_text />
+  <Remixicon.file_text class="w-4 h-4" />
+  <Remixicon.file_text line />
+  <Remixicon.file_text fill />
   ```
   """
   attr :rest, :global,
@@ -41777,10 +41777,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.microsoft />
-  <Remixicons.microsoft class="w-4 h-4" />
-  <Remixicons.microsoft line />
-  <Remixicons.microsoft fill />
+  <Remixicon.microsoft />
+  <Remixicon.microsoft class="w-4 h-4" />
+  <Remixicon.microsoft line />
+  <Remixicon.microsoft fill />
   ```
   """
   attr :rest, :global,
@@ -41814,10 +41814,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.polaroid />
-  <Remixicons.polaroid class="w-4 h-4" />
-  <Remixicons.polaroid line />
-  <Remixicons.polaroid fill />
+  <Remixicon.polaroid />
+  <Remixicon.polaroid class="w-4 h-4" />
+  <Remixicon.polaroid line />
+  <Remixicon.polaroid fill />
   ```
   """
   attr :rest, :global,
@@ -41851,10 +41851,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.grid />
-  <Remixicons.grid class="w-4 h-4" />
-  <Remixicons.grid line />
-  <Remixicons.grid fill />
+  <Remixicon.grid />
+  <Remixicon.grid class="w-4 h-4" />
+  <Remixicon.grid line />
+  <Remixicon.grid fill />
   ```
   """
   attr :rest, :global,
@@ -41888,10 +41888,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.community />
-  <Remixicons.community class="w-4 h-4" />
-  <Remixicons.community line />
-  <Remixicons.community fill />
+  <Remixicon.community />
+  <Remixicon.community class="w-4 h-4" />
+  <Remixicon.community line />
+  <Remixicon.community fill />
   ```
   """
   attr :rest, :global,
@@ -41925,10 +41925,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.earthquake />
-  <Remixicons.earthquake class="w-4 h-4" />
-  <Remixicons.earthquake line />
-  <Remixicons.earthquake fill />
+  <Remixicon.earthquake />
+  <Remixicon.earthquake class="w-4 h-4" />
+  <Remixicon.earthquake line />
+  <Remixicon.earthquake fill />
   ```
   """
   attr :rest, :global,
@@ -41962,10 +41962,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.checkbox />
-  <Remixicons.checkbox class="w-4 h-4" />
-  <Remixicons.checkbox line />
-  <Remixicons.checkbox fill />
+  <Remixicon.checkbox />
+  <Remixicon.checkbox class="w-4 h-4" />
+  <Remixicon.checkbox line />
+  <Remixicon.checkbox fill />
   ```
   """
   attr :rest, :global,
@@ -41999,10 +41999,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contract_left_right />
-  <Remixicons.contract_left_right class="w-4 h-4" />
-  <Remixicons.contract_left_right line />
-  <Remixicons.contract_left_right fill />
+  <Remixicon.contract_left_right />
+  <Remixicon.contract_left_right class="w-4 h-4" />
+  <Remixicon.contract_left_right line />
+  <Remixicon.contract_left_right fill />
   ```
   """
   attr :rest, :global,
@@ -42035,10 +42035,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.layout_top />
-  <Remixicons.layout_top class="w-4 h-4" />
-  <Remixicons.layout_top line />
-  <Remixicons.layout_top fill />
+  <Remixicon.layout_top />
+  <Remixicon.layout_top class="w-4 h-4" />
+  <Remixicon.layout_top line />
+  <Remixicon.layout_top fill />
   ```
   """
   attr :rest, :global,
@@ -42072,10 +42072,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.music_2 />
-  <Remixicons.music_2 class="w-4 h-4" />
-  <Remixicons.music_2 line />
-  <Remixicons.music_2 fill />
+  <Remixicon.music_2 />
+  <Remixicon.music_2 class="w-4 h-4" />
+  <Remixicon.music_2 line />
+  <Remixicon.music_2 fill />
   ```
   """
   attr :rest, :global,
@@ -42109,10 +42109,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.dislike />
-  <Remixicons.dislike class="w-4 h-4" />
-  <Remixicons.dislike line />
-  <Remixicons.dislike fill />
+  <Remixicon.dislike />
+  <Remixicon.dislike class="w-4 h-4" />
+  <Remixicon.dislike line />
+  <Remixicon.dislike fill />
   ```
   """
   attr :rest, :global,
@@ -42146,10 +42146,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.chat_private />
-  <Remixicons.chat_private class="w-4 h-4" />
-  <Remixicons.chat_private line />
-  <Remixicons.chat_private fill />
+  <Remixicon.chat_private />
+  <Remixicon.chat_private class="w-4 h-4" />
+  <Remixicon.chat_private line />
+  <Remixicon.chat_private fill />
   ```
   """
   attr :rest, :global,
@@ -42183,10 +42183,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.bluetooth_connect />
-  <Remixicons.bluetooth_connect class="w-4 h-4" />
-  <Remixicons.bluetooth_connect line />
-  <Remixicons.bluetooth_connect fill />
+  <Remixicon.bluetooth_connect />
+  <Remixicon.bluetooth_connect class="w-4 h-4" />
+  <Remixicon.bluetooth_connect line />
+  <Remixicon.bluetooth_connect fill />
   ```
   """
   attr :rest, :global,
@@ -42220,10 +42220,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_down_s />
-  <Remixicons.arrow_down_s class="w-4 h-4" />
-  <Remixicons.arrow_down_s line />
-  <Remixicons.arrow_down_s fill />
+  <Remixicon.arrow_down_s />
+  <Remixicon.arrow_down_s class="w-4 h-4" />
+  <Remixicon.arrow_down_s line />
+  <Remixicon.arrow_down_s fill />
   ```
   """
   attr :rest, :global,
@@ -42256,10 +42256,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_go_forward />
-  <Remixicons.arrow_go_forward class="w-4 h-4" />
-  <Remixicons.arrow_go_forward line />
-  <Remixicons.arrow_go_forward fill />
+  <Remixicon.arrow_go_forward />
+  <Remixicon.arrow_go_forward class="w-4 h-4" />
+  <Remixicon.arrow_go_forward line />
+  <Remixicon.arrow_go_forward fill />
   ```
   """
   attr :rest, :global,
@@ -42293,10 +42293,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.image_add />
-  <Remixicons.image_add class="w-4 h-4" />
-  <Remixicons.image_add line />
-  <Remixicons.image_add fill />
+  <Remixicon.image_add />
+  <Remixicon.image_add class="w-4 h-4" />
+  <Remixicon.image_add line />
+  <Remixicon.image_add fill />
   ```
   """
   attr :rest, :global,
@@ -42330,10 +42330,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu_3 />
-  <Remixicons.menu_3 class="w-4 h-4" />
-  <Remixicons.menu_3 line />
-  <Remixicons.menu_3 fill />
+  <Remixicon.menu_3 />
+  <Remixicon.menu_3 class="w-4 h-4" />
+  <Remixicon.menu_3 line />
+  <Remixicon.menu_3 fill />
   ```
   """
   attr :rest, :global,
@@ -42365,10 +42365,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.crop />
-  <Remixicons.crop class="w-4 h-4" />
-  <Remixicons.crop line />
-  <Remixicons.crop fill />
+  <Remixicon.crop />
+  <Remixicon.crop class="w-4 h-4" />
+  <Remixicon.crop line />
+  <Remixicon.crop fill />
   ```
   """
   attr :rest, :global,
@@ -42402,10 +42402,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.football />
-  <Remixicons.football class="w-4 h-4" />
-  <Remixicons.football line />
-  <Remixicons.football fill />
+  <Remixicon.football />
+  <Remixicon.football class="w-4 h-4" />
+  <Remixicon.football line />
+  <Remixicon.football fill />
   ```
   """
   attr :rest, :global,
@@ -42439,10 +42439,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.pause_mini />
-  <Remixicons.pause_mini class="w-4 h-4" />
-  <Remixicons.pause_mini line />
-  <Remixicons.pause_mini fill />
+  <Remixicon.pause_mini />
+  <Remixicon.pause_mini class="w-4 h-4" />
+  <Remixicon.pause_mini line />
+  <Remixicon.pause_mini fill />
   ```
   """
   attr :rest, :global,
@@ -42476,10 +42476,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.nft />
-  <Remixicons.nft class="w-4 h-4" />
-  <Remixicons.nft line />
-  <Remixicons.nft fill />
+  <Remixicon.nft />
+  <Remixicon.nft class="w-4 h-4" />
+  <Remixicon.nft line />
+  <Remixicon.nft fill />
   ```
   """
   attr :rest, :global,
@@ -42513,10 +42513,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.drag_move_2 />
-  <Remixicons.drag_move_2 class="w-4 h-4" />
-  <Remixicons.drag_move_2 line />
-  <Remixicons.drag_move_2 fill />
+  <Remixicon.drag_move_2 />
+  <Remixicon.drag_move_2 class="w-4 h-4" />
+  <Remixicon.drag_move_2 line />
+  <Remixicon.drag_move_2 fill />
   ```
   """
   attr :rest, :global,
@@ -42550,10 +42550,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.gradienter />
-  <Remixicons.gradienter class="w-4 h-4" />
-  <Remixicons.gradienter line />
-  <Remixicons.gradienter fill />
+  <Remixicon.gradienter />
+  <Remixicon.gradienter class="w-4 h-4" />
+  <Remixicon.gradienter line />
+  <Remixicon.gradienter fill />
   ```
   """
   attr :rest, :global,
@@ -42587,10 +42587,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.fingerprint />
-  <Remixicons.fingerprint class="w-4 h-4" />
-  <Remixicons.fingerprint line />
-  <Remixicons.fingerprint fill />
+  <Remixicon.fingerprint />
+  <Remixicon.fingerprint class="w-4 h-4" />
+  <Remixicon.fingerprint line />
+  <Remixicon.fingerprint fill />
   ```
   """
   attr :rest, :global,
@@ -42624,10 +42624,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.customer_service_2 />
-  <Remixicons.customer_service_2 class="w-4 h-4" />
-  <Remixicons.customer_service_2 line />
-  <Remixicons.customer_service_2 fill />
+  <Remixicon.customer_service_2 />
+  <Remixicon.customer_service_2 class="w-4 h-4" />
+  <Remixicon.customer_service_2 line />
+  <Remixicon.customer_service_2 fill />
   ```
   """
   attr :rest, :global,
@@ -42661,10 +42661,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.spam />
-  <Remixicons.spam class="w-4 h-4" />
-  <Remixicons.spam line />
-  <Remixicons.spam fill />
+  <Remixicon.spam />
+  <Remixicon.spam class="w-4 h-4" />
+  <Remixicon.spam line />
+  <Remixicon.spam fill />
   ```
   """
   attr :rest, :global,
@@ -42698,10 +42698,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.cake_3 />
-  <Remixicons.cake_3 class="w-4 h-4" />
-  <Remixicons.cake_3 line />
-  <Remixicons.cake_3 fill />
+  <Remixicon.cake_3 />
+  <Remixicon.cake_3 class="w-4 h-4" />
+  <Remixicon.cake_3 line />
+  <Remixicon.cake_3 fill />
   ```
   """
   attr :rest, :global,
@@ -42735,10 +42735,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.contacts_book_upload />
-  <Remixicons.contacts_book_upload class="w-4 h-4" />
-  <Remixicons.contacts_book_upload line />
-  <Remixicons.contacts_book_upload fill />
+  <Remixicon.contacts_book_upload />
+  <Remixicon.contacts_book_upload class="w-4 h-4" />
+  <Remixicon.contacts_book_upload line />
+  <Remixicon.contacts_book_upload fill />
   ```
   """
   attr :rest, :global,
@@ -42772,10 +42772,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_right_s />
-  <Remixicons.arrow_right_s class="w-4 h-4" />
-  <Remixicons.arrow_right_s line />
-  <Remixicons.arrow_right_s fill />
+  <Remixicon.arrow_right_s />
+  <Remixicon.arrow_right_s class="w-4 h-4" />
+  <Remixicon.arrow_right_s line />
+  <Remixicon.arrow_right_s fill />
   ```
   """
   attr :rest, :global,
@@ -42808,10 +42808,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.t_shirt_2 />
-  <Remixicons.t_shirt_2 class="w-4 h-4" />
-  <Remixicons.t_shirt_2 line />
-  <Remixicons.t_shirt_2 fill />
+  <Remixicon.t_shirt_2 />
+  <Remixicon.t_shirt_2 class="w-4 h-4" />
+  <Remixicon.t_shirt_2 line />
+  <Remixicon.t_shirt_2 fill />
   ```
   """
   attr :rest, :global,
@@ -42845,10 +42845,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.menu_unfold />
-  <Remixicons.menu_unfold class="w-4 h-4" />
-  <Remixicons.menu_unfold line />
-  <Remixicons.menu_unfold fill />
+  <Remixicon.menu_unfold />
+  <Remixicon.menu_unfold class="w-4 h-4" />
+  <Remixicon.menu_unfold line />
+  <Remixicon.menu_unfold fill />
   ```
   """
   attr :rest, :global,
@@ -42882,10 +42882,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.run />
-  <Remixicons.run class="w-4 h-4" />
-  <Remixicons.run line />
-  <Remixicons.run fill />
+  <Remixicon.run />
+  <Remixicon.run class="w-4 h-4" />
+  <Remixicon.run line />
+  <Remixicon.run fill />
   ```
   """
   attr :rest, :global,
@@ -42919,10 +42919,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.folder_add />
-  <Remixicons.folder_add class="w-4 h-4" />
-  <Remixicons.folder_add line />
-  <Remixicons.folder_add fill />
+  <Remixicon.folder_add />
+  <Remixicon.folder_add class="w-4 h-4" />
+  <Remixicon.folder_add line />
+  <Remixicon.folder_add fill />
   ```
   """
   attr :rest, :global,
@@ -42956,10 +42956,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.suitcase_3 />
-  <Remixicons.suitcase_3 class="w-4 h-4" />
-  <Remixicons.suitcase_3 line />
-  <Remixicons.suitcase_3 fill />
+  <Remixicon.suitcase_3 />
+  <Remixicon.suitcase_3 class="w-4 h-4" />
+  <Remixicon.suitcase_3 line />
+  <Remixicon.suitcase_3 fill />
   ```
   """
   attr :rest, :global,
@@ -42993,10 +42993,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_left_up />
-  <Remixicons.arrow_left_up class="w-4 h-4" />
-  <Remixicons.arrow_left_up line />
-  <Remixicons.arrow_left_up fill />
+  <Remixicon.arrow_left_up />
+  <Remixicon.arrow_left_up class="w-4 h-4" />
+  <Remixicon.arrow_left_up line />
+  <Remixicon.arrow_left_up fill />
   ```
   """
   attr :rest, :global,
@@ -43030,10 +43030,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.game />
-  <Remixicons.game class="w-4 h-4" />
-  <Remixicons.game line />
-  <Remixicons.game fill />
+  <Remixicon.game />
+  <Remixicon.game class="w-4 h-4" />
+  <Remixicon.game line />
+  <Remixicon.game fill />
   ```
   """
   attr :rest, :global,
@@ -43067,10 +43067,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.mail_unread />
-  <Remixicons.mail_unread class="w-4 h-4" />
-  <Remixicons.mail_unread line />
-  <Remixicons.mail_unread fill />
+  <Remixicon.mail_unread />
+  <Remixicon.mail_unread class="w-4 h-4" />
+  <Remixicon.mail_unread line />
+  <Remixicon.mail_unread fill />
   ```
   """
   attr :rest, :global,
@@ -43104,10 +43104,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.git_merge />
-  <Remixicons.git_merge class="w-4 h-4" />
-  <Remixicons.git_merge line />
-  <Remixicons.git_merge fill />
+  <Remixicon.git_merge />
+  <Remixicon.git_merge class="w-4 h-4" />
+  <Remixicon.git_merge line />
+  <Remixicon.git_merge fill />
   ```
   """
   attr :rest, :global,
@@ -43141,10 +43141,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.arrow_right_circle />
-  <Remixicons.arrow_right_circle class="w-4 h-4" />
-  <Remixicons.arrow_right_circle line />
-  <Remixicons.arrow_right_circle fill />
+  <Remixicon.arrow_right_circle />
+  <Remixicon.arrow_right_circle class="w-4 h-4" />
+  <Remixicon.arrow_right_circle line />
+  <Remixicon.arrow_right_circle fill />
   ```
   """
   attr :rest, :global,
@@ -43178,10 +43178,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.play_list />
-  <Remixicons.play_list class="w-4 h-4" />
-  <Remixicons.play_list line />
-  <Remixicons.play_list fill />
+  <Remixicon.play_list />
+  <Remixicon.play_list class="w-4 h-4" />
+  <Remixicon.play_list line />
+  <Remixicon.play_list fill />
   ```
   """
   attr :rest, :global,
@@ -43215,10 +43215,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.message />
-  <Remixicons.message class="w-4 h-4" />
-  <Remixicons.message line />
-  <Remixicons.message fill />
+  <Remixicon.message />
+  <Remixicon.message class="w-4 h-4" />
+  <Remixicon.message line />
+  <Remixicon.message fill />
   ```
   """
   attr :rest, :global,
@@ -43252,10 +43252,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.stethoscope />
-  <Remixicons.stethoscope class="w-4 h-4" />
-  <Remixicons.stethoscope line />
-  <Remixicons.stethoscope fill />
+  <Remixicon.stethoscope />
+  <Remixicon.stethoscope class="w-4 h-4" />
+  <Remixicon.stethoscope line />
+  <Remixicon.stethoscope fill />
   ```
   """
   attr :rest, :global,
@@ -43289,10 +43289,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.at />
-  <Remixicons.at class="w-4 h-4" />
-  <Remixicons.at line />
-  <Remixicons.at fill />
+  <Remixicon.at />
+  <Remixicon.at class="w-4 h-4" />
+  <Remixicon.at line />
+  <Remixicon.at fill />
   ```
   """
   attr :rest, :global,
@@ -43326,10 +43326,10 @@ defmodule Remixicons do
   ## Examples
 
   ```heex
-  <Remixicons.facebook_circle />
-  <Remixicons.facebook_circle class="w-4 h-4" />
-  <Remixicons.facebook_circle line />
-  <Remixicons.facebook_circle fill />
+  <Remixicon.facebook_circle />
+  <Remixicon.facebook_circle class="w-4 h-4" />
+  <Remixicon.facebook_circle line />
+  <Remixicon.facebook_circle fill />
   ```
   """
   attr :rest, :global,
