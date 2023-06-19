@@ -8,7 +8,7 @@ Remix Icon is a set of open-source neutral-style system symbols for designers an
 
 This library provides optimized svgs for each Remix Icon packaged as a Phoenix Component.
 
-Current Remix Icon Version: **3.1.1**.
+Current Remix Icon Version: **3.3.0**.
 
 ## Installation
 
