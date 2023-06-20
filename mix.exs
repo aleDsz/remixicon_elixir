@@ -33,7 +33,7 @@ defmodule RemixiconElixir.MixProject do
 
   defp deps do
     [
-      {:phoenix_live_view, "~> 0.18.2"},
+      {:phoenix_live_view, "~> 0.18.2 or ~> 0.19"},
       {:ex_doc, "~> 0.23", only: :docs, runtime: false},
       {:castore, ">= 0.0.0"}
     ]
