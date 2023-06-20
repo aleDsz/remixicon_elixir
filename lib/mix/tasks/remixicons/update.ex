@@ -3,7 +3,7 @@ defmodule Mix.Tasks.Remixicon.Update do
   @moduledoc false
   @shortdoc false
 
-  @vsn "3.1.1"
+  @vsn "3.3.0"
   @tmp_dir_name "remixicon-elixir"
   @url "https://github.com/Remix-Design/RemixIcon/releases/download/v#{@vsn}/RemixIcon_Svg_v#{@vsn}.zip"
   @styles ["fill", "line"]
@@ -33,6 +33,10 @@ defmodule Mix.Tasks.Remixicon.Update do
       other -> raise "couldn't unpack archive: #{inspect(other)}"
     end
 
+    # The archive contains an `icons` directory which in turn contains the
+    # category directories
+    src_root_dir = Path.join([tmp_dir, "icons"])
+
     # Copy icon styles (line and fill) to assets/icons folder
     Enum.each(@styles, fn style ->
       dest_dir = Path.join(svgs_path(), style)
@@ -40,11 +44,11 @@ defmodule Mix.Tasks.Remixicon.Update do
       File.rm_rf!(dest_dir)
       File.mkdir_p!(dest_dir)
 
-      tmp_dir
+      src_root_dir
       |> File.ls!()
       |> Enum.reverse()
       |> Enum.each(fn category ->
-        copy_svg_files(Path.join([tmp_dir, category]), dest_dir, style)
+        copy_svg_files(Path.join([src_root_dir, category]), dest_dir, style)
       end)
     end)
   end

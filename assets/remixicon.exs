@@ -42,28 +42,18 @@ defmodule Remixicon do
   defp svg(assigns) do
     case assigns do
       %{line: false, fill: false} ->
-        ~H"<.svg_line {@rest}><%%= {:safe, @paths[:line]} %></.svg_line>"
+        ~H"<.svg_base {@rest}><%%= {:safe, @paths[:line]} %></.svg_base>"
       %{line: true, fill: false} ->
-        ~H"<.svg_line {@rest}><%%= {:safe, @paths[:line]} %></.svg_line>"
+        ~H"<.svg_base {@rest}><%%= {:safe, @paths[:line]} %></.svg_base>"
       %{line: false, fill: true} ->
-        ~H"<.svg_fill {@rest}><%%= {:safe, @paths[:fill]} %></.svg_fill>"
+        ~H"<.svg_base {@rest}><%%= {:safe, @paths[:fill]} %></.svg_base>"
       %{} -> raise ArgumentError, "expected either line or fill, but got both."
     end
   end
 
-  attr :rest, :global, default: %{"aria-hidden": "true", fill: "none", viewBox: "0 0 24 24", "stroke-width": "1.5", stroke: "currentColor"}
-  slot :inner_block, required: true
-  defp svg_line(assigns) do
-    ~H"""
-    <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
-      <%%= render_slot(@inner_block) %>
-    </svg>
-    """
-  end
-
   attr :rest, :global, default: %{"aria-hidden": "true", viewBox: "0 0 24 24", fill: "currentColor"}
   slot :inner_block, required: true
-  defp svg_fill(assigns) do
+  defp svg_base(assigns) do
     ~H"""
     <svg xmlns="http://www.w3.org/2000/svg" {@rest}>
       <%%= render_slot(@inner_block) %>
