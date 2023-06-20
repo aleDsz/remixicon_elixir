@@ -17,7 +17,7 @@ Add Remix Icon to your `mix.exs`:
 ```elixir
 defp deps do
   [
-    {:remixicon, "~> 0.1.0"}
+    {:remixicon, "~> 0.1.1"}
   ]
 end
 ```
